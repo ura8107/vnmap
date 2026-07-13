@@ -1,0 +1,63 @@
+#' Provincial population and economic indicators, 2024
+#'
+#' Official 2024 area, average population, population density, and gross
+#' regional domestic product (GRDP) per capita for the current 34 provincial
+#' units of Viet Nam. Values for units created in 2025 are aggregated from the
+#' 63-unit geography in which the statistics were published.
+#'
+#' @format A data frame with 34 rows and 12 variables:
+#' \describe{
+#'   \item{code}{Current two-digit administrative code.}
+#'   \item{name_vi, name_en}{Vietnamese and English unit names.}
+#'   \item{type}{Province or centrally governed municipality.}
+#'   \item{year}{Reference year, 2024.}
+#'   \item{area_km2}{Land area in square kilometres.}
+#'   \item{population}{Average population, in persons.}
+#'   \item{population_thousands}{Average population, in thousands of persons.}
+#'   \item{population_density}{Population divided by area, persons per km2.}
+#'   \item{grdp_per_capita_million_vnd}{GRDP per capita, million current VND.}
+#'   \item{grdp_preliminary}{Whether the GRDP value is preliminary.}
+#'   \item{member_codes}{Codes of the pre-2025 units used in aggregation.}
+#' }
+#'
+#' @details Population and area are summed across member units. Population
+#' density is recalculated from those totals. GRDP per capita is population-
+#' weighted, which is equivalent to summing estimated provincial GRDP and
+#' dividing by the combined population. Because published inputs are rounded,
+#' aggregated figures should be treated as estimates.
+#'
+#' @source General Statistics Office of Viet Nam, PX-Web tables
+#' "Area, population and population density by province" and "Gross regional
+#' domestic product per capita by province", accessed 13 July 2026.
+#' \url{https://pxweb.nso.gov.vn/}
+#'
+#' @examples
+#' data(province_stats_2024)
+#' head(province_stats_2024)
+#' plot_vnmap(
+#'   data = province_stats_2024,
+#'   values = "grdp_per_capita_million_vnd",
+#'   id = "code"
+#' )
+"province_stats_2024"
+
+#' Provincial population and economic indicators under the 63-unit geography
+#'
+#' The official 2024 source values before aggregation to Viet Nam's current
+#' 34-unit provincial geography.
+#'
+#' @format A data frame with 63 rows and 12 variables. Variables correspond to
+#' those in [province_stats_2024], except that `iso` replaces `member_codes`.
+#'
+#' @source General Statistics Office of Viet Nam, PX-Web tables, accessed
+#' 13 July 2026. \url{https://pxweb.nso.gov.vn/}
+#'
+#' @examples
+#' data(province_stats_2024_63)
+#' plot_vnmap(
+#'   geography = "provinces_63",
+#'   data = province_stats_2024_63,
+#'   values = "population_density",
+#'   id = "code"
+#' )
+"province_stats_2024_63"

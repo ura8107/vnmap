@@ -3,3 +3,6 @@
 ^vnmap\.Rproj$
 ^cran-comments\.md$
 ^CONTRIBUTING\.md$
+^output$
+^tmp$
+^tools$

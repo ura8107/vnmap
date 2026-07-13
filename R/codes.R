@@ -14,9 +14,27 @@
 #'
 #' Names may be written with or without Vietnamese diacritics. Current names,
 #' English names, two-digit codes, and ISO 3166-2 codes are accepted.
+#'
 #' @param x Character vector of names or codes.
-#' @param geography Current `"provinces"` or historical `"provinces_63"`.
+#' @param geography Either `"provinces"` for the current 34-unit geography or
+#'   `"provinces_63"` for the historical 63-unit geography.
+#'
 #' @return A character vector of two-digit administrative codes.
+#'
+#' @details Input is matched case-insensitively after punctuation, whitespace,
+#'   administrative prefixes, and Vietnamese diacritics are normalized.
+#'   Common aliases such as `"Hanoi"`, `"Danang"`, `"HCMC"`, and `"Saigon"`
+#'   are supported. An error lists any values that cannot be matched.
+#'
+#'   Codes are geography-specific. For example, a former province that was
+#'   merged in 2025 can be found only with `geography = "provinces_63"`.
+#'
+#' @seealso [province_info()], [vn_map()]
+#'
+#' @examples
+#' province_code(c("Da Nang", "Danang", "48"))
+#' province_code(c("HCMC", "Saigon"))
+#' province_code("Bac Giang", geography = "provinces_63")
 #' @export
 province_code <- function(x, geography = c("provinces", "provinces_63")) {
   geography <- match.arg(geography)
@@ -35,9 +53,28 @@ province_code <- function(x, geography = c("provinces", "provinces_63")) {
 }
 
 #' Retrieve metadata for Vietnamese provincial units
+#'
+#' Returns the lookup table used by `vnmap` to join statistical data to map
+#' geometry. Supplying `x` filters and orders the result to match the input.
+#'
 #' @param x Optional names or codes. When omitted, returns every unit.
-#' @param geography Current `"provinces"` or historical `"provinces_63"`.
-#' @return A data frame with codes and Vietnamese and English names.
+#' @param geography Either `"provinces"` for the current 34-unit geography or
+#'   `"provinces_63"` for the historical 63-unit geography.
+#'
+#' @return A data frame containing `code`, `iso`, `name_vi`, `name_en`, and
+#'   `type`. The `type` column distinguishes provinces from centrally governed
+#'   municipalities.
+#'
+#' @details With no `x`, rows are returned in ascending official code order.
+#'   With `x`, names and aliases are normalized by [province_code()] and the
+#'   returned rows follow the order of `x`.
+#'
+#' @seealso [province_code()], [vn_map()]
+#'
+#' @examples
+#' head(province_info())
+#' province_info(c("01", "HCMC"))
+#' province_info("Bac Giang", geography = "provinces_63")
 #' @export
 province_info <- function(x = NULL, geography = c("provinces", "provinces_63")) {
   geography <- match.arg(geography)

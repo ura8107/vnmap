@@ -25,3 +25,18 @@ The names and two-digit codes for the current units follow Viet Nam Decision
 the older source and are therefore suitable for statistical graphics, not
 surveying or legal boundary determinations.
 
+## Statistical data
+
+Run `Rscript data-raw/fetch_nso_stats.R` to download the official 2024
+province-level tables and regenerate `data/province_stats_2024_63.rda` and
+`data/province_stats_2024.rda`. The script uses these General Statistics Office
+of Viet Nam PX-Web tables:
+
+* Area, population and population density by province (2024)
+* Gross regional domestic product per capita by province (preliminary 2024)
+
+The unaggregated cleaned inputs are retained in
+`source/nso_province_stats_2024_63.csv`. The current 34-unit data sum area and
+population across merger members, recalculate density, and calculate GRDP per
+capita as a population-weighted mean. This preserves implied total GRDP subject
+to rounding in the published source values.

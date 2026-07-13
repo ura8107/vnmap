@@ -43,6 +43,40 @@ plot_vnmap(data = example, values = "value", id = "province",
   scale_fill_viridis_c()
 ```
 
+The package also includes official 2024 population and regional-economic
+indicators. This produces a GRDP-per-capita choropleth for the current units:
+
+```r
+data(province_stats_2024)
+
+plot_vnmap(
+  data = province_stats_2024,
+  values = "grdp_per_capita_million_vnd",
+  id = "code",
+  color = "white",
+  linewidth = 0.2
+) +
+  scale_fill_viridis_c(name = "Million VND\nper person")
+```
+
+## Documentation
+
+The complete package reference manual is available as
+[`vnmap.pdf`](output/pdf/vnmap.pdf). After installation, the same function
+documentation is available from R:
+
+```r
+help(package = "vnmap")
+?plot_vnmap
+?vn_map
+```
+
+Maintainers can regenerate all `.Rd` files and the PDF manual with:
+
+```sh
+Rscript tools/build-manual.R
+```
+
 ## Administrative geographies
 
 The current 34-unit geography is the default. The 63-unit geography used
@@ -68,6 +102,14 @@ provincial boundaries according to Viet Nam Decision 19/2025/QD-TTg, effective
 1 July 2025. The
 [`data-raw/`](https://github.com/ura8107/vnmap/tree/main/data-raw) directory
 contains the complete reproducible build.
+
+`province_stats_2024_63` contains official 2024 area, average population,
+population density, and preliminary GRDP per capita from Viet Nam's General
+Statistics Office PX-Web. `province_stats_2024` aggregates those values to the
+current 34 units: population and area are summed, density is recalculated, and
+GRDP per capita is population-weighted. The source values are rounded, so
+aggregated results are estimates. Run `Rscript data-raw/fetch_nso_stats.R` to
+refresh the statistical datasets from the official tables.
 
 Because the source boundary vintage is 2008, this package is intended for
 statistical visualization rather than surveying, navigation, or adjudicating

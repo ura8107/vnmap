@@ -5,11 +5,13 @@ Authors@R: person("Yuki", "Matsuura", role = c("aut", "cre"), email = "matsuura.
 Description: Convenient 'ggplot2' choropleth maps of Viet Nam using either
     the 34 provincial-level administrative units effective from July 2025 or
     the preceding 63-unit geography. Includes name normalization, official
-    administrative codes, and simple-feature boundary data. Boundaries are
+    administrative codes, simple-feature boundary data, and 2024 provincial
+    population and regional-economic indicators. Boundaries are
     derived from the public-domain 'geoBoundaries' Viet Nam ADM1 data and the
     2025 units are constructed according to Decision 19/2025/QD-TTg.
 License: MIT + file LICENSE
 Encoding: UTF-8
+LazyData: true
 Depends: R (>= 4.1.0)
 Imports:
     ggplot2,
