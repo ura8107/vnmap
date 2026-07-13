@@ -1,0 +1,5 @@
+^data-raw$
+^\.github$
+^vnmap\.Rproj$
+^cran-comments\.md$
+^CONTRIBUTING\.md$

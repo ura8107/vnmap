@@ -1,0 +1,8 @@
+bibentry(
+  bibtype = "Manual",
+  title = "vnmap: Map the Provinces and Municipalities of Viet Nam",
+  author = person("Yuki", "Matsuura"),
+  year = "2026",
+  note = "R package version 0.1.0"
+)
+

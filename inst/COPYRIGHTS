@@ -1,0 +1,10 @@
+Sources:
+    geoBoundaries
+Copyright: geoBoundaries contributors
+License: Public Domain
+Files: extdata/provinces.rds
+    extdata/provinces_63.rds
+URL: https://www.geoboundaries.org/
+Comment: Derived from boundary VNM-ADM1-63759600. The 34-unit layer is a
+    transformation produced by dissolving historical provincial boundaries.
+

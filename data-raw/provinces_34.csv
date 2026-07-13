@@ -1,0 +1,36 @@
+code,iso,name_vi,name_en,type,members,aliases
+01,,Hà Nội,Ha Noi,municipality,01,Hà Nội|Ha Noi|Hanoi
+04,,Cao Bằng,Cao Bang,province,04,Cao Bằng|Cao Bang
+08,,Tuyên Quang,Tuyen Quang,province,02+08,Tuyên Quang|Tuyen Quang
+11,,Điện Biên,Dien Bien,province,11,Điện Biên|Dien Bien
+12,,Lai Châu,Lai Chau,province,12,Lai Châu|Lai Chau
+14,,Sơn La,Son La,province,14,Sơn La|Son La
+15,,Lào Cai,Lao Cai,province,10+15,Lào Cai|Lao Cai
+19,,Thái Nguyên,Thai Nguyen,province,06+19,Thái Nguyên|Thai Nguyen
+20,,Lạng Sơn,Lang Son,province,20,Lạng Sơn|Lang Son
+22,,Quảng Ninh,Quang Ninh,province,22,Quảng Ninh|Quang Ninh
+24,,Bắc Ninh,Bac Ninh,province,24+27,Bắc Ninh|Bac Ninh
+25,,Phú Thọ,Phu Tho,province,17+25+26,Phú Thọ|Phu Tho
+31,,Hải Phòng,Hai Phong,municipality,30+31,Hải Phòng|Hai Phong|Haiphong
+33,,Hưng Yên,Hung Yen,province,33+34,Hưng Yên|Hung Yen
+37,,Ninh Bình,Ninh Binh,province,35+36+37,Ninh Bình|Ninh Binh
+38,,Thanh Hóa,Thanh Hoa,province,38,Thanh Hóa|Thanh Hoa
+40,,Nghệ An,Nghe An,province,40,Nghệ An|Nghe An
+42,,Hà Tĩnh,Ha Tinh,province,42,Hà Tĩnh|Ha Tinh
+44,,Quảng Trị,Quang Tri,province,44+45,Quảng Trị|Quang Tri
+46,,Huế,Hue,municipality,46,Huế|Hue|Thừa Thiên Huế|Thua Thien Hue
+48,,Đà Nẵng,Da Nang,municipality,48+49,Đà Nẵng|Da Nang|Danang
+51,,Quảng Ngãi,Quang Ngai,province,51+62,Quảng Ngãi|Quang Ngai
+52,,Gia Lai,Gia Lai,province,52+64,Gia Lai
+56,,Khánh Hòa,Khanh Hoa,province,56+58,Khánh Hòa|Khanh Hoa
+66,,Đắk Lắk,Dak Lak,province,54+66,Đắk Lắk|Dak Lak|Dac Lac
+68,,Lâm Đồng,Lam Dong,province,60+67+68,Lâm Đồng|Lam Dong
+75,,Đồng Nai,Dong Nai,province,70+75,Đồng Nai|Dong Nai
+79,,Thành phố Hồ Chí Minh,Ho Chi Minh City,municipality,74+77+79,Thành phố Hồ Chí Minh|Ho Chi Minh City|Ho Chi Minh|HCMC|Saigon|Sài Gòn
+80,,Tây Ninh,Tay Ninh,province,72+80,Tây Ninh|Tay Ninh
+82,,Đồng Tháp,Dong Thap,province,82+87,Đồng Tháp|Dong Thap
+86,,Vĩnh Long,Vinh Long,province,83+84+86,Vĩnh Long|Vinh Long
+91,,An Giang,An Giang,province,89+91,An Giang
+92,,Cần Thơ,Can Tho,municipality,92+93+94,Cần Thơ|Can Tho
+96,,Cà Mau,Ca Mau,province,95+96,Cà Mau|Ca Mau
+

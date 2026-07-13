@@ -1,0 +1,12 @@
+export(plot_vnmap)
+export(province_code)
+export(province_info)
+export(vn_map)
+export(vnmap_crs)
+importFrom(ggplot2,aes)
+importFrom(ggplot2,coord_sf)
+importFrom(ggplot2,geom_sf)
+importFrom(ggplot2,ggplot)
+importFrom(ggplot2,theme_void)
+importFrom(utils,globalVariables)
+
