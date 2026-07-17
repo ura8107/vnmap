@@ -10,7 +10,9 @@ plot_vnmap(
   values = NULL,
   id = "code",
   include = NULL,
+  region = NULL,
   labels = FALSE,
+  insets = FALSE,
   ...
 )
 }
@@ -28,8 +30,17 @@ or municipality names, aliases, two-digit codes, or ISO codes.}
 
 \item{include}{Optional character vector of unit names or codes to display.}
 
+\item{region}{Optional character vector of socio-economic region codes
+(`"RRD"`, `"NMM"`, `"NCC"`, `"CH"`, `"SE"`, `"MRD"`) or English region
+names. Units matching either `include` or `region` are displayed.}
+
 \item{labels}{Logical; if `TRUE`, add Vietnamese names at points guaranteed
 to lie inside each geometry.}
+
+\item{insets}{Controls enlarged inset panels for small units that are hard
+to see at national scale. `FALSE` (default) draws none; `TRUE` enlarges the
+centrally governed municipalities; a character vector of names or codes
+enlarges those specific units. This feature is experimental.}
 
 \item{...}{Passed to [ggplot2::geom_sf()].}
 }
@@ -51,6 +62,9 @@ When `data` is supplied, units without a matching row receive
   Arguments such as `color`, `linewidth`, and `alpha` are passed through to
   [ggplot2::geom_sf()]. Labels use `name_vi` and may overlap on dense maps;
   `check_overlap = TRUE` suppresses some overlapping labels.
+
+  Insets are drawn as scaled copies placed in the right margin of the map
+  and reuse the same fill mapping and styling as the main layer.
 }
 \examples{
 plot_vnmap(color = "white", linewidth = 0.2)
@@ -63,6 +77,8 @@ plot_vnmap(
   color = "white",
   linewidth = 0.2
 ) + ggplot2::scale_fill_viridis_c(name = "Example")
+
+plot_vnmap(region = "MRD", labels = TRUE)
 
 plot_vnmap(
   geography = "provinces_63",

@@ -40,3 +40,23 @@ The unaggregated cleaned inputs are retained in
 population across merger members, recalculate density, and calculate GRDP per
 capita as a population-weighted mean. This preserves implied total GRDP subject
 to rounding in the published source values.
+
+## Socio-economic regions
+
+Run `Rscript data-raw/build_regions.R` (base R only, no `sf`) to regenerate
+`inst/extdata/regions.rds`. The six socio-economic regions follow the General
+Statistics Office of Viet Nam. Region assignments for the historical 63 units
+come directly from `regions_63.csv`. Assignments for the current 34 units are
+derived: each 2025 unit is placed in the region holding the largest share of
+its 2024 population among the former units it absorbed. Several 2025 mergers
+crossed regional lines, so this rule is applied deterministically from the
+`province_stats_2024_63` population totals.
+
+## District-level (ADM2) geography
+
+Run `Rscript data-raw/build_adm2.R` (requires `sf` and internet access) to
+generate the optional `inst/extdata/districts_63.rds` layer returned by
+`vn_map("districts_63")`. The July 2025 reform abolished the district tier, so
+this layer is historical only: it describes districts as they existed before
+1 July 2025 and is intended for visualizing pre-reform district data. It is not
+built or bundled by default.

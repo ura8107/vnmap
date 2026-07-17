@@ -1,0 +1,113 @@
+---
+title: "Mapping Viet Nam with vnmap"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Mapping Viet Nam with vnmap}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+has_sf <- requireNamespace("sf", quietly = TRUE) &&
+  requireNamespace("ggplot2", quietly = TRUE)
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.width = 6,
+  fig.height = 6,
+  eval = has_sf
+)
+```
+
+`vnmap` draws publication-ready choropleth maps of Viet Nam and accounts for
+the July 2025 administrative reform, which replaced the 63 provincial-level
+units with 34. It follows the compact API of
+[`usmap`](https://usmap.dev).
+
+```{r setup}
+library(vnmap)
+library(ggplot2)
+```
+
+## An outline map
+
+`plot_vnmap()` with no data draws the current 34-unit outline.
+
+```{r outline}
+plot_vnmap(color = "white", linewidth = 0.2)
+```
+
+## Joining your own data
+
+Supply a data frame, the column holding the values, and the column that
+identifies each unit. Identifiers may be Vietnamese names (with or without
+diacritics), English names, common aliases, or official codes.
+
+```{r choropleth}
+example <- data.frame(
+  province = province_info()$name_en,
+  value = seq_len(34)
+)
+
+plot_vnmap(
+  data = example, values = "value", id = "province",
+  color = "white", linewidth = 0.2
+) +
+  scale_fill_viridis_c()
+```
+
+The package bundles official 2024 indicators, so a GRDP-per-capita map is one
+call away.
+
+```{r grdp}
+data(province_stats_2024)
+
+plot_vnmap(
+  data = province_stats_2024,
+  values = "grdp_per_capita_million_vnd",
+  id = "code",
+  color = "white", linewidth = 0.2
+) +
+  scale_fill_viridis_c(name = "Million VND\nper person")
+```
+
+## Choosing a geography
+
+The current 34-unit geography is the default. The 63-unit geography used
+before 1 July 2025 remains available for historical data.
+
+```{r geographies, eval = FALSE}
+vn_map()                          # 34 current units as an sf object
+vn_map("provinces_63")            # historical 63-unit geography
+```
+
+Always choose the geography that matches the reference period and coding
+scheme of your data.
+
+## Socio-economic regions
+
+Every unit is tagged with one of the six General Statistics Office
+socio-economic regions. Filter a map to a region with `region`, or look the
+region up directly.
+
+```{r regions}
+plot_vnmap(region = "MRD", labels = TRUE)
+
+province_region(c("HCMC", "Can Tho"))
+head(province_info()[c("name_en", "region_code", "region_en")])
+```
+
+Assignments for the 63-unit geography are the official ones; assignments for
+the merged 2025 units follow their dominant predecessor by population.
+
+## Working without sf
+
+The name, code, and region lookups, and the bundled statistics, do not require
+the `sf` package. Only the geometry functions (`vn_map()`, `plot_vnmap()`,
+`vnmap_crs()`) do. This chunk always runs.
+
+```{r lookups, eval = TRUE}
+library(vnmap)
+province_code(c("Da Nang", "Danang", "HCMC"))
+province_region("Bac Giang", geography = "provinces_63")
+```

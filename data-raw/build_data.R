@@ -41,5 +41,8 @@ saveRDS(current[c("code", "iso", "name_vi", "name_en", "type", "geometry")],
 saveRDS(transform(old_meta, aliases = paste(name_vi, name_en, sep = "|"))[
   c("code", "iso", "name_vi", "name_en", "type", "aliases")],
   "inst/extdata/provinces_63_info.rds")
-saveRDS(current[c("code", "iso", "name_vi", "name_en", "type", "aliases")],
-        "inst/extdata/provinces_info.rds")
+# The lookup table carries no geometry; it is joined to statistics and used by
+# the metadata helpers, which must work without 'sf' installed.
+saveRDS(sf::st_drop_geometry(
+  current[c("code", "iso", "name_vi", "name_en", "type", "aliases")]),
+  "inst/extdata/provinces_info.rds")

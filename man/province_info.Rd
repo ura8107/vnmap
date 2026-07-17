@@ -13,9 +13,11 @@ province_info(x = NULL, geography = c("provinces", "provinces_63"))
 `"provinces_63"` for the historical 63-unit geography.}
 }
 \value{
-A data frame containing `code`, `iso`, `name_vi`, `name_en`, and
-  `type`. The `type` column distinguishes provinces from centrally governed
-  municipalities.
+A data frame containing `code`, `iso`, `name_vi`, `name_en`, `type`,
+  `region_code`, `region_vi`, and `region_en`. The `type` column
+  distinguishes provinces from centrally governed municipalities, and the
+  `region_*` columns give the socio-economic region (see
+  [province_region()]).
 }
 \description{
 Returns the lookup table used by `vnmap` to join statistical data to map
@@ -32,5 +34,5 @@ province_info(c("01", "HCMC"))
 province_info("Bac Giang", geography = "provinces_63")
 }
 \seealso{
-[province_code()], [vn_map()]
+[province_code()], [province_region()], [vn_map()]
 }
