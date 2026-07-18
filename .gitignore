@@ -5,3 +5,6 @@
 *.tar.gz
 tmp/
 docs/
+# On-demand lower-level layers built by data-raw/build_adm2.R and build_adm3.R
+inst/extdata/districts_63.rds
+inst/extdata/communes_63.rds

@@ -38,9 +38,21 @@ districts <- raw
 districts$name_en <- districts$shapeName
 districts$code <- districts$shapeID
 districts$name_vi <- NA_character_
-districts <- districts[c("code", "name_vi", "name_en", "geometry")]
-districts <- st_transform(districts, 3405)
+districts <- st_transform(districts[c("code", "name_vi", "name_en", "geometry")], 3405)
 stopifnot(nrow(districts) > 0L, !any(st_is_empty(districts)))
+
+# Assign each district to a pre-July-2025 (63-unit) province by spatial
+# containment of a representative interior point, falling back to the nearest
+# province for points that fall outside the generalized provincial polygons.
+prov <- st_transform(readRDS("inst/extdata/provinces_63.rds"), st_crs(districts))
+reps <- suppressWarnings(st_point_on_surface(st_geometry(districts)))
+within <- st_within(reps, prov)
+idx <- vapply(within, function(i) if (length(i)) i[[1]] else NA_integer_, integer(1))
+if (anyNA(idx)) idx[is.na(idx)] <- st_nearest_feature(reps[is.na(idx)], prov)
+districts$province_code <- prov$code[idx]
+districts$province_en <- prov$name_en[idx]
+districts <- districts[c("code", "name_vi", "name_en",
+                         "province_code", "province_en", "geometry")]
 
 dir.create("inst/extdata", recursive = TRUE, showWarnings = FALSE)
 saveRDS(districts, "inst/extdata/districts_63.rds", compress = "xz")

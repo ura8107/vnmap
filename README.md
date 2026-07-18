@@ -105,6 +105,20 @@ province_region(c("HCMC", "Can Tho"))
 province_info()[c("name_en", "region_code", "region_en")]
 ```
 
+## Lower-level geographies
+
+Optional historical district (`"districts_63"`) and commune (`"communes_63"`)
+layers cover the pre-July 2025 second and third administrative levels, which
+the reform abolished and merged. They are large, so they are not bundled;
+generate them locally with `data-raw/build_adm2.R` and `data-raw/build_adm3.R`,
+then filter to a province. Commune names are not unique nationwide, so always
+scope commune maps with `province`.
+
+```r
+# after Rscript data-raw/build_adm3.R
+vn_map("communes_63", province = "Ha Noi")
+```
+
 ## Working without sf
 
 The name, code, and region lookups (`province_code()`, `province_info()`,

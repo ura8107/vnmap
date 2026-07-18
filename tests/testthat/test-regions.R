@@ -45,10 +45,19 @@ test_that("plot accepts region and insets", {
   expect_s3_class(plot_vnmap(insets = c("Ha Noi", "HCMC")), "ggplot")
 })
 
-test_that("districts geography errors clearly when not bundled", {
+test_that("lower-level geographies error clearly when not bundled", {
   skip_if_not_installed("sf")
-  if (nzchar(system.file("extdata", "districts_63.rds", package = "vnmap"))) {
-    skip("district layer is bundled")
+  if (!nzchar(system.file("extdata", "districts_63.rds", package = "vnmap"))) {
+    expect_error(vn_map("districts_63"), "build_adm2")
   }
-  expect_error(vn_map("districts_63"), "build_adm2")
+  if (!nzchar(system.file("extdata", "communes_63.rds", package = "vnmap"))) {
+    expect_error(vn_map("communes_63"), "build_adm3")
+    expect_error(vn_map("communes_63", province = "Ha Noi"), "build_adm3")
+  }
+})
+
+test_that("province filter is confined to lower-level geographies", {
+  skip_if_not_installed("sf")
+  expect_error(vn_map(province = "Ha Noi"), "lower-level")
+  expect_error(vn_map("provinces_63", province = "Ha Noi"), "lower-level")
 })
