@@ -1,0 +1,28 @@
+url: https://ura8107.github.io/vnmap/
+
+template:
+  bootstrap: 5
+
+reference:
+- title: Maps
+  desc: Draw maps and retrieve boundary geometry.
+  contents:
+  - plot_vnmap
+  - vn_map
+  - vnmap_crs
+- title: Lookups
+  desc: Normalize names and codes and describe administrative units.
+  contents:
+  - province_code
+  - province_info
+  - province_region
+- title: Data
+  desc: Bundled provincial statistics.
+  contents:
+  - province_stats_2024
+  - province_stats_2024_63
+
+articles:
+- title: Get started
+  contents:
+  - vnmap

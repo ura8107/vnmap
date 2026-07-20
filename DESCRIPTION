@@ -1,25 +1,29 @@
 Package: vnmap
 Title: Map the Provinces and Municipalities of Viet Nam
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: person("Yuki", "Matsuura", role = c("aut", "cre"), email = "matsuura.yuki.200095@gmail.com")
 Description: Convenient 'ggplot2' choropleth maps of Viet Nam using either
     the 34 provincial-level administrative units effective from July 2025 or
     the preceding 63-unit geography. Includes name normalization, official
-    administrative codes, simple-feature boundary data, and 2024 provincial
-    population and regional-economic indicators. Boundaries are
-    derived from the public-domain 'geoBoundaries' Viet Nam ADM1 data and the
-    2025 units are constructed according to Decision 19/2025/QD-TTg.
+    administrative codes, socio-economic region grouping, simple-feature
+    boundary data, and 2024 provincial population and regional-economic
+    indicators. Boundaries are derived from the public-domain 'geoBoundaries'
+    Viet Nam ADM1 data and the 2025 units are constructed according to
+    Decision 19/2025/QD-TTg.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 4.1.0)
 Imports:
     ggplot2,
-    sf,
     stringi
 Suggests:
+    knitr,
+    rmarkdown,
+    sf,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+VignetteBuilder: knitr
 RoxygenNote: 7.3.3
-URL: https://github.com/ura8107/vnmap
+URL: https://github.com/ura8107/vnmap, https://ura8107.github.io/vnmap/
 BugReports: https://github.com/ura8107/vnmap/issues

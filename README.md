@@ -93,6 +93,39 @@ province_info("79")
 Identifiers accept official two-digit administrative codes and names with or
 without Vietnamese diacritics. `province_info()` provides a clean join table.
 
+## Socio-economic regions
+
+Every unit is tagged with one of the six General Statistics Office
+socio-economic regions. Select whole regions with `region`, or look the region
+up directly.
+
+```r
+plot_vnmap(region = "MRD", labels = TRUE)   # Mekong River Delta
+province_region(c("HCMC", "Can Tho"))
+province_info()[c("name_en", "region_code", "region_en")]
+```
+
+## Lower-level geographies
+
+Optional historical district (`"districts_63"`) and commune (`"communes_63"`)
+layers cover the pre-July 2025 second and third administrative levels, which
+the reform abolished and merged. They are large, so they are not bundled;
+generate them locally with `data-raw/build_adm2.R` and `data-raw/build_adm3.R`,
+then filter to a province. Commune names are not unique nationwide, so always
+scope commune maps with `province`.
+
+```r
+# after Rscript data-raw/build_adm3.R
+vn_map("communes_63", province = "Ha Noi")
+```
+
+## Working without sf
+
+The name, code, and region lookups (`province_code()`, `province_info()`,
+`province_region()`) and the bundled statistics work without the `sf` package.
+Only the geometry functions (`vn_map()`, `plot_vnmap()`, `vnmap_crs()`) require
+`sf`.
+
 ## Data provenance
 
 The bundled geometry is derived from the public-domain

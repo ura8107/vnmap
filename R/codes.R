@@ -7,7 +7,16 @@
 .vn_info <- function(geography) {
   file <- system.file("extdata", paste0(geography, "_info.rds"), package = "vnmap")
   if (!nzchar(file)) stop("Bundled province metadata could not be found.", call. = FALSE)
-  readRDS(file)
+  info <- readRDS(file)
+  # The lookup table is used without 'sf'; drop any geometry an older bundled
+  # artifact may still carry so a plain data frame is always returned.
+  if ("geometry" %in% names(info)) {
+    info[["geometry"]] <- NULL
+    attr(info, "sf_column") <- NULL
+    attr(info, "agr") <- NULL
+    class(info) <- "data.frame"
+  }
+  info
 }
 
 #' Look up Vietnamese provincial administrative codes
@@ -61,15 +70,17 @@ province_code <- function(x, geography = c("provinces", "provinces_63")) {
 #' @param geography Either `"provinces"` for the current 34-unit geography or
 #'   `"provinces_63"` for the historical 63-unit geography.
 #'
-#' @return A data frame containing `code`, `iso`, `name_vi`, `name_en`, and
-#'   `type`. The `type` column distinguishes provinces from centrally governed
-#'   municipalities.
+#' @return A data frame containing `code`, `iso`, `name_vi`, `name_en`, `type`,
+#'   `region_code`, `region_vi`, and `region_en`. The `type` column
+#'   distinguishes provinces from centrally governed municipalities, and the
+#'   `region_*` columns give the socio-economic region (see
+#'   [province_region()]).
 #'
 #' @details With no `x`, rows are returned in ascending official code order.
 #'   With `x`, names and aliases are normalized by [province_code()] and the
 #'   returned rows follow the order of `x`.
 #'
-#' @seealso [province_code()], [vn_map()]
+#' @seealso [province_code()], [province_region()], [vn_map()]
 #'
 #' @examples
 #' head(province_info())
@@ -80,6 +91,11 @@ province_info <- function(x = NULL, geography = c("provinces", "provinces_63")) 
   geography <- match.arg(geography)
   info <- .vn_info(geography)
   info$aliases <- NULL
+  reg <- .vn_regions(geography)
+  idx <- match(info$code, reg$code)
+  info$region_code <- reg$region_code[idx]
+  info$region_vi <- reg$region_vi[idx]
+  info$region_en <- reg$region_en[idx]
   if (is.null(x)) return(info)
   info[match(province_code(x, geography), info$code), , drop = FALSE]
 }

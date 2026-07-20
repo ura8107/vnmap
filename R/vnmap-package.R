@@ -11,9 +11,15 @@
 #'   \item [vn_map()] returns the bundled boundaries as an `sf` object.
 #'   \item [province_code()] converts names and aliases to official codes.
 #'   \item [province_info()] returns the administrative lookup table.
+#'   \item [province_region()] returns the socio-economic region of each unit.
 #'   \item [vnmap_crs()] returns the package's default projected CRS.
 #'   \item [province_stats_2024] contains population and GRDP-per-capita data.
 #' }
+#'
+#' The lookup helpers ([province_code()], [province_info()],
+#' [province_region()]) and the bundled statistics work without the \pkg{sf}
+#' package. Only the geometry functions ([vn_map()], [plot_vnmap()],
+#' [vnmap_crs()]) require \pkg{sf} to be installed.
 #'
 #' @section Choosing a geography:
 #' Use `geography = "provinces"` for the 34 units effective from July 2025.
