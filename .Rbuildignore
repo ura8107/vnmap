@@ -12,3 +12,5 @@
 ^\.github/workflows/pkgdown\.yaml$
 ^inst/extdata/districts_63\.rds$
 ^inst/extdata/communes_63\.rds$
+^app-assets$
+^Makefile$
