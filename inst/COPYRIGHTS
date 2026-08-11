@@ -2,9 +2,39 @@ Sources:
     geoBoundaries
 Copyright: geoBoundaries contributors
 License: Public Domain
-Files: extdata/provinces.rds
-    extdata/provinces_63.rds
+Files: extdata/provinces_63.rds
 URL: https://www.geoboundaries.org/
 Comment: Derived from boundary VNM-ADM1-63759600. The 34-unit layer is a
     transformation produced by dissolving historical provincial boundaries.
 
+Sources:
+    Vietnamese Provinces Database
+Copyright: Copyright (c) 2021 Thang Le Quoc
+License: MIT
+Files: extdata/communes.rds
+    extdata/provinces.rds
+URL: https://github.com/thanglequoc/vietnamese-provinces-database
+Comment: Fixed commit cd58063299585146ded3981f2272946ef19ced54. Geometry is
+    derived upstream from the Viet Nam Administrative Units Reference Map.
+
+Sources:
+    OpenStreetMap
+Copyright: OpenStreetMap contributors
+License: ODbL 1.0
+Files: extdata/infrastructure.rds
+URL: https://www.openstreetmap.org/copyright
+Comment: Fixed Overpass snapshot observed 11 August 2026. This is community
+    mapping, not an official transport register. The infrastructure derivative
+    database remains available under ODbL 1.0; maps and other produced works
+    must retain OpenStreetMap contributor attribution as required by ODbL.
+
+Sources:
+    Government legal-document portal of Viet Nam
+Copyright: Government of Viet Nam; factual metadata selected by vnmap authors
+License: Legal texts are linked, not redistributed
+Files: extdata/economic_zones.rds
+URL: https://vanban.chinhphu.vn/
+Comment: Document identifiers, dates and zone names are factual metadata. The
+    package links rather than redistributes legal texts. Representative points
+    are derived from vnmap's bundled pre-2025 province geometry and are not
+    legal boundary drawings, cadastral locations, or copied web-map features.

@@ -6,7 +6,7 @@
 \title{Provincial population and economic indicators under the 63-unit geography}
 \format{
 A data frame with 63 rows and 12 variables. Variables correspond to
-those in [province_stats_2024], except that `iso` replaces `member_codes`.
+those in \link{province_stats_2024}, except that \code{iso} replaces \code{member_codes}.
 }
 \source{
 General Statistics Office of Viet Nam, PX-Web tables, accessed

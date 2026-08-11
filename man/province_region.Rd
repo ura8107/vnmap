@@ -7,15 +7,15 @@
 province_region(x = NULL, geography = c("provinces", "provinces_63"))
 }
 \arguments{
-\item{x}{Optional names or codes accepted by [province_code()]. When omitted,
+\item{x}{Optional names or codes accepted by \code{\link[=province_code]{province_code()}}. When omitted,
 every unit is returned in ascending code order.}
 
-\item{geography}{Either `"provinces"` for the current 34-unit geography or
-`"provinces_63"` for the historical 63-unit geography.}
+\item{geography}{Either \code{"provinces"} for the current 34-unit geography or
+\code{"provinces_63"} for the historical 63-unit geography.}
 }
 \value{
-A character vector of English region names. When `x` is omitted the
-  vector is named by administrative code.
+A character vector of English region names. When \code{x} is omitted the
+vector is named by administrative code.
 }
 \description{
 Returns the socio-economic region that each provincial-level unit belongs
@@ -23,15 +23,15 @@ to. Regions follow the six-region scheme published by the General Statistics
 Office of Viet Nam.
 }
 \details{
-The six regions are the Red River Delta (`RRD`), Northern Midlands
-  and Mountains (`NMM`), North Central and Central Coast (`NCC`), Central
-  Highlands (`CH`), Southeast (`SE`), and Mekong River Delta (`MRD`).
+The six regions are the Red River Delta (\code{RRD}), Northern Midlands
+and Mountains (\code{NMM}), North Central and Central Coast (\code{NCC}), Central
+Highlands (\code{CH}), Southeast (\code{SE}), and Mekong River Delta (\code{MRD}).
 
-  Region assignments for the 63-unit geography are the official ones.
-  Assignments for the 34 current units are derived: each 2025 unit is placed
-  in the region holding the largest share of its 2024 population among the
-  former units it absorbed. Use [province_info()] to obtain the region code
-  and Vietnamese region name alongside the English name.
+Region assignments for the 63-unit geography are the official ones.
+Assignments for the 34 current units are derived: each 2025 unit is placed
+in the region holding the largest share of its 2024 population among the
+former units it absorbed. Use \code{\link[=province_info]{province_info()}} to obtain the region code
+and Vietnamese region name alongside the English name.
 }
 \examples{
 province_region(c("HCMC", "Can Tho"))
@@ -39,5 +39,5 @@ province_region("Bac Giang", geography = "provinces_63")
 head(province_region())
 }
 \seealso{
-[province_info()], [vn_map()], [plot_vnmap()]
+\code{\link[=province_info]{province_info()}}, \code{\link[=vn_map]{vn_map()}}, \code{\link[=plot_vnmap]{plot_vnmap()}}
 }

@@ -6,7 +6,8 @@
 #' under the immediately preceding geography.
 #'
 #' @param geography One of `"provinces"` (the 34 units effective from July
-#'   2025), `"provinces_63"` (the pre-July 2025 units), `"districts_63"` (the
+#'   2025), `"communes"` (current commune-level units),
+#'   `"provinces_63"` (the pre-July 2025 units), `"districts_63"` (the
 #'   pre-July 2025 district-level units), or `"communes_63"` (the pre-July 2025
 #'   commune-level units). See Details for the optional lower-level layers.
 #' @param include Optional character vector of names, aliases, official
@@ -18,8 +19,9 @@
 #'   `region` are kept. Available only for the provincial geographies.
 #' @param province Optional character vector of provincial-level identifiers
 #'   (names, aliases, or codes) used to keep only the lower-level units that
-#'   fall inside those provinces. Available only for `"districts_63"` and
-#'   `"communes_63"`, and resolved against the 63-unit geography.
+#'   fall inside those provinces. Available for `"communes"`,
+#'   `"districts_63"`, and `"communes_63"`; historical layers resolve against
+#'   the 63-unit geography.
 #' @param crs Coordinate reference system understood by [sf::st_transform()].
 #'
 #' @return An `sf` object with one row per unit. Provincial layers carry
@@ -32,10 +34,16 @@
 #'   different EPSG code or an `sf` CRS object to `crs` when another projection
 #'   is required. Filtering happens before transformation.
 #'
-#'   The 34-unit layer was constructed by dissolving historical provincial
-#'   boundaries according to Decision 19/2025/QD-TTg. The source geometry is
-#'   generalized and intended for statistical graphics, not surveying,
-#'   navigation, or legal boundary determinations.
+#'   The current 34-unit layer is dissolved from the exact same current
+#'   commune source described below, so parent and child boundaries share the
+#'   same 25 July 2026 observed snapshot. Historical `"provinces_63"` geometry
+#'   remains derived from geoBoundaries. All geometry is intended for
+#'   statistical graphics, not surveying, navigation, or legal determinations.
+#'
+#'   The bundled `"communes"` layer contains the 3,321 current commune-level
+#'   units in the 25 July 2026 catalogue snapshot. It carries validity,
+#'   geography-vintage, source, and geometry-accuracy columns. Its boundaries
+#'   are generalized to 100 metres for statistical graphics.
 #'
 #'   The optional `"districts_63"` (second-level) and `"communes_63"`
 #'   (third-level) layers hold the district and commune units as they existed
@@ -72,7 +80,7 @@
 #' hanoi_communes <- vn_map("communes_63", province = "Ha Noi")
 #' }
 #' @export
-vn_map <- function(geography = c("provinces", "provinces_63", "districts_63",
+vn_map <- function(geography = c("provinces", "communes", "provinces_63", "districts_63",
                                  "communes_63"),
                    include = NULL, region = NULL, province = NULL,
                    crs = vnmap_crs()) {
@@ -93,11 +101,12 @@ vn_map <- function(geography = c("provinces", "provinces_63", "districts_63",
     }, call. = FALSE)
   }
   map <- readRDS(file)
-  if (geography %in% c("districts_63", "communes_63")) {
+  if (geography %in% c("communes", "districts_63", "communes_63")) {
     if (!is.null(region)) {
       stop("`region` is not available for lower-level geography.", call. = FALSE)
     }
-    if (!is.null(province)) map <- map[.filter_province(map, province), , drop = FALSE]
+    if (!is.null(province)) map <- map[.filter_province(map, province,
+      if (geography == "communes") "provinces" else "provinces_63"), , drop = FALSE]
     if (!is.null(include)) map <- map[.match_units(map, include), , drop = FALSE]
   } else {
     if (!is.null(province)) {
@@ -115,11 +124,11 @@ vn_map <- function(geography = c("provinces", "provinces_63", "districts_63",
 
 # Keep only lower-level units whose parent province matches `province`. Parent
 # provinces are the pre-July-2025 (63-unit) provinces recorded at build time.
-.filter_province <- function(map, province) {
+.filter_province <- function(map, province, geography = "provinces_63") {
   if (!"province_code" %in% names(map)) {
     stop("This layer carries no province codes to filter on.", call. = FALSE)
   }
-  codes <- province_code(province, "provinces_63")
+  codes <- province_code(province, geography)
   hit <- map$province_code %in% codes
   if (!any(hit)) stop("No units matched `province`.", call. = FALSE)
   hit

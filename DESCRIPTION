@@ -7,9 +7,9 @@ Description: Convenient 'ggplot2' choropleth maps of Viet Nam using either
     the preceding 63-unit geography. Includes name normalization, official
     administrative codes, socio-economic region grouping, simple-feature
     boundary data, and 2024 provincial population and regional-economic
-    indicators. Boundaries are derived from the public-domain 'geoBoundaries'
-    Viet Nam ADM1 data and the 2025 units are constructed according to
-    Decision 19/2025/QD-TTg.
+    indicators. Historical boundaries are derived from public-domain
+    'geoBoundaries' data. Current province and commune boundaries share a
+    pinned, redistributable reference-map-derived source and explicit vintage.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -18,12 +18,17 @@ Imports:
     ggplot2,
     stringi
 Suggests:
+    jsonlite,
     knitr,
+    readxl,
     rmarkdown,
+    s2,
     sf,
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    withr
 Config/testthat/edition: 3
 VignetteBuilder: knitr
-RoxygenNote: 7.3.3
+Roxygen: list(markdown = TRUE)
 URL: https://github.com/ura8107/vnmap, https://ura8107.github.io/vnmap/
 BugReports: https://github.com/ura8107/vnmap/issues
+Config/roxygen2/version: 8.0.0

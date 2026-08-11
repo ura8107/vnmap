@@ -7,20 +7,20 @@
 vnmap_crs()
 }
 \value{
-An `sf` CRS object.
+An \code{sf} CRS object.
 }
 \description{
 EPSG:3405 is the VN-2000 / UTM zone 48N projected CRS.
 }
 \details{
 All bundled geometries are returned in this projected CRS unless a
-  different value is supplied to the `crs` argument of [vn_map()]. Using a
-  projected CRS keeps distances and polygon rendering stable for national
-  statistical maps.
+different value is supplied to the \code{crs} argument of \code{\link[=vn_map]{vn_map()}}. Using a
+projected CRS keeps distances and polygon rendering stable for national
+statistical maps.
 }
 \examples{
 vnmap_crs()
 }
 \seealso{
-[vn_map()], [sf::st_crs()]
+\code{\link[=vn_map]{vn_map()}}, \code{\link[sf:st_crs]{sf::st_crs()}}
 }

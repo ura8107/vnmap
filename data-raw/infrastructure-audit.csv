@@ -1,0 +1,250 @@
+"source_id","infrastructure_type","name","decision","reason","entity_id"
+"osm-node-2647317689","aerodrome","Sân bay Trường Sa","included","retained_entity","osm-node-2647317689"
+"osm-node-3291643542","aerodrome","Sân bay Phú Giáo","included","retained_entity","osm-node-3291643542"
+"osm-node-7291264087","aerodrome","Sân bay Dục Mỹ","included","retained_entity","osm-node-7291264087"
+"osm-relation-13456478","aerodrome","Sân bay quốc tế Long Thành","included","retained_entity","osm-relation-13456478"
+"osm-relation-20136775","aerodrome","Sân bay Quốc tế Nội Bài","included","retained_entity","osm-relation-20136775"
+"osm-way-1008765855","aerodrome","Sân bay Phan Thiết","included","retained_entity","osm-way-1008765855"
+"osm-way-1015158456","aerodrome","Sân bay Phú Quý","included","retained_entity","osm-way-1015158456"
+"osm-way-1016759175","aerodrome","Sân bay Hòa Lạc","included","retained_entity","osm-way-1016759175"
+"osm-way-1081333880","aerodrome","Sân bay Biên Hòa","included","retained_entity","osm-way-1081333880"
+"osm-way-1151377203","aerodrome","Sân bay Chu Lai","included","retained_entity","osm-way-1151377203"
+"osm-way-119006363","aerodrome","Sân bay Vũng Tàu","included","retained_entity","osm-way-119006363"
+"osm-way-1207926795","aerodrome","Sân bay Yên Bái","included","retained_entity","osm-way-1207926795"
+"osm-way-1214669797","aerodrome","Sân bay Điện Biên","included","retained_entity","osm-way-1214669797"
+"osm-way-1274811046","aerodrome","Sân bay Nhân Cơ","included","retained_entity","osm-way-1274811046"
+"osm-way-1346620020","aerodrome","Sân bay Nước Trong","included","retained_entity","osm-way-1346620020"
+"osm-way-1350848850","aerodrome","Sân bay quốc tế Gia Bình","included","retained_entity","osm-way-1350848850"
+"osm-way-1356959970","aerodrome",NA,"excluded","missing_name",NA
+"osm-way-1494545538","aerodrome","Sân bay Năm Căn","included","retained_entity","osm-way-1494545538"
+"osm-way-159974733","aerodrome","Sân bay Pleiku","included","retained_entity","osm-way-159974733"
+"osm-way-160203373","aerodrome","Sân bay Tuy Hòa","included","retained_entity","osm-way-160203373"
+"osm-way-169186384","aerodrome","Sân bay quốc tế Cần Thơ","included","retained_entity","osm-way-169186384"
+"osm-way-217455233","aerodrome","Sân bay Gia Lâm","included","retained_entity","osm-way-217455233"
+"osm-way-217466613","aerodrome","Sân bay quốc tế Phú Bài","included","retained_entity","osm-way-217466613"
+"osm-way-217476265","aerodrome","Sân bay quốc tế Đà Nẵng","included","retained_entity","osm-way-217476265"
+"osm-way-217534447","aerodrome","Sân bay quốc tế Cam Ranh","included","retained_entity","osm-way-217534447"
+"osm-way-237186082","aerodrome","Sân bay Phù Cát","included","retained_entity","osm-way-237186082"
+"osm-way-240657429","aerodrome","Sân bay Kiến An","included","retained_entity","osm-way-240657429"
+"osm-way-240659354","aerodrome","Sân bay quốc tế Cát Bi","included","retained_entity","osm-way-240659354"
+"osm-way-241574727","aerodrome","Sân bay Đồng Hới","included","retained_entity","osm-way-241574727"
+"osm-way-319449114","aerodrome","Sân bay quốc tế Liên Khương","included","retained_entity","osm-way-319449114"
+"osm-way-35011349","aerodrome","Sân bay Buôn Ma Thuột","included","retained_entity","osm-way-35011349"
+"osm-way-358573470","aerodrome","Sân bay Nước Mặn","included","retained_entity","osm-way-358573470"
+"osm-way-466158858","aerodrome","Sân bay Kép","included","retained_entity","osm-way-466158858"
+"osm-way-471507575","aerodrome","Sân bay Thọ Xuân","included","retained_entity","osm-way-471507575"
+"osm-way-485097172","aerodrome","Sân bay Rạch Giá","included","retained_entity","osm-way-485097172"
+"osm-way-486311356","aerodrome","Sân bay quốc tế Phú Quốc","included","retained_entity","osm-way-486311356"
+"osm-way-54242195","aerodrome","Sân bay quốc tế Tân Sơn Nhất","included","retained_entity","osm-way-54242195"
+"osm-way-585991360","aerodrome","Sân bay quốc tế Vinh","included","retained_entity","osm-way-585991360"
+"osm-way-587323606","aerodrome","Sân bay quốc tế Vân Đồn","included","retained_entity","osm-way-587323606"
+"osm-way-62060973","aerodrome","Sân bay Côn Đảo","included","retained_entity","osm-way-62060973"
+"osm-way-630057360","aerodrome","Sân bay Cà Mau","included","retained_entity","osm-way-630057360"
+"osm-way-704557284","aerodrome","Phi trường Long Thành","duplicate","spatially_same_entity","osm-relation-13456478"
+"osm-way-772339301","aerodrome","Sân bay Nà Sản","included","retained_entity","osm-way-772339301"
+"osm-way-823243854","aerodrome","Sân bay Thành Sơn","included","retained_entity","osm-way-823243854"
+"osm-way-894630864","aerodrome",NA,"excluded","missing_name",NA
+"osm-node-10745126063","border_control",NA,"excluded","missing_name",NA
+"osm-node-11682267580","border_control",NA,"excluded","missing_name",NA
+"osm-node-11693051224","border_control",NA,"excluded","missing_name",NA
+"osm-node-11752037554","border_control",NA,"excluded","missing_name",NA
+"osm-node-11853152873","border_control",NA,"excluded","missing_name",NA
+"osm-node-11853152882","border_control",NA,"excluded","missing_name",NA
+"osm-node-1192964137","border_control","Cửa khẩu Móng Cái","included","retained_entity","osm-node-1192964137"
+"osm-node-12011701246","border_control",NA,"excluded","missing_name",NA
+"osm-node-12011701249","border_control",NA,"excluded","missing_name",NA
+"osm-node-12416690344","border_control",NA,"excluded","missing_name",NA
+"osm-node-12416690345","border_control",NA,"excluded","missing_name",NA
+"osm-node-12462442417","border_control",NA,"excluded","missing_name",NA
+"osm-node-1275688605","border_control",NA,"excluded","missing_name",NA
+"osm-node-13001787892","border_control",NA,"excluded","missing_name",NA
+"osm-node-13043217174","border_control",NA,"excluded","missing_name",NA
+"osm-node-13114153337","border_control",NA,"excluded","missing_name",NA
+"osm-node-13114153338","border_control",NA,"excluded","missing_name",NA
+"osm-node-13251468360","border_control",NA,"excluded","missing_name",NA
+"osm-node-13251468361","border_control",NA,"excluded","missing_name",NA
+"osm-node-13519556547","border_control",NA,"excluded","missing_name",NA
+"osm-node-1391045466","border_control","Cửa khẩu Na Mèo, Quan Sơn, Thanh Hóa","included","retained_entity","osm-node-1391045466"
+"osm-node-1577103619","border_control",NA,"excluded","missing_name",NA
+"osm-node-1890365764","border_control",NA,"excluded","missing_name",NA
+"osm-node-1890376643","border_control","Cửa khẩu Lý Vạn","included","retained_entity","osm-node-1890376643"
+"osm-node-1911822542","border_control",NA,"excluded","missing_name",NA
+"osm-node-1999541141","border_control",NA,"excluded","missing_name",NA
+"osm-node-2603721197","border_control","Cửa khẩu Nà Nưa","included","retained_entity","osm-node-2603721197"
+"osm-node-2927418820","border_control",NA,"excluded","missing_name",NA
+"osm-node-2944284076","border_control","Cửa khẩu La Lay","included","retained_entity","osm-node-2944284076"
+"osm-node-3087856961","border_control",NA,"excluded","missing_name",NA
+"osm-node-3144381596","border_control","Cửa khẩu Na Hình","included","retained_entity","osm-node-3144381596"
+"osm-node-3803585684","border_control",NA,"excluded","missing_name",NA
+"osm-node-3803585685","border_control",NA,"excluded","missing_name",NA
+"osm-node-427996243","border_control",NA,"excluded","missing_name",NA
+"osm-node-4348684318","border_control",NA,"excluded","missing_name",NA
+"osm-node-4562478134","border_control",NA,"excluded","missing_name",NA
+"osm-node-4634560389","border_control","Cửa Khẩu Hoành Mô","included","retained_entity","osm-node-4634560389"
+"osm-node-4964032695","border_control","Cửa khẩu Thanh Thủy","included","retained_entity","osm-node-4964032695"
+"osm-node-4964032697","border_control","Cửa khẩu quốc tế Tà Lùng","included","retained_entity","osm-node-4964032697"
+"osm-node-5038930790","border_control","Cửa khẩu Quốc tế Mộc Bài","duplicate","same_normalized_name","osm-way-1019000034"
+"osm-node-5038930791","border_control","Cửa khẩu Quốc tế Mộc Bài","duplicate","same_normalized_name","osm-way-1019000034"
+"osm-node-5129681124","border_control","Cửa khẩu Tân Thanh","included","retained_entity","osm-node-5129681124"
+"osm-node-5313153738","border_control",NA,"excluded","missing_name",NA
+"osm-node-5369976290","border_control",NA,"excluded","missing_name",NA
+"osm-node-5457424433","border_control",NA,"excluded","missing_name",NA
+"osm-node-5480276106","border_control",NA,"excluded","missing_name",NA
+"osm-node-5644089146","border_control","Cửa khẩu Pò Peo","included","retained_entity","osm-node-5644089146"
+"osm-node-5696164239","border_control","Dak Plo","included","retained_entity","osm-node-5696164239"
+"osm-node-5792283587","border_control","Cửa khẩu Bắc Phong Sinh","included","retained_entity","osm-node-5792283587"
+"osm-node-5792283597","border_control",NA,"excluded","missing_name",NA
+"osm-node-6340608320","border_control","Lao Cai exit","included","retained_entity","osm-node-6340608320"
+"osm-node-668844134","border_control",NA,"excluded","missing_name",NA
+"osm-node-668844184","border_control",NA,"excluded","missing_name",NA
+"osm-node-6711596511","border_control","Cửa khẩu Xín Mần","included","retained_entity","osm-node-6711596511"
+"osm-node-6796780645","border_control","Cửa khẩu Chi Ma","included","retained_entity","osm-node-6796780645"
+"osm-node-6805769047","border_control",NA,"excluded","missing_name",NA
+"osm-node-6975658298","border_control",NA,"excluded","missing_name",NA
+"osm-node-7001524585","border_control",NA,"excluded","missing_name",NA
+"osm-node-7624082258","border_control","Cửa khẩu Bình Nghi","included","retained_entity","osm-node-7624082258"
+"osm-node-7714109427","border_control","Cửa khẩu Bí Hà","included","retained_entity","osm-node-7714109427"
+"osm-node-7808650541","border_control",NA,"excluded","missing_name",NA
+"osm-node-7918927875","border_control",NA,"excluded","missing_name",NA
+"osm-node-7953299057","border_control",NA,"excluded","missing_name",NA
+"osm-node-8027467006","border_control","Cửa khẩu Thanh Chương","included","retained_entity","osm-node-8027467006"
+"osm-node-8506893498","border_control",NA,"excluded","missing_name",NA
+"osm-node-8554464268","border_control",NA,"excluded","missing_name",NA
+"osm-node-8920840019","border_control",NA,"excluded","missing_name",NA
+"osm-node-8920840135","border_control",NA,"excluded","missing_name",NA
+"osm-node-9147381616","border_control",NA,"excluded","missing_name",NA
+"osm-way-1017067919","border_control","Của khẩu quốc tế Bình Hiệp","included","retained_entity","osm-way-1017067919"
+"osm-way-1019000034","border_control","Cửa khẩu quốc tế Mộc Bài","included","retained_entity","osm-way-1019000034"
+"osm-way-1100202794","border_control","Cửa khẩu Quốc tế Giang Thành","included","retained_entity","osm-way-1100202794"
+"osm-way-1100970581","border_control","Cửa khẩu quốc tế Tịnh Biên","included","retained_entity","osm-way-1100970581"
+"osm-way-1104007419","border_control","Cửa khẩu quốc tế Khánh Bình","included","retained_entity","osm-way-1104007419"
+"osm-way-1138593905","border_control",NA,"excluded","missing_name",NA
+"osm-way-1201589073","border_control",NA,"excluded","missing_name",NA
+"osm-way-1373701762","border_control",NA,"excluded","missing_name",NA
+"osm-way-1375853707","border_control",NA,"excluded","missing_name",NA
+"osm-way-1378283024","border_control",NA,"excluded","missing_name",NA
+"osm-way-1378283025","border_control",NA,"excluded","missing_name",NA
+"osm-way-1378283026","border_control",NA,"excluded","missing_name",NA
+"osm-way-1386958977","border_control",NA,"excluded","missing_name",NA
+"osm-way-1386958978","border_control",NA,"excluded","missing_name",NA
+"osm-way-1386958979","border_control",NA,"excluded","missing_name",NA
+"osm-way-1386958980","border_control",NA,"excluded","missing_name",NA
+"osm-way-1414795156","border_control",NA,"excluded","missing_name",NA
+"osm-way-1418637336","border_control",NA,"excluded","missing_name",NA
+"osm-way-1419641809","border_control",NA,"excluded","missing_name",NA
+"osm-way-1419641810","border_control",NA,"excluded","missing_name",NA
+"osm-way-1456899276","border_control",NA,"excluded","missing_name",NA
+"osm-way-1494638979","border_control","Cửa khẩu Quốc tế Tân Nam","included","retained_entity","osm-way-1494638979"
+"osm-way-251721577","border_control","Cửa khẩu Quốc tế Hà Tiên","included","retained_entity","osm-way-251721577"
+"osm-way-304051583","border_control","Cửa khẩu Quốc tế Hoa Lư","included","retained_entity","osm-way-304051583"
+"osm-way-304226083","border_control","Trung tâm Quản lý Cửa khẩu Quốc tế Lào Cai","duplicate","spatially_same_entity","osm-node-6340608320"
+"osm-way-516006199","border_control",NA,"excluded","missing_name",NA
+"osm-way-548259964","border_control","Cửa Khẩu Quốc Tế Lệ Thanh","included","retained_entity","osm-way-548259964"
+"osm-way-665997590","border_control","Cửa khẩu Kim Thành","included","retained_entity","osm-way-665997590"
+"osm-way-694272867","border_control","Trạm Kiểm soát Liên hợp Cửa khẩu Tây Trang","included","retained_entity","osm-way-694272867"
+"osm-way-724714338","border_control","Trạm Kiểm soát Liên hợp Cửa khẩu Chi Ma","duplicate","spatially_same_entity","osm-node-6796780645"
+"osm-way-746193220","border_control","Cửa khẩu Bắc Luân 2","included","retained_entity","osm-way-746193220"
+"osm-way-804799052","border_control",NA,"excluded","missing_name",NA
+"osm-way-816441858","border_control","Đồn Biên phòng cửa khẩu Lý Vạn","duplicate","spatially_same_entity","osm-node-1890376643"
+"osm-way-816444163","border_control",NA,"excluded","missing_name",NA
+"osm-way-816457457","border_control",NA,"excluded","missing_name",NA
+"osm-way-816457458","border_control",NA,"excluded","missing_name",NA
+"osm-way-863228739","border_control",NA,"excluded","missing_name",NA
+"osm-way-871711549","border_control",NA,"excluded","missing_name",NA
+"osm-way-874125321","border_control","Cửa Khẩu Quốc Tế Cha Lo","included","retained_entity","osm-way-874125321"
+"osm-relation-6946894","port","Cảng Sài Gòn Khánh Hội","included","retained_entity","osm-relation-6946894"
+"osm-way-1069888243","port","Cảng Cửa Lò","included","retained_entity","osm-way-1069888243"
+"osm-way-1130942495","port","Cảng Khuyến Lương","included","retained_entity","osm-way-1130942495"
+"osm-way-1147201677","port",NA,"excluded","missing_name",NA
+"osm-way-1147207678","port",NA,"excluded","missing_name",NA
+"osm-way-1168007083","port","Cảng Bình Dương","included","retained_entity","osm-way-1168007083"
+"osm-way-1226377024","port","Cảng Nhơn Trạch","included","retained_entity","osm-way-1226377024"
+"osm-way-1249531168","port","Cảng Đức Giang","included","retained_entity","osm-way-1249531168"
+"osm-way-1262825533","port","Cảng Vũng Rô","included","retained_entity","osm-way-1262825533"
+"osm-way-1383918364","port","Cảng cá Tân Sơn","included","retained_entity","osm-way-1383918364"
+"osm-way-1389858876","port","Cảng cát Công ty Kính Đáp Cầu","included","retained_entity","osm-way-1389858876"
+"osm-way-1416692657","port","Cảng SOWATCO Long Bình","included","retained_entity","osm-way-1416692657"
+"osm-way-1418365320","port","Cảng Quốc tế Nam Vân Phong","included","retained_entity","osm-way-1418365320"
+"osm-way-1419529200","port","Cảng Sài Gòn - Hiệp Phước","included","retained_entity","osm-way-1419529200"
+"osm-way-1419541382","port","Cảng Dầu thực vật Nhà Bè (Navioil)","included","retained_entity","osm-way-1419541382"
+"osm-way-1419557203","port","Cảng Tân Thuận","included","retained_entity","osm-way-1419557203"
+"osm-way-1419558279","port","Cảng Tân Thuận Đông","included","retained_entity","osm-way-1419558279"
+"osm-way-1419558280","port","Cảng Bến Nghé","included","retained_entity","osm-way-1419558280"
+"osm-way-1419594543","port","Cảng VICT","included","retained_entity","osm-way-1419594543"
+"osm-way-1419927304","port","Phước Long ICD - Port","included","retained_entity","osm-way-1419927304"
+"osm-way-1420338193","port","Cảng Bourbon Bến Lức","included","retained_entity","osm-way-1420338193"
+"osm-way-1420853958","port","Cảng Vĩnh Hưng","included","retained_entity","osm-way-1420853958"
+"osm-way-1423488940","port","Cảng Ba Ngòi","included","retained_entity","osm-way-1423488940"
+"osm-way-1423781525","port","Cảng Đồng Nai","included","retained_entity","osm-way-1423781525"
+"osm-way-1423848889","port","Cảng Tổng hợp Cà Ná","included","retained_entity","osm-way-1423848889"
+"osm-way-1424159718","port","Cảng cá Ninh Chử","included","retained_entity","osm-way-1424159718"
+"osm-way-1447758473","port","Cảng cá Cửa Việt","included","retained_entity","osm-way-1447758473"
+"osm-way-1453051600","port","Cảng cá Lạch Bạng","included","retained_entity","osm-way-1453051600"
+"osm-way-1453814557","port","Cảng cá Hòa Lộc","included","retained_entity","osm-way-1453814557"
+"osm-way-1453816671","port","Cảng cá Cửa Hội","included","retained_entity","osm-way-1453816671"
+"osm-way-1453821952","port","Cảng tổng hợp Hải Linh","included","retained_entity","osm-way-1453821952"
+"osm-way-1453821953","port","Cảng Việt Trì","included","retained_entity","osm-way-1453821953"
+"osm-way-1454167796","port","Cảng Sơn Tây","included","retained_entity","osm-way-1454167796"
+"osm-way-1454689969","port","Cảng Tri Phương","included","retained_entity","osm-way-1454689969"
+"osm-way-1455919740","port","Cảng cá Phan Thiết","included","retained_entity","osm-way-1455919740"
+"osm-way-1457734553","port","Cảng Hồng Vân","included","retained_entity","osm-way-1457734553"
+"osm-way-1462549017","port","Cảng Chuyên Dụng Nhà Máy Nhiệt Điện Vân Phong","included","retained_entity","osm-way-1462549017"
+"osm-way-1471592507","port","Cảng cá Cửa Tùng","included","retained_entity","osm-way-1471592507"
+"osm-way-1495452376","port","Cảng vận tải Phan Thiết","included","retained_entity","osm-way-1495452376"
+"osm-way-1513315379","port","Cảng cá Thuận An","included","retained_entity","osm-way-1513315379"
+"osm-way-1532229542","port","Cảng Tân Chi","included","retained_entity","osm-way-1532229542"
+"osm-way-1532271397","port","Cảng cá Cà Ná","included","retained_entity","osm-way-1532271397"
+"osm-way-1532271398","port","Cảng cá Cà Ná","duplicate","same_normalized_name","osm-way-1532271397"
+"osm-way-220688059","port","Cảng Tân Thuận 2","included","retained_entity","osm-way-220688059"
+"osm-way-226937992","port","LOTUS PORT","included","retained_entity","osm-way-226937992"
+"osm-way-241198354","port","Cảng Đình Vũ","included","retained_entity","osm-way-241198354"
+"osm-way-243067516","port","Cảng Quy Nhơn","included","retained_entity","osm-way-243067516"
+"osm-way-244180711","port","Cảng Tàu Côn Đảo","included","retained_entity","osm-way-244180711"
+"osm-way-244180712","port","Cảng cá Cát Lở","included","retained_entity","osm-way-244180712"
+"osm-way-278786602","port","Cảng Quốc tế Sài Gòn Việt Nam","included","retained_entity","osm-way-278786602"
+"osm-way-321991606","port","Cảng cá La Gi","included","retained_entity","osm-way-321991606"
+"osm-way-406214423","port",NA,"excluded","missing_name",NA
+"osm-way-410427637","port","Cảng Cát Lái","included","retained_entity","osm-way-410427637"
+"osm-way-430204160","port","Cảng Phúc Long","included","retained_entity","osm-way-430204160"
+"osm-way-533426624","port","Cảng SP-ITC","included","retained_entity","osm-way-533426624"
+"osm-way-544398710","port","Cảng Cái Mép","included","retained_entity","osm-way-544398710"
+"osm-way-544409313","port","Tan Cang – Cai Mep International Terminal","included","retained_entity","osm-way-544409313"
+"osm-way-572666298","port","Cảng Dịch vụ Hậu cần hải sản Hưng Thái","included","retained_entity","osm-way-572666298"
+"osm-way-576213256","port","Cảng Liên Mạc","included","retained_entity","osm-way-576213256"
+"osm-way-584190501","port","Cảng Dung Quất","included","retained_entity","osm-way-584190501"
+"osm-way-584372263","port","Cảng Chu Lai","included","retained_entity","osm-way-584372263"
+"osm-way-596256080","port",NA,"excluded","missing_name",NA
+"osm-way-610783749","port","Cửa khẩu Ka Long","excluded","not_a_port",NA
+"osm-way-611934179","port","Cảng XNK Phúc Lộc","included","retained_entity","osm-way-611934179"
+"osm-way-612248649","port","Cảng Quốc tế Thị Vải","included","retained_entity","osm-way-612248649"
+"osm-way-612248666","port","Cảng PTSC Phú Mỹ","included","retained_entity","osm-way-612248666"
+"osm-way-612248712","port","Cảng Tổng hợp Thị Vải","included","retained_entity","osm-way-612248712"
+"osm-way-612248731","port","Cảng quốc tế SP-PSA","included","retained_entity","osm-way-612248731"
+"osm-way-616272217","port","Dong Xuyen Port","included","retained_entity","osm-way-616272217"
+"osm-way-616272262","port","Thương Cảng Vũng Tàu - Cảng Cát Lở","included","retained_entity","osm-way-616272262"
+"osm-way-627990023","port","Khu Công Nghiệp Đình Vũ","excluded","not_a_port",NA
+"osm-way-630377254","port","Cảng Tiên Sa","included","retained_entity","osm-way-630377254"
+"osm-way-630380551","port",NA,"excluded","missing_name",NA
+"osm-way-630392444","port","Cảng Chân Mây","included","retained_entity","osm-way-630392444"
+"osm-way-630749153","port","Vung Ang Port","included","retained_entity","osm-way-630749153"
+"osm-way-631315543","port","Cảng Hòn La","included","retained_entity","osm-way-631315543"
+"osm-way-640353844","port","Cảng Trường Thọ","included","retained_entity","osm-way-640353844"
+"osm-way-695579218","port",NA,"excluded","missing_name",NA
+"osm-way-738707402","port","Cảng cá Lộc An","included","retained_entity","osm-way-738707402"
+"osm-way-790627053","port","Cảng Hà Lộc","included","retained_entity","osm-way-790627053"
+"osm-way-792920132","port","Cảng cá Phước Hiệp","included","retained_entity","osm-way-792920132"
+"osm-way-793513951","port","Cảng Nghi Sơn","included","retained_entity","osm-way-793513951"
+"osm-way-793537333","port","Cảng Nghi Sơn","duplicate","same_normalized_name","osm-way-793513951"
+"osm-way-840418566","port","Cảng Hà Nội","included","retained_entity","osm-way-840418566"
+"osm-way-875471254","port",NA,"excluded","missing_name",NA
+"osm-way-875471255","port",NA,"excluded","missing_name",NA
+"osm-way-875632540","port",NA,"excluded","missing_name",NA
+"osm-way-875641782","port",NA,"excluded","missing_name",NA
+"osm-way-878218710","port",NA,"excluded","missing_name",NA
+"osm-way-879112399","port","Son Duong port - Vung Ang","included","retained_entity","osm-way-879112399"
+"osm-way-891746979","port",NA,"excluded","missing_name",NA
+"osm-way-894635101","port","Cảng hàng hải quốc tế Cam Ranh","included","retained_entity","osm-way-894635101"
+"osm-way-901408246","port","Cảng Bến Đá","included","retained_entity","osm-way-901408246"
+"osm-way-941591564","port","Cảng Tân Cảng - Phú Hữu","included","retained_entity","osm-way-941591564"
+"osm-way-962700176","port","Cảng Đáp Cầu","included","retained_entity","osm-way-962700176"
+"osm-way-973597471","port","Công ty cổ phần Tân Cảng Quế Võ","included","retained_entity","osm-way-973597471"

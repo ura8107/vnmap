@@ -2,6 +2,30 @@
 
 ## New features
 
+* Adds `economic_zones()` and `geom_economic_zones()` for a conservative,
+  evidence-graded catalogue of economic and place-based policy zones. Aggregate
+  counts never promote unverified names to established legal status; scope and
+  province-only fallback limitations are explicit.
+
+* Added `infrastructure()` and `geom_infrastructure()` with checksum-pinned OSM
+  aerodrome, neutral port, border-control and trunk-network geometry. Facility
+  aliases/components are reconciled to entities; raw service, lifecycle,
+  location-method and source fields remain explicit. Aerodromes are not called
+  airports and OSM industrial ports are not called seaports without evidence.
+
+* Added the 3,321-unit current commune boundary geography through
+  `vn_map("communes")`, with validity, source, vintage and geometry-accuracy
+  metadata.
+* Added `download_administrative_crosswalk()` and
+  `administrative_crosswalk()` for explicitly downloading and parsing the NSO
+  July 2025 old/new commune workbook. The source is not redistributed, partial
+  transfers are retained, and no allocation weights are inferred.
+
+* Added `industrial_parks()` and `geom_industrial_parks()` for querying a
+  provenance-rich industrial-park `sf` layer and adding it to `plot_vnmap()`.
+  Polygon sites are used where redistributable boundaries exist, with point
+  fallback and explicit location-accuracy metadata.
+
 * `province_region()` returns the General Statistics Office socio-economic
   region for each unit, and `province_info()` now includes `region_code`,
   `region_vi`, and `region_en` columns.

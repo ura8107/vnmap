@@ -17,54 +17,54 @@ plot_vnmap(
 )
 }
 \arguments{
-\item{geography}{Either `"provinces"` for the current 34-unit geography or
-`"provinces_63"` for the historical 63-unit geography.}
+\item{geography}{Either \code{"provinces"} for the current 34-unit geography or
+\code{"provinces_63"} for the historical 63-unit geography.}
 
 \item{data}{Optional data frame containing one row per administrative unit.}
 
-\item{values}{Character scalar naming the column in `data` mapped to the
-polygon fill aesthetic. Required when `data` is supplied.}
+\item{values}{Character scalar naming the column in \code{data} mapped to the
+polygon fill aesthetic. Required when \code{data} is supplied.}
 
-\item{id}{Character scalar naming the column in `data` containing province
+\item{id}{Character scalar naming the column in \code{data} containing province
 or municipality names, aliases, two-digit codes, or ISO codes.}
 
 \item{include}{Optional character vector of unit names or codes to display.}
 
 \item{region}{Optional character vector of socio-economic region codes
-(`"RRD"`, `"NMM"`, `"NCC"`, `"CH"`, `"SE"`, `"MRD"`) or English region
-names. Units matching either `include` or `region` are displayed.}
+(\code{"RRD"}, \code{"NMM"}, \code{"NCC"}, \code{"CH"}, \code{"SE"}, \code{"MRD"}) or English region
+names. Units matching either \code{include} or \code{region} are displayed.}
 
-\item{labels}{Logical; if `TRUE`, add Vietnamese names at points guaranteed
+\item{labels}{Logical; if \code{TRUE}, add Vietnamese names at points guaranteed
 to lie inside each geometry.}
 
 \item{insets}{Controls enlarged inset panels for small units that are hard
-to see at national scale. `FALSE` (default) draws none; `TRUE` enlarges the
-centrally governed municipalities; a character vector of names or codes
-enlarges those specific units. This feature is experimental.}
+to see at national scale. \code{FALSE} (default) draws none; \code{TRUE} enlarges
+the centrally governed municipalities; a character vector of names or
+codes enlarges those specific units. This feature is experimental.}
 
-\item{...}{Passed to [ggplot2::geom_sf()].}
+\item{...}{Passed to \code{\link[ggplot2:geom_sf]{ggplot2::geom_sf()}}.}
 }
 \value{
-A `ggplot` object. Add scales, titles, annotations, and themes using
-  ordinary `ggplot2` layers.
+A \code{ggplot} object. Add scales, titles, annotations, and themes using
+ordinary \code{ggplot2} layers.
 }
 \description{
-Creates a `ggplot2` outline map or choropleth from the bundled provincial
+Creates a \code{ggplot2} outline map or choropleth from the bundled provincial
 boundaries. Statistical values are joined using names, aliases, official
 codes, or historical codes appropriate to the selected geography.
 }
 \details{
-When `data` is supplied, units without a matching row receive
-  `NA` as the fill value and are handled by the chosen fill scale. Duplicate
-  identifiers in `data` are rejected because a polygon can have only one
-  fill value. Unit identifiers are normalized by [province_code()].
+When \code{data} is supplied, units without a matching row receive
+\code{NA} as the fill value and are handled by the chosen fill scale. Duplicate
+identifiers in \code{data} are rejected because a polygon can have only one
+fill value. Unit identifiers are normalized by \code{\link[=province_code]{province_code()}}.
 
-  Arguments such as `color`, `linewidth`, and `alpha` are passed through to
-  [ggplot2::geom_sf()]. Labels use `name_vi` and may overlap on dense maps;
-  `check_overlap = TRUE` suppresses some overlapping labels.
+Arguments such as \code{color}, \code{linewidth}, and \code{alpha} are passed through to
+\code{\link[ggplot2:geom_sf]{ggplot2::geom_sf()}}. Labels use \code{name_vi} and may overlap on dense maps;
+\code{check_overlap = TRUE} suppresses some overlapping labels.
 
-  Insets are drawn as scaled copies placed in the right margin of the map
-  and reuse the same fill mapping and styling as the main layer.
+Insets are drawn as scaled copies placed in the right margin of the map
+and reuse the same fill mapping and styling as the main layer.
 }
 \examples{
 plot_vnmap(color = "white", linewidth = 0.2)
@@ -87,5 +87,5 @@ plot_vnmap(
 )
 }
 \seealso{
-[vn_map()], [province_code()], [ggplot2::geom_sf()]
+\code{\link[=vn_map]{vn_map()}}, \code{\link[=province_code]{province_code()}}, \code{\link[ggplot2:geom_sf]{ggplot2::geom_sf()}}
 }

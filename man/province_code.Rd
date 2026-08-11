@@ -9,8 +9,8 @@ province_code(x, geography = c("provinces", "provinces_63"))
 \arguments{
 \item{x}{Character vector of names or codes.}
 
-\item{geography}{Either `"provinces"` for the current 34-unit geography or
-`"provinces_63"` for the historical 63-unit geography.}
+\item{geography}{Either \code{"provinces"} for the current 34-unit geography or
+\code{"provinces_63"} for the historical 63-unit geography.}
 }
 \value{
 A character vector of two-digit administrative codes.
@@ -21,12 +21,12 @@ English names, two-digit codes, and ISO 3166-2 codes are accepted.
 }
 \details{
 Input is matched case-insensitively after punctuation, whitespace,
-  administrative prefixes, and Vietnamese diacritics are normalized.
-  Common aliases such as `"Hanoi"`, `"Danang"`, `"HCMC"`, and `"Saigon"`
-  are supported. An error lists any values that cannot be matched.
+administrative prefixes, and Vietnamese diacritics are normalized.
+Common aliases such as \code{"Hanoi"}, \code{"Danang"}, \code{"HCMC"}, and \code{"Saigon"}
+are supported. An error lists any values that cannot be matched.
 
-  Codes are geography-specific. For example, a former province that was
-  merged in 2025 can be found only with `geography = "provinces_63"`.
+Codes are geography-specific. For example, a former province that was
+merged in 2025 can be found only with \code{geography = "provinces_63"}.
 }
 \examples{
 province_code(c("Da Nang", "Danang", "48"))
@@ -34,5 +34,5 @@ province_code(c("HCMC", "Saigon"))
 province_code("Bac Giang", geography = "provinces_63")
 }
 \seealso{
-[province_info()], [vn_map()]
+\code{\link[=province_info]{province_info()}}, \code{\link[=vn_map]{vn_map()}}
 }

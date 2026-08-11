@@ -84,6 +84,57 @@ vn_map("provinces_63")            # historical 63-unit geography
 Always choose the geography that matches the reference period and coding
 scheme of your data.
 
+## Current communes and the 2025 transition
+
+The bundled commune layer is an observed 25 July 2026 snapshot. Its province
+polygons are dissolved from the same source, so current parent and child
+boundaries are spatially compatible. `valid_from` is deliberately missing:
+the source snapshot does not establish a legal effective date for every code.
+
+```{r communes, eval = FALSE}
+hanoi <- vn_map("communes", province = "Ha Noi")
+hanoi[c("code", "name_vi", "geography_vintage", "snapshot_date")]
+```
+
+The NSO July 2025 conversion workbook is not bundled because redistribution
+terms have not been established. Downloading is explicit. The resulting table
+is many-to-many and reports whether each 2025 target code is present in the
+bundled 2026 snapshot; it contains no inferred area or population weights.
+
+```{r crosswalk, eval = FALSE}
+path <- download_administrative_crosswalk(tempfile(fileext = ".xlsx"))
+cw <- administrative_crosswalk(path, province = "Ha Noi")
+table(cw$relation, cw$current_code_status)
+attr(cw, "current_snapshot_only_codes")
+```
+
+## Transport and logistics facilities
+
+`infrastructure()` provides pinned redistributable aerodrome, port,
+border-control and trunk-network geometry. These are community mapping rather
+than an official register. Categories remain neutral, entity aliases and
+border-control component roles are retained, and unknown lifecycle status is
+preserved instead of treating every mapped feature as operational.
+
+```{r infrastructure}
+table(infrastructure(crs = 4326)$infrastructure_type)
+
+plot_vnmap() +
+  geom_infrastructure(type = c("aerodrome", "port"))
+```
+
+`aerodrome` does not establish commercial service and `port` does not establish
+seaport status. Inspect `infrastructure_class`, `service_type`, `status_source`,
+`facility_roles`, and `location_accuracy` before analysis. Province filtering
+uses spatial intersection, so cross-province network segments are retained.
+Network counts are OSM way segments rather than route counts. Lines lacking
+the expected motorway, `CT`, `QL`, or railway tags are outside this snapshot's
+selection and should not be interpreted as confirmed network absences.
+For railways, filter `class = "main_line"` only when explicitly tagged
+`usage=main`; yards, sidings, spurs, industrial and unspecified lines remain
+separate. Network `province_code` is deliberately missing because ways can span
+boundaries; `province_codes` and province filtering use polygon intersections.
+
 ## Socio-economic regions
 
 Every unit is tagged with one of the six General Statistics Office
@@ -99,6 +150,42 @@ head(province_info()[c("name_en", "region_code", "region_en")])
 
 Assignments for the 63-unit geography are the official ones; assignments for
 the merged 2025 units follow their dominant predecessor by population.
+
+## Industrial parks
+
+`industrial_parks()` returns a provenance-rich `sf` layer. Use `province`,
+`status`, or `include` to narrow it, and choose either the best available
+geometry, polygons only, or representative points.
+
+```{r industrial-parks}
+head(industrial_parks(province = "Dong Nai", geometry = "point"))
+
+plot_vnmap(include = "Dong Nai", color = "white", fill = "grey95") +
+  geom_industrial_parks(province = "Dong Nai")
+```
+
+The bundled snapshot includes only parks with a redistributable mapped
+location. Inspect `location_accuracy`, `geometry_type`, and `source_url` before
+using it for site-level analysis; it is not a legal boundary register.
+
+## Economic and policy zones
+
+Economic zones are legally distinct from industrial parks. The conservative
+first snapshot can be filtered by legal type, date, province, and status:
+
+```{r economic-zones, eval=FALSE}
+economic_zones(type = "border_gate_economic_zone", as_of = "2020-01-01")
+plot_vnmap() + geom_economic_zones(type = "national_high_tech_park")
+```
+
+Rows retain legal instruments and official URLs where verified; missing
+row-level instruments remain explicit candidate records. All initial
+geometries are deterministic province-only points, not legal boundaries. The
+current catalogue has 20 coastal and 26 border-gate records. The cited Ho Chi
+Minh City annex names three EPZs; it is not a national completeness source. Unknown
+establishment dates are retained by default in dated queries; use
+`include_unknown = FALSE` for a strict panel. Economic zones can contain
+industrial parks, but the two layers represent different legal entities.
 
 ## Working without sf
 

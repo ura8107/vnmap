@@ -7,17 +7,17 @@
 \format{
 A data frame with 34 rows and 12 variables:
 \describe{
-  \item{code}{Current two-digit administrative code.}
-  \item{name_vi, name_en}{Vietnamese and English unit names.}
-  \item{type}{Province or centrally governed municipality.}
-  \item{year}{Reference year, 2024.}
-  \item{area_km2}{Land area in square kilometres.}
-  \item{population}{Average population, in persons.}
-  \item{population_thousands}{Average population, in thousands of persons.}
-  \item{population_density}{Population divided by area, persons per km2.}
-  \item{grdp_per_capita_million_vnd}{GRDP per capita, million current VND.}
-  \item{grdp_preliminary}{Whether the GRDP value is preliminary.}
-  \item{member_codes}{Codes of the pre-2025 units used in aggregation.}
+\item{code}{Current two-digit administrative code.}
+\item{name_vi, name_en}{Vietnamese and English unit names.}
+\item{type}{Province or centrally governed municipality.}
+\item{year}{Reference year, 2024.}
+\item{area_km2}{Land area in square kilometres.}
+\item{population}{Average population, in persons.}
+\item{population_thousands}{Average population, in thousands of persons.}
+\item{population_density}{Population divided by area, persons per km2.}
+\item{grdp_per_capita_million_vnd}{GRDP per capita, million current VND.}
+\item{grdp_preliminary}{Whether the GRDP value is preliminary.}
+\item{member_codes}{Codes of the pre-2025 units used in aggregation.}
 }
 }
 \source{

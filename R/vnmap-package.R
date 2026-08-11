@@ -28,13 +28,18 @@
 #' matches the reference period and coding scheme of the statistical data.
 #'
 #' @section Data provenance:
-#' Geometry is derived from the public-domain geoBoundaries Viet Nam ADM1
-#' boundary `VNM-ADM1-63759600`. The current layer is constructed by dissolving
-#' historical provincial boundaries according to Decision 19/2025/QD-TTg.
-#' Source geometry is generalized and is appropriate for statistical
-#' visualization rather than surveying, navigation, or legal determinations.
+#' Historical 63-province geometry is derived from the public-domain
+#' geoBoundaries Viet Nam ADM1 boundary `VNM-ADM1-63759600`. Current communes
+#' use a pinned MIT-licensed community dataset derived upstream from Viet Nam's
+#' Administrative Units Reference Map; current provinces are dissolved from
+#' those exact commune polygons. Source geometry is generalized and is
+#' appropriate for statistical visualization rather than surveying,
+#' navigation, or legal determinations.
 #'
 #' @references
 #' geoBoundaries: \url{https://www.geoboundaries.org/}
+#'
+#' Vietnamese Provinces Database:
+#' \url{https://github.com/thanglequoc/vietnamese-provinces-database}
 #'
 "_PACKAGE"

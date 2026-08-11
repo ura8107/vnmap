@@ -9,24 +9,24 @@ province_info(x = NULL, geography = c("provinces", "provinces_63"))
 \arguments{
 \item{x}{Optional names or codes. When omitted, returns every unit.}
 
-\item{geography}{Either `"provinces"` for the current 34-unit geography or
-`"provinces_63"` for the historical 63-unit geography.}
+\item{geography}{Either \code{"provinces"} for the current 34-unit geography or
+\code{"provinces_63"} for the historical 63-unit geography.}
 }
 \value{
-A data frame containing `code`, `iso`, `name_vi`, `name_en`, `type`,
-  `region_code`, `region_vi`, and `region_en`. The `type` column
-  distinguishes provinces from centrally governed municipalities, and the
-  `region_*` columns give the socio-economic region (see
-  [province_region()]).
+A data frame containing \code{code}, \code{iso}, \code{name_vi}, \code{name_en}, \code{type},
+\code{region_code}, \code{region_vi}, and \code{region_en}. The \code{type} column
+distinguishes provinces from centrally governed municipalities, and the
+\verb{region_*} columns give the socio-economic region (see
+\code{\link[=province_region]{province_region()}}).
 }
 \description{
-Returns the lookup table used by `vnmap` to join statistical data to map
-geometry. Supplying `x` filters and orders the result to match the input.
+Returns the lookup table used by \code{vnmap} to join statistical data to map
+geometry. Supplying \code{x} filters and orders the result to match the input.
 }
 \details{
-With no `x`, rows are returned in ascending official code order.
-  With `x`, names and aliases are normalized by [province_code()] and the
-  returned rows follow the order of `x`.
+With no \code{x}, rows are returned in ascending official code order.
+With \code{x}, names and aliases are normalized by \code{\link[=province_code]{province_code()}} and the
+returned rows follow the order of \code{x}.
 }
 \examples{
 head(province_info())
@@ -34,5 +34,5 @@ province_info(c("01", "HCMC"))
 province_info("Bac Giang", geography = "provinces_63")
 }
 \seealso{
-[province_code()], [province_region()], [vn_map()]
+\code{\link[=province_code]{province_code()}}, \code{\link[=province_region]{province_region()}}, \code{\link[=vn_map]{vn_map()}}
 }
