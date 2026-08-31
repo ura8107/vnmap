@@ -16,6 +16,13 @@ reference:
   - province_code
   - province_info
   - province_region
+- title: Industrial parks
+  desc: The national industrial-park registry and its mapping coverage.
+  contents:
+  - industrial_parks
+  - industrial_park_registry
+  - industrial_park_coverage
+  - geom_industrial_parks
 - title: Data
   desc: Bundled provincial statistics.
   contents:

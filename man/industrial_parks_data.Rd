@@ -4,21 +4,57 @@
 \alias{industrial_parks_data}
 \title{Vietnamese industrial parks with mapped locations}
 \format{
-An internal \code{sf} object with \code{id}, \code{name_vi}, \code{name_en}, \code{aliases},
-\code{province_code}, \code{province_en}, \code{former_province_code}, \code{status}, \code{area_ha},
-\code{developer}, \code{geometry_type}, \code{location_accuracy}, \code{source_url},
-\code{source_date}, \code{verified_on}, and \code{geometry}.
+An internal object with one row per park and the columns:
+\describe{
+\item{id}{Stable registry identifier, \verb{VN-<category tag>-<province>-<slug>}.}
+\item{name_vi, name_en, short_name, aliases}{Vietnamese name, English name
+where tagged, diacritic-free short label, and pipe-separated alternates.}
+\item{park_key}{Diacritic-free matching key used to join external lists.}
+\item{category}{\code{"industrial_park"}, \code{"export_processing_zone"},
+\code{"high_tech_park"}, or \code{"industrial_cluster"}.}
+\item{province_code, province_en}{Current 34-unit assignment.}
+\item{former_province_code, former_province_en}{Pre-2025 63-unit assignment.}
+\item{commune_code, commune_name}{Current commune holding the park's
+representative point.}
+\item{status}{\code{"under_construction"} where tagged, otherwise \code{"unknown"}.}
+\item{area_ha}{Mapped site area in hectares; \code{NA} for locality records.}
+\item{developer}{Operator where tagged.}
+\item{geometry_type, location_accuracy, geometry_source}{How the location
+was derived: a drawn site polygon, a tagged site point, or the centre of
+the reference features naming the park.}
+\item{feature_count, osm_refs}{Number of contributing OpenStreetMap
+elements and their pipe-separated URLs.}
+\item{lon, lat}{Representative point in WGS 84.}
+\item{source_url, source_date, verified_on}{Provenance of the record.}
+\item{geometry}{Present in \code{\link[=industrial_parks]{industrial_parks()}}, absent from
+\code{\link[=industrial_park_registry]{industrial_park_registry()}}.}
+}
 }
 \source{
 OpenStreetMap contributors, ODbL 1.0,
-\url{https://www.openstreetmap.org/copyright}; official-list comparison:
-Foreign Investment Agency InvestVietnam,
-\url{https://www.investvietnam.gov.vn/en/industrial-zones.pl.html}.
+\url{https://www.openstreetmap.org/copyright}; official-register comparison:
+Foreign Investment Agency, Ministry of Finance, as of 30 September 2025,
+\url{https://tapchikinhtetaichinh.vn/ca-nuoc-co-478-khu-cong-nghiep-da-di-vao-hoat-dong-voi-ty-le-lap-day-cao-102742.html}.
 }
 \description{
-A conservative spatial snapshot of established industrial parks in Viet Nam.
-Records are included only when a redistributable mapped location can be
-identified. Boundaries and points come from OpenStreetMap and are linked to
-both the current 34-unit and former 63-unit provincial geographies.
+The national industrial-park registry bundled with the package: one row per
+park, built from a dated OpenStreetMap snapshot and linked to both the
+current 34-unit and former 63-unit provincial geographies as well as the
+current commune geography.
+}
+\details{
+Two kinds of OpenStreetMap evidence contribute. Where the park is drawn as
+an industrial landuse area, that boundary is kept and
+\code{location_accuracy} is \code{"site"}. Where it is only named by an entrance gate,
+a bus stop, an internal road or a plant inside it, the park still earns a
+record placed at the centre of those references, with \code{location_accuracy}
+\code{"locality"} and no \code{area_ha}. Features are matched to one another on a
+diacritic-free \code{park_key} and clustered within a province, so a park drawn
+in several phases and signposted from several directions is a single row.
+
+The registry is conservative: a park enters it only when a redistributable
+mapped location exists, so it is smaller than the official register and its
+completeness varies by province. Use \code{\link[=industrial_park_coverage]{industrial_park_coverage()}} to see the
+gap rather than assuming the registry is exhaustive.
 }
 \keyword{datasets}

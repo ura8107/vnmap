@@ -11,6 +11,8 @@ geom_industrial_parks(
   include = NULL,
   geometry = c("best", "polygon", "point"),
   crs = vnmap_crs(),
+  category = NULL,
+  accuracy = NULL,
   polygon_fill = "#e69f00",
   polygon_colour = "#9a6700",
   point_colour = "#b2182b",
@@ -33,6 +35,12 @@ geom_industrial_parks(
 converts polygon sites to points guaranteed to lie on their surfaces.}
 
 \item{crs}{Coordinate reference system understood by \code{\link[sf:st_transform]{sf::st_transform()}}.}
+
+\item{category}{Optional category values: \code{"industrial_park"},
+\code{"export_processing_zone"}, \code{"high_tech_park"}, or \code{"industrial_cluster"}.}
+
+\item{accuracy}{Optional location accuracy: \code{"site"} for records with a
+mapped boundary, \code{"locality"} for records placed by a nearby reference.}
 
 \item{polygon_fill, polygon_colour}{Fill and outline colours for polygons.}
 

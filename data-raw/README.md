@@ -109,17 +109,49 @@ so filter with `province` and join on `province_code` together with the name.
 ## Industrial parks
 
 Run `Rscript data-raw/build_industrial_parks.R` to regenerate
-`inst/extdata/industrial_parks.rds`. The build downloads named industrial
-sites from OpenStreetMap through Overpass, retains only features explicitly
-mapped as industrial land or an industrial park, validates their geometry, and
-spatially joins them to both provincial geographies. Set `VNMAP_OSM_FILE` to a
-saved Overpass JSON response for a reproducible dated rebuild.
+`inst/extdata/industrial_parks.rds`, `inst/extdata/industrial_park_registry.rds`,
+`inst/extdata/industrial_park_baseline.rds`, the reviewable text mirror
+`industrial-parks-registry.csv`, and `industrial-parks-audit.csv`. Set
+`VNMAP_OSM_FILE` to a saved Overpass JSON response for a reproducible dated
+rebuild; the pinned 2026-08-11 snapshot under `source/` is used by default.
 
-OpenStreetMap geometry is used under ODbL 1.0. InvestVietnam is the comparison
-source for the official national list, but its geometry is not redistributed.
-The generated `industrial-parks-audit.csv` records mapped coverage against the
-2025 baseline of 478 established parks. Missing locations remain explicit
-coverage gaps rather than being replaced with province centroids.
+The Overpass request matches every Vietnamese feature whose name mentions an
+industrial park, export-processing zone or industrial cluster, and the build
+mines two kinds of evidence from it:
+
+* **site features** carry `landuse=industrial` or `industrial=industrial_park`
+  and supply the park's boundary;
+* **reference features** are everything else that names a park - an entrance
+  gate, a bus stop, an internal road, a plant inside it. They supply no
+  boundary but do place the park, so a park OpenStreetMap has not drawn still
+  earns a record at `location_accuracy = "locality"`.
+
+Names are reduced to a diacritic-free `park_key` by taking the words that
+follow the category keyword up to the first address or route marker. The marker
+lists are deliberately shaped: Vietnamese park names reuse the same syllables as
+address words once diacritics are gone, so `duong` cuts "Hai Duong" only when a
+road number follows, `xa` cuts only when another word follows it, and phrases
+such as `doi dien`, `noi bo` and `thanh pho` cut only as pairs. Keys are then
+clustered within a province at a 5 km single linkage, so phases of one park
+drawn as several areas and signposted from several directions collapse to one
+row, and a reference-only cluster is dropped when the same key is already drawn
+as a site in that province.
+
+Records that survive parsing but do not denote a park - a management board, a
+warehouse address, a fragment of a longer name - are listed with a reason in
+`industrial-parks-exclusions.csv` and removed by key, optionally scoped to one
+province. Former-province assignment is constrained to the merger members of
+the park's current province, because the 63-unit layer comes from a coarser
+public-domain source and a point near a former boundary can otherwise land in a
+unit that never merged into that province.
+
+OpenStreetMap geometry is used under ODbL 1.0.
+`industrial-park-official-baseline.csv` holds the cited official national
+totals - 478 established industrial parks over about 145,970 ha as of
+30 September 2025, from the Foreign Investment Agency (Ministry of Finance) -
+against which `industrial-parks-audit.csv` and `industrial_park_coverage()`
+measure mapping coverage. Missing parks remain explicit coverage gaps rather
+than being replaced with province centroids.
 
 ## Economic and policy zones
 

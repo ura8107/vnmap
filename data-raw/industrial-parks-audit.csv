@@ -1,6 +1,9 @@
 "metric","value"
-"official_established_baseline_2025",478
-"mapped_snapshot_records",294
-"unmapped_against_baseline",184
-"polygon_records",284
-"point_records",10
+"official_established_baseline",478
+"registry_records",309
+"industrial_park_and_epz_records",309
+"unmapped_against_baseline",169
+"site_boundary_records",258
+"locality_point_records",51
+"provinces_covered",28
+"communes_identified",309

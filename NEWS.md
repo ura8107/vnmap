@@ -26,6 +26,24 @@
   Polygon sites are used where redistributable boundaries exist, with point
   fallback and explicit location-accuracy metadata.
 
+* Rebuilt the industrial-park layer as a national registry with one row per
+  park rather than one row per OpenStreetMap element. Parks that OpenStreetMap
+  names but has not drawn - through an entrance gate, a bus stop, an internal
+  road or a plant inside them - now enter the registry as locality-accuracy
+  records, and phases of one park drawn as several areas are merged. Records
+  gain `park_key`, `category`, `commune_code`, `commune_name`,
+  `former_province_en`, `short_name`, `geometry_source`, `feature_count`,
+  `osm_refs`, `lon` and `lat`, and `industrial_parks()` gains `category` and
+  `accuracy` filters. Identifiers are now stable registry keys such as
+  `VN-IP-75-bien-hoa-2`; the contributing OpenStreetMap element URLs remain in
+  `osm_refs`.
+
+* Added `industrial_park_registry()`, which returns the same records as a plain
+  data frame without requiring `sf`, and `industrial_park_coverage()`, which
+  reports mapped parks per province and compares the registry with the official
+  national count of established industrial parks (478 as of 30 September 2025,
+  Foreign Investment Agency, Ministry of Finance).
+
 * `province_region()` returns the General Statistics Office socio-economic
   region for each unit, and `province_info()` now includes `region_code`,
   `region_vi`, and `region_en` columns.

@@ -22,11 +22,15 @@ Sources:
 Copyright: OpenStreetMap contributors
 License: ODbL 1.0
 Files: extdata/infrastructure.rds
+    extdata/industrial_parks.rds
+    extdata/industrial_park_registry.rds
 URL: https://www.openstreetmap.org/copyright
-Comment: Fixed Overpass snapshot observed 11 August 2026. This is community
-    mapping, not an official transport register. The infrastructure derivative
-    database remains available under ODbL 1.0; maps and other produced works
-    must retain OpenStreetMap contributor attribution as required by ODbL.
+Comment: Fixed Overpass snapshots observed 11 August 2026. This is community
+    mapping, not an official transport or industrial-park register. The
+    derivative databases remain available under ODbL 1.0; maps and other
+    produced works must retain OpenStreetMap contributor attribution as
+    required by ODbL. Industrial-park records name the contributing elements in
+    osm_refs.
 
 Sources:
     Government legal-document portal of Viet Nam
@@ -38,3 +42,15 @@ Comment: Document identifiers, dates and zone names are factual metadata. The
     package links rather than redistributes legal texts. Representative points
     are derived from vnmap's bundled pre-2025 province geometry and are not
     legal boundary drawings, cadastral locations, or copied web-map features.
+
+Sources:
+    Foreign Investment Agency, Ministry of Finance of Viet Nam
+Copyright: Government of Viet Nam; factual figures selected by vnmap authors
+License: Aggregate factual figures, cited not redistributed as a work
+Files: extdata/industrial_park_baseline.rds
+URL: https://tapchikinhtetaichinh.vn/ca-nuoc-co-478-khu-cong-nghiep-da-di-vao-hoat-dong-voi-ty-le-lap-day-cao-102742.html
+Comment: Published national totals for established, operating and
+    under-construction industrial parks as of 30 September 2025. The table
+    holds counts and areas only; it carries no park list, names or geometry,
+    and exists so that mapping coverage can be stated against the official
+    register rather than assumed.

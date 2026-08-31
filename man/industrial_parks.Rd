@@ -9,7 +9,9 @@ industrial_parks(
   status = NULL,
   include = NULL,
   geometry = c("best", "polygon", "point"),
-  crs = vnmap_crs()
+  crs = vnmap_crs(),
+  category = NULL,
+  accuracy = NULL
 )
 }
 \arguments{
@@ -24,16 +26,30 @@ industrial_parks(
 converts polygon sites to points guaranteed to lie on their surfaces.}
 
 \item{crs}{Coordinate reference system understood by \code{\link[sf:st_transform]{sf::st_transform()}}.}
+
+\item{category}{Optional category values: \code{"industrial_park"},
+\code{"export_processing_zone"}, \code{"high_tech_park"}, or \code{"industrial_cluster"}.}
+
+\item{accuracy}{Optional location accuracy: \code{"site"} for records with a
+mapped boundary, \code{"locality"} for records placed by a nearby reference.}
 }
 \value{
 An \code{sf} object. See \link{industrial_parks_data} for data provenance.
 }
 \description{
-Returns established Vietnamese industrial parks with the best redistributable
-geometry available for each park. Polygon boundaries are retained where a
-mapped site boundary is available; otherwise a representative point is used.
+Returns the national industrial-park registry with the best redistributable
+geometry available for each park. Site boundaries are retained where
+OpenStreetMap has drawn the park; the remaining parks are placed by a
+representative point derived from a gate, bus stop, internal road or other
+feature that names them.
 }
 \examples{
 parks <- industrial_parks(province = "Dong Nai")
 points <- industrial_parks(geometry = "point", crs = 4326)
+
+# Only parks whose boundary is mapped.
+sites <- industrial_parks(accuracy = "site")
+}
+\seealso{
+\code{\link[=industrial_park_registry]{industrial_park_registry()}}, \code{\link[=industrial_park_coverage]{industrial_park_coverage()}}
 }

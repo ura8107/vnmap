@@ -153,9 +153,10 @@ the merged 2025 units follow their dominant predecessor by population.
 
 ## Industrial parks
 
-`industrial_parks()` returns a provenance-rich `sf` layer. Use `province`,
-`status`, or `include` to narrow it, and choose either the best available
-geometry, polygons only, or representative points.
+`industrial_parks()` returns the national park registry as a provenance-rich
+`sf` layer, one row per park. Use `province`, `status`, `category`, `accuracy`
+or `include` to narrow it, and choose either the best available geometry,
+polygons only, or representative points.
 
 ```{r industrial-parks}
 head(industrial_parks(province = "Dong Nai", geometry = "point"))
@@ -164,9 +165,32 @@ plot_vnmap(include = "Dong Nai", color = "white", fill = "grey95") +
   geom_industrial_parks(province = "Dong Nai")
 ```
 
-The bundled snapshot includes only parks with a redistributable mapped
-location. Inspect `location_accuracy`, `geometry_type`, and `source_url` before
-using it for site-level analysis; it is not a legal boundary register.
+`industrial_park_registry()` returns the same records without geometry, which
+does not need `sf` and is the natural table to join an external park list to,
+either on `park_key` or on the administrative codes.
+
+```{r industrial-park-registry}
+registry <- industrial_park_registry(province = "Dong Nai")
+head(registry[c("id", "name_vi", "commune_name", "area_ha", "location_accuracy")])
+```
+
+Records with `location_accuracy = "site"` carry a mapped boundary and an
+`area_ha`. Records with `"locality"` are parks that OpenStreetMap names but has
+not drawn; they are placed at the centre of the gates, stops, roads and plants
+that name them, and are useful for locating a park but not for measuring it.
+
+The registry includes only parks with a redistributable mapped location, so it
+is smaller than the legal register and unevenly complete across provinces.
+`industrial_park_coverage()` reports that gap, per province and against the
+official national count.
+
+```{r industrial-park-coverage}
+head(industrial_park_coverage())
+industrial_park_coverage("national")[c("metric", "value", "mapped", "coverage")]
+```
+
+Inspect `location_accuracy`, `geometry_source`, and `osm_refs` before using the
+layer for site-level analysis; it is not a legal boundary register.
 
 ## Economic and policy zones
 

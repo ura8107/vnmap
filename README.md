@@ -184,8 +184,10 @@ Only the geometry functions (`vn_map()`, `plot_vnmap()`, `vnmap_crs()`) require
 
 ## Industrial parks
 
-The bundled industrial-park snapshot can be filtered using current or former
-province names and added directly to an ordinary `ggplot2` map:
+The bundled registry holds one row per industrial park, keyed to the current
+34-unit provinces, the pre-2025 63-unit provinces, and the current communes. It
+can be filtered using current or former province names and added directly to an
+ordinary `ggplot2` map:
 
 ```r
 industrial_parks(province = "Dong Nai", geometry = "point")
@@ -194,10 +196,35 @@ plot_vnmap(include = "Dong Nai", color = "white") +
   geom_industrial_parks(province = "Dong Nai")
 ```
 
-Mapped site boundaries are returned as polygons; parks without a redistributable
-boundary use representative points. Every row carries source and location
-precision fields. The snapshot is intentionally conservative and does not
-replace the Vietnamese government's legal register of established parks.
+`industrial_park_registry()` returns the same records as a plain data frame with
+`lon`/`lat` columns and no `sf` requirement, which is the convenient form for
+joining an external list of parks on `park_key` or on the administrative codes.
+
+```r
+registry <- industrial_park_registry(province = "Dong Nai")
+registry[c("id", "name_vi", "commune_name", "area_ha", "location_accuracy")]
+```
+
+Parks that OpenStreetMap has drawn are returned as polygons with
+`location_accuracy = "site"`. Parks that it only names - through an entrance
+gate, a bus stop, an internal road or a plant inside them - are still recorded,
+placed at the centre of those references with `location_accuracy = "locality"`
+and no `area_ha`. Filter with `accuracy = "site"` when a boundary is required.
+Every row carries the contributing OpenStreetMap elements in `osm_refs`.
+
+The registry is intentionally conservative: a park enters it only where a
+redistributable mapped location exists, so it is smaller than the government's
+legal register and unevenly complete across provinces.
+`industrial_park_coverage()` states that gap rather than leaving it implied.
+
+```r
+head(industrial_park_coverage())
+industrial_park_coverage("national")
+```
+
+The national comparison is made against the Foreign Investment Agency (Ministry
+of Finance) count of 478 established industrial parks as of 30 September 2025.
+This is a mapping snapshot, not a substitute for the legal register.
 
 ## Economic and policy zones
 
@@ -241,6 +268,13 @@ current 34 units: population and area are summed, density is recalculated, and
 GRDP per capita is population-weighted. The source values are rounded, so
 aggregated results are estimates. Run `Rscript data-raw/fetch_nso_stats.R` to
 refresh the statistical datasets from the official tables.
+
+The industrial-park registry is derived from a pinned OpenStreetMap Overpass
+snapshot observed 11 August 2026 and used under ODbL 1.0; each record names the
+contributing elements in `osm_refs`. Its coverage is measured against the
+Foreign Investment Agency (Ministry of Finance) national totals as of
+30 September 2025, which are bundled as counts and areas only, with no park
+list or geometry taken from that source.
 
 The historical source vintage is 2008; the current source is an observed
 25 July 2026 snapshot. Always select the geography matching the data period.
