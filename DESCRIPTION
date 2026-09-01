@@ -31,4 +31,4 @@ VignetteBuilder: knitr
 Roxygen: list(markdown = TRUE)
 URL: https://github.com/ura8107/vnmap, https://ura8107.github.io/vnmap/
 BugReports: https://github.com/ura8107/vnmap/issues
-Config/roxygen2/version: 8.0.0
+Config/roxygen2/version: 8.1.0

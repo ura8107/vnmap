@@ -108,18 +108,65 @@ so filter with `province` and join on `province_code` together with the name.
 
 ## Industrial parks
 
-Run `Rscript data-raw/build_industrial_parks.R` to regenerate
-`inst/extdata/industrial_parks.rds`. The build downloads named industrial
-sites from OpenStreetMap through Overpass, retains only features explicitly
-mapped as industrial land or an industrial park, validates their geometry, and
-spatially joins them to both provincial geographies. Set `VNMAP_OSM_FILE` to a
-saved Overpass JSON response for a reproducible dated rebuild.
+Acquisition and classification are separate steps, so the classification can be
+revised without re-querying the network.
 
-OpenStreetMap geometry is used under ODbL 1.0. InvestVietnam is the comparison
-source for the official national list, but its geometry is not redistributed.
-The generated `industrial-parks-audit.csv` records mapped coverage against the
-2025 baseline of 478 established parks. Missing locations remain explicit
-coverage gaps rather than being replaced with province centroids.
+`sh data-raw/acquire_industrial_parks_osm.sh` writes a dated Overpass snapshot
+to `source/osm-industrial-parks-<date>.json.gz` and prints its SHA-256. The
+request is a deliberate superset: every named industrial land use, every
+feature tagged as an industrial park, and every feature whose name carries a
+Vietnamese or English park, zone or cluster designation. It retries across
+Overpass mirrors, because the public endpoints reject requests under load with
+an HTTP 200 and an HTML body; the script validates the payload before accepting
+it. Set `VNMAP_OVERPASS_ENDPOINTS` to override the mirror list and
+`VNMAP_SNAPSHOT_DATE` to override the output date.
+
+`Rscript data-raw/build_industrial_parks.R` turns that snapshot into
+`inst/extdata/industrial_parks.rds`. Set `VNMAP_OSM_FILE` to read a snapshot
+from elsewhere and `VNMAP_SNAPSHOT_DATE` to select a dated one.
+
+The build:
+
+* reads the designation from the name, anchored at the start of the name or at
+  an English suffix, so a bus stop called "Tram xe bus KCN Tan Binh" is not a
+  park while "KCN Tan Binh" is, and records it as `category`;
+* drops features whose tags make them something inside a park - gates, stops,
+  fuel stations, banks - and features named for a tenant company, a factory or
+  a management board;
+* drops features named only by their designation, since they cannot be
+  reconciled with the register;
+* assembles relation multipolygons from their outer members, repairs
+  self-intersecting hand-drawn rings, and validates every geometry;
+* joins each feature to both provincial geographies. The two layers come from
+  different upstream sources, so a former-province code that is not one of the
+  units its current province absorbed in 2025 is replaced by the nearest one
+  that is;
+* merges the pieces of a single park - phases, expansions, a site split by a
+  road - when they share a province, a designation and a canonical name and lie
+  within a kilometre, recording `part_count` and `osm_ids`. The base name wins
+  over a phase name; the rest become aliases;
+* drops nodes naming a street or gate inside a mapped park, identified by the
+  park name being a prefix of the node name. A contained node with an unrelated
+  name is a neighbouring park with an imprecise boundary and is kept.
+
+Two reviewed files carry decisions no rule can make. Parks mapped under a brand
+name with no legal designation ("VSIP III") cannot be admitted automatically
+without also admitting the steelworks and power stations that share their tags
+and size, so `industrial-parks-include.csv` lists ids to admit with their
+category and a reason, and `industrial-parks-exclude.csv` lists ids to reject.
+Every unclassified named industrial polygon of at least 50 ha is written to
+`industrial-parks-review.csv` for triage rather than guessed at.
+
+OpenStreetMap geometry is used under ODbL 1.0. The official baseline is
+`industrial-park-baseline.csv`, which records the Foreign Investment Agency
+(Ministry of Finance) figures of 16 November 2025 with their source URL: 478
+established parks, 324 in operation, 153 under construction. The generated
+`industrial-parks-audit.csv` records mapped coverage against that baseline and
+`industrial-parks-province-audit.csv` breaks the mapped records down by current
+province and status. `industrial-parks-register.csv` is a readable dump of the
+built layer. Missing locations remain explicit coverage gaps rather than being
+replaced with province centroids; `industrial_parks(attributes = ...)` is the
+supported way for a user to add them.
 
 ## Economic and policy zones
 

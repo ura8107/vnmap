@@ -1,0 +1,37 @@
+"province_code","province_en","status","mapped_records"
+"01","Ha Noi","operational",13
+"04","Cao Bang","operational",1
+"08","Tuyen Quang","operational",1
+"19","Thai Nguyen","operational",6
+"22","Quang Ninh","operational",8
+"24","Bac Ninh","operational",24
+"25","Phu Tho","operational",13
+"31","Hai Phong","operational",17
+"33","Hung Yen","operational",18
+"37","Ninh Binh","operational",19
+"38","Thanh Hoa","operational",5
+"40","Nghe An","operational",3
+"44","Quang Tri","operational",5
+"46","Hue","operational",2
+"48","Da Nang","operational",9
+"51","Quang Ngai","operational",1
+"52","Gia Lai","operational",4
+"56","Khanh Hoa","operational",2
+"66","Dak Lak","operational",4
+"68","Lam Dong","operational",5
+"75","Dong Nai","operational",26
+"79","Ho Chi Minh City","operational",52
+"80","Tay Ninh","operational",28
+"82","Dong Thap","operational",4
+"86","Vinh Long","operational",5
+"91","An Giang","operational",2
+"92","Can Tho","operational",5
+"96","Ca Mau","operational",1
+"24","Bac Ninh","under_construction",2
+"01","Ha Noi","unknown",3
+"24","Bac Ninh","unknown",1
+"31","Hai Phong","unknown",2
+"75","Dong Nai","unknown",1
+"79","Ho Chi Minh City","unknown",6
+"80","Tay Ninh","unknown",1
+"82","Dong Thap","unknown",1

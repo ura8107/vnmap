@@ -1,3 +1,45 @@
+# vnmap (development version)
+
+## Industrial parks
+
+* `industrial_parks()` gains a `category` argument separating khu cong nghiep,
+  khu che xuat, khu cong nghe cao and cum cong nghiep. The default is the
+  national register scope - industrial parks and export processing zones - so
+  provincial-tier industrial clusters no longer sit unlabelled alongside them.
+
+  `category` sits after `province` in the signature, so calls that passed
+  `status` positionally as the second argument must now name it. Filtering by
+  the default also removes the industrial clusters that previous versions
+  returned unlabelled.
+
+* `industrial_parks()` gains an `attributes` argument that overlays
+  user-supplied basic information onto the bundled layer. Rows matching an
+  existing `id` update that park; rows with a new `id` add a park from a
+  supplied name, province and coordinate, which is how a park the snapshot does
+  not carry gets onto a map. Changed and added rows are marked
+  `attribute_source = "user"`.
+
+* Added `industrial_parks_template()`, which writes the columns a user may fill
+  in, and `write_industrial_parks()`, which exports a layer as CSV, GeoJSON or
+  GeoPackage. CSV output carries `longitude` and `latitude` and feeds straight
+  back into `attributes`.
+
+* Rebuilt the industrial-park layer from a 31 August 2026 OpenStreetMap
+  snapshot, acquired by the new `data-raw/acquire_industrial_parks_osm.sh`.
+  The build now assembles relation multipolygons, merges the separately mapped
+  phases and expansions of one park into a single record with `part_count` and
+  `osm_ids`, drops street and gate nodes named after their host park, and
+  reconciles former-province codes against the 2025 merger membership so a park
+  cannot be attributed to a former province its current province never
+  absorbed. New columns: `category`, `website`, `part_count`, `osm_ids`,
+  `source`, `attribute_source`.
+
+* The official coverage baseline is now recorded in
+  `data-raw/industrial-park-baseline.csv` with its source and date rather than
+  as a bare constant, and the audit reports mapped area against official area.
+  Borderline sites are written to `data-raw/industrial-parks-review.csv` for
+  triage instead of being admitted or dropped silently.
+
 # vnmap 0.2.0
 
 ## New features

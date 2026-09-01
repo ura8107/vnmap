@@ -199,6 +199,53 @@ boundary use representative points. Every row carries source and location
 precision fields. The snapshot is intentionally conservative and does not
 replace the Vietnamese government's legal register of established parks.
 
+`category` separates designations that Vietnamese law does not treat as
+interchangeable. The default is the register scope, khu cong nghiep
+(`industrial_park`) plus khu che xuat (`export_processing_zone`); khu cong nghe
+cao (`hi_tech_park`) and the provincial-tier cum cong nghiep
+(`industrial_cluster`) are returned only on request.
+
+```r
+industrial_parks(category = "industrial_cluster")
+industrial_parks(category = NULL)   # every designation
+```
+
+A park mapped in several pieces - phases, an expansion, a site split by a road -
+is one record; `part_count` and `osm_ids` say how many OpenStreetMap features
+it came from.
+
+### Reading and writing basic information
+
+`industrial_parks_template()` writes the columns a user may fill in, and
+`industrial_parks()` reads them back through `attributes`. A row whose `id`
+already exists updates that park; a row with a new `id` adds a park, which is
+how a park missing from the snapshot gets onto the map. Only non-empty values
+are applied, and every changed or added row is marked
+`attribute_source = "user"`.
+
+```r
+industrial_parks_template("parks.csv", province = "Dong Nai", blank = TRUE)
+# fill in parks.csv, then:
+parks <- industrial_parks(province = "Dong Nai", attributes = "parks.csv")
+plot_vnmap(include = "Dong Nai") + geom_industrial_parks(data = parks)
+```
+
+`write_industrial_parks()` exports a layer as CSV, GeoJSON or GeoPackage. CSV
+output drops the geometry and adds `longitude` and `latitude`, so it can be
+edited and fed straight back through `attributes`.
+
+```r
+write_industrial_parks(parks, "parks.geojson")
+```
+
+### Coverage
+
+The snapshot holds mapped locations for a fraction of the national register:
+`data-raw/industrial-parks-audit.csv` reports the mapped count against the
+478 established parks in the Foreign Investment Agency's November 2025 report.
+Parks with no redistributable mapped location are absent rather than placed at
+a province centroid; `attributes` is the supported way to add them.
+
 ## Economic and policy zones
 
 `economic_zones()` provides a deliberately conservative, evidence-graded

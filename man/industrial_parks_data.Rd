@@ -5,20 +5,40 @@
 \title{Vietnamese industrial parks with mapped locations}
 \format{
 An internal \code{sf} object with \code{id}, \code{name_vi}, \code{name_en}, \code{aliases},
-\code{province_code}, \code{province_en}, \code{former_province_code}, \code{status}, \code{area_ha},
-\code{developer}, \code{geometry_type}, \code{location_accuracy}, \code{source_url},
-\code{source_date}, \code{verified_on}, and \code{geometry}.
+\code{category}, \code{province_code}, \code{province_en}, \code{former_province_code},
+\code{status}, \code{area_ha}, \code{developer}, \code{website}, \code{geometry_type},
+\code{location_accuracy}, \code{part_count}, \code{osm_ids}, \code{source}, \code{source_url},
+\code{verified_on}, \code{attribute_source}, and \code{geometry}.
 }
 \source{
 OpenStreetMap contributors, ODbL 1.0,
-\url{https://www.openstreetmap.org/copyright}; official-list comparison:
-Foreign Investment Agency InvestVietnam,
-\url{https://www.investvietnam.gov.vn/en/industrial-zones.pl.html}.
+\url{https://www.openstreetmap.org/copyright}. The official baseline used
+for the coverage audit is the Foreign Investment Agency (Ministry of
+Finance) national industrial-park report of 16 November 2025, recorded with
+its source URL in \code{data-raw/industrial-park-baseline.csv}.
 }
 \description{
-A conservative spatial snapshot of established industrial parks in Viet Nam.
-Records are included only when a redistributable mapped location can be
-identified. Boundaries and points come from OpenStreetMap and are linked to
-both the current 34-unit and former 63-unit provincial geographies.
+A conservative spatial snapshot of Vietnamese industrial parks, export
+processing zones, hi-tech parks and industrial clusters. Records are
+included only when a redistributable mapped location can be identified, so
+the layer is a mapped subset of the national register rather than the
+register itself: \code{data-raw/industrial-parks-audit.csv} reports mapped
+coverage against the official count of established parks, and unmapped
+parks are left out rather than being placed at a province centroid.
+}
+\details{
+Sites mapped in several pieces - phases, expansions, a site split by a road
+\itemize{
+\item are merged into one record; \code{part_count} and \code{osm_ids} record how many
+OpenStreetMap features contributed and which ones. Boundaries and points are
+linked to both the current 34-unit and former 63-unit provincial
+geographies.
+}
+
+\code{category} separates the legal designations, which are not interchangeable:
+\code{"industrial_park"} (khu cong nghiep) and \code{"export_processing_zone"}
+(khu che xuat) are both counted in the national industrial-park register,
+while \code{"hi_tech_park"} (khu cong nghe cao) and \code{"industrial_cluster"}
+(cum cong nghiep, a provincial tier) are not.
 }
 \keyword{datasets}

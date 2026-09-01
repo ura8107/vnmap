@@ -6,14 +6,22 @@
 \usage{
 industrial_parks(
   province = NULL,
+  category = .ip_register,
   status = NULL,
   include = NULL,
   geometry = c("best", "polygon", "point"),
+  attributes = NULL,
   crs = vnmap_crs()
 )
 }
 \arguments{
 \item{province}{Optional current or pre-2025 provincial identifiers.}
+
+\item{category}{Designations to return. Defaults to the two designations
+counted in the national industrial-park register, \code{"industrial_park"}
+(khu cong nghiep) and \code{"export_processing_zone"} (khu che xuat). Also
+accepts \code{"hi_tech_park"} and \code{"industrial_cluster"}, which are separate
+legal categories, or \code{NULL} for every category.}
 
 \item{status}{Optional status values: \code{"operational"},
 \code{"under_construction"}, \code{"established_not_started"}, or \code{"unknown"}.}
@@ -23,17 +31,34 @@ industrial_parks(
 \item{geometry}{One of \code{"best"}, \code{"polygon"}, or \code{"point"}. \code{"point"}
 converts polygon sites to points guaranteed to lie on their surfaces.}
 
+\item{attributes}{Optional user-supplied basic information: a data frame, or
+a path to a CSV file, with an \code{id} column. See
+\code{\link[=industrial_parks_template]{industrial_parks_template()}}.}
+
 \item{crs}{Coordinate reference system understood by \code{\link[sf:st_transform]{sf::st_transform()}}.}
 }
 \value{
 An \code{sf} object. See \link{industrial_parks_data} for data provenance.
 }
 \description{
-Returns established Vietnamese industrial parks with the best redistributable
-geometry available for each park. Polygon boundaries are retained where a
-mapped site boundary is available; otherwise a representative point is used.
+Returns Vietnamese industrial parks with the best redistributable geometry
+available for each park. Polygon boundaries are retained where a mapped site
+boundary is available; otherwise a representative point is used.
+}
+\details{
+The bundled layer is a mapped subset, not the national register: see
+\link{industrial_parks_data} for the coverage gap against the official count of
+established parks. Use \code{attributes} to supply parks or attribute values the
+snapshot does not carry, and \code{\link[=industrial_parks_template]{industrial_parks_template()}} to produce a file
+in the expected shape.
 }
 \examples{
 parks <- industrial_parks(province = "Dong Nai")
 points <- industrial_parks(geometry = "point", crs = 4326)
+clusters <- industrial_parks(category = "industrial_cluster")
+}
+\seealso{
+\code{\link[=industrial_parks_template]{industrial_parks_template()}} and \code{\link[=write_industrial_parks]{write_industrial_parks()}} for
+reading and writing basic information, \code{\link[=geom_industrial_parks]{geom_industrial_parks()}} for
+mapping.
 }

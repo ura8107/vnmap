@@ -154,8 +154,8 @@ the merged 2025 units follow their dominant predecessor by population.
 ## Industrial parks
 
 `industrial_parks()` returns a provenance-rich `sf` layer. Use `province`,
-`status`, or `include` to narrow it, and choose either the best available
-geometry, polygons only, or representative points.
+`category`, `status`, or `include` to narrow it, and choose either the best
+available geometry, polygons only, or representative points.
 
 ```{r industrial-parks}
 head(industrial_parks(province = "Dong Nai", geometry = "point"))
@@ -164,9 +164,43 @@ plot_vnmap(include = "Dong Nai", color = "white", fill = "grey95") +
   geom_industrial_parks(province = "Dong Nai")
 ```
 
+`category` keeps designations apart that Vietnamese law does not treat as
+interchangeable. The default covers the national register scope, khu cong
+nghiep and khu che xuat; provincial-tier industrial clusters and hi-tech parks
+are returned only when asked for.
+
+```{r industrial-park-categories}
+table(industrial_parks(category = NULL)$category)
+```
+
 The bundled snapshot includes only parks with a redistributable mapped
 location. Inspect `location_accuracy`, `geometry_type`, and `source_url` before
 using it for site-level analysis; it is not a legal boundary register.
+
+### Supplying your own basic information
+
+Because the snapshot covers a fraction of the national register, parks and
+attributes it does not carry can be supplied by the user.
+`industrial_parks_template()` writes the columns that may be filled in, and
+`attributes` reads them back: a row whose `id` already exists updates that
+park, and a row with a new `id` adds one from a name, province and coordinate.
+
+```{r industrial-park-attributes}
+extra <- data.frame(
+  id = "local_kcn_1",
+  name_vi = "Khu cong nghiep Vi Du",
+  province_code = "48",
+  area_ha = 120,
+  longitude = 108.15,
+  latitude = 16.05
+)
+parks <- industrial_parks(province = "Da Nang", attributes = extra)
+table(parks$source)
+```
+
+`write_industrial_parks()` sends a layer back out as CSV, GeoJSON or
+GeoPackage. The CSV form carries `longitude` and `latitude`, so it can be
+edited outside R and fed straight back through `attributes`.
 
 ## Economic and policy zones
 

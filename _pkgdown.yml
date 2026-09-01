@@ -4,6 +4,9 @@ template:
   bootstrap: 5
 
 reference:
+- title: Package
+  contents:
+  - vnmap-package
 - title: Maps
   desc: Draw maps and retrieve boundary geometry.
   contents:
@@ -16,11 +19,28 @@ reference:
   - province_code
   - province_info
   - province_region
+- title: Industry and infrastructure
+  desc: Industrial parks, economic zones and transport infrastructure.
+  contents:
+  - industrial_parks
+  - industrial_parks_template
+  - write_industrial_parks
+  - geom_industrial_parks
+  - economic_zones
+  - geom_economic_zones
+  - infrastructure
+  - geom_infrastructure
 - title: Data
-  desc: Bundled provincial statistics.
+  desc: Bundled provincial statistics and layer documentation.
   contents:
   - province_stats_2024
   - province_stats_2024_63
+  - industrial_parks_data
+- title: Administrative crosswalk
+  desc: Relate the 2025 units to their predecessors.
+  contents:
+  - administrative_crosswalk
+  - download_administrative_crosswalk
 
 articles:
 - title: Get started

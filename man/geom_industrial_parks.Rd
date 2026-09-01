@@ -7,9 +7,11 @@
 geom_industrial_parks(
   data = NULL,
   province = NULL,
+  category = .ip_register,
   status = NULL,
   include = NULL,
   geometry = c("best", "polygon", "point"),
+  attributes = NULL,
   crs = vnmap_crs(),
   polygon_fill = "#e69f00",
   polygon_colour = "#9a6700",
@@ -24,6 +26,12 @@ geom_industrial_parks(
 
 \item{province}{Optional current or pre-2025 provincial identifiers.}
 
+\item{category}{Designations to return. Defaults to the two designations
+counted in the national industrial-park register, \code{"industrial_park"}
+(khu cong nghiep) and \code{"export_processing_zone"} (khu che xuat). Also
+accepts \code{"hi_tech_park"} and \code{"industrial_cluster"}, which are separate
+legal categories, or \code{NULL} for every category.}
+
 \item{status}{Optional status values: \code{"operational"},
 \code{"under_construction"}, \code{"established_not_started"}, or \code{"unknown"}.}
 
@@ -31,6 +39,10 @@ geom_industrial_parks(
 
 \item{geometry}{One of \code{"best"}, \code{"polygon"}, or \code{"point"}. \code{"point"}
 converts polygon sites to points guaranteed to lie on their surfaces.}
+
+\item{attributes}{Optional user-supplied basic information: a data frame, or
+a path to a CSV file, with an \code{id} column. See
+\code{\link[=industrial_parks_template]{industrial_parks_template()}}.}
 
 \item{crs}{Coordinate reference system understood by \code{\link[sf:st_transform]{sf::st_transform()}}.}
 
