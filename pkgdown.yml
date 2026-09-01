@@ -1,0 +1,9 @@
+pandoc: 3.8.3
+pkgdown: 2.2.1
+pkgdown_sha: ~
+articles:
+  vnmap: vnmap.html
+last_built: 2026-09-01T16:18Z
+urls:
+  reference: https://ura8107.github.io/vnmap/reference
+  article: https://ura8107.github.io/vnmap/articles
