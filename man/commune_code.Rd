@@ -36,7 +36,11 @@ disambiguates it can be read off the message.
 \examples{
 commune_code("Tan Phu, Dong Nai")
 commune_code("Tan Phu", province = "Dong Nai")
-commune_code(c("Tinh Bien", "Thanh Phong"))
+commune_code("Tinh Bien")
+
+# Two communes are called Thanh Phong; only the tone marks separate them.
+vn_match("Thanh Phong", "communes")$candidate_names
+commune_code("Thanh Phong", province = "Thanh Hoa")
 }
 \seealso{
 \code{\link[=province_code]{province_code()}}, \code{\link[=vn_match]{vn_match()}}, \code{\link[=vn_map]{vn_map()}}

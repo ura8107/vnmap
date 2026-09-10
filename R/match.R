@@ -393,7 +393,11 @@ vn_match <- function(x, geography = c("provinces", "provinces_63", "communes"),
 #' @examples
 #' commune_code("Tan Phu, Dong Nai")
 #' commune_code("Tan Phu", province = "Dong Nai")
-#' commune_code(c("Tinh Bien", "Thanh Phong"))
+#' commune_code("Tinh Bien")
+#'
+#' # Two communes are called Thanh Phong; only the tone marks separate them.
+#' vn_match("Thanh Phong", "communes")$candidate_names
+#' commune_code("Thanh Phong", province = "Thanh Hoa")
 #' @export
 commune_code <- function(x, province = NULL) {
   got <- vn_match(x, "communes", parent = province)

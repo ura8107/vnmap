@@ -15,16 +15,18 @@
 # city is "thanh" with a grave, while Thanh Phong and Thanh Phong carry none
 # and a dot below. Requiring the tone to agree is what keeps those six real
 # communes from being truncated to their second syllable.
+# Written as escapes because R sources must stay ASCII to be portable; the
+# transliteration of each is in the comment beside it.
 .vn_prefix_words <- c(
-  "thành phố",   # thanh pho, city
-  "thị trấn",    # thi tran, township
-  "thị xã",      # thi xa, town
-  "huyện",            # huyen, rural district
-  "phường",      # phuong, ward
-  "tỉnh",             # tinh, province
-  "quận",             # quan, urban district
-  "xã",               # xa, commune
-  "tp"                     # abbreviation; carries no tone to compare
+  "th\u00e0nh ph\u1ed1",   # thanh pho, city
+  "th\u1ecb tr\u1ea5n",    # thi tran, township
+  "th\u1ecb x\u00e3",      # thi xa, town
+  "huy\u1ec7n",             # huyen, rural district
+  "ph\u01b0\u1eddng",      # phuong, ward
+  "t\u1ec9nh",              # tinh, province
+  "qu\u1eadn",              # quan, urban district
+  "x\u00e3",                # xa, commune
+  "tp"                      # abbreviation; carries no tone to compare
 )
 
 # The same words with diacritics removed, for the deliberately loose fallback.
