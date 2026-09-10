@@ -220,10 +220,8 @@ parts <- sf::st_sf(
     if (!is.na(tag(x, "construction")) ||
         identical(tag(x, "landuse", ""), "construction")) {
       "under_construction"
-    } else if (identical(tag(x, "landuse", ""), "industrial") ||
-               identical(tag(x, "industrial", ""), "industrial_park")) {
-      "operational"
     } else {
+      # A land-use designation is not evidence that a park is operating.
       "unknown"
     }
   }, ""),
@@ -448,7 +446,7 @@ in_scope <- parks[parks$category %in%
                     c("industrial_park", "export_processing_zone"), ]
 audit <- data.frame(
   metric = c("official_established_baseline", "mapped_register_records",
-             "unmapped_against_baseline", "polygon_records", "point_records",
+             "arithmetic_difference_not_verified_missing", "polygon_records", "point_records",
              "hi_tech_park_records", "industrial_cluster_records",
              "mapped_area_ha", "official_area_ha"),
   value = c(
@@ -481,5 +479,5 @@ utils::write.csv(
   "data-raw/industrial-parks-register.csv", row.names = FALSE)
 
 message("Built ", nrow(parks), " park records (",
-        nrow(in_scope), " in the KCN/KCX register scope); baseline gap: ",
+        nrow(in_scope), " in the KCN/KCX name scope); arithmetic baseline difference (not verified missing): ",
         established - nrow(in_scope), ".")

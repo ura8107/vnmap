@@ -1,10 +1,10 @@
 "metric","value"
 "official_established_baseline",478
-"mapped_register_records",300
-"unmapped_against_baseline",178
-"polygon_records",285
-"point_records",15
+"mapped_register_records",306
+"arithmetic_difference_not_verified_missing",172
+"polygon_records",286
+"point_records",20
 "hi_tech_park_records",5
-"industrial_cluster_records",117
-"mapped_area_ha",66095
+"industrial_cluster_records",118
+"mapped_area_ha",67332
 "official_area_ha",145970

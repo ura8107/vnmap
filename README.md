@@ -240,11 +240,24 @@ write_industrial_parks(parks, "parks.geojson")
 
 ### Coverage
 
-The snapshot holds mapped locations for a fraction of the national register:
-`data-raw/industrial-parks-audit.csv` reports the mapped count against the
-478 established parks in the Foreign Investment Agency's November 2025 report.
-Parks with no redistributable mapped location are absent rather than placed at
-a province centroid; `attributes` is the supported way to add them.
+`industrial_parks()` returns the mapped subset. `industrial_park_sources()`
+also retains every record without an accepted location: the 10 September 2026
+snapshots contain 391 Invest Vietnam records and 1,260 discovery records from
+KCN-KKT. Source rows are not unique parks, and planned projects and clusters
+must not be counted as established KCN. Matching retains each source URL and
+method; unresolved rows have missing coordinates. The map's `unknown` status
+does not infer operation merely from an OSM industrial-land tag.
+
+```r
+industrial_park_source_coverage()
+remaining <- industrial_park_sources(mapped = FALSE)
+write.csv(remaining, "parks-to-review.csv", row.names = FALSE)
+```
+
+`data-raw/INDUSTRIAL_PARK_SOURCE_AUDIT.md` documents source completeness,
+coordinate conflicts, and remaining work. The arithmetic difference from the
+historical national count of 478 is **not** a verified count of missing parks.
+Use `attributes` to supply independently verified additional locations.
 
 ## Economic and policy zones
 

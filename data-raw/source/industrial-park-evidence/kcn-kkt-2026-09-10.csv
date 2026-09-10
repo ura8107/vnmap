@@ -1,0 +1,1261 @@
+slug,ten,tinhSlug,tinhTen,diaDiem,dienTichHa,isPlanningOnly,hasDtm,hasDocs,source_url,retrieved_on
+kcn-binh-hoa,KCN Bình Hòa,an-giang,An Giang,Huyện Châu Thành,252,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-hoa,2026-09-10
+kcn-binh-long-an-giang,KCN Bình Long,an-giang,An Giang,Huyện Châu Phú,31,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-long-an-giang,2026-09-10
+kcn-dinh-thanh,KCN Định Thành,an-giang,An Giang,Huyện Thoại Sơn,155,False,False,False,https://kcn-kkt.com/kcn/kcn-dinh-thanh,2026-09-10
+kcn-hoi-an,KCN Hội An,an-giang,An Giang,Huyện Chợ Mới,100,False,False,False,https://kcn-kkt.com/kcn/kcn-hoi-an,2026-09-10
+kcn-kien-luong-ii,KCN Kiên Lương II,an-giang,An Giang,Huyện Kiên Lương,175,False,False,False,https://kcn-kkt.com/kcn/kcn-kien-luong-ii,2026-09-10
+kcn-thanh-loc,KCN Thạnh Lộc,an-giang,An Giang,Huyện Châu Thành,252,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-loc,2026-09-10
+kcn-thuan-yen-an-giang,KCN Thuận Yên,an-giang,An Giang,Thành phố Hà Tiên,134,False,False,False,https://kcn-kkt.com/kcn/kcn-thuan-yen-an-giang,2026-09-10
+kcn-vam-cong,KCN Vàm Cống,an-giang,An Giang,Thành phố Long Xuyên,194,False,False,False,https://kcn-kkt.com/kcn/kcn-vam-cong,2026-09-10
+kcn-xeo-ro,KCN Xẻo Rô,an-giang,An Giang,Huyện An Biên,211,False,False,False,https://kcn-kkt.com/kcn/kcn-xeo-ro,2026-09-10
+kcn-xuan-to,KCN Xuân Tô,an-giang,An Giang,Thị xã Tịnh Biên,140,False,False,False,https://kcn-kkt.com/kcn/kcn-xuan-to,2026-09-10
+cum-cong-nghiep-doan-bai-luong-phong-2,Cụm công nghiệp Đoàn Bài - Lương Phong 2,bac-ninh,Bắc Ninh,Tỉnh Bắc Giang,75,False,False,False,https://kcn-kkt.com/kcn/cum-cong-nghiep-doan-bai-luong-phong-2,2026-09-10
+cum-cong-nghiep-nham-son-yen-lu,Cụm công nghiệp Nhâm Sơn - Yên Lữ,bac-ninh,Bắc Ninh,Tỉnh Bắc Giang,75,False,False,False,https://kcn-kkt.com/kcn/cum-cong-nghiep-nham-son-yen-lu,2026-09-10
+kcn-do-thi-dich-vu-tien-son-ninh-son,KCN - Đô thị - Dịch vụ Tiên Sơn - Ninh Sơn,bac-ninh,Bắc Ninh,Huyện Việt Yên,223,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-tien-son-ninh-son,2026-09-10
+kcn-do-thi-va-dich-vu-luong-tai,KCN - Đô thị và Dịch vụ Lương Tài,bac-ninh,Bắc Ninh,Huyện Lương Tài,665,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-va-dich-vu-luong-tai,2026-09-10
+kcn-an-ha-1,KCN An Hà 1,bac-ninh,Bắc Ninh,Xã Tiên Lục,150,True,False,False,https://kcn-kkt.com/kcn/kcn-an-ha-1,2026-09-10
+kcn-an-viet-que-vo-6,KCN An Việt - Quế Võ 6,bac-ninh,Bắc Ninh,Thị xã Quế Võ,80,False,True,True,https://kcn-kkt.com/kcn/kcn-an-viet-que-vo-6,2026-09-10
+kcn-bong-lai-dao-vien,KCN Bồng Lai - Đào Viên,bac-ninh,Bắc Ninh,"Phường Bồng Lai, Đào Viên",160,True,False,False,https://kcn-kkt.com/kcn/kcn-bong-lai-dao-vien,2026-09-10
+kcn-cam-ly,KCN Cẩm Lý,bac-ninh,Bắc Ninh,Xã Cẩm Lý,352,True,False,False,https://kcn-kkt.com/kcn/kcn-cam-ly,2026-09-10
+kcn-cong-nghe-cao-dao-vien,KCN công nghệ cao Đào Viên,bac-ninh,Bắc Ninh,Phường Đào Viên,105,True,False,False,https://kcn-kkt.com/kcn/kcn-cong-nghe-cao-dao-vien,2026-09-10
+kcn-cong-nghe-so,KCN Công nghệ số,bac-ninh,Bắc Ninh,"Phường Võ Cường, Hạp Lĩnh; xã Liên Bão",213.3,True,False,False,https://kcn-kkt.com/kcn/kcn-cong-nghe-so,2026-09-10
+kcn-du-lieu,KCN Dữ liệu,bac-ninh,Bắc Ninh,Phường Cảnh Thụy,600,True,False,False,https://kcn-kkt.com/kcn/kcn-du-lieu,2026-09-10
+kcn-dai-dong-hoan-son-giai-doan-1,KCN Đại Đông - Hoàn Sơn (Giai đoạn 1),bac-ninh,Bắc Ninh,"Xã Đại Đông, xã Hoàn Sơn, xã Trí Phương huyện Tiên Du và phường Tân Hồng, thành phố Từ Sơn.",287,False,False,False,https://kcn-kkt.com/kcn/kcn-dai-dong-hoan-son-giai-doan-1,2026-09-10
+kcn-dai-dong-hoan-son-giai-doan-2,KCN Đại Đông - Hoàn Sơn (Giai đoạn 2),bac-ninh,Bắc Ninh,"Xã Hoàn Sơn, xã Phát Tích, xã Trí Phương, huyện Tiên Du.",96,False,False,False,https://kcn-kkt.com/kcn/kcn-dai-dong-hoan-son-giai-doan-2,2026-09-10
+kcn-dinh-tram,KCN Định Trâm,bac-ninh,Bắc Ninh,Huyện Việt Yên,127,False,False,False,https://kcn-kkt.com/kcn/kcn-dinh-tram,2026-09-10
+kcn-duc-giang,KCN Đức Giang,bac-ninh,Bắc Ninh,Phường Cảnh Thụy; Xã Đồng Việt,285.4,True,False,False,https://kcn-kkt.com/kcn/kcn-duc-giang,2026-09-10
+kcn-gia-binh,KCN Gia Bình,bac-ninh,Bắc Ninh,"Xã Đông Cửu, xã Lăng Ngâm, xã Đại Bái, huyện Gia Bình",306,False,False,False,https://kcn-kkt.com/kcn/kcn-gia-binh,2026-09-10
+kcn-gia-binh-1,KCN Gia Bình 1,bac-ninh,Bắc Ninh,Huyện Gia Bình,250,False,False,False,https://kcn-kkt.com/kcn/kcn-gia-binh-1,2026-09-10
+kcn-gia-binh-ii,KCN Gia Bình II,bac-ninh,Bắc Ninh,"Xã Nhân Thắng, xã Bình Dương, xã Thái Báo, xã Văn Ninh, huyện Gia Bình",250,False,False,False,https://kcn-kkt.com/kcn/kcn-gia-binh-ii,2026-09-10
+kcn-hanaka,KCN Hanaka,bac-ninh,Bắc Ninh,"Chuyên sang tiếp giáp khu công nghiệp Gia Bình II, huyện Gia Bình",55,False,False,False,https://kcn-kkt.com/kcn/kcn-hanaka,2026-09-10
+kcn-hiep-hoa-ii,KCN Hiệp Hòa II,bac-ninh,Bắc Ninh,Xã Hiệp Hòa,466,True,False,False,https://kcn-kkt.com/kcn/kcn-hiep-hoa-ii,2026-09-10
+kcn-hiep-hoa-iii,KCN Hiệp Hòa III,bac-ninh,Bắc Ninh,Xã Hiệp Hòa,225,True,False,False,https://kcn-kkt.com/kcn/kcn-hiep-hoa-iii,2026-09-10
+kcn-hoa-phu-bac-ninh,KCN Hòa Phú,bac-ninh,Bắc Ninh,Huyện Hiệp Hòa,515,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-phu-bac-ninh,2026-09-10
+kcn-hoang-van-iv,KCN Hoàng Vân IV,bac-ninh,Bắc Ninh,Xã Hoàng Vân,140,True,False,False,https://kcn-kkt.com/kcn/kcn-hoang-van-iv,2026-09-10
+kcn-hoanh-son-bac-ninh,KCN Hoành Sơn,bac-ninh,Bắc Ninh,Xã Lạng Giang,164,True,False,False,https://kcn-kkt.com/kcn/kcn-hoanh-son-bac-ninh,2026-09-10
+kcn-hop-thinh-i,KCN Hợp Thịnh I,bac-ninh,Bắc Ninh,Xã Hợp Thịnh,150,True,False,False,https://kcn-kkt.com/kcn/kcn-hop-thinh-i,2026-09-10
+kcn-hop-thinh-ii,KCN Hợp Thịnh II,bac-ninh,Bắc Ninh,Xã Hợp Thịnh,160,True,False,False,https://kcn-kkt.com/kcn/kcn-hop-thinh-ii,2026-09-10
+kcn-hop-thinh-iii,KCN Hợp Thịnh III,bac-ninh,Bắc Ninh,Xã Hợp Thịnh,134,True,False,False,https://kcn-kkt.com/kcn/kcn-hop-thinh-iii,2026-09-10
+kcn-huyen-son,KCN Huyện Sơn,bac-ninh,Bắc Ninh,Huyện Lục Nam,150,False,False,False,https://kcn-kkt.com/kcn/kcn-huyen-son,2026-09-10
+kcn-luong-tai-1,KCN Lương Tài 1,bac-ninh,Bắc Ninh,Huyện Lương Tài,245,False,False,False,https://kcn-kkt.com/kcn/kcn-luong-tai-1,2026-09-10
+kcn-luong-tai-2,KCN Lương Tài 2,bac-ninh,Bắc Ninh,Huyện Lương Tài,495,False,False,False,https://kcn-kkt.com/kcn/kcn-luong-tai-2,2026-09-10
+kcn-luong-tai-3,KCN Lương Tài 3,bac-ninh,Bắc Ninh,"Xã Trung Chính, Trung Kênh",510,True,False,False,https://kcn-kkt.com/kcn/kcn-luong-tai-3,2026-09-10
+kcn-mo-rong-yen-phong,KCN Mở rộng Yên Phong,bac-ninh,Bắc Ninh,"Thước địa phân xã Yên Trung, xã Dũng Liệt, xã Thụy Hòa, xã Tam Da, huyện Yên Phong",314,False,False,False,https://kcn-kkt.com/kcn/kcn-mo-rong-yen-phong,2026-09-10
+kcn-my-thai,KCN Mỹ Thái,bac-ninh,Bắc Ninh,Huyện Lạng Giang,160,False,True,True,https://kcn-kkt.com/kcn/kcn-my-thai,2026-09-10
+kcn-my-thai-xuan-huong-tan-dinh,KCN Mỹ Thái-Xuân Hương-Tân Định,bac-ninh,Bắc Ninh,Huyện Lạng Giang,200,False,False,False,https://kcn-kkt.com/kcn/kcn-my-thai-xuan-huong-tan-dinh,2026-09-10
+kcn-nam-son-hap-linh,KCN Nam Sơn - Hạp Lĩnh,bac-ninh,Bắc Ninh,"Xã Lạc Vệ huyện Tiên Du và phường Nam Sơn, phường Hạp Lĩnh, TP. Bắc Ninh.",300,False,True,True,https://kcn-kkt.com/kcn/kcn-nam-son-hap-linh,2026-09-10
+kcn-ngoc-ly,KCN Ngọc Lý,bac-ninh,Bắc Ninh,Huyện Tân Yên,140,False,False,False,https://kcn-kkt.com/kcn/kcn-ngoc-ly,2026-09-10
+kcn-ngoc-thien,KCN Ngọc Thiên,bac-ninh,Bắc Ninh,Huyện Tân Yên,150,False,False,False,https://kcn-kkt.com/kcn/kcn-ngoc-thien,2026-09-10
+kcn-phu-my-bac-ninh,KCN Phú Mỹ,bac-ninh,Bắc Ninh,"Xã Kép, xã Lạng Giang",155,True,False,False,https://kcn-kkt.com/kcn/kcn-phu-my-bac-ninh,2026-09-10
+kcn-phu-my-i-bac-ninh,KCN Phú Mỹ I,bac-ninh,Bắc Ninh,"Xã Kép, xã Lạng Giang",164,True,False,False,https://kcn-kkt.com/kcn/kcn-phu-my-i-bac-ninh,2026-09-10
+kcn-phuc-son-bac-ninh,KCN Phúc Sơn,bac-ninh,Bắc Ninh,Huyện Tân Yên,125,False,False,False,https://kcn-kkt.com/kcn/kcn-phuc-son-bac-ninh,2026-09-10
+kcn-phuong-son,KCN Phượng Sơn,bac-ninh,Bắc Ninh,Phường Phượng Sơn,120,True,False,False,https://kcn-kkt.com/kcn/kcn-phuong-son,2026-09-10
+kcn-quang-chau,KCN Quang Châu,bac-ninh,Bắc Ninh,Huyện Việt Yên,516,False,False,False,https://kcn-kkt.com/kcn/kcn-quang-chau,2026-09-10
+kcn-quang-chau-2,KCN Quang Châu 2,bac-ninh,Bắc Ninh,Huyện Việt Yên,125,False,False,False,https://kcn-kkt.com/kcn/kcn-quang-chau-2,2026-09-10
+kcn-quang-trung,KCN Quang Trung,bac-ninh,Bắc Ninh,Xã Quang Trung,150,True,False,False,https://kcn-kkt.com/kcn/kcn-quang-trung,2026-09-10
+kcn-que-vo,KCN Quế Võ,bac-ninh,Bắc Ninh,"Phường Phương Liễu, phường Phương Map, TX. Quế Võ và phường Nam Sơn, phường Văn Dương, TP. Bắc Ninh",611,False,False,False,https://kcn-kkt.com/kcn/kcn-que-vo,2026-09-10
+kcn-que-vo-ii-gd-i,KCN Quế Võ II (GD I),bac-ninh,Bắc Ninh,"Xã Ngọc Xá, xã Đào Viên, TX. Quế Võ",269,False,False,False,https://kcn-kkt.com/kcn/kcn-que-vo-ii-gd-i,2026-09-10
+kcn-que-vo-ii-gd-ii,KCN Quế Võ II (GD II),bac-ninh,Bắc Ninh,"Xã Châu Phong, xã Độc Long, TX. Quế Võ",277,False,False,False,https://kcn-kkt.com/kcn/kcn-que-vo-ii-gd-ii,2026-09-10
+kcn-que-vo-iii-gd-1,KCN Quế Võ III (GD 1),bac-ninh,Bắc Ninh,"Phường Việt Hùng, phường Quế Tân, phường Phủ Lương, TX. Quế Võ",281,False,False,False,https://kcn-kkt.com/kcn/kcn-que-vo-iii-gd-1,2026-09-10
+kcn-que-vo-iii-gd-ii,KCN Quế Võ III (GD II),bac-ninh,Bắc Ninh,"Phường Việt Hùng, phường Quế Tân, phường Phủ Lương, TX. Quế Võ",208,False,False,False,https://kcn-kkt.com/kcn/kcn-que-vo-iii-gd-ii,2026-09-10
+kcn-que-vo-mo-rong-2,KCN Quế Võ mở rộng 2,bac-ninh,Bắc Ninh,Thị xã Quế Võ,150,False,False,False,https://kcn-kkt.com/kcn/kcn-que-vo-mo-rong-2,2026-09-10
+kcn-song-mai-nghia-trung,KCN Song Mai-Nghĩa Trung,bac-ninh,Bắc Ninh,"TP Bắc Giang, huyện Việt Yên",205,False,True,True,https://kcn-kkt.com/kcn/kcn-song-mai-nghia-trung,2026-09-10
+kcn-song-khe-noi-hoang,KCN Sơng Khé - Nội Hoàng,bac-ninh,Bắc Ninh,"TP Bắc Giang, huyện Yên Dũng",221,False,False,False,https://kcn-kkt.com/kcn/kcn-song-khe-noi-hoang,2026-09-10
+kcn-tan-hung,KCN Tân Hưng,bac-ninh,Bắc Ninh,Huyện Lạng Giang,155,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-hung,2026-09-10
+kcn-thai-dao-tan-an,KCN Thái Đào - Tân An,bac-ninh,Bắc Ninh,"Huyện Lạng Giang, Yên Dũng",170,False,False,False,https://kcn-kkt.com/kcn/kcn-thai-dao-tan-an,2026-09-10
+kcn-thuan-thanh-i,KCN Thuận Thành I,bac-ninh,Bắc Ninh,"Xã Nghĩa Đạo, phường Trạm Lộ, phường Ninh Xá, TX. Thuận Thành",250,False,False,False,https://kcn-kkt.com/kcn/kcn-thuan-thanh-i,2026-09-10
+kcn-thuan-thanh-ii,KCN Thuận Thành II,bac-ninh,Bắc Ninh,"Phường An Bình, xã Mão Điền, xã Hoài Thương, phường Hộ, TX. Thuận Thành",252,False,False,False,https://kcn-kkt.com/kcn/kcn-thuan-thanh-ii,2026-09-10
+kcn-thuan-thanh-iii-phan-phu-chu-c,KCN Thuận Thành III - phần phú Chu C,bac-ninh,Bắc Ninh,Thị xã Thuận Thành,200,False,False,False,https://kcn-kkt.com/kcn/kcn-thuan-thanh-iii-phan-phu-chu-c,2026-09-10
+kcn-thuan-thanh-iii-module-1,"KCN Thuận Thành III, Module 1",bac-ninh,Bắc Ninh,"Phường Thanh Khương, TX. Thuận Thành",140,False,False,False,https://kcn-kkt.com/kcn/kcn-thuan-thanh-iii-module-1,2026-09-10
+kcn-thuan-thanh-iii-phan-khu-b,"KCN Thuận Thành III, Phần khu B",bac-ninh,Bắc Ninh,"Phường Thanh Khương, xã Đại Động Thành, phường Song Hồ, phường Gia Động, xã Định Tố, TX. Thuận Thành",300,False,False,False,https://kcn-kkt.com/kcn/kcn-thuan-thanh-iii-phan-khu-b,2026-09-10
+kcn-thuong-lan,KCN Thương Lan,bac-ninh,Bắc Ninh,Huyện Việt Yên,150,False,False,False,https://kcn-kkt.com/kcn/kcn-thuong-lan,2026-09-10
+kcn-tien-son,KCN Tiền Sơn,bac-ninh,Bắc Ninh,"Thành phố Từ Sơn, huyện Tiên Du",402,False,True,True,https://kcn-kkt.com/kcn/kcn-tien-son,2026-09-10
+kcn-tu-lan-bich-dong-trung-son,KCN Tự Lạn - Bích Động - Trung Sơn,bac-ninh,Bắc Ninh,"Phường Việt Yên, Vân Hà, Tự Lạn",150,True,False,False,https://kcn-kkt.com/kcn/kcn-tu-lan-bich-dong-trung-son,2026-09-10
+kcn-van-trung,KCN Văn Trung,bac-ninh,Bắc Ninh,"Huyện Việt Yên, Yên Dũng",388,False,False,False,https://kcn-kkt.com/kcn/kcn-van-trung,2026-09-10
+kcn-viet-han,KCN Việt Hàn,bac-ninh,Bắc Ninh,"xã Hồng Thái, Tăng Tiến và thị trấn Nếnh, huyện Việt Yên",198,False,False,False,https://kcn-kkt.com/kcn/kcn-viet-han,2026-09-10
+kcn-vsip,KCN VSIP,bac-ninh,Bắc Ninh,"Xã Đại Đông, huyện Tiên Du và xã Phú Chân, thành phố Từ Sơn",485,False,False,False,https://kcn-kkt.com/kcn/kcn-vsip,2026-09-10
+kcn-xuan-cam-i,KCN Xuân Cẩm I (Hương Lâm - Mai Đình),bac-ninh,Bắc Ninh,Xã Xuân Cẩm,160,True,False,False,https://kcn-kkt.com/kcn/kcn-xuan-cam-i,2026-09-10
+kcn-xuan-cam-iii,KCN Xuân Cẩm III,bac-ninh,Bắc Ninh,Xã Xuân Cẩm,145,True,False,False,https://kcn-kkt.com/kcn/kcn-xuan-cam-iii,2026-09-10
+kcn-yen-phong,KCN Yên Phong,bac-ninh,Bắc Ninh,"Xã Long Châu, xã Đông Tiến, xã Yên Trung, xã Đông Phong, huyện Yên Phong.",345,False,False,False,https://kcn-kkt.com/kcn/kcn-yen-phong,2026-09-10
+kcn-yen-phong-ii-b-vsip-2,KCN Yên Phong II - B (VSIP 2),bac-ninh,Bắc Ninh,"Xã Hòa Tiến, xã Tam Giang, xã Yên Phụ, thị trấn Chờ, huyện Yên Phong",282,False,False,False,https://kcn-kkt.com/kcn/kcn-yen-phong-ii-b-vsip-2,2026-09-10
+kcn-yen-phong-ii-c,KCN Yên Phong II - C,bac-ninh,Bắc Ninh,"Xã Đông Tiến, xã Tâm Giang, xã Trung Nghĩa, thị trấn Chờ, huyện Yên Phong",219,False,False,False,https://kcn-kkt.com/kcn/kcn-yen-phong-ii-c,2026-09-10
+kcn-yen-phong-ii-a,KCN Yên Phong II- A,bac-ninh,Bắc Ninh,"Xã Tam Giang, xã Hòa Tiến, huyện Yên Phong",151,False,True,True,https://kcn-kkt.com/kcn/kcn-yen-phong-ii-a,2026-09-10
+kcn-yen-son,KCN Yên Sơn,bac-ninh,Bắc Ninh,Huyện Lục Nam,155,False,False,False,https://kcn-kkt.com/kcn/kcn-yen-son,2026-09-10
+kcn-do-thi-dich-vu-tu-lan-bich-son-trung-son,KCN- Đô thị - Dịch vụ Tự Lan - Bích Sơn - Trung Sơn,bac-ninh,Bắc Ninh,Huyện Việt Yên,150,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-tu-lan-bich-son-trung-son,2026-09-10
+kcn-do-thi-dich-vu-yen-lu,KCN-Dō thị-Dịch vụ Yên Lư,bac-ninh,Bắc Ninh,Huyện Yên Dũng,600,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-yen-lu,2026-09-10
+kcn-do-thi-dich-vu-yen-son-bac-lung-mo-rong-190ha,KCN-Dō thị-Dịch vụ Yên Sơn - Bắc Lũng - Mở rộng: 190ha,bac-ninh,Bắc Ninh,Huyện Lục Nam,490,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-yen-son-bac-lung-mo-rong-190ha,2026-09-10
+kcn-do-thi-dich-vu-xuan-cam-huong-lam,KCN-Đô Thị - Dịch vụ Xuân Cẩm - Hương Lâm,bac-ninh,Bắc Ninh,Huyện Hiệp Hòa,224,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-xuan-cam-huong-lam,2026-09-10
+kcn-do-thi-dich-vu-chau-minh-bac-ly-huong-lam,KCN-Đô thị-Dịch vụ Châu Minh - Bắc Lý-Hương Lâm,bac-ninh,Bắc Ninh,Huyện Hiệp Hòa,211,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-chau-minh-bac-ly-huong-lam,2026-09-10
+kcn-do-thi-dich-vu-doc-giang,KCN-Đô thị-Dịch vụ Độc Giang,bac-ninh,Bắc Ninh,Huyện Yên Dũng,285,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-doc-giang,2026-09-10
+kcn-do-thi-dich-vu-doc-lap-thuong-lan-ngoc-thien,KCN-Đô thị-Dịch vụ Độc Lập-Thương Lan-Ngọc Thiên,bac-ninh,Bắc Ninh,"Huyện Việt Yên, Tân Yên",200,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-doc-lap-thuong-lan-ngoc-thien,2026-09-10
+kcn-do-thi-dich-vu-dong-phuc,KCN-Đô thị-Dịch vụ Đông Phúc,bac-ninh,Bắc Ninh,Huyện Yên Dũng,360,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-dong-phuc,2026-09-10
+kcn-do-thi-dich-vu-hoa-yen,KCN-Đô thị-Dịch vụ Hòa Yên,bac-ninh,Bắc Ninh,"Huyện Hiệp Hòa, Việt Yên",256,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-hoa-yen,2026-09-10
+kcn-do-thi-dich-vu-nghia-hung,KCN-Đô thị-Dịch vụ Nghĩa Hưng,bac-ninh,Bắc Ninh,Huyện Lạng Giang,150,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-nghia-hung,2026-09-10
+khu-cong-nghiep-gia-binh,Khu công nghiệp Gia Bình,bac-ninh,Bắc Ninh,Tỉnh Bắc Ninh,306,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-gia-binh,2026-09-10
+khu-cong-nghiep-yen-lu,Khu công nghiệp Yên Lự,bac-ninh,Bắc Ninh,Tỉnh Bắc Giang,377,False,True,True,https://kcn-kkt.com/kcn/khu-cong-nghiep-yen-lu,2026-09-10
+kcn-bac-lieu,KCN Bạc Liêu,ca-mau,Cà Mau,Thành phố Bạc Liêu,500,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-lieu,2026-09-10
+kcn-hoa-trung,KCN Hòa Trung,ca-mau,Cà Mau,Huyện Cái Nước,326,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-trung,2026-09-10
+kcn-khanh-an,KCN Khánh An,ca-mau,Cà Mau,Huyện U Minh,236,False,False,False,https://kcn-kkt.com/kcn/kcn-khanh-an,2026-09-10
+kcn-khanh-an-mo-rong-kcn-tac-thu,KCN Khánh An mở rộng (KCN Tắc Thủ),ca-mau,Cà Mau,Huyện U Minh,345,False,False,False,https://kcn-kkt.com/kcn/kcn-khanh-an-mo-rong-kcn-tac-thu,2026-09-10
+kcn-lang-tram,KCN Lăng Trâm,ca-mau,Cà Mau,Thị xã Giá Rai,100,False,False,False,https://kcn-kkt.com/kcn/kcn-lang-tram,2026-09-10
+kcn-ninh-quoi,KCN Ninh Quới,ca-mau,Cà Mau,Huyện Hồng Dân,257,False,False,False,https://kcn-kkt.com/kcn/kcn-ninh-quoi,2026-09-10
+kcn-song-doc-phia-bac,KCN Sông Độc phía Bắc,ca-mau,Cà Mau,Huyện Trần Văn Thời,45,False,False,False,https://kcn-kkt.com/kcn/kcn-song-doc-phia-bac,2026-09-10
+kcn-song-doc-phia-nam,KCN Sông Độc phía Nam,ca-mau,Cà Mau,Huyện Trần Văn Thời,100,False,False,False,https://kcn-kkt.com/kcn/kcn-song-doc-phia-nam,2026-09-10
+kcn-tan-thuan,KCN Tân Thuận,ca-mau,Cà Mau,Huyện Dầm Dơi,343,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-thuan,2026-09-10
+kcn-tra-kha,KCN Trà Kha,ca-mau,Cà Mau,Thành phố Bạc Liêu,60,False,False,False,https://kcn-kkt.com/kcn/kcn-tra-kha,2026-09-10
+kcn-trong-khu-kinh-te-nam-can,KCN trong Khu Kinh tế Năm Căn,ca-mau,Cà Mau,Trong Khu Kinh tế Năm Căn,156,False,False,False,https://kcn-kkt.com/kcn/kcn-trong-khu-kinh-te-nam-can,2026-09-10
+kcn-cang-hon-khoai,Khu công nghiệp / cảng Hòn Khoai,ca-mau,Cà Mau,Ngọc Hiển (Cà Mau cũ),,True,False,False,https://kcn-kkt.com/kcn/kcn-cang-hon-khoai,2026-09-10
+kcn-lan-bien-dat-mui,Khu công nghiệp lấn biển Đất Mũi,ca-mau,Cà Mau,Đất Mũi; Ngọc Hiển (Cà Mau cũ),,True,False,False,https://kcn-kkt.com/kcn/kcn-lan-bien-dat-mui,2026-09-10
+kcn-tac-thu,Khu công nghiệp Tắc Thủ (mở rộng Khánh An),ca-mau,Cà Mau,Khánh An; U Minh (Cà Mau cũ),345,True,False,False,https://kcn-kkt.com/kcn/kcn-tac-thu,2026-09-10
+kcn-chu-trinh,KCN Chu Trình,cao-bang,Cao Bằng,TP. Cao Bằng,200,False,False,False,https://kcn-kkt.com/kcn/kcn-chu-trinh,2026-09-10
+kcn-chu-trinh-2,KCN Chu Trình 2,cao-bang,Cao Bằng,TP. Cao Bằng,150,False,False,False,https://kcn-kkt.com/kcn/kcn-chu-trinh-2,2026-09-10
+kcn-dong-khe,KCN Động Khê,cao-bang,Cao Bằng,Huyện Thạch An,150,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-khe,2026-09-10
+kcn-tien-thanh-cao-bang,KCN Tiên Thành,cao-bang,Cao Bằng,Huyện Quảng Hòa,150,False,False,False,https://kcn-kkt.com/kcn/kcn-tien-thanh-cao-bang,2026-09-10
+kcn-an-nghiep,KCN An Nghiệp,can-tho,Cần Thơ,"Huyện Châu Thành, thành phố Sóc Trăng",243,False,False,False,https://kcn-kkt.com/kcn/kcn-an-nghiep,2026-09-10
+kcn-an-nghiep-mo-rong,KCN An Nghiệp (mở rộng),can-tho,Cần Thơ,"Huyện Châu Thành, thành phố Sóc Trăng",169,False,False,False,https://kcn-kkt.com/kcn/kcn-an-nghiep-mo-rong,2026-09-10
+kcn-binh-thanh,KCN Bình Thành,can-tho,Cần Thơ,Huyện Phụng Hiệp,1250,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-thanh,2026-09-10
+kcn-cong-nghe-cao-quan-o-mon,KCN công nghệ cao quận Ô Môn,can-tho,Cần Thơ,Quận Ô Môn,250,False,False,False,https://kcn-kkt.com/kcn/kcn-cong-nghe-cao-quan-o-mon,2026-09-10
+kcn-co-do-thoi-lai,KCN Cờ đỏ - Thới Lai,can-tho,Cần Thơ,Huyện Cờ Đỏ và huyện Thới Lai,1070,False,False,False,https://kcn-kkt.com/kcn/kcn-co-do-thoi-lai,2026-09-10
+kcn-dai-ngai,KCN Đại Ngài,can-tho,Cần Thơ,Huyện Long Phú,196,False,False,False,https://kcn-kkt.com/kcn/kcn-dai-ngai,2026-09-10
+kcn-dai-ngai-2,KCN Đại Ngãi 2,can-tho,Cần Thơ,Huyện Long Phú,250,False,False,False,https://kcn-kkt.com/kcn/kcn-dai-ngai-2,2026-09-10
+kcn-dong-phu,KCN Đông Phú,can-tho,Cần Thơ,Huyện Châu Thành,120,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-phu,2026-09-10
+kcn-dong-phu-2,KCN Đông Phú 2,can-tho,Cần Thơ,Huyện Châu Thành,234,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-phu-2,2026-09-10
+kcn-hung-phu-1,KCN Hưng Phú 1,can-tho,Cần Thơ,Quận Cái Răng,262,False,False,False,https://kcn-kkt.com/kcn/kcn-hung-phu-1,2026-09-10
+kcn-hung-phu-2,KCN Hưng Phú 2,can-tho,Cần Thơ,Quận Cái Răng,67,False,False,False,https://kcn-kkt.com/kcn/kcn-hung-phu-2,2026-09-10
+kcn-khanh-hoa,KCN Khánh Hòa,can-tho,Cần Thơ,Thị xã Vĩnh Châu,350,False,False,False,https://kcn-kkt.com/kcn/kcn-khanh-hoa,2026-09-10
+kcn-long-thanh-can-tho,KCN Long Thạnh,can-tho,Cần Thơ,Huyện Phụng Hiệp,290,False,False,False,https://kcn-kkt.com/kcn/kcn-long-thanh-can-tho,2026-09-10
+kcn-my-thanh,KCN Mỹ Thạnh,can-tho,Cần Thơ,Thị xã Vĩnh Châu,217,False,False,False,https://kcn-kkt.com/kcn/kcn-my-thanh,2026-09-10
+kcn-nhon-nghia-a,KCN Nhơn Nghĩa A,can-tho,Cần Thơ,Huyện Châu Thành A,252,False,False,False,https://kcn-kkt.com/kcn/kcn-nhon-nghia-a,2026-09-10
+kcn-phu-huu,KCN Phú Hữu,can-tho,Cần Thơ,Huyện Châu Thành,1100,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-huu,2026-09-10
+kcn-phu-tan-can-tho,KCN Phú Tân,can-tho,Cần Thơ,Huyện Châu Thành,890,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-tan-can-tho,2026-09-10
+kcn-song-hau-giai-doan-1,KCN Sông Hậu - Giai đoạn 1,can-tho,Cần Thơ,Huyện Châu Thành,291,False,True,True,https://kcn-kkt.com/kcn/kcn-song-hau-giai-doan-1,2026-09-10
+kcn-song-hau-phan-khu-1,KCN Sông Hậu - Phân khu 1,can-tho,Cần Thơ,Huyện Kế Sách,121,False,False,False,https://kcn-kkt.com/kcn/kcn-song-hau-phan-khu-1,2026-09-10
+kcn-song-hau-phan-khu-2,KCN Sông Hậu - Phân khu 2,can-tho,Cần Thơ,Huyện Kế Sách,165,False,False,False,https://kcn-kkt.com/kcn/kcn-song-hau-phan-khu-2,2026-09-10
+kcn-song-hau-2,KCN Sông Hậu 2,can-tho,Cần Thơ,Huyện Châu Thành,430,False,False,False,https://kcn-kkt.com/kcn/kcn-song-hau-2,2026-09-10
+kcn-song-hau-3-can-tho,KCN Sông Hậu 3,can-tho,Cần Thơ,"Phú Hữu, TT Mái Dầm; Châu Thành (Hậu Giang cũ)",300,True,False,False,https://kcn-kkt.com/kcn/kcn-song-hau-3-can-tho,2026-09-10
+kcn-tan-binh-can-tho,KCN Tân Bình,can-tho,Cần Thơ,Huyện Phụng Hiệp,210,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-binh-can-tho,2026-09-10
+kcn-tan-binh-ii,KCN Tân Bình II,can-tho,Cần Thơ,Huyện Phụng Hiệp,800,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-binh-ii,2026-09-10
+kcn-tan-binh-iii,KCN Tân Bình III,can-tho,Cần Thơ,Huyện Phụng Hiệp,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-binh-iii,2026-09-10
+kcn-tan-hoa,KCN Tân Hòa,can-tho,Cần Thơ,Huyện Châu Thành A,205,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-hoa,2026-09-10
+kcn-tan-phu-thanh-giai-doan-1,KCN Tân Phú Thanh - Giai đoạn 1,can-tho,Cần Thơ,Huyện Châu Thành A,201,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phu-thanh-giai-doan-1,2026-09-10
+kcn-tan-phu-thanh-2,KCN Tân Phú Thạnh 2,can-tho,Cần Thơ,Tân Phú Thạnh; Châu Thành A (Hậu Giang cũ),274,True,False,False,https://kcn-kkt.com/kcn/kcn-tan-phu-thanh-2,2026-09-10
+kcn-tan-phuoc-hung,KCN Tân Phước Hưng,can-tho,Cần Thơ,Huyện Phụng Hiệp,1160,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phuoc-hung,2026-09-10
+kcn-tan-thanh,KCN Tân Thành,can-tho,Cần Thơ,Tân Thành; TP Ngã Bảy (Hậu Giang cũ),400,True,False,False,https://kcn-kkt.com/kcn/kcn-tan-thanh,2026-09-10
+kcn-thot-not,KCN Thốt Nót,can-tho,Cần Thơ,Quận Thốt Nót,75,False,False,False,https://kcn-kkt.com/kcn/kcn-thot-not,2026-09-10
+kcn-tra-noc-1,KCN Trà Nóc 1,can-tho,Cần Thơ,Quận Bình Thủy,135,False,False,False,https://kcn-kkt.com/kcn/kcn-tra-noc-1,2026-09-10
+kcn-tra-noc-2,KCN Trà Nóc 2,can-tho,Cần Thơ,Quận Ô Môn,155,False,False,False,https://kcn-kkt.com/kcn/kcn-tra-noc-2,2026-09-10
+kcn-tran-de,KCN Trần Đề,can-tho,Cần Thơ,Huyện Trần Đề,160,False,False,False,https://kcn-kkt.com/kcn/kcn-tran-de,2026-09-10
+kcn-tran-de-2,KCN Trần Đề 2,can-tho,Cần Thơ,Huyện Trần Đề,700,False,False,False,https://kcn-kkt.com/kcn/kcn-tran-de-2,2026-09-10
+kcn-vinh-thanh-giai-doan-1,KCN Vĩnh Thanh (giai đoạn 1),can-tho,Cần Thơ,Huyện Vĩnh Thanh,294,False,False,False,https://kcn-kkt.com/kcn/kcn-vinh-thanh-giai-doan-1,2026-09-10
+kcn-vinh-thanh-giai-doan-2,KCN Vĩnh Thạnh (giai đoạn 2),can-tho,Cần Thơ,Huyện Vĩnh Thạnh,606,False,True,True,https://kcn-kkt.com/kcn/kcn-vinh-thanh-giai-doan-2,2026-09-10
+kcn-vinh-thanh-2,KCN Vĩnh Thạnh 2,can-tho,Cần Thơ,Huyện Vĩnh Thạnh,519,False,False,False,https://kcn-kkt.com/kcn/kcn-vinh-thanh-2,2026-09-10
+kcn-vinh-thanh-3,KCN Vĩnh Thạnh 3,can-tho,Cần Thơ,Huyện Vĩnh Thạnh,675,False,False,False,https://kcn-kkt.com/kcn/kcn-vinh-thanh-3,2026-09-10
+kcn-vinh-thanh-4,KCN Vĩnh Thạnh 4,can-tho,Cần Thơ,Huyện Vĩnh Thạnh,815,False,False,False,https://kcn-kkt.com/kcn/kcn-vinh-thanh-4,2026-09-10
+kcn-vinh-thanh-5,KCN Vĩnh Thạnh 5,can-tho,Cần Thơ,"Huyện Vĩnh Thạnh, huyện Cờ Đỏ, quận Thốt Nốt",2250,False,False,False,https://kcn-kkt.com/kcn/kcn-vinh-thanh-5,2026-09-10
+kcn-vinh-vien,KCN Vĩnh Viễn,can-tho,Cần Thơ,Huyện Long Mỹ,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-vinh-vien,2026-09-10
+khu-cong-nghiep-do-thi-dich-vu-phu-my,Khu công nghiệp - đô thị - dịch vụ Phú Mỹ,can-tho,Cần Thơ,"Huyện Mỹ Xuyên, huyện Mỹ Tú, huyện Châu Thành và thành phố Sóc Trăng",1125,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-do-thi-dich-vu-phu-my,2026-09-10
+khu-cong-nghiep-do-thi-dich-vu-tran-de,Khu công nghiệp - đô thị - dịch vụ Trần Đề,can-tho,Cần Thơ,Huyện Trần Đề,638,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-do-thi-dich-vu-tran-de,2026-09-10
+kcn-bac-chu-lai,KCN Bắc Chu Lai,da-nang,Đà Nẵng,Huyện Núi Thành,342,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-chu-lai,2026-09-10
+kcn-bac-thang-binh-1,KCN Bắc Thăng Bình 1,da-nang,Đà Nẵng,"Các huyện: Quế Sơn, Thăng Bình",245,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-thang-binh-1,2026-09-10
+kcn-bac-thang-binh-2,KCN Bắc Thăng Bình 2,da-nang,Đà Nẵng,Huyện Thăng Bình,770,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-thang-binh-2,2026-09-10
+kcn-binh-lam-binh-lan,KCN Bình Lâm - Bình Lăn,da-nang,Đà Nẵng,"Các huyện: Hiệp Đức, Thăng Bình",490,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-lam-binh-lan,2026-09-10
+kcn-cang-hau-can-cang-tam-hiep,KCN căng - hậu cần căng Tam Hiệp,da-nang,Đà Nẵng,Huyện Núi Thành,260,False,False,False,https://kcn-kkt.com/kcn/kcn-cang-hau-can-cang-tam-hiep,2026-09-10
+kcn-co-khi-o-to-chu-lai-truong-hai-mo-rong,KCN có khí ô tô Chu Lai - Trương Hải mở rộng,da-nang,Đà Nẵng,Huyện Núi Thành,115,False,False,False,https://kcn-kkt.com/kcn/kcn-co-khi-o-to-chu-lai-truong-hai-mo-rong,2026-09-10
+kcn-cong-nghe-cao-2,KCN Công nghệ cao 2,da-nang,Đà Nẵng,Huyện Thăng Bình,300,False,False,False,https://kcn-kkt.com/kcn/kcn-cong-nghe-cao-2,2026-09-10
+kcn-cong-nghe-cao-thang-binh,KCN công nghệ cao Thăng Bình,da-nang,Đà Nẵng,Huyện Thăng Bình,310,False,False,False,https://kcn-kkt.com/kcn/kcn-cong-nghe-cao-thang-binh,2026-09-10
+kcn-co-khi-o-to-chu-lai-truong-hai,KCN cơ khí ô tô Chu Lai - Trường Hải,da-nang,Đà Nẵng,Huyện Núi Thành,243,False,False,False,https://kcn-kkt.com/kcn/kcn-co-khi-o-to-chu-lai-truong-hai,2026-09-10
+kcn-da-nang,KCN Đà Nẵng,da-nang,Đà Nẵng,Quận Sơn Trà,50,False,False,False,https://kcn-kkt.com/kcn/kcn-da-nang,2026-09-10
+kcn-dai-loc,KCN Đại Lộc,da-nang,Đà Nẵng,Huyện Đại Lộc,600,False,False,False,https://kcn-kkt.com/kcn/kcn-dai-loc,2026-09-10
+kcn-dai-son,KCN Đại Sơn,da-nang,Đà Nẵng,Huyện Đại Lộc,300,False,False,False,https://kcn-kkt.com/kcn/kcn-dai-son,2026-09-10
+kcn-dien-nam-dien-ngoc,KCN Điện Nam - Điện Ngọc,da-nang,Đà Nẵng,Thị xã Điện Bàn,357,False,False,False,https://kcn-kkt.com/kcn/kcn-dien-nam-dien-ngoc,2026-09-10
+kcn-do-thi-dich-vu-dien-tien,KCN đô thị dịch vụ Điện Tiến,da-nang,Đà Nẵng,Thị xã Điện Bàn,400,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-dien-tien,2026-09-10
+kcn-dong-que-son,KCN Đông Quế Son,da-nang,Đà Nẵng,Huyện Quế Son,211,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-que-son,2026-09-10
+kcn-hoa-cam,KCN Hòa Câm,da-nang,Đà Nẵng,Quận Câm Lệ,150,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-cam,2026-09-10
+kcn-hoa-cam-giai-doan-2,KCN Hòa Câm - giai đoạn 2,da-nang,Đà Nẵng,"Quận Câm Lệ, Huyện Hòa Vang",120,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-cam-giai-doan-2,2026-09-10
+kcn-hoa-khanh,KCN Hòa Khánh,da-nang,Đà Nẵng,Quận Liên Chiểu,394,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-khanh,2026-09-10
+kcn-hoa-khanh-mo-rong,KCN Hòa Khánh mở rộng,da-nang,Đà Nẵng,Quận Liên Chiểu,133,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-khanh-mo-rong,2026-09-10
+kcn-hoa-nhon,KCN Hòa Nhơn,da-nang,Đà Nẵng,Huyện Hòa Vang,237,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-nhon,2026-09-10
+kcn-hoa-ninh,KCN Hòa Ninh,da-nang,Đà Nẵng,Huyện Hòa Vang,400,False,True,True,https://kcn-kkt.com/kcn/kcn-hoa-ninh,2026-09-10
+kcn-hoa-vang,KCN Hòa Vang,da-nang,Đà Nẵng,Huyện Hòa Vang,456,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-vang,2026-09-10
+kcn-ho-tro-khu-cong-nghe-cao,KCN hỗ trợ Khu Công nghệ cao,da-nang,Đà Nẵng,Huyện Hòa Vang,58,False,False,False,https://kcn-kkt.com/kcn/kcn-ho-tro-khu-cong-nghe-cao,2026-09-10
+kcn-khi-nang-luong-va-cac-nganh-cong-nghiep-su-dung-nang-luong-va-san-pham-sau-khi,KCN khí - năng lượng và các ngành công nghiệp sử dụng năng lượng và sản phẩm sau khí,da-nang,Đà Nẵng,Huyện Núi Thành,431,False,False,False,https://kcn-kkt.com/kcn/kcn-khi-nang-luong-va-cac-nganh-cong-nghiep-su-dung-nang-luong-va-san-pham-sau-khi,2026-09-10
+kcn-lien-chieu,KCN Liên Chiểu,da-nang,Đà Nẵng,Quận Liên Chiểu,289,False,False,False,https://kcn-kkt.com/kcn/kcn-lien-chieu,2026-09-10
+kcn-nam-thang-binh,KCN Nam Thăng Bình,da-nang,Đà Nẵng,Huyện Thăng Bình,655,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-thang-binh,2026-09-10
+kcn-phia-tay-cao-toc-doan-qua-huyen-thang-binh,KCN phía Tây cao tốc đoạn qua huyện Thăng Bình,da-nang,Đà Nẵng,Huyện Thăng Bình,400,False,False,False,https://kcn-kkt.com/kcn/kcn-phia-tay-cao-toc-doan-qua-huyen-thang-binh,2026-09-10
+kcn-phu-xuan,KCN Phủ Xuân,da-nang,Đà Nẵng,Huyện Phủ Ninh,230,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-xuan,2026-09-10
+kcn-tam-anh-an-an-hoa,KCN Tam Anh - An Ấn Hoà,da-nang,Đà Nẵng,Huyện Núi Thành,436,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-anh-an-an-hoa,2026-09-10
+kcn-tam-anh-han-quoc,KCN Tam Anh - Hàn Quốc,da-nang,Đà Nẵng,Huyện Núi Thành,193,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-anh-han-quoc,2026-09-10
+kcn-tam-anh-1,KCN Tam Anh 1,da-nang,Đà Nẵng,Huyện Núi Thành,167,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-anh-1,2026-09-10
+kcn-tam-anh-3,KCN Tam Anh 3,da-nang,Đà Nẵng,Huyện Núi Thành,298,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-anh-3,2026-09-10
+kcn-tam-thang,KCN Tam Thăng,da-nang,Đà Nẵng,"Các huyện, thành phố: Tam Kỳ, Thăng Bình",197,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-thang,2026-09-10
+kcn-tam-thang-2,KCN Tam Thăng 2,da-nang,Đà Nẵng,"Các huyện, thành phố: Tam Kỳ, Thăng Bình",103,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-thang-2,2026-09-10
+kcn-tam-thang-mo-rong,KCN Tam Thăng mở rộng,da-nang,Đà Nẵng,Huyện Thăng Bình,242,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-thang-mo-rong,2026-09-10
+kcn-tam-thang-mo-rong-2,KCN Tam Thăng mở rộng 2,da-nang,Đà Nẵng,Huyện Thăng Bình,111,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-thang-mo-rong-2,2026-09-10
+kcn-tay-que-son,KCN Tây Quế Sơn,da-nang,Đà Nẵng,Huyện Quế Sơn,1200,False,False,False,https://kcn-kkt.com/kcn/kcn-tay-que-son,2026-09-10
+kcn-thaco-chu-lai,KCN Thaco Chu Lai,da-nang,Đà Nẵng,Huyện Núi Thành,451,False,False,False,https://kcn-kkt.com/kcn/kcn-thaco-chu-lai,2026-09-10
+kcn-thuan-yen,KCN Thuận Yên,da-nang,Đà Nẵng,Thành phố Tam Kỳ,108,False,False,False,https://kcn-kkt.com/kcn/kcn-thuan-yen,2026-09-10
+khu-cong-nghiep-tam-thang-2,Khu công nghiệp Tam Thăng 2,da-nang,Đà Nẵng,Tỉnh Quảng Nam,103,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-tam-thang-2,2026-09-10
+ea-h-leo,Ea H'leo,dak-lak,Đắk Lắk,Huyện Ea H'leo,400,False,False,False,https://kcn-kkt.com/kcn/ea-h-leo,2026-09-10
+ea-kar,Ea Kar,dak-lak,Đắk Lắk,Huyện Ea Kar,480,False,False,False,https://kcn-kkt.com/kcn/ea-kar,2026-09-10
+kcn-an-phu,KCN An Phú,dak-lak,Đắk Lắk,Thị xã Tuy Hòa,68,False,False,False,https://kcn-kkt.com/kcn/kcn-an-phu,2026-09-10
+kcn-cong-nghe-cao,KCN công nghệ cao,dak-lak,Đắk Lắk,Thị xã Đông Hòa,252,False,False,False,https://kcn-kkt.com/kcn/kcn-cong-nghe-cao,2026-09-10
+kcn-dong-bac-song-cau-khu-vuc-1,KCN Đông Bắc Sông câu khu vực 1,dak-lak,Đắk Lắk,Thị xã Sông Cầu,106,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-bac-song-cau-khu-vuc-1,2026-09-10
+kcn-dong-bac-song-cau-khu-vuc-2,KCN Đông Bắc Sông câu khu vực 2,dak-lak,Đắk Lắk,Thị xã Sông Cầu,82,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-bac-song-cau-khu-vuc-2,2026-09-10
+kcn-hau-can-san-bay,KCN hầu cần sân bay,dak-lak,Đắk Lắk,Thị xã Đông Hòa,354,False,False,False,https://kcn-kkt.com/kcn/kcn-hau-can-san-bay,2026-09-10
+kcn-hoa-hiep-1,KCN Hòa Hiệp 1,dak-lak,Đắk Lắk,Thị xã Đông Hòa,101,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-hiep-1,2026-09-10
+kcn-hoa-hiep-2,KCN Hòa Hiệp 2,dak-lak,Đắk Lắk,Thị xã Đông Hòa,73,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-hiep-2,2026-09-10
+kcn-hoa-phu,KCN Hòa Phú,dak-lak,Đắk Lắk,Thành phố Buôn Ma Thuột,332,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-phu,2026-09-10
+kcn-hoa-tam,KCN Hòa Tâm,dak-lak,Đắk Lắk,Thị xã Đông Hòa,500,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-tam,2026-09-10
+kcn-hoa-tam-dak-lak,KCN Hòa Tâm,dak-lak,Đắk Lắk,Thị xã Đông Hòa,580,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-tam-dak-lak,2026-09-10
+kcn-hoa-thanh,KCN Hòa Thành,dak-lak,Đắk Lắk,Thị xã Đông Hòa và Thành phố Tuy Hòa,100,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-thanh,2026-09-10
+kcn-hoa-thanh-dak-lak,KCN Hòa Thành,dak-lak,Đắk Lắk,Thị xã Đông Hòa,372,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-thanh-dak-lak,2026-09-10
+kcn-hoa-xuan-dong,KCN Hòa Xuân Đông,dak-lak,Đắk Lắk,Thị xã Đông Hòa,100,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-xuan-dong,2026-09-10
+kcn-hoa-xuan-dong-dak-lak,KCN Hòa Xuân Đông,dak-lak,Đắk Lắk,Thị xã Đông Hòa,320,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-xuan-dong-dak-lak,2026-09-10
+kcn-hoa-xuan-tay,KCN Hòa Xuân Tây,dak-lak,Đắk Lắk,Thị xã Đông Hòa,67,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-xuan-tay,2026-09-10
+kcn-hoa-xuan-tay-dak-lak,KCN Hòa Xuân Tây,dak-lak,Đắk Lắk,Thị xã Đông Hòa,387,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-xuan-tay-dak-lak,2026-09-10
+kcn-phu-xuan-dak-lak,KCN Phú Xuân,dak-lak,Đắk Lắk,Huyện Cư M'gar,326,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-xuan-dak-lak,2026-09-10
+m-drak,M'Đrắk,dak-lak,Đắk Lắk,Huyện M'Đrắk,300,False,False,False,https://kcn-kkt.com/kcn/m-drak,2026-09-10
+kcn-tay-bac,KCN Tây Bắc,dien-bien,Điện Biên,Huyện Điện Biên,55,False,False,False,https://kcn-kkt.com/kcn/kcn-tay-bac,2026-09-10
+cac-kcn-dong-nam-dong-phu,Các KCN Đông Nam Đông Phú,dong-nai,Đồng Nai,Huyện Đông Phú,1619,False,False,False,https://kcn-kkt.com/kcn/cac-kcn-dong-nam-dong-phu,2026-09-10
+cac-kcn-dong-nam-dong-phu-dong-nai,Các KCN Đông Nam Đông Phú,dong-nai,Đồng Nai,Huyện Đông Phú,2581,False,False,False,https://kcn-kkt.com/kcn/cac-kcn-dong-nam-dong-phu-dong-nai,2026-09-10
+cac-kcn-trong-phan-khu-cong-nghiep-trong-kkt,Các KCN trong phân khu công nghiệp trong KKT,dong-nai,Đồng Nai,KKTCK Hoa Lư,1290,False,False,False,https://kcn-kkt.com/kcn/cac-kcn-trong-phan-khu-cong-nghiep-trong-kkt,2026-09-10
+cong-ty-co-phan-sonadezi-long-thanh,Công ty Cổ phần Sonadezi Long Thành,dong-nai,Đồng Nai,"KCN Long Thành, xã Tam An, huyện Long Thành, tỉnh Đồng Nai",487,False,False,False,https://kcn-kkt.com/kcn/cong-ty-co-phan-sonadezi-long-thanh,2026-09-10
+kcn-agtex-long-binh,KCN Agtex Long Bình,dong-nai,Đồng Nai,Thành phố Biên Hòa,34,False,False,False,https://kcn-kkt.com/kcn/kcn-agtex-long-binh,2026-09-10
+kcn-amata-gd1-2-3,"KCN Amata (gd1, 2, 3)",dong-nai,Đồng Nai,"Xã La Ngà, huyện Định Quán",513,False,False,False,https://kcn-kkt.com/kcn/kcn-amata-gd1-2-3,2026-09-10
+kcn-amata-mo-rong,KCN Amata Mở rộng,dong-nai,Đồng Nai,Thành phố Biên Hòa,27,False,False,False,https://kcn-kkt.com/kcn/kcn-amata-mo-rong,2026-09-10
+kcn-an-phuoc,KCN An Phước,dong-nai,Đồng Nai,"Xã An Phước, huyện Long Thành.",201,False,False,False,https://kcn-kkt.com/kcn/kcn-an-phuoc,2026-09-10
+kcn-bau-can-tan-hiep,KCN Bàu Cạn - Tân Hiệp,dong-nai,Đồng Nai,"Xã Long Phước, xã Bàu Cạn, xã Tân Hiệp, huyện Long Thành",2000,False,False,False,https://kcn-kkt.com/kcn/kcn-bau-can-tan-hiep,2026-09-10
+kcn-bau-xeo,KCN Bàu Xéo,dong-nai,Đồng Nai,"Xã Sông Trầu, xã Tây Hòa, xã Đồi 61 và Thị trấn Trảng Bom, huyện Trảng Bom",499,False,False,False,https://kcn-kkt.com/kcn/kcn-bau-xeo,2026-09-10
+kcn-bac-dong-phu,KCN Bắc Đông Phú,dong-nai,Đồng Nai,Huyện Đông Phú,190,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-dong-phu,2026-09-10
+kcn-bac-dong-phu-giai-doan-iii,KCN Bắc Đông Phú - Giai đoạn III,dong-nai,Đồng Nai,Huyện Đông Phú,400,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-dong-phu-giai-doan-iii,2026-09-10
+kcn-bac-dong-phu-mo-rong-giai-doan-ii-dong-hoai-214-ha-dong-phu-293-ha,KCN Bắc Đông Phú- Mở rộng giai đoạn II (Đông Hoài 214 ha+ Đông Phú 293 ha),dong-nai,Đồng Nai,TP. Đông Xoài và huyện Đông Phú,317,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-dong-phu-mo-rong-giai-doan-ii-dong-hoai-214-ha-dong-phu-293-ha,2026-09-10
+kcn-bau-xeo-2,KCN Bầu Xéo 2,dong-nai,Đồng Nai,Huyện Trảng Bom,380,False,False,False,https://kcn-kkt.com/kcn/kcn-bau-xeo-2,2026-09-10
+kcn-becamex-binh-phuoc,KCN Becamex - Bình Phước,dong-nai,Đồng Nai,TX. Chơn Thành,2000,False,False,False,https://kcn-kkt.com/kcn/kcn-becamex-binh-phuoc,2026-09-10
+kcn-becamex-binh-phuoc-dong-nai,KCN Becamex-Bình Phước,dong-nai,Đồng Nai,TX. Chơn Thành,450,False,False,False,https://kcn-kkt.com/kcn/kcn-becamex-binh-phuoc-dong-nai,2026-09-10
+kcn-bien-hoa-i,KCN Biên Hoà I,dong-nai,Đồng Nai,Thành phố Biên Hoà,335,False,False,False,https://kcn-kkt.com/kcn/kcn-bien-hoa-i,2026-09-10
+kcn-bien-hoa-ii,KCN Biên Hoà II,dong-nai,Đồng Nai,Thành phố Biên Hoà,395,False,False,False,https://kcn-kkt.com/kcn/kcn-bien-hoa-ii,2026-09-10
+kcn-binh-phuoc,KCN Bình Phước,dong-nai,Đồng Nai,Huyện Đông Phú,500,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-phuoc,2026-09-10
+kcn-cam-my,KCN Cẩm Mỹ,dong-nai,Đồng Nai,Huyện Cẩm Mỹ,307,False,False,False,https://kcn-kkt.com/kcn/kcn-cam-my,2026-09-10
+kcn-chon-thanh-i,KCN Chơn Thành I,dong-nai,Đồng Nai,TX. Chơn Thành,125,False,True,True,https://kcn-kkt.com/kcn/kcn-chon-thanh-i,2026-09-10
+kcn-chon-thanh-ii,KCN Chơn Thành II,dong-nai,Đồng Nai,TX. Chơn Thành,76,False,False,False,https://kcn-kkt.com/kcn/kcn-chon-thanh-ii,2026-09-10
+kcn-cong-nghe-cao-long-thanh,KCN Công nghệ cao Long Thành,dong-nai,Đồng Nai,"Xã An Phước, Tam An, huyện Long Thành",410,False,False,False,https://kcn-kkt.com/kcn/kcn-cong-nghe-cao-long-thanh,2026-09-10
+kcn-dau-giay,KCN Dầu Giây,dong-nai,Đồng Nai,"Xã Bàu Hàm 2 và xã Xuân Thạnh, huyện Thống Nhất",330,False,False,False,https://kcn-kkt.com/kcn/kcn-dau-giay,2026-09-10
+kcn-dau-giay-giai-doan-2,KCN Dâu Giây (Giai đoạn 2),dong-nai,Đồng Nai,Huyện Thống Nhất,145,False,False,False,https://kcn-kkt.com/kcn/kcn-dau-giay-giai-doan-2,2026-09-10
+kcn-det-may-nhon-trach,KCN Dệt may Nhơn Trạch,dong-nai,Đồng Nai,"Xã Hiệp Phước, Phước An, huyện Nhơn Trạch",176,False,False,False,https://kcn-kkt.com/kcn/kcn-det-may-nhon-trach,2026-09-10
+kcn-dinh-quan,KCN Định Quán,dong-nai,Đồng Nai,"Phường Long Bình, Tp. Biên Hòa.",57,False,False,False,https://kcn-kkt.com/kcn/kcn-dinh-quan,2026-09-10
+kcn-dinh-quan-mo-rong,KCN Định Quán (mở rộng),dong-nai,Đồng Nai,Huyện Định Quán,107,False,False,False,https://kcn-kkt.com/kcn/kcn-dinh-quan-mo-rong,2026-09-10
+kcn-dong-no,KCN Đông Nơ,dong-nai,Đồng Nai,Huyện Hớn Quản,500,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-no,2026-09-10
+kcn-dong-xoai-i,KCN Đông Xoài I,dong-nai,Đồng Nai,TP. Đông Xoài,163,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-xoai-i,2026-09-10
+kcn-dong-xoai-ii,KCN Đông Xoài II,dong-nai,Đồng Nai,TP. Đông Xoài,85,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-xoai-ii,2026-09-10
+kcn-dong-xoai-iii,KCN Đông Xoài III,dong-nai,Đồng Nai,TP. Đông Xoài,121,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-xoai-iii,2026-09-10
+kcn-gia-canh,KCN Gia Canh,dong-nai,Đồng Nai,Huyện Định Quán,192,False,False,False,https://kcn-kkt.com/kcn/kcn-gia-canh,2026-09-10
+kcn-giang-dien,KCN Giang Điền,dong-nai,Đồng Nai,Xã Giang Điền; An Viên - huyện Trảng Bom và xã Tam Phước - Tp. Biên Hòa,529,False,False,False,https://kcn-kkt.com/kcn/kcn-giang-dien,2026-09-10
+kcn-go-dau,KCN Gò Dầu,dong-nai,Đồng Nai,Huyện Long Thành,182,False,False,False,https://kcn-kkt.com/kcn/kcn-go-dau,2026-09-10
+kcn-hang-gon,KCN Hàng Gôn,dong-nai,Đồng Nai,Thành phố Long Khánh,300,False,False,False,https://kcn-kkt.com/kcn/kcn-hang-gon,2026-09-10
+kcn-hoa-lu,KCN Hoa Lư,dong-nai,Đồng Nai,KKTCK Hoa Lư,150,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-lu,2026-09-10
+kcn-ho-nai-giai-doan-1,KCN Hố Nai - Giai đoạn 1,dong-nai,Đồng Nai,Huyện Trảng Bom,226,False,False,False,https://kcn-kkt.com/kcn/kcn-ho-nai-giai-doan-1,2026-09-10
+kcn-ho-nai-giai-doan-2,KCN Hố Nai - Giai đoạn 2,dong-nai,Đồng Nai,Huyện Trảng Bom và Thành phố Biên Hoà,271,False,False,False,https://kcn-kkt.com/kcn/kcn-ho-nai-giai-doan-2,2026-09-10
+kcn-ledana,KCN Ledana,dong-nai,Đồng Nai,KKTCK Hoa Lư,200,False,False,False,https://kcn-kkt.com/kcn/kcn-ledana,2026-09-10
+kcn-long-duc-giai-doan-2,KCN Long Dực (Giai đoạn 2),dong-nai,Đồng Nai,Thành phố Biên Hòa,299,False,False,False,https://kcn-kkt.com/kcn/kcn-long-duc-giai-doan-2,2026-09-10
+kcn-long-doc-giai-doan-1,KCN Long Độc (Giai đoạn 1),dong-nai,Đồng Nai,Thành phố Biên Hòa,281,False,False,False,https://kcn-kkt.com/kcn/kcn-long-doc-giai-doan-1,2026-09-10
+kcn-long-duc-3,KCN Long Đức 3,dong-nai,Đồng Nai,"Xã Long Đức và xã Lộc An, huyện Long Thành",245,False,True,True,https://kcn-kkt.com/kcn/kcn-long-duc-3,2026-09-10
+kcn-long-ha-phu-rieng,KCN Long Hà (Phú Riêng),dong-nai,Đồng Nai,Huyện Phú Riêng,524,False,False,False,https://kcn-kkt.com/kcn/kcn-long-ha-phu-rieng,2026-09-10
+kcn-long-khanh,KCN Long Khánh,dong-nai,Đồng Nai,"Xã Suối; Bình Lộc, thị xã Long Khánh",264,False,False,False,https://kcn-kkt.com/kcn/kcn-long-khanh,2026-09-10
+kcn-long-tan-phu-rieng,KCN Long Tân (Phú Riêng),dong-nai,Đồng Nai,Huyện Phú Riêng,283,False,False,False,https://kcn-kkt.com/kcn/kcn-long-tan-phu-rieng,2026-09-10
+kcn-long-thanh,KCN Long Thành,dong-nai,Đồng Nai,Huyện Long Thành,487,False,False,False,https://kcn-kkt.com/kcn/kcn-long-thanh,2026-09-10
+kcn-loteco,KCN LOTECO,dong-nai,Đồng Nai,Quốc lộ 15A - Phường Long Bình - thành phố Biên Hoà.,100,False,False,False,https://kcn-kkt.com/kcn/kcn-loteco,2026-09-10
+kcn-loc-an-binh-son,KCN Lộc An - Bình Sơn,dong-nai,Đồng Nai,Khu 13 - xã Long Đức - huyện Long Thành,498,False,False,False,https://kcn-kkt.com/kcn/kcn-loc-an-binh-son,2026-09-10
+kcn-minh-duc-hon-quan,KCN Minh Đức (Hớn Quản),dong-nai,Đồng Nai,Huyện Hớn Quản,460,False,False,False,https://kcn-kkt.com/kcn/kcn-minh-duc-hon-quan,2026-09-10
+kcn-minh-hung-han-quoc,KCN Minh Hưng - Hàn Quốc,dong-nai,Đồng Nai,TX. Chơn Thành,197,False,False,False,https://kcn-kkt.com/kcn/kcn-minh-hung-han-quoc,2026-09-10
+kcn-minh-hung-iii,KCN Minh Hưng III,dong-nai,Đồng Nai,TX. Chơn Thành,292,False,False,False,https://kcn-kkt.com/kcn/kcn-minh-hung-iii,2026-09-10
+kcn-minh-hung-iii-mo-rong-giai-doan-ii,KCN Minh Hưng III - Mở rộng giai đoạn II,dong-nai,Đồng Nai,TX. Chơn Thành,578,False,False,False,https://kcn-kkt.com/kcn/kcn-minh-hung-iii-mo-rong-giai-doan-ii,2026-09-10
+kcn-minh-hung-sikico-giai-doan-ii,KCN Minh Hưng- Sikico - Giai đoạn II,dong-nai,Đồng Nai,Huyện Hớn Quản,800,False,False,False,https://kcn-kkt.com/kcn/kcn-minh-hung-sikico-giai-doan-ii,2026-09-10
+kcn-minh-hung-sikico,KCN Minh Hưng-Sikico,dong-nai,Đồng Nai,Huyện Hớn Quân,655,False,False,False,https://kcn-kkt.com/kcn/kcn-minh-hung-sikico,2026-09-10
+kcn-minh-hung-sikico-giai-doan-ii-hon-quan,KCN Minh Hưng-Sikico - Giai đoạn II (Hớn Quản),dong-nai,Đồng Nai,Huyện Hớn Quản,300,False,False,False,https://kcn-kkt.com/kcn/kcn-minh-hung-sikico-giai-doan-ii-hon-quan,2026-09-10
+kcn-minh-lap-va-minh-hung,KCN Minh Lập và Minh Hưng,dong-nai,Đồng Nai,TX. Chơn Thành,800,False,False,False,https://kcn-kkt.com/kcn/kcn-minh-lap-va-minh-hung,2026-09-10
+kcn-mo-nang,KCN Mo Nạng,dong-nai,Đồng Nai,Huyện Vĩnh Cửu,171,False,False,False,https://kcn-kkt.com/kcn/kcn-mo-nang,2026-09-10
+kcn-nam-dong-phu,KCN Nam Đông Phú,dong-nai,Đồng Nai,Huyện Đông Phú,72,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-dong-phu,2026-09-10
+kcn-nam-dong-phu-giai-doan-iii,KCN Nam Đông Phú - Giai đoạn III,dong-nai,Đồng Nai,Huyện Đông Phú,900,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-dong-phu-giai-doan-iii,2026-09-10
+kcn-nam-dong-phu-mo-rong-giai-doan-ii,KCN Nam Đông Phú- Mở rộng giai đoạn II,dong-nai,Đồng Nai,Huyện Đông Phú,480,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-dong-phu-mo-rong-giai-doan-ii,2026-09-10
+kcn-nhon-trach-i,KCN Nhơn Trạch I,dong-nai,Đồng Nai,"Xã Hiệp Phước, Phước Thiên và Phú Hội, huyện Nhơn Trạch.",426,False,False,False,https://kcn-kkt.com/kcn/kcn-nhon-trach-i,2026-09-10
+kcn-nhon-trach-ii,KCN Nhơn Trạch II,dong-nai,Đồng Nai,Huyện Nhơn Trạch,331,False,False,False,https://kcn-kkt.com/kcn/kcn-nhon-trach-ii,2026-09-10
+kcn-nhon-trach-ii-loc-khang,KCN Nhơn Trạch II - Lộc Khang,dong-nai,Đồng Nai,"Xã Hiệp Phước, Phú Hội, huyện Nhơn Trạch.",70,False,False,False,https://kcn-kkt.com/kcn/kcn-nhon-trach-ii-loc-khang,2026-09-10
+kcn-nhon-trach-ii-nhon-phu,KCN Nhơn Trạch II - Nhơn Phú,dong-nai,Đồng Nai,"Xã Hiệp Phước và Phú Hội, huyện Nhơn Trạch",183,False,False,False,https://kcn-kkt.com/kcn/kcn-nhon-trach-ii-nhon-phu,2026-09-10
+kcn-nhon-trach-iii-giai-doan-1-formosa,KCN Nhơn Trạch III - Giai đoạn 1 (Formosa),dong-nai,Đồng Nai,"Quốc lộ 51, Huyện Nhơn Trạch",350,False,False,False,https://kcn-kkt.com/kcn/kcn-nhon-trach-iii-giai-doan-1-formosa,2026-09-10
+kcn-nhon-trach-iii-giao-doan-2,KCN Nhơn Trạch III - Giao đoạn 2,dong-nai,Đồng Nai,Huyện Nhơn Trạch,360,False,False,False,https://kcn-kkt.com/kcn/kcn-nhon-trach-iii-giao-doan-2,2026-09-10
+kcn-nhon-trach-v,KCN Nhơn Trạch V,dong-nai,Đồng Nai,Huyện Nhơn Trạch,298,False,False,False,https://kcn-kkt.com/kcn/kcn-nhon-trach-v,2026-09-10
+kcn-nhon-trach-vi,KCN Nhơn Trạch VI,dong-nai,Đồng Nai,"Xã Long Thọ, huyện Nhơn Trạch.",314,False,False,False,https://kcn-kkt.com/kcn/kcn-nhon-trach-vi,2026-09-10
+kcn-ong-keo,KCN Ông Kéo,dong-nai,Đồng Nai,"Xã Phước Khánh, huyện Nhơn Trạch",823,False,False,False,https://kcn-kkt.com/kcn/kcn-ong-keo,2026-09-10
+kcn-phu-rieng-phu-rieng-159-ha-va-dong-phu-334-ha,KCN Phú Riêng (Phú Riêng 159 ha và Đông Phú 334 ha),dong-nai,Đồng Nai,Huyện Đông Phú và huyện Hớn Quản,493,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-rieng-phu-rieng-159-ha-va-dong-phu-334-ha,2026-09-10
+kcn-phuoc-an,KCN Phước An,dong-nai,Đồng Nai,Huyện Nhơn Trạch,330,False,False,False,https://kcn-kkt.com/kcn/kcn-phuoc-an,2026-09-10
+kcn-phuoc-an-giai-doan-2,KCN Phước An (Giai đoạn 2),dong-nai,Đồng Nai,Huyện Nhơn Trạch,225,False,False,False,https://kcn-kkt.com/kcn/kcn-phuoc-an-giai-doan-2,2026-09-10
+kcn-phuoc-binh,KCN Phước Bình,dong-nai,Đồng Nai,Huyện Long Thành,190,False,False,False,https://kcn-kkt.com/kcn/kcn-phuoc-binh,2026-09-10
+kcn-phuoc-binh-2,KCN Phước Bình 2,dong-nai,Đồng Nai,Huyện Long Thành,299,False,False,False,https://kcn-kkt.com/kcn/kcn-phuoc-binh-2,2026-09-10
+kcn-phuoc-binh-2-giai-doan-2,KCN Phước Bình 2 (Giai đoạn 2),dong-nai,Đồng Nai,Huyện Long Thành,291,False,False,False,https://kcn-kkt.com/kcn/kcn-phuoc-binh-2-giai-doan-2,2026-09-10
+kcn-song-may-giai-doan-1,KCN Sông Mây - Giai đoạn 1,dong-nai,Đồng Nai,Huyện Trảng Bom,250,False,False,False,https://kcn-kkt.com/kcn/kcn-song-may-giai-doan-1,2026-09-10
+kcn-song-may-giai-doan-2,KCN Sông Mây - Giai đoạn 2,dong-nai,Đồng Nai,Huyện Trảng Bom và huyện Vĩnh Cửu,224,False,False,False,https://kcn-kkt.com/kcn/kcn-song-may-giai-doan-2,2026-09-10
+kcn-suoi-tre,KCN Suối Tre,dong-nai,Đồng Nai,"Xã Suối Tre, Long Khánh",145,False,False,False,https://kcn-kkt.com/kcn/kcn-suoi-tre,2026-09-10
+kcn-tam-phuoc,KCN Tam Phước,dong-nai,Đồng Nai,"Xã Tam Phước, Thành phố Biên Hòa",334,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-phuoc,2026-09-10
+kcn-tan-khai-hon-quan,KCN Tân Khai (Hớn Quản),dong-nai,Đồng Nai,Huyện Hớn Quản,240,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-khai-hon-quan,2026-09-10
+kcn-tan-khai-ii,KCN Tân Khai II,dong-nai,Đồng Nai,Huyện Hớn Quản,160,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-khai-ii,2026-09-10
+kcn-tan-phu,KCN Tân Phú,dong-nai,Đồng Nai,"Thị trấn Tân Phú, huyện Tân Phú.",54,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phu,2026-09-10
+kcn-tan-phu-giai-doan-2,KCN Tân Phú (Giai đoạn 2),dong-nai,Đồng Nai,Huyện Tân Phú,169,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phu-giai-doan-2,2026-09-10
+kcn-tan-phu-mo-rong,KCN Tân Phú (mở rộng),dong-nai,Đồng Nai,Huyện Tân Phú,76,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phu-mo-rong,2026-09-10
+kcn-thanh-binh,KCN Thanh Bình,dong-nai,Đồng Nai,Đồng Xoài,92,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-binh,2026-09-10
+kcn-thanh-dung,KCN Thanh Dung,dong-nai,Đồng Nai,Lộc Ninh,300,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-dung,2026-09-10
+kcn-thanh-phu,KCN Thanh Phú,dong-nai,Đồng Nai,"Xã Thanh Phú, huyện Vĩnh Cửu",177,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-phu,2026-09-10
+kcn-v-com,KCN V.Com,dong-nai,Đồng Nai,Lộc Ninh,300,True,False,False,https://kcn-kkt.com/kcn/kcn-v-com,2026-09-10
+kcn-viet-kieu,KCN Việt Kiều,dong-nai,Đồng Nai,Huyện Hớn Quân,104,False,False,False,https://kcn-kkt.com/kcn/kcn-viet-kieu,2026-09-10
+kcn-xuan-hoa,KCN Xuân Hòa,dong-nai,Đồng Nai,Huyện Xuân Lộc,485,False,False,False,https://kcn-kkt.com/kcn/kcn-xuan-hoa,2026-09-10
+kcn-xuan-loc,KCN Xuân Lộc,dong-nai,Đồng Nai,"Xã Xuân Tâm, Xuân Hiệp, huyện Xuân Lộc",109,False,False,False,https://kcn-kkt.com/kcn/kcn-xuan-loc,2026-09-10
+kcn-xuan-loc-mo-rong,KCN Xuân Lộc mở rộng,dong-nai,Đồng Nai,Huyện Xuân Lộc,200,False,False,False,https://kcn-kkt.com/kcn/kcn-xuan-loc-mo-rong,2026-09-10
+kcn-xuan-que-song-nhan,KCN Xuân Quế - Sông Nhan,dong-nai,Đồng Nai,Huyện Cẩm Mỹ,1820,False,True,True,https://kcn-kkt.com/kcn/kcn-xuan-que-song-nhan,2026-09-10
+kcn-xuan-thien,KCN Xuân Thiện,dong-nai,Đồng Nai,Huyện Thống Nhất,481,False,False,False,https://kcn-kkt.com/kcn/kcn-xuan-thien,2026-09-10
+khu-cong-nghiep-bien-hoa-2,Khu Công nghiệp Biên Hoà 2,dong-nai,Đồng Nai,"Thành phố Biên Hoà, tỉnh Đồng Nai, Việt Nam",400,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-bien-hoa-2,2026-09-10
+khu-cong-nghiep-giang-dien,Khu Công Nghiệp Giang Điền,dong-nai,Đồng Nai,"Xã Giang Điền, xã An Viên, huyện Trảng Bom và xã Tâm Phước, thành phố Biên Hòa",529,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-giang-dien,2026-09-10
+khu-cong-nghiep-go-dau,Khu Công nghiệp Gò Dầu,dong-nai,Đồng Nai,"Huyện Long Thành, tỉnh Đông Nai",182,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-go-dau,2026-09-10
+khu-cong-nghiep-suoi-tre,Khu Công nghiệp Suối Tre,dong-nai,Đồng Nai,"Thành phố Long Khánh, tỉnh Đồng Nai",151.79,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-suoi-tre,2026-09-10
+khu-cong-nghiep-thanh-phu,Khu Công Nghiệp Thạnh Phú,dong-nai,Đồng Nai,"Huyện Vĩnh Cửu, tỉnh Đồng Nai",177,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-thanh-phu,2026-09-10
+khu-cong-nghiep-xuan-loc,Khu công nghiệp Xuân Lộc,dong-nai,Đồng Nai,"Huyện Xuân Lộc, tỉnh Đồng Nai, Việt Nam",108,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-xuan-loc,2026-09-10
+kcn-ba-sao,KCN Ba Sao,dong-thap,Đồng Tháp,Huyện Cao Lãnh,150,False,False,False,https://kcn-kkt.com/kcn/kcn-ba-sao,2026-09-10
+kcn-binh-dong,KCN Bình Động,dong-thap,Đồng Tháp,Thị xã Gò Công,212,False,True,True,https://kcn-kkt.com/kcn/kcn-binh-dong,2026-09-10
+kcn-binh-thach,KCN Bình Thạch,dong-thap,Đồng Tháp,Thành phố Hồng Ngự,300,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-thach,2026-09-10
+kcn-binh-thanh-dong-thap,KCN Bình Thạnh,dong-thap,Đồng Tháp,TP Hồng Ngự,300,True,False,False,https://kcn-kkt.com/kcn/kcn-binh-thanh-dong-thap,2026-09-10
+kcn-cao-lanh-ii,KCN Cao Lãnh II,dong-thap,Đồng Tháp,Huyện Cao Lãnh,110,False,False,False,https://kcn-kkt.com/kcn/kcn-cao-lanh-ii,2026-09-10
+kcn-cao-lanh-ii-mo-rong,KCN Cao Lãnh II mở rộng,dong-thap,Đồng Tháp,Huyện Cao Lãnh,790,False,False,False,https://kcn-kkt.com/kcn/kcn-cao-lanh-ii-mo-rong,2026-09-10
+kcn-cao-lanh-iii,KCN Cao Lãnh III,dong-thap,Đồng Tháp,Huyện Cao Lãnh,94,False,False,False,https://kcn-kkt.com/kcn/kcn-cao-lanh-iii,2026-09-10
+kcn-dich-vu-dau-khi-soai-rap,KCN Dịch vụ đầu khi Soài Rạp,dong-thap,Đồng Tháp,Huyện Gò Công Đông,285,False,False,False,https://kcn-kkt.com/kcn/kcn-dich-vu-dau-khi-soai-rap,2026-09-10
+kcn-dinh-ba,KCN Định Bà,dong-thap,Đồng Tháp,Huyện Tân Hồng,500,False,False,False,https://kcn-kkt.com/kcn/kcn-dinh-ba,2026-09-10
+kcn-go-cong-1,KCN Gò Công 1,dong-thap,Đồng Tháp,Gò Công,300,True,False,False,https://kcn-kkt.com/kcn/kcn-go-cong-1,2026-09-10
+kcn-go-cong-2,KCN Gò Công 2,dong-thap,Đồng Tháp,Gò Công,300,True,False,False,https://kcn-kkt.com/kcn/kcn-go-cong-2,2026-09-10
+kcn-hoa-tan,KCN Hòa Tân,dong-thap,Đồng Tháp,Huyện Châu Thành,190,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-tan,2026-09-10
+kcn-hoa-tan-mo-rong,KCN Hòa Tân mở rộng,dong-thap,Đồng Tháp,Huyện Châu Thành,610,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-tan-mo-rong,2026-09-10
+kcn-long-giang,KCN Long Giang,dong-thap,Đồng Tháp,Huyện Tân Phước,540,False,False,False,https://kcn-kkt.com/kcn/kcn-long-giang,2026-09-10
+kcn-my-tho,KCN Mỹ Tho,dong-thap,Đồng Tháp,Thành phố Mỹ Tho,79,False,False,False,https://kcn-kkt.com/kcn/kcn-my-tho,2026-09-10
+kcn-phu-tan,KCN Phú Tân,dong-thap,Đồng Tháp,Huyện Tân Phú Đông,225,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-tan,2026-09-10
+kcn-sa-dec,KCN Sa Déc,dong-thap,Đồng Tháp,TX Sa Déc,132,False,False,False,https://kcn-kkt.com/kcn/kcn-sa-dec,2026-09-10
+kcn-song-hau,KCN Sông Hậu,dong-thap,Đồng Tháp,Huyện Lai Vung,63,False,False,False,https://kcn-kkt.com/kcn/kcn-song-hau,2026-09-10
+kcn-song-hau-2-mo-rong,KCN Sông Hậu 2 mở rộng,dong-thap,Đồng Tháp,Huyện Lập Vò,428,False,False,False,https://kcn-kkt.com/kcn/kcn-song-hau-2-mo-rong,2026-09-10
+kcn-song-hau-3,KCN Sông Hậu 3,dong-thap,Đồng Tháp,Huyện Lai Vung,300,False,False,False,https://kcn-kkt.com/kcn/kcn-song-hau-3,2026-09-10
+kcn-song-hau-ii,KCN Sông Hậu II,dong-thap,Đồng Tháp,Huyện Lập Võ,282,False,False,False,https://kcn-kkt.com/kcn/kcn-song-hau-ii,2026-09-10
+kcn-tan-huong,KCN Tân Hương,dong-thap,Đồng Tháp,Huyện Châu Thành,197,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-huong,2026-09-10
+kcn-tan-kieu,KCN Tân Kiều,dong-thap,Đồng Tháp,Huyện Tháp Mười,148,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-kieu,2026-09-10
+kcn-tan-phuoc-1,KCN Tân Phước 1,dong-thap,Đồng Tháp,Huyện Tân Phước,470,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phuoc-1,2026-09-10
+kcn-tan-phuoc-2,KCN Tân Phước 2,dong-thap,Đồng Tháp,Huyện Tân Phước,450,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phuoc-2,2026-09-10
+kcn-tan-phuoc-3,KCN Tân Phước 3,dong-thap,Đồng Tháp,Huyện Tân Phước,300,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phuoc-3,2026-09-10
+kcn-tan-phuoc-4,KCN Tân Phước 4,dong-thap,Đồng Tháp,Huyện Tân Phước,300,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phuoc-4,2026-09-10
+kcn-tan-phuoc-5,KCN Tân Phước 5,dong-thap,Đồng Tháp,Huyện Tân Phước,300,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phuoc-5,2026-09-10
+kcn-thuong-phuoc,KCN Thương Phước,dong-thap,Đồng Tháp,Huyện Hồng Ngự,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-thuong-phuoc,2026-09-10
+kcn-tran-quoc-toan,KCN Trần Quốc Toản,dong-thap,Đồng Tháp,Thành phố Cao Lãnh,56,False,False,False,https://kcn-kkt.com/kcn/kcn-tran-quoc-toan,2026-09-10
+kcn-do-thi-dich-vu-cao-lanh,"KCN, đô thị, dịch vụ Cao Lãnh",dong-thap,Đồng Tháp,Huyện Cao Lãnh,190,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-cao-lanh,2026-09-10
+kcn-do-thi-dich-vu-cao-lanh-mo-rong,"KCN, đô thị, dịch vụ Cao Lãnh mở rộng",dong-thap,Đồng Tháp,Huyện Cao Lãnh,660,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-cao-lanh-mo-rong,2026-09-10
+kcn-do-thi-dich-vu-tan-my,"KCN, đô thị, dịch vụ Tân Mỹ",dong-thap,Đồng Tháp,Huyện Lập Võ,450,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-tan-my,2026-09-10
+kcn-an-khe,KCN An Khê,gia-lai,Gia Lai,Thị xã An Khê,,False,False,False,https://kcn-kkt.com/kcn/kcn-an-khe,2026-09-10
+kcn-ayun-pa,KCN Ayun Pa,gia-lai,Gia Lai,Thị xã Ayun Pa,,False,False,False,https://kcn-kkt.com/kcn/kcn-ayun-pa,2026-09-10
+kcn-cat-trinh,KCN Cát Trinh,gia-lai,Gia Lai,Huyện Phù Cát,368,False,False,False,https://kcn-kkt.com/kcn/kcn-cat-trinh,2026-09-10
+kcn-chu-se,KCN Chu Sê,gia-lai,Gia Lai,Huyện Chư Sê,,False,False,False,https://kcn-kkt.com/kcn/kcn-chu-se,2026-09-10
+kcn-dak-doa,KCN Đak Doa,gia-lai,Gia Lai,Huyện Đak Doa,200,False,False,False,https://kcn-kkt.com/kcn/kcn-dak-doa,2026-09-10
+kcn-dong-pleiku,KCN Đông Pleiku,gia-lai,Gia Lai,TP Pleiku,200,True,False,False,https://kcn-kkt.com/kcn/kcn-dong-pleiku,2026-09-10
+kcn-nam-pleiku,KCN Nam Pleiku,gia-lai,Gia Lai,"Các huyện: Chư Sê, Chư Prông",200,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-pleiku,2026-09-10
+kcn-nam-pleiku-2,KCN Nam Pleiku 2,gia-lai,Gia Lai,Huyện Chư Sê,41,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-pleiku-2,2026-09-10
+kcn-tay-nam-pleiku,KCN Tây Nam Pleiku,gia-lai,Gia Lai,Giao lộ giữa cao tốc đường 19 và cao tốc Bắc - Nam,,False,False,False,https://kcn-kkt.com/kcn/kcn-tay-nam-pleiku,2026-09-10
+kcn-tra-da,KCN Trà Đa,gia-lai,Gia Lai,Thành phố Pleiku,210,False,False,False,https://kcn-kkt.com/kcn/kcn-tra-da,2026-09-10
+khu-cong-nghiep-do-thi-becamex-a-nhan-khu-07,Khu công nghiệp - Đô thị Becamex A (Nhân khu 07),gia-lai,Gia Lai,Huyện Văn Canh,1000,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-do-thi-becamex-a-nhan-khu-07,2026-09-10
+khu-cong-nghiep-binh-nghi,Khu công nghiệp Bình Nghi,gia-lai,Gia Lai,Huyện Tây Sơn,207,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-binh-nghi,2026-09-10
+khu-cong-nghiep-hoa-hoi,Khu công nghiệp Hòa Hội,gia-lai,Gia Lai,Huyện Phù Cát,266,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-hoa-hoi,2026-09-10
+khu-cong-nghiep-hoa-hoi-mo-rong-giai-doan-2,Khu công nghiệp Hòa Hội (mở rộng giai đoạn 2),gia-lai,Gia Lai,Huyện Phù Cát,143,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-hoa-hoi-mo-rong-giai-doan-2,2026-09-10
+khu-cong-nghiep-hoai-my,Khu công nghiệp Hoài Mỹ,gia-lai,Gia Lai,Thị xã Hoài Nhơn,600,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-hoai-my,2026-09-10
+khu-cong-nghiep-long-my,Khu công nghiệp Long Mỹ,gia-lai,Gia Lai,Thành phố Quy Nhơn,118,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-long-my,2026-09-10
+khu-cong-nghiep-long-my-giai-doan-ii,Khu công nghiệp Long Mỹ (giai đoạn II),gia-lai,Gia Lai,Thành phố Quy Nhơn,109,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-long-my-giai-doan-ii,2026-09-10
+khu-cong-nghiep-nhon-hoa,Khu công nghiệp Nhơn Hòa,gia-lai,Gia Lai,Thị xã An Nhơn,282,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-nhon-hoa,2026-09-10
+khu-cong-nghiep-nhon-hoi-khu-a-trong-khu-kinh-te-nhon-hoi,Khu công nghiệp Nhơn Hội (Khu A - Trong khu kinh tế Nhơn Hội),gia-lai,Gia Lai,Thành phố Quy Nhơn,394,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-nhon-hoi-khu-a-trong-khu-kinh-te-nhon-hoi,2026-09-10
+khu-cong-nghiep-nhon-hoi-khu-b-trong-khu-kinh-te-nhon-hoi,Khu công nghiệp Nhơn Hội (Khu B - Trong khu kinh tế Nhơn Hội),gia-lai,Gia Lai,Thành phố Quy Nhơn,452,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-nhon-hoi-khu-b-trong-khu-kinh-te-nhon-hoi,2026-09-10
+khu-cong-nghiep-phia-nam-quoc-lo-19,Khu công nghiệp phía Nam Quốc lộ 19,gia-lai,Gia Lai,Thị xã An Nhơn,160,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-phia-nam-quoc-lo-19,2026-09-10
+khu-cong-nghiep-phu-my,Khu công nghiệp Phù Mỹ,gia-lai,Gia Lai,Huyện Phù Mỹ,1100,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-phu-my,2026-09-10
+khu-cong-nghiep-phu-tai,Khu công nghiệp Phú Tài,gia-lai,Gia Lai,Thành phố Quy Nhơn,340,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-phu-tai,2026-09-10
+khu-cong-nghiep-tay-giang,Khu công nghiệp Tây Giang,gia-lai,Gia Lai,Huyện Tây Sơn,300,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-tay-giang,2026-09-10
+khu-cong-nghiep-van-canh,Khu công nghiệp Văn Canh,gia-lai,Gia Lai,Huyện Văn Canh,1500,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-van-canh,2026-09-10
+kcn-ba-vi,KCN Ba Vì,ha-noi,Hà Nội,Huyện Ba Vì,310,False,False,False,https://kcn-kkt.com/kcn/kcn-ba-vi,2026-09-10
+kcn-bac-phu-xuyen,KCN Bắc Phú Xuyên,ha-noi,Hà Nội,Huyện Phú Xuyên,100,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-phu-xuyen,2026-09-10
+kcn-bac-thuong-tin,KCN Bắc Thường Tín,ha-noi,Hà Nội,Huyện Thường Tín,112,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-thuong-tin,2026-09-10
+kcn-dong-anh,KCN Đông Anh,ha-noi,Hà Nội,Huyện Đông Anh,300,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-anh,2026-09-10
+kcn-ho-tro-nam-ha-noi-giai-doan-i,KCN Hỗ trợ Nam Hà Nội giai đoạn I,ha-noi,Hà Nội,Huyện Phú Xuyên,76,False,False,False,https://kcn-kkt.com/kcn/kcn-ho-tro-nam-ha-noi-giai-doan-i,2026-09-10
+kcn-ho-tro-nam-ha-noi-giai-doan-ii,KCN hỗ trợ Nam Hà Nội giai đoạn II,ha-noi,Hà Nội,Huyện Phú Xuyên,263,False,False,False,https://kcn-kkt.com/kcn/kcn-ho-tro-nam-ha-noi-giai-doan-ii,2026-09-10
+kcn-khu-chay,KCN Khu Cháy,ha-noi,Hà Nội,Ứng Hòa,100,True,False,False,https://kcn-kkt.com/kcn/kcn-khu-chay,2026-09-10
+kcn-khu-chau,KCN Khu Châu,ha-noi,Hà Nội,Huyện Phú Xuyên,100,False,False,False,https://kcn-kkt.com/kcn/kcn-khu-chau,2026-09-10
+kcn-nam-thang-long,KCN Nam Thăng Long,ha-noi,Hà Nội,Quận Bắc Từ Liêm,31,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-thang-long,2026-09-10
+kcn-noi-bai,KCN Nội Bài,ha-noi,Hà Nội,Huyện Sóc Sơn,114,False,False,False,https://kcn-kkt.com/kcn/kcn-noi-bai,2026-09-10
+kcn-phu-dong,KCN Phủ Đông,ha-noi,Hà Nội,Huyện Gia Lâm,370,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-dong,2026-09-10
+kcn-phu-nghia,KCN Phú Nghĩa,ha-noi,Hà Nội,Huyện Chương Mỹ,170,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-nghia,2026-09-10
+kcn-phu-nghia-ii,KCN Phú Nghĩa II,ha-noi,Hà Nội,Huyện Chương Mỹ,100,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-nghia-ii,2026-09-10
+kcn-phung-hiep,KCN Phùng Hiệp,ha-noi,Hà Nội,Huyện Thường Tín,174,False,False,False,https://kcn-kkt.com/kcn/kcn-phung-hiep,2026-09-10
+kcn-phung-hiep-mo-rong,KCN Phùng Hiệp mở rộng,ha-noi,Hà Nội,Huyện Thường Tín,87,False,False,False,https://kcn-kkt.com/kcn/kcn-phung-hiep-mo-rong,2026-09-10
+kcn-quang-minh-i-va-mo-rong,KCN Quang Minh I và mở rộng,ha-noi,Hà Nội,Huyện Mê Linh,407,False,False,False,https://kcn-kkt.com/kcn/kcn-quang-minh-i-va-mo-rong,2026-09-10
+kcn-quang-minh-ii,KCN Quang Minh II,ha-noi,Hà Nội,Huyện Mê Linh,160,False,False,False,https://kcn-kkt.com/kcn/kcn-quang-minh-ii,2026-09-10
+kcn-sach-soc-son,KCN Sách Sóc Sơn,ha-noi,Hà Nội,Huyện Sóc Sơn,302,False,False,False,https://kcn-kkt.com/kcn/kcn-sach-soc-son,2026-09-10
+kcn-sai-dong-b,KCN Sài Đông B,ha-noi,Hà Nội,Quận Long Biên,40,False,False,False,https://kcn-kkt.com/kcn/kcn-sai-dong-b,2026-09-10
+kcn-thach-that-quoc-oai,KCN Thạch Thất - Quốc Oai,ha-noi,Hà Nội,Huyện Quốc Oai và huyện Thạch Thất,150,False,False,False,https://kcn-kkt.com/kcn/kcn-thach-that-quoc-oai,2026-09-10
+kcn-thanh-van-tan-uoc,KCN Thanh Văn - Tân Ước,ha-noi,Hà Nội,Huyện Thanh Oai,400,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-van-tan-uoc,2026-09-10
+kcn-thang-long,KCN Thăng Long,ha-noi,Hà Nội,Huyện Đông Anh,274,False,False,False,https://kcn-kkt.com/kcn/kcn-thang-long,2026-09-10
+kcn-tien-thang,KCN Tiến Thắng,ha-noi,Hà Nội,Huyện Mê Linh,288,False,False,False,https://kcn-kkt.com/kcn/kcn-tien-thang,2026-09-10
+kcn-xuan-duong,KCN Xuân Dương,ha-noi,Hà Nội,Huyện Thanh Oai,350,False,False,False,https://kcn-kkt.com/kcn/kcn-xuan-duong,2026-09-10
+khu-cong-nghiep-gia-binh-ha-noi,Khu công nghiệp Gia Bình,ha-noi,Hà Nội,"Huyện Gia Bình, tỉnh Bắc Ninh",307,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-gia-binh-ha-noi,2026-09-10
+khu-cong-nghiep-yen-lu-ha-noi,Khu công nghiệp Yên Lự,ha-noi,Hà Nội,"Huyện Yên Dũng, tỉnh Bắc Giang",377,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-yen-lu-ha-noi,2026-09-10
+kcn-bac-hong-linh,KCN Bắc Hồng Lĩnh,ha-tinh,Hà Tĩnh,TX Hồng Lĩnh,269,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-hong-linh,2026-09-10
+kcn-bac-thach-ha,KCN Bắc Thạch Hà,ha-tinh,Hà Tĩnh,Thạch Hà,418,False,True,True,https://kcn-kkt.com/kcn/kcn-bac-thach-ha,2026-09-10
+kcn-cac-kcn-khac-theo-quy-hoach-chung-xay-dung-kkt-vung-ang-hoac-quy-hoach-chung-xay-dung-thi-xa-ky-anh,KCN Các KCN khác theo quy hoạch chung xây dựng KKT Vũng Áng hoặc Quy hoạch chung xây dựng thị xã Kỳ Anh,ha-tinh,Hà Tĩnh,TX Kỳ Anh và huyện Kỳ Anh,,True,False,False,https://kcn-kkt.com/kcn/kcn-cac-kcn-khac-theo-quy-hoach-chung-xay-dung-kkt-vung-ang-hoac-quy-hoach-chung-xay-dung-thi-xa-ky-anh,2026-09-10
+kcn-cac-kcn-trong-kkt-cua-khau-quoc-te-cau-treo-theo-quy-hoach-chung-xay-dung-kkt,KCN Các KCN trong KKT cửa khẩu quốc tế Cầu Treo theo quy hoạch chung xây dựng KKT,ha-tinh,Hà Tĩnh,Hương Sơn,,True,False,False,https://kcn-kkt.com/kcn/kcn-cac-kcn-trong-kkt-cua-khau-quoc-te-cau-treo-theo-quy-hoach-chung-xay-dung-kkt,2026-09-10
+kcn-gia-lach,KCN Gia Lạch,ha-tinh,Hà Tĩnh,Nghi Xuân,300,False,True,True,https://kcn-kkt.com/kcn/kcn-gia-lach,2026-09-10
+kcn-ha-vang,KCN Hạ Vàng,ha-tinh,Hà Tĩnh,Can Lộc,100,False,False,False,https://kcn-kkt.com/kcn/kcn-ha-vang,2026-09-10
+kcn-hoanh-son,KCN Hoành Sơn,ha-tinh,Hà Tĩnh,TX Kỳ Anh,41,False,False,False,https://kcn-kkt.com/kcn/kcn-hoanh-son,2026-09-10
+kcn-ky-trinh,KCN Kỳ Trình,ha-tinh,Hà Tĩnh,TX Kỳ Anh,330,False,False,False,https://kcn-kkt.com/kcn/kcn-ky-trinh,2026-09-10
+kcn-ky-trinh-ky-thinh,"KCN Kỳ Trình, Kỳ Thịnh",ha-tinh,Hà Tĩnh,TX Kỳ Anh,310,False,False,False,https://kcn-kkt.com/kcn/kcn-ky-trinh-ky-thinh,2026-09-10
+kcn-phia-tay-thanh-pho-ha-tinh,KCN phía Tây thành phố Hà Tĩnh,ha-tinh,Hà Tĩnh,Thạch Hà,200,False,False,False,https://kcn-kkt.com/kcn/kcn-phia-tay-thanh-pho-ha-tinh,2026-09-10
+kcn-phu-vinh,KCN Phú Vinh,ha-tinh,Hà Tĩnh,TX Kỳ Anh,207,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-vinh,2026-09-10
+kcn-trung-tam-lo-cn4-cn5,"KCN trung tâm Lō CN4, CN5",ha-tinh,Hà Tĩnh,TX Kỳ Anh,1235,False,False,False,https://kcn-kkt.com/kcn/kcn-trung-tam-lo-cn4-cn5,2026-09-10
+kcn-vung-ang-i,KCN Vũng Áng I,ha-tinh,Hà Tĩnh,TX Kỳ Anh,116,False,False,False,https://kcn-kkt.com/kcn/kcn-vung-ang-i,2026-09-10
+ben-cang-caltex,Bến cảng Caltex,hai-phong,Hải Phòng,"Tam Hung, Thuỷ Nguyên, Hải Phòng",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-caltex,2026-09-10
+ben-cang-container-quoc-te-tan-cang-hai-phong,Bến cảng Container Quốc tế Tân cảng Hải Phòng,hai-phong,Hải Phòng,"Huyện Cát Hải, thành phố Hải Phòng",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-container-quoc-te-tan-cang-hai-phong,2026-09-10
+ben-cang-cong-nghiep-tau-thuy-nam-trieu,Bến cảng công nghiệp tâu thuỷ Nam Triều,hai-phong,Hải Phòng,"Xã Tam Hung, huyện Thuỷ Nguyên, Thành phố Hải Phòng",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-cong-nghiep-tau-thuy-nam-trieu,2026-09-10
+ben-cang-nam-dinh-vu,Bến cảng Nam Định Vũ,hai-phong,Hải Phòng,"KCN Nam Định Vũ (Khu 1), P. Đông Hải 2, Q. Hải An, TP. Hải Phòng",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-nam-dinh-vu,2026-09-10
+ben-cang-nha-may-dong-tau-pha-rung,Bến cảng Nhà máy động tâu Phá Rừng,hai-phong,Hải Phòng,"Xã Tam Hưng, Thuỷ Nguyên, Hải Phòng",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-nha-may-dong-tau-pha-rung,2026-09-10
+ben-cang-nha-may-nhiet-dien-hai-phong,Bến cảng Nhà máy nhiệt điện Hải Phòng,hai-phong,Hải Phòng,"Xã Tam Hung, huyện Thuỷ Nguyên, Thành phố Hải Phòng",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-nha-may-nhiet-dien-hai-phong,2026-09-10
+kcn-an-duong,KCN An Dương,hai-phong,Hải Phòng,Huyện An Dương,196,False,False,False,https://kcn-kkt.com/kcn/kcn-an-duong,2026-09-10
+kcn-an-hoa,KCN An Hòa,hai-phong,Hải Phòng,Huyện Vĩnh Bảo,200,False,False,False,https://kcn-kkt.com/kcn/kcn-an-hoa,2026-09-10
+kcn-an-hung-dai-ban,KCN An Hưng - Đại Bàn,hai-phong,Hải Phòng,Huyện An Dương,220,False,False,False,https://kcn-kkt.com/kcn/kcn-an-hung-dai-ban,2026-09-10
+kcn-an-phat-1,KCN An Phát 1,hai-phong,Hải Phòng,Huyện Nam Sách,180,False,False,False,https://kcn-kkt.com/kcn/kcn-an-phat-1,2026-09-10
+kcn-binh-giang,KCN Bình Giang,hai-phong,Hải Phòng,Huyện Bình Giang,150,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-giang,2026-09-10
+kcn-binh-giang-2,KCN Bình Giang 2,hai-phong,Hải Phòng,Huyện Bình Giang,303,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-giang-2,2026-09-10
+kcn-binh-giang-3,KCN Bình Giang 3,hai-phong,Hải Phòng,Huyện Bình Giang,200,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-giang-3,2026-09-10
+kcn-binh-giang-4,KCN Bình Giang 4,hai-phong,Hải Phòng,Huyện Bình Giang,196,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-giang-4,2026-09-10
+kcn-binh-giang-5,KCN Bình Giang 5,hai-phong,Hải Phòng,Huyện Bình Giang,100,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-giang-5,2026-09-10
+kcn-cang-cua-ngo-quoc-te-hai-phong,KCN Cảng cửa ngõ quốc tế Hải Phòng,hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,527,False,False,False,https://kcn-kkt.com/kcn/kcn-cang-cua-ngo-quoc-te-hai-phong,2026-09-10
+kcn-cam-dien-luong-dien,KCN Cẩm Điền - Lương Điền,hai-phong,Hải Phòng,Huyện Cẩm Giàng,149,False,False,False,https://kcn-kkt.com/kcn/kcn-cam-dien-luong-dien,2026-09-10
+kcn-cau-cuu,KCN Cầu Cứu,hai-phong,Hải Phòng,Huyện An Lão,106,False,False,False,https://kcn-kkt.com/kcn/kcn-cau-cuu,2026-09-10
+kcn-cong-hoa,KCN Công Hòa,hai-phong,Hải Phòng,Thành phố Chí Linh,201,False,False,False,https://kcn-kkt.com/kcn/kcn-cong-hoa,2026-09-10
+kcn-cong-hoa-2,KCN Công Hòa 2,hai-phong,Hải Phòng,Thành phố Chi Linh,190,False,False,False,https://kcn-kkt.com/kcn/kcn-cong-hoa-2,2026-09-10
+kcn-dai-an,KCN Đại An,hai-phong,Hải Phòng,Thành phố Hải Dương,136,False,False,False,https://kcn-kkt.com/kcn/kcn-dai-an,2026-09-10
+kcn-dai-an-mo-rong,KCN Đại An mở rộng,hai-phong,Hải Phòng,"TP. Hải Dương, h. Cẩm Giàng",416,False,False,False,https://kcn-kkt.com/kcn/kcn-dai-an-mo-rong,2026-09-10
+kcn-dai-thang,KCN Đại Thắng,hai-phong,Hải Phòng,Tiên Lãng,190,True,False,False,https://kcn-kkt.com/kcn/kcn-dai-thang,2026-09-10
+kcn-dinh-vu,KCN Đình Vũ,hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,541,False,False,False,https://kcn-kkt.com/kcn/kcn-dinh-vu,2026-09-10
+kcn-do-son-hai-phong,KCN Đố Sơn Hải Phòng,hai-phong,Hải Phòng,Quận Đố Sơn,152,False,False,False,https://kcn-kkt.com/kcn/kcn-do-son-hai-phong,2026-09-10
+kcn-gia-loc,KCN Gia Lộc,hai-phong,Hải Phòng,Huyện Gia Lộc,198,False,False,False,https://kcn-kkt.com/kcn/kcn-gia-loc,2026-09-10
+kcn-gia-loc-3,KCN Gia Lộc 3,hai-phong,Hải Phòng,Huyện Gia Lộc,130,False,False,False,https://kcn-kkt.com/kcn/kcn-gia-loc-3,2026-09-10
+kcn-giang-bien-ii,KCN Giang Biên II,hai-phong,Hải Phòng,Huyện Vĩnh Bảo,350,False,False,False,https://kcn-kkt.com/kcn/kcn-giang-bien-ii,2026-09-10
+kcn-hoang-dieu,KCN Hoàng Diệu,hai-phong,Hải Phòng,Huyện Gia Lộc,250,False,False,False,https://kcn-kkt.com/kcn/kcn-hoang-dieu,2026-09-10
+kcn-hung-dao,KCN Hưng Đạo,hai-phong,Hải Phòng,Huyện Tứ Kỳ,200,False,False,False,https://kcn-kkt.com/kcn/kcn-hung-dao,2026-09-10
+kcn-kim-thanh,KCN Kim Thành,hai-phong,Hải Phòng,Huyện Kim Thành,165,False,False,False,https://kcn-kkt.com/kcn/kcn-kim-thanh,2026-09-10
+kcn-kim-thanh-2,KCN Kim Thành 2,hai-phong,Hải Phòng,Huyện Kim Thành,437,False,True,True,https://kcn-kkt.com/kcn/kcn-kim-thanh-2,2026-09-10
+kcn-ky-thuat-cao-an-phat,KCN Kỹ thuật cao An Phát,hai-phong,Hải Phòng,Thành phố Hải Dương,46,False,False,False,https://kcn-kkt.com/kcn/kcn-ky-thuat-cao-an-phat,2026-09-10
+kcn-lai-cach,KCN Lai Cách,hai-phong,Hải Phòng,Huyện Cẩm Giàng,135,False,False,False,https://kcn-kkt.com/kcn/kcn-lai-cach,2026-09-10
+kcn-lai-vu,KCN Lai Vu,hai-phong,Hải Phòng,Huyện Kim Thành,213,False,False,False,https://kcn-kkt.com/kcn/kcn-lai-vu,2026-09-10
+kcn-le-thien-dai-ban,KCN Lê Thiện - Đại Bản,hai-phong,Hải Phòng,Lê Thiện - Đại Bản; An Dương,300,True,False,False,https://kcn-kkt.com/kcn/kcn-le-thien-dai-ban,2026-09-10
+kcn-luong-dien-ngoc-lien,KCN Lương Điền - Ngọc Liên,hai-phong,Hải Phòng,Huyện Cẩm Giàng,150,False,True,True,https://kcn-kkt.com/kcn/kcn-luong-dien-ngoc-lien,2026-09-10
+kcn-mp-dinh-vu,KCN MP Đình Vũ,hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,234,False,False,False,https://kcn-kkt.com/kcn/kcn-mp-dinh-vu,2026-09-10
+kcn-nam-cau-kien,KCN Nam Cầu Kiến,hai-phong,Hải Phòng,Huyện Thủy Nguyên,263,False,True,True,https://kcn-kkt.com/kcn/kcn-nam-cau-kien,2026-09-10
+kcn-nam-cau-kien-mo-rong,KCN Nam Cầu Kiền (mở rộng),hai-phong,Hải Phòng,Huyện Thủy Nguyên,91,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-cau-kien-mo-rong,2026-09-10
+kcn-nam-dinh-vu-khu-2,KCN Nam Đình Vũ (khu 2),hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,513,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-dinh-vu-khu-2,2026-09-10
+kcn-nam-sach,KCN Nam Sách,hai-phong,Hải Phòng,Thành phố Hải Dương,62,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-sach,2026-09-10
+kcn-nam-sach-1,KCN Nam Sách 1,hai-phong,Hải Phòng,Huyện Nam Sách,100,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-sach-1,2026-09-10
+kcn-nam-trang-cat,KCN Nam Trạng Cát,hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,200,False,True,True,https://kcn-kkt.com/kcn/kcn-nam-trang-cat,2026-09-10
+kcn-ngu-phuc,KCN Ngũ Phúc,hai-phong,Hải Phòng,Huyện Kiến Thuỵ,450,False,True,True,https://kcn-kkt.com/kcn/kcn-ngu-phuc,2026-09-10
+kcn-nhat-ban-hai-phong,KCN Nhật Bản - Hải Phòng,hai-phong,Hải Phòng,Huyện An Dương,153,False,False,False,https://kcn-kkt.com/kcn/kcn-nhat-ban-hai-phong,2026-09-10
+kcn-nomura-giai-doan-2,KCN Nomura giai đoạn 2,hai-phong,Hải Phòng,Huyện An Dương,230,False,False,False,https://kcn-kkt.com/kcn/kcn-nomura-giai-doan-2,2026-09-10
+kcn-phia-bac-dao-cat-hai,KCN phía Bắc đảo Cát Hải,hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,180,False,False,False,https://kcn-kkt.com/kcn/kcn-phia-bac-dao-cat-hai,2026-09-10
+kcn-phu-thai,KCN Phú Thái,hai-phong,Hải Phòng,Huyện Kim Thành,57,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-thai,2026-09-10
+kcn-phuc-dien,KCN Phúc Điền,hai-phong,Hải Phòng,Huyện Cẩm Giàng,83,False,False,False,https://kcn-kkt.com/kcn/kcn-phuc-dien,2026-09-10
+kcn-phuc-dien-mo-rong,KCN Phúc Điền mở rộng,hai-phong,Hải Phòng,Huyện Bình Giang,236,False,False,False,https://kcn-kkt.com/kcn/kcn-phuc-dien-mo-rong,2026-09-10
+kcn-san-bay-tien-lang,KCN sân bay Tiên Lãng,hai-phong,Hải Phòng,Huyện Tiên Lãng,450,False,True,True,https://kcn-kkt.com/kcn/kcn-san-bay-tien-lang,2026-09-10
+kcn-tam-da,KCN Tam Đa,hai-phong,Hải Phòng,Huyện Vĩnh Bảo,150,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-da,2026-09-10
+kcn-tam-hung-ngu-lao,KCN Tam Hưng - Ngũ Lão,hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,150,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-hung-ngu-lao,2026-09-10
+kcn-tan-trao,KCN Tân Trào,hai-phong,Hải Phòng,Huyện Kiến Thuỵ,500,False,True,True,https://kcn-kkt.com/kcn/kcn-tan-trao,2026-09-10
+kcn-tan-truong,KCN Tân Trường,hai-phong,Hải Phòng,Huyện Cẩm Giàng,198,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-truong,2026-09-10
+kcn-tan-truong-mo-rong,KCN Tân Trường mở rộng,hai-phong,Hải Phòng,Huyện Cẩm Giàng,113,False,True,True,https://kcn-kkt.com/kcn/kcn-tan-truong-mo-rong,2026-09-10
+kcn-thanh-ha,KCN Thanh Hà,hai-phong,Hải Phòng,Huyện Thanh Hà,150,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-ha,2026-09-10
+kcn-thanh-mien-1,KCN Thanh Miện 1,hai-phong,Hải Phòng,Huyện Thanh Miện,200,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-mien-1,2026-09-10
+kcn-thanh-mien-2,KCN Thanh Miện 2,hai-phong,Hải Phòng,Huyện Thanh Miện,200,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-mien-2,2026-09-10
+kcn-thuy-nguyen,KCN Thủy Nguyên,hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,319,False,False,False,https://kcn-kkt.com/kcn/kcn-thuy-nguyen,2026-09-10
+kcn-tien-cuong,KCN Tiên Cường,hai-phong,Hải Phòng,Tiên Lãng,200,True,False,False,https://kcn-kkt.com/kcn/kcn-tien-cuong,2026-09-10
+kcn-tien-lang-1,KCN Tiên Lãng 1,hai-phong,Hải Phòng,Huyện Tiên Lãng,600,False,True,True,https://kcn-kkt.com/kcn/kcn-tien-lang-1,2026-09-10
+kcn-tien-lang-2,KCN Tiên Lãng 2,hai-phong,Hải Phòng,Huyện Tiên Lãng,500,False,False,False,https://kcn-kkt.com/kcn/kcn-tien-lang-2,2026-09-10
+kcn-tien-thanh,KCN Tiên Thanh,hai-phong,Hải Phòng,Huyện Tiên Lãng,410,False,False,False,https://kcn-kkt.com/kcn/kcn-tien-thanh,2026-09-10
+kcn-trang-due-1-2,"KCN Trảng Duệ 1, 2",hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,390,False,False,False,https://kcn-kkt.com/kcn/kcn-trang-due-1-2,2026-09-10
+kcn-trang-due-3,KCN Trăng Duệ 3,hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,687,False,True,True,https://kcn-kkt.com/kcn/kcn-trang-due-3,2026-09-10
+kcn-tran-duong-hoa-binh,KCN Trần Dương - Hòa Bình,hai-phong,Hải Phòng,Huyện Vĩnh Bảo,800,False,False,False,https://kcn-kkt.com/kcn/kcn-tran-duong-hoa-binh,2026-09-10
+kcn-trung-lap,KCN Trung Lập,hai-phong,Hải Phòng,Huyện Vĩnh Bảo,500,False,True,True,https://kcn-kkt.com/kcn/kcn-trung-lap,2026-09-10
+kcn-tu-ky-1,KCN Tứ Kỳ 1,hai-phong,Hải Phòng,Huyện Tứ Kỳ,116,False,False,False,https://kcn-kkt.com/kcn/kcn-tu-ky-1,2026-09-10
+kcn-va-dich-vu-hang-hai,KCN và dịch vụ Hàng hải,hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,133,False,False,False,https://kcn-kkt.com/kcn/kcn-va-dich-vu-hang-hai,2026-09-10
+kcn-va-khu-dich-vu-hang-hai,KCN và khu dịch vụ hàng hải,hai-phong,Hải Phòng,Hải An,132.7,True,False,False,https://kcn-kkt.com/kcn/kcn-va-khu-dich-vu-hang-hai,2026-09-10
+kcn-va-khu-phi-thue-quan-xuan-cau,KCN và khu phi thuế quan Xuân Cầu,hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,752,False,False,False,https://kcn-kkt.com/kcn/kcn-va-khu-phi-thue-quan-xuan-cau,2026-09-10
+kcn-vinh-quang,KCN Vĩnh Quang,hai-phong,Hải Phòng,Huyện Vĩnh Bảo,350,False,False,False,https://kcn-kkt.com/kcn/kcn-vinh-quang,2026-09-10
+kcn-vsip-hai-duong,KCN VSIP Hải Dương,hai-phong,Hải Phòng,Cẩm Giàng,183.96,True,False,False,https://kcn-kkt.com/kcn/kcn-vsip-hai-duong,2026-09-10
+kcn-vsip-hai-phong,KCN VSIP Hải Phòng,hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,508,False,False,False,https://kcn-kkt.com/kcn/kcn-vsip-hai-phong,2026-09-10
+khu-phi-thue-quan-va-kcn-nam-dinh-vu-khu-1,Khu phi thuế quan và KCN Nam Đình Vũ (khu 1),hai-phong,Hải Phòng,KKT Đình Vũ - Cát Hải,1329,False,False,False,https://kcn-kkt.com/kcn/khu-phi-thue-quan-va-kcn-nam-dinh-vu-khu-1,2026-09-10
+cac-khu-cong-nghiep-trong-khu-kinh-te-chan-may-lang-co,Các khu công nghiệp trong khu kinh tế Chân Mây - Lăng Cô,hue,Huế,Huyện Phủ Lộc,640,False,False,False,https://kcn-kkt.com/kcn/cac-khu-cong-nghiep-trong-khu-kinh-te-chan-may-lang-co,2026-09-10
+kcn-la-son,KCN La Sơn,hue,Huế,Huyện Phú Lộc,300,False,False,False,https://kcn-kkt.com/kcn/kcn-la-son,2026-09-10
+kcn-la-son-hue,KCN La Sơn,hue,Huế,Huyện Phủ Lộc,300,False,False,False,https://kcn-kkt.com/kcn/kcn-la-son-hue,2026-09-10
+kcn-la-son-mo-rong,KCN La Sơn (mở rộng),hue,Huế,Huyện Phủ Lộc,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-la-son-mo-rong,2026-09-10
+kcn-phong-dien,KCN Phong Điền,hue,Huế,Huyện Phong Điền,700,False,False,False,https://kcn-kkt.com/kcn/kcn-phong-dien,2026-09-10
+kcn-phong-dien-hue,KCN Phong Điền,hue,Huế,Huyện Phong Điền,700,False,False,False,https://kcn-kkt.com/kcn/kcn-phong-dien-hue,2026-09-10
+kcn-phong-dien-quang-dien,"KCN Phong Điền, Quảng Điền",hue,Huế,Huyện Phong Điền và Quảng Điền,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-phong-dien-quang-dien,2026-09-10
+kcn-phu-bai,KCN Phú Bài,hue,Huế,Thị xã Hương Thủy,743,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-bai,2026-09-10
+kcn-phu-bai-hue,KCN Phú Bài,hue,Huế,Thị xã Hương Thủy,743,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-bai-hue,2026-09-10
+kcn-phu-da-hue,KCN Phủ Đa,hue,Huế,Huyện Phủ Vang,250,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-da-hue,2026-09-10
+kcn-phu-da,KCN Phú Đa,hue,Huế,Huyện Phú Vàng,250,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-da,2026-09-10
+kcn-quang-vinh,KCN Quảng Vinh,hue,Huế,Huyện Quảng Điền,150,False,False,False,https://kcn-kkt.com/kcn/kcn-quang-vinh,2026-09-10
+kcn-quang-vinh-hue,KCN Quảng Vinh,hue,Huế,Huyện Quảng Điền,150,False,False,False,https://kcn-kkt.com/kcn/kcn-quang-vinh-hue,2026-09-10
+kcn-trong-khu-kinh-te-chan-may-lang-co,KCN trong Khu kinh tế Chân Mây - Lăng Cô,hue,Huế,Khu kinh tế Chân Mây - Lăng Cô,513,False,False,False,https://kcn-kkt.com/kcn/kcn-trong-khu-kinh-te-chan-may-lang-co,2026-09-10
+kcn-trong-khu-kinh-te-chan-may-lang-co-hue,KCN trong Khu kinh tế Chân Mây - Lăng Cô,hue,Huế,Khu kinh tế Chân Mây - Lăng Cô,2527,False,False,False,https://kcn-kkt.com/kcn/kcn-trong-khu-kinh-te-chan-may-lang-co-hue,2026-09-10
+kcn-trong-khu-kinh-te-cua-khau-a-dot,KCN trong Khu kinh tế cửa khẩu A Dót,hue,Huế,Khu kinh tế cửa khẩu A Dót,140,False,False,False,https://kcn-kkt.com/kcn/kcn-trong-khu-kinh-te-cua-khau-a-dot,2026-09-10
+kcn-trong-khu-kinh-te-cua-khau-a-dot-hue,KCN trong Khu kinh tế cửa khẩu A Dót,hue,Huế,Khu kinh tế cửa khẩu A Dót,140,False,False,False,https://kcn-kkt.com/kcn/kcn-trong-khu-kinh-te-cua-khau-a-dot-hue,2026-09-10
+kcn-tu-ha-hue,KCN Tú Hạ,hue,Huế,Thị xã Hương Trà,250,False,False,False,https://kcn-kkt.com/kcn/kcn-tu-ha-hue,2026-09-10
+kcn-tu-ha,KCN Tứ Hạ,hue,Huế,Thị xã Hương Trà,250,False,False,False,https://kcn-kkt.com/kcn/kcn-tu-ha,2026-09-10
+ben-cang-diem-diem,Bến cảng Diễm Diễm,hung-yen,Hưng Yên,"Khu 1, Diễm Diễm, Thái Thụy, Thái Bình",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-diem-diem,2026-09-10
+ben-cang-xuat-nhap-xang-dau-hai-ha,Bến cảng xuất nhập xăng dầu Hải Hà,hung-yen,Hưng Yên,Xã Thái Thương huyện Thái Thụy tỉnh Thái Bình,,False,False,False,https://kcn-kkt.com/kcn/ben-cang-xuat-nhap-xang-dau-hai-ha,2026-09-10
+kcn-an-thi-i,KCN Ân Thị I,hung-yen,Hưng Yên,Huyện Ân Thị,450,False,False,False,https://kcn-kkt.com/kcn/kcn-an-thi-i,2026-09-10
+kcn-bai-say,KCN Bãi Sậy,hung-yen,Hưng Yên,Huyện Ân Thị,495,False,False,False,https://kcn-kkt.com/kcn/kcn-bai-say,2026-09-10
+kcn-bac-dong-hung,KCN Bắc Đông Hưng,hung-yen,Hưng Yên,Bắc Đông Hưng,250,True,False,False,https://kcn-kkt.com/kcn/kcn-bac-dong-hung,2026-09-10
+kcn-cau-nghinh,KCN Cầu Nghinh,hung-yen,Hưng Yên,Huyện Quỳnh Phụ,212,False,False,False,https://kcn-kkt.com/kcn/kcn-cau-nghinh,2026-09-10
+kcn-chinh-nghia-pham-ngu-lao,KCN Chính Nghĩa - Phạm Ngũ Lão,hung-yen,Hưng Yên,Huyện Kim Động,200,False,False,False,https://kcn-kkt.com/kcn/kcn-chinh-nghia-pham-ngu-lao,2026-09-10
+kcn-det-may-pho-noi,KCN Dệt may Phố Nối,hung-yen,Hưng Yên,Huyện Yên Mỹ,122,False,False,False,https://kcn-kkt.com/kcn/kcn-det-may-pho-noi,2026-09-10
+kcn-duoc-sinh-hoc,KCN Dược - Sinh học,hung-yen,Hưng Yên,Huyện Quỳnh Phụ,300,False,False,False,https://kcn-kkt.com/kcn/kcn-duoc-sinh-hoc,2026-09-10
+kcn-doan-dao,KCN Đoàn Đào (mở rộng),hung-yen,Hưng Yên,"Đoàn Đào, Hồng Quang",200,True,False,False,https://kcn-kkt.com/kcn/kcn-doan-dao,2026-09-10
+kcn-dong-long,KCN Đông Long,hung-yen,Hưng Yên,Huyện Tiền Hải,247,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-long,2026-09-10
+kcn-dong-minh,KCN Đông Minh,hung-yen,Hưng Yên,Đồng Châu,236.7,True,False,False,https://kcn-kkt.com/kcn/kcn-dong-minh,2026-09-10
+kcn-gia-le,KCN Gia Lễ,hung-yen,Hưng Yên,Huyện Đông Hưng,85,False,False,False,https://kcn-kkt.com/kcn/kcn-gia-le,2026-09-10
+kcn-hai-long,KCN Hải Long,hung-yen,Hưng Yên,Huyện Tiền Hải,297,False,False,False,https://kcn-kkt.com/kcn/kcn-hai-long,2026-09-10
+kcn-hiep-cuong,KCN Hiệp Cường (mở rộng),hung-yen,Hưng Yên,Hiệp Cường,266,True,False,False,https://kcn-kkt.com/kcn/kcn-hiep-cuong,2026-09-10
+kcn-hoang-minh,KCN Hoàng Minh (gộp Hoàng Xuyên và Hoàng Minh),hung-yen,Hưng Yên,"Đông Tiền Hải, Đông Châu",327,True,False,False,https://kcn-kkt.com/kcn/kcn-hoang-minh,2026-09-10
+kcn-hoang-minh-hung-yen,KCN Hoàng Minh (mở rộng),hung-yen,Hưng Yên,Đông Tiền Hải,303,True,False,False,https://kcn-kkt.com/kcn/kcn-hoang-minh-hung-yen,2026-09-10
+kcn-hoang-xuyen,KCN Hoàng Xuyên,hung-yen,Hưng Yên,Huyện Tiền Hải,121,False,False,False,https://kcn-kkt.com/kcn/kcn-hoang-xuyen,2026-09-10
+kcn-hung-ha-kcn-dt-dv-logistics,KCN Hưng Hà (KCN-DT-DV logistics),hung-yen,Hưng Yên,Huyện Hưng Hà,310,False,False,False,https://kcn-kkt.com/kcn/kcn-hung-ha-kcn-dt-dv-logistics,2026-09-10
+kcn-hung-long-ngoc-lam-xuan-duc,KCN Hưng Long - Ngọc Lâm - Xuân Đức,hung-yen,Hưng Yên,Thị xã Mỹ Hào,392,False,False,False,https://kcn-kkt.com/kcn/kcn-hung-long-ngoc-lam-xuan-duc,2026-09-10
+kcn-hung-phu,KCN Hưng Phú,hung-yen,Hưng Yên,Huyện Tiền Hải,215,False,False,False,https://kcn-kkt.com/kcn/kcn-hung-phu,2026-09-10
+kcn-kcn-dt-dv-hoang-long,KCN KCN-ĐT-DV Hoàng Long,hung-yen,Hưng Yên,Đông Tiền Hải,589,True,False,False,https://kcn-kkt.com/kcn/kcn-kcn-dt-dv-hoang-long,2026-09-10
+kcn-khoai-chau,KCN Khoái Châu (mở rộng),hung-yen,Hưng Yên,Khoái Châu,152.15,True,False,False,https://kcn-kkt.com/kcn/kcn-khoai-chau,2026-09-10
+kcn-kim-dong,KCN Kim Động,hung-yen,Hưng Yên,Huyện Kim Động,100,False,False,False,https://kcn-kkt.com/kcn/kcn-kim-dong,2026-09-10
+kcn-kim-dong-an-thi,KCN Kim Động - Ân Thị,hung-yen,Hưng Yên,"Huyện Kim Động, huyện Ân Thị",400,False,False,False,https://kcn-kkt.com/kcn/kcn-kim-dong-an-thi,2026-09-10
+kcn-lien-ha-thai-green-ip-1,KCN Liên Hà Thái - Green IP-1,hung-yen,Hưng Yên,Huyện Thái Thụy,589,False,False,False,https://kcn-kkt.com/kcn/kcn-lien-ha-thai-green-ip-1,2026-09-10
+kcn-lien-ha-thai-phan-khu-phia-nam,KCN Liên Hà Thái (phần khu phía Nam),hung-yen,Hưng Yên,Huyện Thái Thụy,373,False,False,False,https://kcn-kkt.com/kcn/kcn-lien-ha-thai-phan-khu-phia-nam,2026-09-10
+kcn-ly-dong,KCN Lý Đông,hung-yen,Hưng Yên,"Nghĩa Dân, Lương Bằng",98.8,True,False,False,https://kcn-kkt.com/kcn/kcn-ly-dong,2026-09-10
+kcn-ly-thuong-kiet,KCN Lý Thường Kiệt,hung-yen,Hưng Yên,Huyện Yên Mỹ,300,False,False,False,https://kcn-kkt.com/kcn/kcn-ly-thuong-kiet,2026-09-10
+kcn-minh-duc,KCN Minh Đức,hung-yen,Hưng Yên,Thị xã Mỹ Hào,198,False,False,False,https://kcn-kkt.com/kcn/kcn-minh-duc,2026-09-10
+kcn-minh-quang,KCN Minh Quang,hung-yen,Hưng Yên,Thị xã Mỹ Hào,150,False,False,False,https://kcn-kkt.com/kcn/kcn-minh-quang,2026-09-10
+kcn-my-hao,KCN Mỹ Hào,hung-yen,Hưng Yên,Thượng Hồng,250,True,False,False,https://kcn-kkt.com/kcn/kcn-my-hao,2026-09-10
+kcn-nguyen-doc-canh,KCN Nguyễn Độc Cảnh,hung-yen,Hưng Yên,Thành phố Thái Bình,75,False,False,False,https://kcn-kkt.com/kcn/kcn-nguyen-doc-canh,2026-09-10
+kcn-nguyen-duc-canh,KCN Nguyễn Đức Cảnh,hung-yen,Hưng Yên,P. Trần Hưng Đạo,75.06,True,False,False,https://kcn-kkt.com/kcn/kcn-nguyen-duc-canh,2026-09-10
+kcn-pho-hien,KCN Phổ Hiến,hung-yen,Hưng Yên,"Thành phố Hưng Yên, huyện Tiên Lữ",370,False,False,False,https://kcn-kkt.com/kcn/kcn-pho-hien,2026-09-10
+kcn-pho-noi-a,KCN Phố Nối A,hung-yen,Hưng Yên,Huyện Văn Lâm,669,False,False,False,https://kcn-kkt.com/kcn/kcn-pho-noi-a,2026-09-10
+kcn-phu-cu,KCN Phủ Cừ,hung-yen,Hưng Yên,"Huyện Ân Thị, huyện Phủ Cừ",544,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-cu,2026-09-10
+kcn-phu-cu-tien-lu-i,KCN Phủ Cừ - Tiên Lữ I,hung-yen,Hưng Yên,"Huyện Phủ Cừ, huyện Tiên Lữ",386,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-cu-tien-lu-i,2026-09-10
+kcn-phuc-khanh,KCN Phúc Khánh,hung-yen,Hưng Yên,Thành phố Thái Bình,159,False,False,False,https://kcn-kkt.com/kcn/kcn-phuc-khanh,2026-09-10
+kcn-sach,KCN Sạch,hung-yen,Hưng Yên,"Huyện Khoái Châu, Xã Châu Độc",143.08,False,False,False,https://kcn-kkt.com/kcn/kcn-sach,2026-09-10
+kcn-so-01,KCN Số 01,hung-yen,Hưng Yên,"Xuân Trúc, Yên Mỹ",258.82,True,False,False,https://kcn-kkt.com/kcn/kcn-so-01,2026-09-10
+kcn-so-03,KCN Số 03,hung-yen,Hưng Yên,"Việt Tiến, Yên Mỹ, Xuân Trúc",159.71,True,False,False,https://kcn-kkt.com/kcn/kcn-so-03,2026-09-10
+kcn-so-04,KCN Số 04,hung-yen,Hưng Yên,"Huyện Ân Thị, huyện Kim Động, huyện Khoái Châu",390,False,False,False,https://kcn-kkt.com/kcn/kcn-so-04,2026-09-10
+kcn-so-05,KCN Số 05,hung-yen,Hưng Yên,"Xuân Trúc, Nghĩa Dân",192.64,True,False,False,https://kcn-kkt.com/kcn/kcn-so-05,2026-09-10
+kcn-so-05-hung-yen,KCN Số 05 (mở rộng),hung-yen,Hưng Yên,"Xuân Trúc, Nghĩa Dân",256,True,False,False,https://kcn-kkt.com/kcn/kcn-so-05-hung-yen,2026-09-10
+kcn-so-06,KCN Số 06,hung-yen,Hưng Yên,"Xuân Trúc, Ân Thi",308.2,True,False,False,https://kcn-kkt.com/kcn/kcn-so-06,2026-09-10
+kcn-so-07,KCN Số 07,hung-yen,Hưng Yên,Huyện Ân Thị,199,False,False,False,https://kcn-kkt.com/kcn/kcn-so-07,2026-09-10
+kcn-so-1,KCN Số 1,hung-yen,Hưng Yên,Huyện Yên Mỹ và Ân Thị,263.85,False,False,False,https://kcn-kkt.com/kcn/kcn-so-1,2026-09-10
+kcn-so-3,KCN Số 3,hung-yen,Hưng Yên,Huyện Khoái Châu,159.71,False,False,False,https://kcn-kkt.com/kcn/kcn-so-3,2026-09-10
+kcn-so-5,KCN Số 5,hung-yen,Hưng Yên,Huyện Ân Thị,192.64,False,False,False,https://kcn-kkt.com/kcn/kcn-so-5,2026-09-10
+kcn-so-6,KCN Số 6,hung-yen,Hưng Yên,Huyện Ân Thị,308.2,False,False,False,https://kcn-kkt.com/kcn/kcn-so-6,2026-09-10
+kcn-song-lan,KCN Sông Lân,hung-yen,Hưng Yên,Huyện Tiền Hải,275,False,False,False,https://kcn-kkt.com/kcn/kcn-song-lan,2026-09-10
+kcn-song-tra,KCN Sông Trà,hung-yen,Hưng Yên,Huyện Vũ Thư; Tp. Thái Bình,150,False,False,False,https://kcn-kkt.com/kcn/kcn-song-tra,2026-09-10
+kcn-tan-a-dai-thanh,KCN Tân Á Đại Thành,hung-yen,Hưng Yên,Huyện Ân Thị,198.39,False,True,True,https://kcn-kkt.com/kcn/kcn-tan-a-dai-thanh,2026-09-10
+kcn-tan-dan,KCN Tân Dân,hung-yen,Hưng Yên,Huyện Khoái Châu,200,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-dan,2026-09-10
+kcn-tan-phuc-quang-vinh-hoang-hoa-tham,KCN Tân Phúc - Quang Vinh - Hoàng Hoa Thám,hung-yen,Hưng Yên,Huyện Ân Thị,200,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phuc-quang-vinh-hoang-hoa-tham,2026-09-10
+kcn-tan-tien-tay-thuy-anh,KCN Tân Tiến - Tây Thụy Anh,hung-yen,Hưng Yên,"Tân Tiến, Tây Thụy Anh",1000,True,False,False,https://kcn-kkt.com/kcn/kcn-tan-tien-tay-thuy-anh,2026-09-10
+kcn-tay-thuy-anh-thuy-anh,KCN Tây Thụy Anh - Thụy Anh,hung-yen,Hưng Yên,"Tây Thụy Anh, Thụy Anh",530,True,False,False,https://kcn-kkt.com/kcn/kcn-tay-thuy-anh-thuy-anh,2026-09-10
+kcn-thaco-thai-binh,KCN Thaco - Thái Bình,hung-yen,Hưng Yên,Huyện Quỳnh Phụ,194,False,False,False,https://kcn-kkt.com/kcn/kcn-thaco-thai-binh,2026-09-10
+kcn-thai-do-1,KCN Thái Độ 1,hung-yen,Hưng Yên,Huyện Thái Thụy,206,False,False,False,https://kcn-kkt.com/kcn/kcn-thai-do-1,2026-09-10
+kcn-thai-tho,KCN Thái Thọ,hung-yen,Hưng Yên,Nam Thái Ninh,262,True,False,False,https://kcn-kkt.com/kcn/kcn-thai-tho,2026-09-10
+kcn-thai-thuong-kcn-cang-dvd-dl,KCN Thái Thương (KCN-Căng-DVD-DL),hung-yen,Hưng Yên,Huyện Thái Thụy,591,False,False,False,https://kcn-kkt.com/kcn/kcn-thai-thuong-kcn-cang-dvd-dl,2026-09-10
+kcn-thang-long-ii,KCN Thăng Long II,hung-yen,Hưng Yên,Huyện Yên Mỹ,526,False,False,False,https://kcn-kkt.com/kcn/kcn-thang-long-ii,2026-09-10
+kcn-tho-hoang,KCN Thó Hoàng,hung-yen,Hưng Yên,Huyện Ân Thị,250,False,False,False,https://kcn-kkt.com/kcn/kcn-tho-hoang,2026-09-10
+kcn-thuy-anh,KCN Thụy Anh,hung-yen,Hưng Yên,"Bắc Thụy Anh, Đông Thụy Anh",530,True,False,False,https://kcn-kkt.com/kcn/kcn-thuy-anh,2026-09-10
+kcn-thuy-luong,KCN Thụy Lương,hung-yen,Hưng Yên,Đông Thụy Anh,229,True,False,False,https://kcn-kkt.com/kcn/kcn-thuy-luong,2026-09-10
+kcn-thuy-truong,KCN Thụy Trường,hung-yen,Hưng Yên,Huyện Thái Thụy,227,False,False,False,https://kcn-kkt.com/kcn/kcn-thuy-truong,2026-09-10
+kcn-tien-hai,KCN Tiền Hải,hung-yen,Hưng Yên,Huyện Tiền Hải,466,False,False,False,https://kcn-kkt.com/kcn/kcn-tien-hai,2026-09-10
+kcn-tien-hai-phan-mo-rong,KCN Tiền Hải (phần mở rộng),hung-yen,Hưng Yên,Huyện Tiền Hải,242,False,False,False,https://kcn-kkt.com/kcn/kcn-tien-hai-phan-mo-rong,2026-09-10
+kcn-tien-hai-2,KCN Tiền Hải 2,hung-yen,Hưng Yên,Huyện Tiền Hải,300,False,False,False,https://kcn-kkt.com/kcn/kcn-tien-hai-2,2026-09-10
+kcn-tien-lu-kim-dong-an-thi,KCN Tiên Lữ - Kim Động - Ân Thị,hung-yen,Hưng Yên,"Huyện Tiên Lữ, huyện Kim Động, huyện Ân Thị",463,False,False,False,https://kcn-kkt.com/kcn/kcn-tien-lu-kim-dong-an-thi,2026-09-10
+kcn-tra-xuyen,KCN Trà Xuyên,hung-yen,Hưng Yên,Huyện Tiền Hải,167,False,False,False,https://kcn-kkt.com/kcn/kcn-tra-xuyen,2026-09-10
+kcn-trieu-viet-vuong,KCN Triệu Việt Vương,hung-yen,Hưng Yên,Triệu Việt Vương,170,True,False,False,https://kcn-kkt.com/kcn/kcn-trieu-viet-vuong,2026-09-10
+kcn-van-giang,KCN Văn Giang,hung-yen,Hưng Yên,Huyện Văn Giang,300,False,True,True,https://kcn-kkt.com/kcn/kcn-van-giang,2026-09-10
+kcn-van-nhue-hoang-hoa-tham-hung-yen,KCN Văn Nhuệ - Hoàng Hoa Thám (mở rộng),hung-yen,Hưng Yên,"Nguyễn Trãi, Ân Thi",69,True,False,False,https://kcn-kkt.com/kcn/kcn-van-nhue-hoang-hoa-tham-hung-yen,2026-09-10
+kcn-van-nhue-hoang-hoa-tham,KCN Văn Nhuệ - Hoàng Hoa Thám (Tân Á Đại Thành),hung-yen,Hưng Yên,"Ân Thi, Nguyễn Trãi",198.4,True,False,False,https://kcn-kkt.com/kcn/kcn-van-nhue-hoang-hoa-tham,2026-09-10
+kcn-vsip-thai-binh,KCN VSIP Thái Bình,hung-yen,Hưng Yên,Huyện Thái Thuỵ,333,False,False,False,https://kcn-kkt.com/kcn/kcn-vsip-thai-binh,2026-09-10
+kcn-yen-my,KCN Yên Mỹ,hung-yen,Hưng Yên,Huyện Yên Mỹ,280,False,False,False,https://kcn-kkt.com/kcn/kcn-yen-my,2026-09-10
+kcn-yen-my-ii,KCN Yên Mỹ II,hung-yen,Hưng Yên,Huyện Yên Mỹ,314,False,False,False,https://kcn-kkt.com/kcn/kcn-yen-my-ii,2026-09-10
+kcn-ca-na,KCN Cà Ná,khanh-hoa,Khánh Hòa,Huyện Thuận Nam,827,False,True,True,https://kcn-kkt.com/kcn/kcn-ca-na,2026-09-10
+kcn-dien-tho,KCN Diên Thọ,khanh-hoa,Khánh Hòa,Huyện Diên Khánh,300,False,False,False,https://kcn-kkt.com/kcn/kcn-dien-tho,2026-09-10
+kcn-doc-da-trang,KCN Dốc Đá Trắng,khanh-hoa,Khánh Hòa,Vạn Ninh/Ninh Hòa,288,True,False,False,https://kcn-kkt.com/kcn/kcn-doc-da-trang,2026-09-10
+kcn-du-long,KCN Du Long,khanh-hoa,Khánh Hòa,Huyện Thuận Bắc,407,False,False,False,https://kcn-kkt.com/kcn/kcn-du-long,2026-09-10
+kcn-doc-dao-trang,KCN Độc Đạo Trăng,khanh-hoa,Khánh Hòa,Huyện Vạn Ninh và thị xã Ninh Hòa,288,False,False,False,https://kcn-kkt.com/kcn/kcn-doc-dao-trang,2026-09-10
+kcn-nam-cam-ranh,KCN Nam Cam Ranh,khanh-hoa,Khánh Hòa,Thành phố Cam Ranh,352,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-cam-ranh,2026-09-10
+kcn-ninh-an,KCN Ninh An,khanh-hoa,Khánh Hòa,Thị xã Ninh Hòa,150,False,False,False,https://kcn-kkt.com/kcn/kcn-ninh-an,2026-09-10
+kcn-ninh-diem-1,KCN Ninh Diễm 1,khanh-hoa,Khánh Hòa,Thị xã Ninh Hòa,250,False,False,False,https://kcn-kkt.com/kcn/kcn-ninh-diem-1,2026-09-10
+kcn-ninh-diem-2,KCN Ninh Diễm 2,khanh-hoa,Khánh Hòa,Thị xã Ninh Hòa,215,False,False,False,https://kcn-kkt.com/kcn/kcn-ninh-diem-2,2026-09-10
+kcn-ninh-diem-3-giai-doan-1,KCN Ninh Diêm 3 (Giai đoạn 1),khanh-hoa,Khánh Hòa,Thị xã Ninh Hòa,135,False,False,False,https://kcn-kkt.com/kcn/kcn-ninh-diem-3-giai-doan-1,2026-09-10
+kcn-ninh-diem-3-giai-doan-2,KCN Ninh Diễm 3 (Giai đoạn 2),khanh-hoa,Khánh Hòa,Thị xã Ninh Hòa,155,False,False,False,https://kcn-kkt.com/kcn/kcn-ninh-diem-3-giai-doan-2,2026-09-10
+kcn-ninh-son,KCN Ninh Sơn,khanh-hoa,Khánh Hòa,Thị xã Ninh Hòa,480,False,False,False,https://kcn-kkt.com/kcn/kcn-ninh-son,2026-09-10
+kcn-ninh-tho,KCN Ninh Thọ,khanh-hoa,Khánh Hòa,Thị xã Ninh Hòa,370,False,False,False,https://kcn-kkt.com/kcn/kcn-ninh-tho,2026-09-10
+kcn-ninh-thuy,KCN Ninh Thuỷ,khanh-hoa,Khánh Hòa,Thị xã Ninh Hòa,208,False,False,False,https://kcn-kkt.com/kcn/kcn-ninh-thuy,2026-09-10
+kcn-ninh-xuan,KCN Ninh Xuân,khanh-hoa,Khánh Hòa,Thị xã Ninh Hòa,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-ninh-xuan,2026-09-10
+kcn-phuoc-nam,KCN Phước Nam,khanh-hoa,Khánh Hòa,Huyện Thuận Nam,370,False,False,False,https://kcn-kkt.com/kcn/kcn-phuoc-nam,2026-09-10
+kcn-suoi-dau,KCN Suối Dầu,khanh-hoa,Khánh Hòa,Huyện Cam Lâm,137,False,False,False,https://kcn-kkt.com/kcn/kcn-suoi-dau,2026-09-10
+kcn-thanh-hai,KCN Thạnh Hải,khanh-hoa,Khánh Hòa,Thành phố PRTC,78,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-hai,2026-09-10
+kcn-van-luong,KCN Văn Lương,khanh-hoa,Khánh Hòa,Huyện Vạn Ninh,200,False,False,False,https://kcn-kkt.com/kcn/kcn-van-luong,2026-09-10
+kcn-xuan-son,KCN Xuân Sơn,khanh-hoa,Khánh Hòa,Huyện Vạn Ninh,200,False,False,False,https://kcn-kkt.com/kcn/kcn-xuan-son,2026-09-10
+kcn-muong-so,KCN Mường So,lai-chau,Lai Châu,Huyện Phong Thổ,200,False,False,False,https://kcn-kkt.com/kcn/kcn-muong-so,2026-09-10
+kcn-cao-loc,KCN Cao Lộc,lang-son,Lạng Sơn,Huyện Cao Lộc,179,False,False,False,https://kcn-kkt.com/kcn/kcn-cao-loc,2026-09-10
+kcn-dinh-lap,KCN Định Lập,lang-son,Lạng Sơn,Huyện Định Lập,200,False,False,False,https://kcn-kkt.com/kcn/kcn-dinh-lap,2026-09-10
+kcn-dong-banh,KCN Đông Bành,lang-son,Lạng Sơn,Huyện Hữu Lũng và huyện Chi Lăng,162,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-banh,2026-09-10
+kcn-hoa-lac,KCN Hòa Lạc,lang-son,Lạng Sơn,Huyện Hữu Lũng,224,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-lac,2026-09-10
+kcn-huu-lung-2,KCN Hữu Lũng 2,lang-son,Lạng Sơn,Huyện Hữu Lũng,350,False,False,False,https://kcn-kkt.com/kcn/kcn-huu-lung-2,2026-09-10
+kcn-huu-lung-3,KCN Hữu Lũng 3,lang-son,Lạng Sơn,Huyện Hữu Lũng,175,False,False,False,https://kcn-kkt.com/kcn/kcn-huu-lung-3,2026-09-10
+kcn-huu-lung-4,KCN Hữu Lũng 4,lang-son,Lạng Sơn,Huyện Hữu Lũng,324,False,False,False,https://kcn-kkt.com/kcn/kcn-huu-lung-4,2026-09-10
+kcn-huu-lung-5,KCN Hữu Lũng 5,lang-son,Lạng Sơn,Huyện Hữu Lũng,300,False,False,False,https://kcn-kkt.com/kcn/kcn-huu-lung-5,2026-09-10
+kcn-huu-lung-6,KCN Hữu Lũng 6,lang-son,Lạng Sơn,Huyện Hữu Lũng,300,False,False,False,https://kcn-kkt.com/kcn/kcn-huu-lung-6,2026-09-10
+kcn-huu-lung-7,KCN Hữu Lũng 7,lang-son,Lạng Sơn,Huyện Hữu Lũng,300,False,False,False,https://kcn-kkt.com/kcn/kcn-huu-lung-7,2026-09-10
+kcn-khanh-xuan,KCN Khánh Xuân,lang-son,Lạng Sơn,Huyện Lộc Bình,135,False,False,False,https://kcn-kkt.com/kcn/kcn-khanh-xuan,2026-09-10
+kcn-na-duong,KCN Na Dương,lang-son,Lạng Sơn,Huyện Lộc Bình,220,False,False,False,https://kcn-kkt.com/kcn/kcn-na-duong,2026-09-10
+kcn-va-logistics-dinh-lap,KCN và logistics Định Lập,lang-son,Lạng Sơn,Huyện Định Lập,220,False,False,False,https://kcn-kkt.com/kcn/kcn-va-logistics-dinh-lap,2026-09-10
+kcn-va-logistics-na-duong,KCN và logistics Na Dương,lang-son,Lạng Sơn,Huyện Lộc Bình,437,False,False,False,https://kcn-kkt.com/kcn/kcn-va-logistics-na-duong,2026-09-10
+kcn-vsip-lang-son,KCN VSIP Lạng Sơn,lang-son,Lạng Sơn,Huyện Hữu Lũng,599.76,False,True,True,https://kcn-kkt.com/kcn/kcn-vsip-lang-son,2026-09-10
+kcn-au-lau,KCN Âu Lâu,lao-cai,Lào Cai,Thành phố Yên Bái,120,False,False,False,https://kcn-kkt.com/kcn/kcn-au-lau,2026-09-10
+kcn-ban-qua-trong-khu-kinh-te-cua-khau,KCN Bản Qua (trong khu kinh tế cửa khẩu),lao-cai,Lào Cai,Huyện Bát Xát,107,False,False,False,https://kcn-kkt.com/kcn/kcn-ban-qua-trong-khu-kinh-te-cua-khau,2026-09-10
+kcn-bac-duyen-hai,KCN Bắc Duyên Hải,lao-cai,Lào Cai,TP. Lào Cai,66,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-duyen-hai,2026-09-10
+kcn-cam-con,KCN Cam Cọn,lao-cai,Lào Cai,Huyện Bảo Yên,100,False,False,False,https://kcn-kkt.com/kcn/kcn-cam-con,2026-09-10
+kcn-coc-my-trinh-tuong,KCN Cốc Mỹ-Trình Tương,lao-cai,Lào Cai,Huyện Bát Xát,800,False,False,False,https://kcn-kkt.com/kcn/kcn-coc-my-trinh-tuong,2026-09-10
+kcn-dong-an,KCN Động An,lao-cai,Lào Cai,Huyện Văn Yên,350,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-an,2026-09-10
+kcn-dong-pho-moi,KCN Đông Phố Mới,lao-cai,Lào Cai,TP. Lào Cai,100,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-pho-moi,2026-09-10
+kcn-luc-yen,KCN Lục Yên,lao-cai,Lào Cai,Huyện Lục Yên,221,False,False,False,https://kcn-kkt.com/kcn/kcn-luc-yen,2026-09-10
+kcn-minh-quan,KCN Minh Quán,lao-cai,Lào Cai,Huyện Trấn Yên,196,False,False,False,https://kcn-kkt.com/kcn/kcn-minh-quan,2026-09-10
+kcn-phia-nam,KCN Phía Nam,lao-cai,Lào Cai,Thành phố Yên Bái và huyện Yên Bình,400,False,False,False,https://kcn-kkt.com/kcn/kcn-phia-nam,2026-09-10
+kcn-tang-loong,KCN Tăng Loồng,lao-cai,Lào Cai,Huyện Bảo Thắng,918,False,False,False,https://kcn-kkt.com/kcn/kcn-tang-loong,2026-09-10
+kcn-thinh-hung,KCN Thịnh Hưng,lao-cai,Lào Cai,Huyện Yên Bình,104,False,False,False,https://kcn-kkt.com/kcn/kcn-thinh-hung,2026-09-10
+kcn-tran-yen,KCN Trần Yên,lao-cai,Lào Cai,Huyện Trần Yên,339,False,True,True,https://kcn-kkt.com/kcn/kcn-tran-yen,2026-09-10
+kcn-vo-lao-giai-doan-1,KCN Võ Lao (giai đoạn 1),lao-cai,Lào Cai,Huyện Văn Bàn,200,False,False,False,https://kcn-kkt.com/kcn/kcn-vo-lao-giai-doan-1,2026-09-10
+kcn-y-can,KCN Y Can,lao-cai,Lào Cai,Huyện Trấn Yên,350,False,False,False,https://kcn-kkt.com/kcn/kcn-y-can,2026-09-10
+kcn-do-thi-dich-vu-ham-tan-la-gi,KCN - Đô thị - Dịch vụ Hàm Tân - La Gí,lam-dong,Lâm Đồng,Thị xã La Gí và huyện Hàm Tân,2984,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-ham-tan-la-gi,2026-09-10
+kcn-da-teh,KCN Dạ Tẻh,lam-dong,Lâm Đồng,Huyện Dạ Tẻh,500,False,False,False,https://kcn-kkt.com/kcn/kcn-da-teh,2026-09-10
+kcn-dak-ru,KCN Đắk Ru,lam-dong,Lâm Đồng,Đắk R'Lập,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-dak-ru,2026-09-10
+kcn-dak-song-i,KCN Đắk Song I,lam-dong,Lâm Đồng,Đắk Song,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-dak-song-i,2026-09-10
+kcn-dak-song-ii,KCN Đắk Song II,lam-dong,Lâm Đồng,Đắk Song,2000,False,False,False,https://kcn-kkt.com/kcn/kcn-dak-song-ii,2026-09-10
+kcn-dong-bac-phan-thiet-mo-rong,KCN Đông Bắc Phan Thiết mở rộng,lam-dong,Lâm Đồng,Huyện Hàm Thuận Bắc,255,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-bac-phan-thiet-mo-rong,2026-09-10
+kcn-dong-bac-phan-thiet,KCN Đông Bắc Phân Thiết,lam-dong,Lâm Đồng,Huyện Hàm Thuận Bắc,45,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-bac-phan-thiet,2026-09-10
+kcn-gia-huynh,KCN Gia Huynh,lam-dong,Lâm Đồng,Trà Tân / Suối Kiết; Bình Thuận (cũ),920,True,False,False,https://kcn-kkt.com/kcn/kcn-gia-huynh,2026-09-10
+kcn-gia-huynh-1,KCN Gia Huynh 1,lam-dong,Lâm Đồng,Trà Tân / Suối Kiết; Bình Thuận (cũ),965,True,False,False,https://kcn-kkt.com/kcn/kcn-gia-huynh-1,2026-09-10
+kcn-gia-huynh-2,KCN Gia Huynh 2,lam-dong,Lâm Đồng,Trà Tân / Suối Kiết; Bình Thuận (cũ),635,True,False,False,https://kcn-kkt.com/kcn/kcn-gia-huynh-2,2026-09-10
+kcn-gia-huynh-3,KCN Gia Huynh 3,lam-dong,Lâm Đồng,Trà Tân / Suối Kiết; Bình Thuận (cũ),865,True,False,False,https://kcn-kkt.com/kcn/kcn-gia-huynh-3,2026-09-10
+kcn-gia-huynh-4,KCN Gia Huynh 4,lam-dong,Lâm Đồng,Trà Tân / Suối Kiết; Bình Thuận (cũ),765,True,False,False,https://kcn-kkt.com/kcn/kcn-gia-huynh-4,2026-09-10
+kcn-ham-kiem-i,KCN Hàm Kiệm I,lam-dong,Lâm Đồng,"Hàm Kiệm; Hàm Thuận Nam, Bình Thuận (cũ)",132.67,True,False,False,https://kcn-kkt.com/kcn/kcn-ham-kiem-i,2026-09-10
+kcn-ham-kiem-ii,KCN Hàm Kiệm II,lam-dong,Lâm Đồng,"Hàm Kiệm; Hàm Thuận Nam, Bình Thuận (cũ)",402,True,False,False,https://kcn-kkt.com/kcn/kcn-ham-kiem-ii,2026-09-10
+kcn-ham-kiem-mo-rong,KCN Hàm Kiệm mở rộng,lam-dong,Lâm Đồng,Hàm Kiệm; Bình Thuận (cũ),360,True,False,False,https://kcn-kkt.com/kcn/kcn-ham-kiem-mo-rong,2026-09-10
+kcn-loc-chau-dai-lao,KCN Lộc Châu - Đại Lào,lam-dong,Lâm Đồng,Thành phố Báo Lộc,188,False,False,False,https://kcn-kkt.com/kcn/kcn-loc-chau-dai-lao,2026-09-10
+kcn-loc-son,KCN Lộc Sơn,lam-dong,Lâm Đồng,Thành phố Bảo Lộc,183,False,False,False,https://kcn-kkt.com/kcn/kcn-loc-son,2026-09-10
+kcn-nam-lam-dong,KCN Nam Lâm Đồng (Đạ Tẻh),lam-dong,Lâm Đồng,"Đạ Tẻh, Lâm Đồng (cũ)",500,True,False,False,https://kcn-kkt.com/kcn/kcn-nam-lam-dong,2026-09-10
+kcn-nhan-co,KCN Nhân Cơ,lam-dong,Lâm Đồng,Đắk R'Lập,148,False,False,False,https://kcn-kkt.com/kcn/kcn-nhan-co,2026-09-10
+kcn-nhan-co-2,KCN Nhân Cơ 2,lam-dong,Lâm Đồng,Đắk R'Lập,400,False,False,False,https://kcn-kkt.com/kcn/kcn-nhan-co-2,2026-09-10
+kcn-phan-thiet-giai-doan-1,KCN Phan Thiết giai đoạn 1,lam-dong,Lâm Đồng,"Phan Thiết, Bình Thuận (cũ)",68,True,False,False,https://kcn-kkt.com/kcn/kcn-phan-thiet-giai-doan-1,2026-09-10
+kcn-phan-thiet-giai-doan-2,KCN Phan Thiết giai đoạn 2,lam-dong,Lâm Đồng,"Phan Thiết, Bình Thuận (cũ)",40.7,True,False,False,https://kcn-kkt.com/kcn/kcn-phan-thiet-giai-doan-2,2026-09-10
+kcn-phia-nam-giai-doan-2,KCN phía Nam giai đoạn 2,lam-dong,Lâm Đồng,Trà Tân / Suối Kiết; Bình Thuận (cũ),900,True,False,False,https://kcn-kkt.com/kcn/kcn-phia-nam-giai-doan-2,2026-09-10
+kcn-phia-nam-tinh,KCN phía Nam tính,lam-dong,Lâm Đồng,"Huyện Độc Lịnh, huyện Tành Lịnh",300,False,False,False,https://kcn-kkt.com/kcn/kcn-phia-nam-tinh,2026-09-10
+kcn-phia-tay-bac-tinh,KCN phía Tây Bắc tính,lam-dong,Lâm Đồng,Huyện Tuy Phong,500,False,False,False,https://kcn-kkt.com/kcn/kcn-phia-tay-bac-tinh,2026-09-10
+kcn-phu-binh,KCN Phú Bình,lam-dong,Lâm Đồng,Huyện Đức Trọng,246,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-binh,2026-09-10
+kcn-phu-hoi,KCN Phú Hội,lam-dong,Lâm Đồng,Huyện Độc Trong,109,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-hoi,2026-09-10
+kcn-quang-son,KCN Quảng Sơn,lam-dong,Lâm Đồng,Đắk Glong,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-quang-son,2026-09-10
+kcn-song-binh-mo-rong,KCN Sông Bình mở rộng,lam-dong,Lâm Đồng,Huyện Bắc Bình,250,False,False,False,https://kcn-kkt.com/kcn/kcn-song-binh-mo-rong,2026-09-10
+kcn-son-my-1,KCN Sơn Mỹ 1,lam-dong,Lâm Đồng,"Sơn Mỹ; Hàm Tân, Bình Thuận (cũ)",1070,True,False,False,https://kcn-kkt.com/kcn/kcn-son-my-1,2026-09-10
+kcn-son-my-2,KCN Sơn Mỹ 2,lam-dong,Lâm Đồng,"Sơn Mỹ; Hàm Tân, Bình Thuận (cũ)",540,True,False,False,https://kcn-kkt.com/kcn/kcn-son-my-2,2026-09-10
+kcn-son-my-i,KCN Sơn Mỹ I,lam-dong,Lâm Đồng,Huyện Hàm Tân,1070,False,False,False,https://kcn-kkt.com/kcn/kcn-son-my-i,2026-09-10
+kcn-son-my-ii,KCN Sơn Mỹ II,lam-dong,Lâm Đồng,Huyện Hàm Tân,540,False,False,False,https://kcn-kkt.com/kcn/kcn-son-my-ii,2026-09-10
+kcn-suoi-gieng,KCN Suối Giêng,lam-dong,Lâm Đồng,Tân Minh / Hàm Thuận Nam; Bình Thuận (cũ),500,True,False,False,https://kcn-kkt.com/kcn/kcn-suoi-gieng,2026-09-10
+kcn-suoi-kiet,KCN Suối Kiết,lam-dong,Lâm Đồng,Suối Kiết; Bình Thuận (cũ),970,True,False,False,https://kcn-kkt.com/kcn/kcn-suoi-kiet,2026-09-10
+kcn-tanh-linh,KCN Tánh Linh,lam-dong,Lâm Đồng,Trà Tân / Suối Kiết; Bình Thuận (cũ),970,True,False,False,https://kcn-kkt.com/kcn/kcn-tanh-linh,2026-09-10
+kcn-tam-thang-lam-dong,KCN Tâm Thắng,lam-dong,Lâm Đồng,Cự Jút,179,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-thang-lam-dong,2026-09-10
+kcn-tan-duc-mo-rong,KCN Tân Đức mở rộng,lam-dong,Lâm Đồng,Huyện Hàm Tân,608,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-duc-mo-rong,2026-09-10
+kcn-tan-minh-1,KCN Tân Minh 1,lam-dong,Lâm Đồng,Tân Minh; Bình Thuận (cũ),250,True,False,False,https://kcn-kkt.com/kcn/kcn-tan-minh-1,2026-09-10
+kcn-tan-minh-2,KCN Tân Minh 2,lam-dong,Lâm Đồng,Tân Minh; Bình Thuận (cũ),430,True,False,False,https://kcn-kkt.com/kcn/kcn-tan-minh-2,2026-09-10
+kcn-tan-phuc-1,KCN Tân Phúc 1,lam-dong,Lâm Đồng,Tân Minh / Hàm Thuận Nam; Bình Thuận (cũ),500,True,False,False,https://kcn-kkt.com/kcn/kcn-tan-phuc-1,2026-09-10
+kcn-tan-phuc-2,KCN Tân Phúc 2,lam-dong,Lâm Đồng,Tân Minh / Hàm Thuận Nam; Bình Thuận (cũ),860,True,False,False,https://kcn-kkt.com/kcn/kcn-tan-phuc-2,2026-09-10
+kcn-tan-rai-bao-lam,KCN Tân Rai - Báo Lâm,lam-dong,Lâm Đồng,Huyện Báo Lâm,500,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-rai-bao-lam,2026-09-10
+kcn-tan-thang,KCN Tân Thắng,lam-dong,Lâm Đồng,Sơn Mỹ; Bình Thuận (cũ),680,True,False,False,https://kcn-kkt.com/kcn/kcn-tan-thang,2026-09-10
+kcn-tan-uc,KCN Tân Ức,lam-dong,Lâm Đồng,Huyện Hàm Tân,300,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-uc,2026-09-10
+kcn-thuan-nam,KCN Thuận Nam,lam-dong,Lâm Đồng,Hàm Thuận Nam; Bình Thuận (cũ),850,True,False,False,https://kcn-kkt.com/kcn/kcn-thuan-nam,2026-09-10
+kcn-tuy-phong,KCN Tuy Phong,lam-dong,Lâm Đồng,"Tuy Phong, Bình Thuận (cũ)",150,True,False,False,https://kcn-kkt.com/kcn/kcn-tuy-phong,2026-09-10
+kcn-vinh-hao,KCN Vĩnh Hảo,lam-dong,Lâm Đồng,Vĩnh Hảo; Bình Thuận (cũ),603,True,False,False,https://kcn-kkt.com/kcn/kcn-vinh-hao,2026-09-10
+khu-cong-nghiep-tan-duc,Khu công nghiệp Tân Đức,lam-dong,Lâm Đồng,"Xã Tân Đức, Huyện Hàm Tân, Tỉnh Bình Thuận",300,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-tan-duc,2026-09-10
+ben-cang-chuyen-dung-vissai,Bến cảng chuyên dùng Vissai,nghe-an,Nghệ An,"Xã Nghi Thiết, Nghi Lộc, Nghệ An",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-chuyen-dung-vissai,2026-09-10
+ben-cang-cuc-hau-can-quan-khu-iv,Bến cảng Cục Hậu cần Quân khu IV,nghe-an,Nghệ An,"Thành phố Vinh, tỉnh Nghệ An",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-cuc-hau-can-quan-khu-iv,2026-09-10
+ben-cang-cua-lo,Bến cảng Cửa Lò,nghe-an,Nghệ An,"Thị Xã Cửa Lò, tỉnh Nghệ An",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-cua-lo,2026-09-10
+ben-cang-xang-dau-dkc,Bến cảng xăng dầu DKC,nghe-an,Nghệ An,"Nghi Thiết, Nghi Lộc, Tỉnh Nghệ An",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-xang-dau-dkc,2026-09-10
+kcn-bac-vinh,KCN Bắc Vinh,nghe-an,Nghệ An,Thành phố Vinh,53,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-vinh,2026-09-10
+kcn-dien-quynh,KCN Diễn Quỳnh,nghe-an,Nghệ An,"H. Diễn Châu, H. Quỳnh Lưu",200,False,False,False,https://kcn-kkt.com/kcn/kcn-dien-quynh,2026-09-10
+kcn-dong-hieu-kcn-phu-quy,KCN Đông Hiếu (KCN Phú Quý),nghe-an,Nghệ An,Thị xã Thái Hòa,200,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-hieu-kcn-phu-quy,2026-09-10
+kcn-dong-hoi,KCN Đông Hội,nghe-an,Nghệ An,Thị xã Hoàng Mai,374,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-hoi,2026-09-10
+kcn-ho-tro-cang-cua-lo-kcn-yen-quang,KCN hō trợ căng Cửa Lò (KCN Yên Quang),nghe-an,Nghệ An,H. Nghĩ Lộc,333,False,False,False,https://kcn-kkt.com/kcn/kcn-ho-tro-cang-cua-lo-kcn-yen-quang,2026-09-10
+kcn-hoang-mai,KCN Hoàng Mai,nghe-an,Nghệ An,Thị xã Hoàng Mai,600,False,False,False,https://kcn-kkt.com/kcn/kcn-hoang-mai,2026-09-10
+kcn-kim-cuong,KCN Kim Cương,nghe-an,Nghệ An,H. Nam Đàn,300,False,False,False,https://kcn-kkt.com/kcn/kcn-kim-cuong,2026-09-10
+kcn-nam-cam,KCN Nam Cấm,nghe-an,Nghệ An,H. Nghĩ Lộc,1135,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-cam,2026-09-10
+kcn-nghia-dan,KCN Nghĩa Đàn,nghe-an,Nghệ An,H. Nghĩa Đàn,200,False,False,False,https://kcn-kkt.com/kcn/kcn-nghia-dan,2026-09-10
+kcn-ngoc-chau,KCN Ngọc Châu,nghe-an,Nghệ An,H. Quỳnh Lưu,300,False,False,False,https://kcn-kkt.com/kcn/kcn-ngoc-chau,2026-09-10
+kcn-so-1-nghe-an,KCN Số 1,nghe-an,Nghệ An,H. Diễn Châu,300,False,False,False,https://kcn-kkt.com/kcn/kcn-so-1-nghe-an,2026-09-10
+kcn-so-2,KCN Số 2,nghe-an,Nghệ An,H. Nghĩ Lộc,450,False,False,False,https://kcn-kkt.com/kcn/kcn-so-2,2026-09-10
+kcn-so-3-khu-lam-nghiep,KCN Số 3 (Khu lâm nghiệp),nghe-an,Nghệ An,"H. Nghĩ Lộc, H. Độ Lương",450,False,False,False,https://kcn-kkt.com/kcn/kcn-so-3-khu-lam-nghiep,2026-09-10
+kcn-so-5-nghe-an,KCN Số 5,nghe-an,Nghệ An,H. Độ Lương,300,False,False,False,https://kcn-kkt.com/kcn/kcn-so-5-nghe-an,2026-09-10
+kcn-so-8,KCN Số 8,nghe-an,Nghệ An,H. Hưng Nguyên,220,False,False,False,https://kcn-kkt.com/kcn/kcn-so-8,2026-09-10
+kcn-tan-ky,KCN Tân Kỳ,nghe-an,Nghệ An,H. Tân Kỳ,150,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-ky,2026-09-10
+kcn-tho-loc,KCN Thọ Lộc,nghe-an,Nghệ An,H. Diễn Châu,780,False,False,False,https://kcn-kkt.com/kcn/kcn-tho-loc,2026-09-10
+kcn-tri-le,KCN Trí Lễ,nghe-an,Nghệ An,H. Anh Sơn,106,False,False,False,https://kcn-kkt.com/kcn/kcn-tri-le,2026-09-10
+kcn-xuan-lam,KCN Xuân Lâm,nghe-an,Nghệ An,H. Thanh Chương,200,False,False,False,https://kcn-kkt.com/kcn/kcn-xuan-lam,2026-09-10
+kcn-do-thi-va-dich-vu-nam-cam,"KCN, Dō thị và Dịch vụ Nam Cấm",nghe-an,Nghệ An,H. Nghĩ Lộc,261,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-va-dich-vu-nam-cam,2026-09-10
+kcn-do-thi-va-dich-vu-tho-loc,"KCN, Dō thị và Dịch vụ Thọ Lộc",nghe-an,Nghệ An,H. Diễn Châu,13,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-va-dich-vu-tho-loc,2026-09-10
+kcn-do-thi-va-dich-vu-vsip,"KCN, Dō thị và Dịch vụ VSIP",nghe-an,Nghệ An,"H. Hưng Nguyên, Thành phố Vinh",368,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-va-dich-vu-vsip,2026-09-10
+kcn-do-thi-va-dich-vu-tan-thang,"KCN, Đô thị và Dịch vụ Tân Thắng",nghe-an,Nghệ An,H. Quỳnh Lưu,300,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-va-dich-vu-tan-thang,2026-09-10
+ben-cang-hai-thinh,Bến cảng Hải Thịnh,ninh-binh,Ninh Bình,Thị trấn Thịnh Long,,False,False,False,https://kcn-kkt.com/kcn/ben-cang-hai-thinh,2026-09-10
+ben-cang-nha-may-dong-tau-thinh-long,Bến cảng nhà máy động tâu Thịnh Long,ninh-binh,Ninh Bình,Thị trấn Thịnh Long,,False,False,False,https://kcn-kkt.com/kcn/ben-cang-nha-may-dong-tau-thinh-long,2026-09-10
+ben-cang-thinh-long,Bến cảng Thịnh Long,ninh-binh,Ninh Bình,Thị trấn Thịnh Long,,False,False,False,https://kcn-kkt.com/kcn/ben-cang-thinh-long,2026-09-10
+kcn-do-thi-dich-vu-gia-vien-ii,KCN - Đô thị - dịch vụ Gia Viễn II,ninh-binh,Ninh Bình,Huyện Gia Viễn,51,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-gia-vien-ii,2026-09-10
+kcn-do-thi-dich-vu-liem-son,KCN - Đô thị - Dịch vụ Liêm Sơn,ninh-binh,Ninh Bình,Thanh Bình; Hà Nam,360,True,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-liem-son,2026-09-10
+kcn-do-thi-dich-vu-phu-long,KCN - Đô thị - dịch vụ Phủ Long,ninh-binh,Ninh Bình,Huyện Nho Quan,485,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-phu-long,2026-09-10
+kcn-do-thi-dich-vu-song-sat,KCN - Đô thị - Dịch vụ Sông Sắt,ninh-binh,Ninh Bình,"Vũ Dương, Tân Minh; Nam Định / Hà Nam",469,True,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-song-sat,2026-09-10
+kcn-do-thi-dich-vu-tan-son,KCN - Đô thị - Dịch vụ Tân Sơn,ninh-binh,Ninh Bình,"Tân Minh, Thanh Bình, Bình Sơn; Hà Nam",712,True,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-tan-son,2026-09-10
+kcn-do-thi-dich-vu-yen-khanh,KCN - Đô thị - Dịch vụ Yên Khánh,ninh-binh,Ninh Bình,"Khánh Nhạc, Kim Sơn, Chất Bình; Ninh Bình (Yên Khánh)",500,True,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-yen-khanh,2026-09-10
+kcn-do-thi-dich-vu-yen-mo,KCN - Đô thị - Dịch vụ Yên Mô,ninh-binh,Ninh Bình,"Yên Mô, Yên Từ; Ninh Bình (Yên Mô)",333,True,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-yen-mo,2026-09-10
+kcn-bao-minh,KCN Bảo Minh,ninh-binh,Ninh Bình,Huyện Vụ Bản,147,False,False,False,https://kcn-kkt.com/kcn/kcn-bao-minh,2026-09-10
+kcn-bao-minh-mo-rong,KCN Bảo Minh mở rộng,ninh-binh,Ninh Bình,Huyện Vụ Bản,45,False,True,True,https://kcn-kkt.com/kcn/kcn-bao-minh-mo-rong,2026-09-10
+kcn-binh-an-ninh-binh,KCN Bình An,ninh-binh,Ninh Bình,"Bình An, Bình Sơn; Hà Nam",250,True,False,False,https://kcn-kkt.com/kcn/kcn-binh-an-ninh-binh,2026-09-10
+kcn-binh-giang-ninh-binh,KCN Bình Giang,ninh-binh,Ninh Bình,"Bình Giang, phường Mỹ Lộc; Nam Định",430,True,False,False,https://kcn-kkt.com/kcn/kcn-binh-giang-ninh-binh,2026-09-10
+kcn-binh-luc-3,KCN Bình Lục (3),ninh-binh,Ninh Bình,Huyện Bình Lục,236,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-luc-3,2026-09-10
+kcn-binh-luc-mo-rong,KCN Bình Lục (Mở rộng),ninh-binh,Ninh Bình,Huyện Bình Lục,64,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-luc-mo-rong,2026-09-10
+kcn-chau-giang-i,KCN Châu Giang I,ninh-binh,Ninh Bình,Thị xã Duy Tiên,250,False,False,False,https://kcn-kkt.com/kcn/kcn-chau-giang-i,2026-09-10
+kcn-chau-giang-ii,KCN Châu Giang II,ninh-binh,Ninh Bình,Thị xã Duy Tiên,250,False,True,True,https://kcn-kkt.com/kcn/kcn-chau-giang-ii,2026-09-10
+kcn-chau-son,KCN Châu Sơn,ninh-binh,Ninh Bình,TP Phủ Lý và huyện Thanh Liêm,377,False,False,False,https://kcn-kkt.com/kcn/kcn-chau-son,2026-09-10
+kcn-det-may-rang-dong,KCN dệt may Rạng Đông,ninh-binh,Ninh Bình,Huyện Nghĩa Hung,502,False,False,False,https://kcn-kkt.com/kcn/kcn-det-may-rang-dong,2026-09-10
+kcn-dai-thang-ninh-binh,KCN Đại Thắng,ninh-binh,Ninh Bình,Liên Minh; Nam Định,150,True,False,False,https://kcn-kkt.com/kcn/kcn-dai-thang-ninh-binh,2026-09-10
+kcn-dao-ly,KCN Đạo Lý,ninh-binh,Ninh Bình,Huyện Lý Nhân,200,False,False,False,https://kcn-kkt.com/kcn/kcn-dao-ly,2026-09-10
+kcn-dien-nang-hai-hau-trong-kkt-ninh-co,KCN điện năng Hải Hậu (trong KKT Ninh Cơ),ninh-binh,Ninh Bình,Huyện Hải Hậu,300,False,False,False,https://kcn-kkt.com/kcn/kcn-dien-nang-hai-hau-trong-kkt-ninh-co,2026-09-10
+kcn-dong-minh-ninh-binh,KCN Đồng Minh,ninh-binh,Ninh Bình,"Nam Đồng, Nam Minh; Nam Định",180,True,False,False,https://kcn-kkt.com/kcn/kcn-dong-minh-ninh-binh,2026-09-10
+kcn-dong-van-i,KCN Đông Văn I,ninh-binh,Ninh Bình,Thị xã Duy Tiên,371,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-van-i,2026-09-10
+kcn-dong-van-ii,KCN Đông Văn II,ninh-binh,Ninh Bình,Thị xã Duy Tiên,321,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-van-ii,2026-09-10
+kcn-dong-van-iv,KCN Đông Văn IV,ninh-binh,Ninh Bình,Huyện Kim Bảng,300,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-van-iv,2026-09-10
+kcn-dong-van-v,KCN Đông Văn V,ninh-binh,Ninh Bình,Thị xã Duy Tiên,250,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-van-v,2026-09-10
+kcn-dong-van-vi,KCN Đông Văn VI,ninh-binh,Ninh Bình,Thị xã Duy Tiên,250,False,True,True,https://kcn-kkt.com/kcn/kcn-dong-van-vi,2026-09-10
+kcn-giao-thinh,KCN Giao Thịnh,ninh-binh,Ninh Bình,Huyện Giao Thủy,200,False,False,False,https://kcn-kkt.com/kcn/kcn-giao-thinh,2026-09-10
+kcn-gian-khau,KCN Giấn Khâu,ninh-binh,Ninh Bình,Huyện Gia Viễn,243.68,False,False,False,https://kcn-kkt.com/kcn/kcn-gian-khau,2026-09-10
+kcn-hai-cuong,KCN Hải Cường,ninh-binh,Ninh Bình,"Hải An, Ninh Cường; Nam Định",385,True,False,False,https://kcn-kkt.com/kcn/kcn-hai-cuong,2026-09-10
+kcn-hai-long-giai-doan-1,KCN Hải Long (giai đoạn 1),ninh-binh,Ninh Bình,Huyện Giao Thủy,180,False,False,False,https://kcn-kkt.com/kcn/kcn-hai-long-giai-doan-1,2026-09-10
+kcn-hoa-mac,KCN Hòa Mạc,ninh-binh,Ninh Bình,Thị xã Duy Tiên,131,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-mac,2026-09-10
+kcn-hoa-xa,KCN Hòa Xá,ninh-binh,Ninh Bình,TP. Nam Định,291,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-xa,2026-09-10
+kcn-ho-tro-dong-van-iii,KCN hỗ trợ Đông Văn III,ninh-binh,Ninh Bình,Thị xã Duy Tiên,523,False,False,False,https://kcn-kkt.com/kcn/kcn-ho-tro-dong-van-iii,2026-09-10
+kcn-hong-phu,KCN Hồng Phú,ninh-binh,Ninh Bình,Hồng Phong; Nam Định,200,True,False,False,https://kcn-kkt.com/kcn/kcn-hong-phu,2026-09-10
+kcn-hong-tien,KCN Hồng Tiến,ninh-binh,Ninh Bình,Huyện Ý Yên,144,False,False,False,https://kcn-kkt.com/kcn/kcn-hong-tien,2026-09-10
+kcn-itahan-tan-tao,KCN Itahan (Tân Tạo),ninh-binh,Ninh Bình,Huyện Duy Tiên,800,False,False,False,https://kcn-kkt.com/kcn/kcn-itahan-tan-tao,2026-09-10
+kcn-khanh-cu,KCN Khánh Cư,ninh-binh,Ninh Bình,Huyện Yên Khánh,52.28,False,False,False,https://kcn-kkt.com/kcn/kcn-khanh-cu,2026-09-10
+kcn-khanh-phu,KCN Khánh Phú,ninh-binh,Ninh Bình,Huyện Yên Khánh và thành phố Ninh Bình,356,False,False,False,https://kcn-kkt.com/kcn/kcn-khanh-phu,2026-09-10
+kcn-kim-bang-i,KCN Kim Bảng I,ninh-binh,Ninh Bình,Huyện Kim Bảng,230,False,True,True,https://kcn-kkt.com/kcn/kcn-kim-bang-i,2026-09-10
+kcn-kim-bang-ii,KCN Kim Bảng II,ninh-binh,Ninh Bình,Huyện Kim Bảng,270,False,False,False,https://kcn-kkt.com/kcn/kcn-kim-bang-ii,2026-09-10
+kcn-kim-bang-iii,KCN Kim Bảng III,ninh-binh,Ninh Bình,Huyện Kim Bảng,300,False,False,False,https://kcn-kkt.com/kcn/kcn-kim-bang-iii,2026-09-10
+kcn-kim-bang-iv,KCN Kim Bảng IV,ninh-binh,Ninh Bình,Huyện Kim Bảng,300,False,False,False,https://kcn-kkt.com/kcn/kcn-kim-bang-iv,2026-09-10
+kcn-kim-son,KCN Kim Sơn,ninh-binh,Ninh Bình,Huyện Kim Sơn,128,False,False,False,https://kcn-kkt.com/kcn/kcn-kim-son,2026-09-10
+kcn-lac-xuan-giai-doan-1,KCN Lạc Xuân (giai đoạn 1),ninh-binh,Ninh Bình,Huyện Giao Thủy,100,False,False,False,https://kcn-kkt.com/kcn/kcn-lac-xuan-giai-doan-1,2026-09-10
+kcn-minh-chau-giai-doan-1,KCN Minh Châu (giai đoạn 1),ninh-binh,Ninh Bình,Huyện Nghĩa Hưng,100,False,True,True,https://kcn-kkt.com/kcn/kcn-minh-chau-giai-doan-1,2026-09-10
+kcn-minh-cuong,KCN Minh Cường,ninh-binh,Ninh Bình,Yên Cường; Hà Nam,165,True,False,False,https://kcn-kkt.com/kcn/kcn-minh-cuong,2026-09-10
+kcn-my-thuan,KCN Mỹ Thuận,ninh-binh,Ninh Bình,"Huyện Mỹ Lộc, Huyện Vụ Bản",159,False,False,False,https://kcn-kkt.com/kcn/kcn-my-thuan,2026-09-10
+kcn-my-trung,KCN Mỹ Trung,ninh-binh,Ninh Bình,"TP. Mỹ Lộc, Nam Định",151,False,False,False,https://kcn-kkt.com/kcn/kcn-my-trung,2026-09-10
+kcn-nam-hai-hau,KCN Nam Hải Hậu,ninh-binh,Ninh Bình,"Hải Quang, Hải Tiến; Nam Định (Hải Hậu)",266,True,False,False,https://kcn-kkt.com/kcn/kcn-nam-hai-hau,2026-09-10
+kcn-nam-hong-giai-doan-1,KCN Nam Hồng (giai đoạn 1),ninh-binh,Ninh Bình,Huyện Nam Trực,156,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-hong-giai-doan-1,2026-09-10
+kcn-nam-quang,KCN Nam Quang,ninh-binh,Ninh Bình,"Nam Trực, phường Hồng Quang, Nam Ninh, Nam Hồng; Nam Định",300,True,False,False,https://kcn-kkt.com/kcn/kcn-nam-quang,2026-09-10
+kcn-nghia-hung,KCN Nghĩa Hưng,ninh-binh,Ninh Bình,Nghĩa Hưng; Nam Định,250,True,False,False,https://kcn-kkt.com/kcn/kcn-nghia-hung,2026-09-10
+kcn-nghia-lam,KCN Nghĩa Lâm,ninh-binh,Ninh Bình,Nghĩa Lâm; Nam Định,350,True,False,False,https://kcn-kkt.com/kcn/kcn-nghia-lam,2026-09-10
+kcn-nghia-son,KCN Nghĩa Sơn,ninh-binh,Ninh Bình,Huyện Nghĩa Hưng,120,False,False,False,https://kcn-kkt.com/kcn/kcn-nghia-son,2026-09-10
+kcn-phong-doanh,KCN Phong Doanh,ninh-binh,Ninh Bình,Phong Doanh; Nam Định (Ý Yên),180,True,False,False,https://kcn-kkt.com/kcn/kcn-phong-doanh,2026-09-10
+kcn-phong-hung-khanh,KCN Phong Hưng Khánh,ninh-binh,Ninh Bình,Huyện Ý Yên,300,False,False,False,https://kcn-kkt.com/kcn/kcn-phong-hung-khanh,2026-09-10
+kcn-phu-cuong,KCN Phú Cường,ninh-binh,Ninh Bình,Hải Xuân; Nam Định (Hải Hậu),200,True,False,False,https://kcn-kkt.com/kcn/kcn-phu-cuong,2026-09-10
+kcn-phuc-ha,KCN Phúc Hà,ninh-binh,Ninh Bình,Hải Hưng; Nam Định (Hải Hậu),300,True,False,False,https://kcn-kkt.com/kcn/kcn-phuc-ha,2026-09-10
+kcn-phuc-son,KCN Phúc Sơn,ninh-binh,Ninh Bình,Thành phố Ninh Bình,129.4,False,False,False,https://kcn-kkt.com/kcn/kcn-phuc-son,2026-09-10
+kcn-tam-diep-i,KCN Tam Điệp I,ninh-binh,Ninh Bình,Huyện Tam Điệp,66.38,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-diep-i,2026-09-10
+kcn-tam-diep-ii,KCN Tam Điệp II,ninh-binh,Ninh Bình,Thành phố Tam Điệp,260,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-diep-ii,2026-09-10
+kcn-thai-ha,KCN Thái Hà,ninh-binh,Ninh Bình,Huyện Lý Nhân,200,False,False,False,https://kcn-kkt.com/kcn/kcn-thai-ha,2026-09-10
+kcn-thai-ha-ii,KCN Thái Hà II,ninh-binh,Ninh Bình,Huyện Lý Nhân,175,False,False,False,https://kcn-kkt.com/kcn/kcn-thai-ha-ii,2026-09-10
+kcn-thai-ha-iii,KCN Thái Hà III,ninh-binh,Ninh Bình,Huyện Lý Nhân,300,False,False,False,https://kcn-kkt.com/kcn/kcn-thai-ha-iii,2026-09-10
+kcn-thanh-binh-1a,KCN Thanh Bình 1A (KCN Thanh Liêm mở rộng),ninh-binh,Ninh Bình,"Thanh Liêm, Thanh Lâm, Tân Thanh, phường Châu Sơn; Hà Nam",230,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-binh-1a,2026-09-10
+kcn-thanh-binh-1b,KCN Thanh Bình 1B,ninh-binh,Ninh Bình,"Thanh Liêm, Thanh Lâm, Tân Thanh, phường Châu Sơn; Hà Nam",230,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-binh-1b,2026-09-10
+kcn-thanh-binh-1c,KCN Thanh Bình 1C,ninh-binh,Ninh Bình,"Thanh Liêm, Thanh Lâm, Tân Thanh, phường Châu Sơn; Hà Nam",230,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-binh-1c,2026-09-10
+kcn-thanh-binh-i,KCN Thanh Bình I,ninh-binh,Ninh Bình,Huyện Thanh Liêm,690,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-binh-i,2026-09-10
+kcn-thanh-binh-ii-mo-rong,KCN Thanh Bình II (Mở rộng),ninh-binh,Ninh Bình,Huyện Thanh Liêm,50,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-binh-ii-mo-rong,2026-09-10
+kcn-thanh-binh-ii-2,KCN Thanh Bình II(2),ninh-binh,Ninh Bình,Huyện Thanh Liêm,250,False,True,True,https://kcn-kkt.com/kcn/kcn-thanh-binh-ii-2,2026-09-10
+kcn-thanh-huong,KCN Thanh Hương,ninh-binh,Ninh Bình,Giao Minh; Nam Định,250,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-huong,2026-09-10
+kcn-thanh-liem,KCN Thanh Liêm,ninh-binh,Ninh Bình,Huyện Thanh Liêm và thành phố Phủ Lý,293,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-liem,2026-09-10
+kcn-thanh-nam,KCN Thành Nam,ninh-binh,Ninh Bình,Phường Thành Nam; Nam Định,215,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-nam,2026-09-10
+kcn-thang-loi-giai-doan-1,KCN Thắng Lợi (giai đoạn 1),ninh-binh,Ninh Bình,Huyện Vụ Bản,100,False,False,False,https://kcn-kkt.com/kcn/kcn-thang-loi-giai-doan-1,2026-09-10
+kcn-thinh-tan-giai-doan-1,KCN Thịnh Tân (giai đoạn 1),ninh-binh,Ninh Bình,Huyện Giao Thủy,100,False,False,False,https://kcn-kkt.com/kcn/kcn-thinh-tan-giai-doan-1,2026-09-10
+kcn-thuong-thanh-giai-doan-1,KCN Thương Thành (giai đoạn 1),ninh-binh,Ninh Bình,Huyện Xuân Trường,100,False,False,False,https://kcn-kkt.com/kcn/kcn-thuong-thanh-giai-doan-1,2026-09-10
+kcn-trung-thanh,KCN Trung Thành,ninh-binh,Ninh Bình,Huyện Ý Yên,200,False,False,False,https://kcn-kkt.com/kcn/kcn-trung-thanh,2026-09-10
+kcn-truc-ninh,KCN Trực Ninh,ninh-binh,Ninh Bình,Cổ Lễ; Nam Định (Trực Ninh),217,True,False,False,https://kcn-kkt.com/kcn/kcn-truc-ninh,2026-09-10
+kcn-vu-duong,KCN Vũ Dương,ninh-binh,Ninh Bình,Vũ Dương; Nam Định,500,True,False,False,https://kcn-kkt.com/kcn/kcn-vu-duong,2026-09-10
+kcn-xich-tho,KCN Xích Thổ,ninh-binh,Ninh Bình,Huyện Nho Quan,150,False,False,False,https://kcn-kkt.com/kcn/kcn-xich-tho,2026-09-10
+kcn-xuan-hai,KCN Xuân Hải,ninh-binh,Ninh Bình,Giao Phúc; Nam Định,250,True,False,False,https://kcn-kkt.com/kcn/kcn-xuan-hai,2026-09-10
+kcn-xuan-kien-giai-doan-1,KCN Xuân Kiên (giai đoạn 1),ninh-binh,Ninh Bình,Huyện Xuân Trường,100,False,True,True,https://kcn-kkt.com/kcn/kcn-xuan-kien-giai-doan-1,2026-09-10
+kcn-yen-binh,KCN Yên Bình,ninh-binh,Ninh Bình,Huyện Yên Mô,100,False,False,False,https://kcn-kkt.com/kcn/kcn-yen-binh,2026-09-10
+kcn-yen-nghia,KCN Yên Nghĩa,ninh-binh,Ninh Bình,Tân Minh; Hà Nam,150,True,False,False,https://kcn-kkt.com/kcn/kcn-yen-nghia,2026-09-10
+kcn-yen-phu,KCN Yên Phú,ninh-binh,Ninh Bình,Phú Long; Ninh Bình (Nho Quan),258,True,False,False,https://kcn-kkt.com/kcn/kcn-yen-phu,2026-09-10
+khu-cong-nghiep-thanh-liem,Khu công nghiệp Thanh Liêm,ninh-binh,Ninh Bình,Tỉnh Hà Nam,143,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-thanh-liem,2026-09-10
+taseco-dong-van-3,TASECO DONG VAN 3,ninh-binh,Ninh Bình,"Phường Yên Bắc, Thị xã Duy Tiên, Hà Nam",223,False,False,False,https://kcn-kkt.com/kcn/taseco-dong-van-3,2026-09-10
+kcn-do-thi-dich-vu-bao-hieu,KCN - đô thị - dịch vụ Báo Hiệu,phu-tho,Phú Thọ,Huyện Yên Thủy,371,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-bao-hieu,2026-09-10
+kcn-do-thi-dich-vu-tan-vinh,KCN - đô thị - dịch vụ Tân Vĩnh,phu-tho,Phú Thọ,Huyện Lương Sơn,294,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-tan-vinh,2026-09-10
+kcn-ba-thien,KCN Bá Thiện,phu-tho,Phú Thọ,Huyện Bình Xuyên,326,False,False,False,https://kcn-kkt.com/kcn/kcn-ba-thien,2026-09-10
+kcn-ba-thien-ii,KCN Bá Thiện II,phu-tho,Phú Thọ,Huyện Bình Xuyên,309,False,False,False,https://kcn-kkt.com/kcn/kcn-ba-thien-ii,2026-09-10
+kcn-bac-son,KCN Bắc Sơn,phu-tho,Phú Thọ,Huyện Tam Nông,200,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-son,2026-09-10
+kcn-binh-phu,KCN Bình Phú,phu-tho,Phú Thọ,Thành phố Hòa Bình,214,False,True,True,https://kcn-kkt.com/kcn/kcn-binh-phu,2026-09-10
+kcn-binh-xuyen,KCN Bình Xuyên,phu-tho,Phú Thọ,Huyện Bình Xuyên,287,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-xuyen,2026-09-10
+kcn-binh-xuyen-yen-lac-i,KCN Bình Xuyên - Yên Lạc I,phu-tho,Phú Thọ,"Huyện Bình Xuyên, huyện Yên Lạc",219,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-xuyen-yen-lac-i,2026-09-10
+kcn-binh-xuyen-yen-lac-ii,KCN Bình Xuyên - Yên Lạc II,phu-tho,Phú Thọ,"Huyện Bình Xuyên, huyện Yên Lạc",165,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-xuyen-yen-lac-ii,2026-09-10
+kcn-binh-xuyen-ii-giai-doan-ii,KCN Bình Xuyên II - giai đoạn II,phu-tho,Phú Thọ,Huyện Bình Xuyên,63,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-xuyen-ii-giai-doan-ii,2026-09-10
+kcn-binh-xuyen-ii-giai-doan-i,"KCN Bình Xuyên II, giai đoạn I",phu-tho,Phú Thọ,Huyện Bình Xuyên,42,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-xuyen-ii-giai-doan-i,2026-09-10
+kcn-bo-trai-song-da,KCN Bộ Trái Sông Đà,phu-tho,Phú Thọ,Thành phố Hòa Bình,68,False,False,False,https://kcn-kkt.com/kcn/kcn-bo-trai-song-da,2026-09-10
+kcn-cao-son,KCN Cao Sơn,phu-tho,Phú Thọ,Huyện Đà Bắc,230,False,False,False,https://kcn-kkt.com/kcn/kcn-cao-son,2026-09-10
+kcn-cam-khe,KCN Cầm Khê,phu-tho,Phú Thọ,Huyện Cầm Khê,450,False,False,False,https://kcn-kkt.com/kcn/kcn-cam-khe,2026-09-10
+kcn-chan-hung,KCN Chân Hùng,phu-tho,Phú Thọ,Huyện Vĩnh Tường,128,False,False,False,https://kcn-kkt.com/kcn/kcn-chan-hung,2026-09-10
+kcn-doan-hung,KCN Đoàn Hùng,phu-tho,Phú Thọ,Huyện Đoàn Hùng,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-doan-hung,2026-09-10
+kcn-dong-luong,KCN Đông Lương,phu-tho,Phú Thọ,Huyện Cẩm Khê,500,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-luong,2026-09-10
+kcn-dong-soc,KCN Đông Sóc,phu-tho,Phú Thọ,Huyện Vĩnh Tường,207,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-soc,2026-09-10
+kcn-dong-soc-yen-lac,KCN Đông Sóc - Yên Lạc,phu-tho,Phú Thọ,Huyện Yên Lạc,115,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-soc-yen-lac,2026-09-10
+kcn-ha-hoa,KCN Hạ Hòa,phu-tho,Phú Thọ,Huyện Hạ Hòa,400,False,False,False,https://kcn-kkt.com/kcn/kcn-ha-hoa,2026-09-10
+kcn-khai-quang,KCN Khai Quang,phu-tho,Phú Thọ,Thành phó Vĩnh Yên,221,False,False,False,https://kcn-kkt.com/kcn/kcn-khai-quang,2026-09-10
+kcn-kim-hoa,KCN Kim Hoa,phu-tho,Phú Thọ,Thành phố Phúc Yên,50,False,False,False,https://kcn-kkt.com/kcn/kcn-kim-hoa,2026-09-10
+kcn-lac-thinh,KCN Lạc Thịnh,phu-tho,Phú Thọ,Huyện Yên Thủy,220,False,False,False,https://kcn-kkt.com/kcn/kcn-lac-thinh,2026-09-10
+kcn-lap-thach-i,KCN Lập Thạch I,phu-tho,Phú Thọ,Huyện Lập Thạch,131,False,False,False,https://kcn-kkt.com/kcn/kcn-lap-thach-i,2026-09-10
+kcn-lap-thach-ii,KCN Lập Thạch II,phu-tho,Phú Thọ,Huyện Lập Thạch,235,False,False,False,https://kcn-kkt.com/kcn/kcn-lap-thach-ii,2026-09-10
+kcn-luong-son,KCN Lương Sơn,phu-tho,Phú Thọ,Huyện Lương Sơn,83,False,False,False,https://kcn-kkt.com/kcn/kcn-luong-son,2026-09-10
+kcn-nam-binh-xuyen,KCN Nam Bình Xuyên,phu-tho,Phú Thọ,Huyện Bình Xuyên,290,False,True,True,https://kcn-kkt.com/kcn/kcn-nam-binh-xuyen,2026-09-10
+kcn-nam-luong-son,KCN Nam Lương Sơn,phu-tho,Phú Thọ,Huyện Lương Sơn,75,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-luong-son,2026-09-10
+kcn-nhuan-trach,KCN Nhuận Trạch,phu-tho,Phú Thọ,Huyện Lương Sơn,214,False,False,False,https://kcn-kkt.com/kcn/kcn-nhuan-trach,2026-09-10
+kcn-phu-ha,KCN Phú Hà,phu-tho,Phú Thọ,Thị xã Phú Thọ,450,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-ha,2026-09-10
+kcn-phu-ninh,KCN Phú Ninh,phu-tho,Phú Thọ,Huyện Phú Ninh,400,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-ninh,2026-09-10
+kcn-phuc-yen,KCN Phúc Yên,phu-tho,Phú Thọ,Thành phố Phúc Yên,128,False,False,False,https://kcn-kkt.com/kcn/kcn-phuc-yen,2026-09-10
+kcn-song-lo-i,KCN Sông Lô I,phu-tho,Phú Thọ,Huyện Sông Lô,177,False,False,False,https://kcn-kkt.com/kcn/kcn-song-lo-i,2026-09-10
+kcn-song-lo-ii,KCN Sông Lô II,phu-tho,Phú Thọ,Huyện Sông Lô,166,False,False,False,https://kcn-kkt.com/kcn/kcn-song-lo-ii,2026-09-10
+kcn-song-lo-iii,KCN Sông Lô III,phu-tho,Phú Thọ,Huyện Sông Lô,75,False,False,False,https://kcn-kkt.com/kcn/kcn-song-lo-iii,2026-09-10
+kcn-son-loi,KCN Sơn Lôi,phu-tho,Phú Thọ,Huyện Bình Xuyên,247,False,False,False,https://kcn-kkt.com/kcn/kcn-son-loi,2026-09-10
+kcn-tam-duong-i-khu-vuc-2,KCN Tam Dương I khu vực 2,phu-tho,Phú Thọ,Huyện Tam Dương,157,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-duong-i-khu-vuc-2,2026-09-10
+kcn-tam-duong-i-khu-vuc-3,KCN Tam Dương I khu vực 3,phu-tho,Phú Thọ,Huyện Tam Dương,176,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-duong-i-khu-vuc-3,2026-09-10
+kcn-tam-duong-ii-khu-a,"KCN Tam Dương II, khu A",phu-tho,Phú Thọ,Huyện Tam Dương,135,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-duong-ii-khu-a,2026-09-10
+kcn-tam-duong-ii-khu-b,"KCN Tam Dương II, khu B",phu-tho,Phú Thọ,Huyện Tam Dương,178,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-duong-ii-khu-b,2026-09-10
+kcn-tam-nong,KCN Tam Nông,phu-tho,Phú Thọ,Huyện Tam Nông,350,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-nong,2026-09-10
+kcn-thai-hoa-lien-son-lien-hoa-khu-vuc-i,KCN Thái Hòa - Liên Sơn - Liên Hòa khu vực I,phu-tho,Phú Thọ,Huyện Lập Thạch,77,False,False,False,https://kcn-kkt.com/kcn/kcn-thai-hoa-lien-son-lien-hoa-khu-vuc-i,2026-09-10
+kcn-thai-hoa-lien-son-lien-hoa-khu-vuc-ii-giai-doan-1,KCN Thái Hòa - Liên Sơn - Liên Hòa khu vực II - giai đoạn 1,phu-tho,Phú Thọ,Huyện Lập Thạch,145,False,True,True,https://kcn-kkt.com/kcn/kcn-thai-hoa-lien-son-lien-hoa-khu-vuc-ii-giai-doan-1,2026-09-10
+kcn-thanh-ba,KCN Thanh Ba,phu-tho,Phú Thọ,Huyện Thanh Ba,360,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-ba,2026-09-10
+kcn-thanh-cao,KCN Thanh Cao,phu-tho,Phú Thọ,Huyện Lương Sơn,215,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-cao,2026-09-10
+kcn-thanh-ha-phu-tho,KCN Thanh Hà,phu-tho,Phú Thọ,Huyện Lạc Thủy,277,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-ha-phu-tho,2026-09-10
+kcn-thanh-hoi,KCN Thanh Hội,phu-tho,Phú Thọ,Huyện Tân Lạc,130,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-hoi,2026-09-10
+kcn-thang-long-vinh-phuc,KCN Thắng Long Vĩnh Phúc,phu-tho,Phú Thọ,Huyện Bình Xuyên,213,False,False,False,https://kcn-kkt.com/kcn/kcn-thang-long-vinh-phuc,2026-09-10
+kcn-thinh-minh,KCN Thịnh Minh,phu-tho,Phú Thọ,Thành phố Hòa Bình,430,False,True,True,https://kcn-kkt.com/kcn/kcn-thinh-minh,2026-09-10
+kcn-thuy-van,KCN Thuỵ Văn,phu-tho,Phú Thọ,Thành phố Việt Trì,335,False,True,True,https://kcn-kkt.com/kcn/kcn-thuy-van,2026-09-10
+kcn-trung-ha,KCN Trung Hà,phu-tho,Phú Thọ,"Huyện Tam Nông, Huyện Thanh Thủy",300,False,False,False,https://kcn-kkt.com/kcn/kcn-trung-ha,2026-09-10
+kcn-vo-mieu,KCN Võ Miếu,phu-tho,Phú Thọ,Huyện Thanh Sơn,350,False,False,False,https://kcn-kkt.com/kcn/kcn-vo-mieu,2026-09-10
+kcn-yen-lac,KCN Yên Lạc,phu-tho,Phú Thọ,Huyện Yên Lạc,150,False,False,False,https://kcn-kkt.com/kcn/kcn-yen-lac,2026-09-10
+kcn-yen-quang,KCN Yên Quang,phu-tho,Phú Thọ,Thành phố Hòa Bình,181,False,False,False,https://kcn-kkt.com/kcn/kcn-yen-quang,2026-09-10
+kcn-yen-thinh,KCN Yên Thịnh,phu-tho,Phú Thọ,Huyện Yên Thủy,123,False,False,False,https://kcn-kkt.com/kcn/kcn-yen-thinh,2026-09-10
+kcn-do-thi-dich-vu-tan-phong,KCN- đô thị - dịch vụ Tân Phong,phu-tho,Phú Thọ,Huyện Lạc Sơn,347,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-tan-phong,2026-09-10
+kcn-an-phu-thuoc-kcn-do-thi-va-dich-vu-an-phu,"KCN An Phú (thuộc KCN, đô thị và dịch vụ An Phú)",quang-ngai,Quảng Ngãi,Huyện Tư Nghĩa,276,False,False,False,https://kcn-kkt.com/kcn/kcn-an-phu-thuoc-kcn-do-thi-va-dich-vu-an-phu,2026-09-10
+kcn-binh-hoa-binh-phuoc-kcn-binh-hoa-binh-phuoc-i-kcn-binh-hoa-binh-phuoc-ii,KCN Bình Hòa - Bình Phước (KCN Bình Hòa - Bình Phước I; KCN Bình Hòa - Bình Phước II),quang-ngai,Quảng Ngãi,Huyện Bình Sơn,592,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-hoa-binh-phuoc-kcn-binh-hoa-binh-phuoc-i-kcn-binh-hoa-binh-phuoc-ii,2026-09-10
+kcn-binh-long,KCN Bình Long,quang-ngai,Quảng Ngãi,Huyện Bình Sơn,341,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-long,2026-09-10
+kcn-binh-thanh-thuoc-kcn-dt-dv-binh-thanh,KCN Bình Thanh (thuộc KCN - ĐT- DV Bình Thanh),quang-ngai,Quảng Ngãi,Huyện Bình Sơn,1399,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-thanh-thuoc-kcn-dt-dv-binh-thanh,2026-09-10
+kcn-dung-quat-ii-thuoc-kcn-do-thi-dich-vu-dung-quat-ii,KCN Dung Quất II (thuộc KCN - đô thị - dịch vụ Dung Quất II),quang-ngai,Quảng Ngãi,"Các huyện: Bình Sơn, Sơn Tịnh",765,False,False,False,https://kcn-kkt.com/kcn/kcn-dung-quat-ii-thuoc-kcn-do-thi-dich-vu-dung-quat-ii,2026-09-10
+kcn-dak-to,KCN Đắk Tó,quang-ngai,Quảng Ngãi,Huyện Đắk Tó,147,False,False,False,https://kcn-kkt.com/kcn/kcn-dak-to,2026-09-10
+kcn-dong-dung-quat,KCN Đông Dung Quất,quang-ngai,Quảng Ngãi,Huyện Bình Son,1933,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-dung-quat,2026-09-10
+kcn-hoa-binh,KCN Hòa Bình,quang-ngai,Quảng Ngãi,Thành phố Kon Tum,60,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-binh,2026-09-10
+kcn-phia-tay-kcn-tay-dung-quet-kcn-dtd-dv-dung-quat-i,"KCN phía Tây (KCN Tây Dung Quét, KCN-ĐTĐ-ĐV Dung Quất I)",quang-ngai,Quảng Ngãi,Huyện Bình Son,500,False,False,False,https://kcn-kkt.com/kcn/kcn-phia-tay-kcn-tay-dung-quet-kcn-dtd-dv-dung-quat-i,2026-09-10
+kcn-pho-phong,KCN Phố Phong,quang-ngai,Quảng Ngãi,TX. Độc Phố,48,False,False,False,https://kcn-kkt.com/kcn/kcn-pho-phong,2026-09-10
+kcn-quang-phu,KCN Quảng Phú,quang-ngai,Quảng Ngãi,TP. Quảng Ngãi,75,False,False,False,https://kcn-kkt.com/kcn/kcn-quang-phu,2026-09-10
+kcn-san-xuat-che-bien-duoc-lieu-tap-trung,"KCN sản xuất, chế biến được liệu tập trung",quang-ngai,Quảng Ngãi,Huyện Đắk Tô,218,False,False,False,https://kcn-kkt.com/kcn/kcn-san-xuat-che-bien-duoc-lieu-tap-trung,2026-09-10
+kcn-sao-mai,KCN Sao Mai,quang-ngai,Quảng Ngãi,Thành phố Kon Tum,150,False,False,False,https://kcn-kkt.com/kcn/kcn-sao-mai,2026-09-10
+kcn-tinh-phong-kcn-tinh-phong-hien-huu-kcn-vsip,KCN Tính Phong (KCN Tính Phong hiện hữu; KCN VSIP),quang-ngai,Quảng Ngãi,TP. Quảng Ngãi; Huyện Sơn Tĩnh,720,False,False,False,https://kcn-kkt.com/kcn/kcn-tinh-phong-kcn-tinh-phong-hien-huu-kcn-vsip,2026-09-10
+kcn-bach-dang,KCN Bạch Đằng,quang-ninh,Quảng Ninh,TX Quảng Yên,176.45,True,False,False,https://kcn-kkt.com/kcn/kcn-bach-dang,2026-09-10
+kcn-bac-cai-bau,KCN Bắc Cái Bầu,quang-ninh,Quảng Ninh,"Huyện Vân Đồn, KKT ven biển Vân Đồn",550,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-cai-bau,2026-09-10
+kcn-bac-tien-phong,KCN Bắc Tiền Phong (DEEP C II),quang-ninh,Quảng Ninh,TX Quảng Yên,1192.9,True,False,False,https://kcn-kkt.com/kcn/kcn-bac-tien-phong,2026-09-10
+kcn-cai-lan,KCN Cái Lân,quang-ninh,Quảng Ninh,Thành phố Hạ Long,69,False,False,False,https://kcn-kkt.com/kcn/kcn-cai-lan,2026-09-10
+kcn-cam-pha-1,KCN Cẩm Phả 1,quang-ninh,Quảng Ninh,Thành phố Cẩm Phả,400,False,False,False,https://kcn-kkt.com/kcn/kcn-cam-pha-1,2026-09-10
+kcn-cam-pha-2,KCN Cẩm Phả 2,quang-ninh,Quảng Ninh,Thành phố Cẩm Phả,228,False,False,False,https://kcn-kkt.com/kcn/kcn-cam-pha-2,2026-09-10
+kcn-dich-vu-dam-nha-mac-bao-gom-kcn-nam-tien-phong-kcn-bac-tien-phong-kcn-bach-dang,"KCN Dịch vụ đầm nhà Mạc (Bao gồm KCN Nam Tiền Phong, KCN Bắc Tiền Phong, KCN Bạch Đằng)",quang-ninh,Quảng Ninh,"Thị xã Quảng Yên, KKT ven biển Quảng Yên",1076,False,False,False,https://kcn-kkt.com/kcn/kcn-dich-vu-dam-nha-mac-bao-gom-kcn-nam-tien-phong-kcn-bac-tien-phong-kcn-bach-dang,2026-09-10
+kcn-dong-mai-bao-gom-quy-hoach-mo-rong,KCN Đông Mai (Bao gồm quy hoạch mở rộng),quang-ninh,Quảng Ninh,Thị xã Quảng Yên,318,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-mai-bao-gom-quy-hoach-mo-rong,2026-09-10
+kcn-dong-trieu,KCN Đông Triều,quang-ninh,Quảng Ninh,Thị xã Đông Triều,178,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-trieu,2026-09-10
+kcn-dong-trieu-2,KCN Đông Triều 2,quang-ninh,Quảng Ninh,Thị xã Đông Triều,1187,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-trieu-2,2026-09-10
+kcn-hai-ha,KCN Hải Hà,quang-ninh,Quảng Ninh,"Huyện Hải Hà, KKTCK Móng Cái",3370,False,False,False,https://kcn-kkt.com/kcn/kcn-hai-ha,2026-09-10
+kcn-hai-ha-1,KCN Hải Hà 1,quang-ninh,Quảng Ninh,"Huyện Hải Hà, KKTCK Móng Cái",713,False,False,False,https://kcn-kkt.com/kcn/kcn-hai-ha-1,2026-09-10
+kcn-hai-ha-2,KCN Hải Hà 2,quang-ninh,Quảng Ninh,"Huyện Hải Hà, KKTCK Móng Cái",743,False,False,False,https://kcn-kkt.com/kcn/kcn-hai-ha-2,2026-09-10
+kcn-hai-yen,KCN Hải Yên,quang-ninh,Quảng Ninh,"Thành phố Móng Cái, KKT CK Móng Cái",360,False,True,True,https://kcn-kkt.com/kcn/kcn-hai-yen,2026-09-10
+kcn-nam-tien-phong,KCN Nam Tiền Phong (DEEP C I),quang-ninh,Quảng Ninh,TX Quảng Yên,366.5,True,False,False,https://kcn-kkt.com/kcn/kcn-nam-tien-phong,2026-09-10
+kcn-phia-bac-dam-nha-mac,KCN phía Bắc Dầm Nhà Mạc,quang-ninh,Quảng Ninh,"Thị xã Quảng Yên, KKT ven biển Quảng Yên",1400,False,False,False,https://kcn-kkt.com/kcn/kcn-phia-bac-dam-nha-mac,2026-09-10
+kcn-phia-bac-san-bay,KCN phía Bắc sân bay,quang-ninh,Quảng Ninh,"Huyện Vân Đồn, KKT ven biển Vân Đồn",450,False,False,False,https://kcn-kkt.com/kcn/kcn-phia-bac-san-bay,2026-09-10
+kcn-phia-dong-song-rut,KCN phía Đông sông Rút,quang-ninh,Quảng Ninh,"Thị xã Quảng Yên, KKT ven biển Quảng Yên",340,False,False,False,https://kcn-kkt.com/kcn/kcn-phia-dong-song-rut,2026-09-10
+kcn-phia-nam-dam-nha-mac,KCN phía Nam Dầm Nhà Mạc,quang-ninh,Quảng Ninh,"Thị xã Quảng Yên, KKT ven biển Quảng Yên",1334,False,False,False,https://kcn-kkt.com/kcn/kcn-phia-nam-dam-nha-mac,2026-09-10
+kcn-phia-tay-song-khoai,KCN phía Tây Sông Khoai,quang-ninh,Quảng Ninh,"Thị xã Quảng Yên, KKT ven biển Quảng Yên",400,False,False,False,https://kcn-kkt.com/kcn/kcn-phia-tay-song-khoai,2026-09-10
+kcn-song-khoai,KCN Sông Khoai,quang-ninh,Quảng Ninh,"Thị xã Quảng Yên, KKT ven biển Quảng Yên",714,False,False,False,https://kcn-kkt.com/kcn/kcn-song-khoai,2026-09-10
+kcn-tien-yen,KCN Tiên Yên,quang-ninh,Quảng Ninh,Huyện Tiên Yên,350,False,False,False,https://kcn-kkt.com/kcn/kcn-tien-yen,2026-09-10
+kcn-uong-bi,KCN Uông Bí,quang-ninh,Quảng Ninh,"Thành phố Uông Bí, KKT ven biển Quảng Yên",1200,False,False,False,https://kcn-kkt.com/kcn/kcn-uong-bi,2026-09-10
+kcn-va-dich-vu-logistics-van-ninh,KCN và dịch vụ logistics Vân Ninh,quang-ninh,Quảng Ninh,"Thành phố Móng Cái, KKTCK Móng Cái",2000,False,False,False,https://kcn-kkt.com/kcn/kcn-va-dich-vu-logistics-van-ninh,2026-09-10
+kcn-viet-hung,KCN Việt Hưng,quang-ninh,Quảng Ninh,"Thành phố Hạ Long, KKT Quảng Yên",301,False,False,False,https://kcn-kkt.com/kcn/kcn-viet-hung,2026-09-10
+kcn-viet-hung-2,KCN Việt Hưng 2,quang-ninh,Quảng Ninh,Thành phố Hạ Long,500,False,False,False,https://kcn-kkt.com/kcn/kcn-viet-hung-2,2026-09-10
+kcn-bang,KCN Bang,quang-tri,Quảng Trị,Huyện Lệ Thủy,350,False,False,False,https://kcn-kkt.com/kcn/kcn-bang,2026-09-10
+kcn-bac-dong-hoi,KCN Bắc Đông Hối,quang-tri,Quảng Trị,"TP. Đông Hối, huyện Bố Trạch",213,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-dong-hoi,2026-09-10
+kcn-ben-quan,KCN Bến Quan,quang-tri,Quảng Trị,Vĩnh Linh (Quảng Trị cũ),300,True,False,False,https://kcn-kkt.com/kcn/kcn-ben-quan,2026-09-10
+kcn-bo-trach,KCN Bố Trạch,quang-tri,Quảng Trị,Huyện Bố Trạch,224,False,False,False,https://kcn-kkt.com/kcn/kcn-bo-trach,2026-09-10
+kcn-cam-lien,KCN Cam Liên,quang-tri,Quảng Trị,Huyện Lệ Thủy,450,False,False,False,https://kcn-kkt.com/kcn/kcn-cam-lien,2026-09-10
+kcn-cam-tuyen,KCN Cam Tuyền,quang-tri,Quảng Trị,Cam Lộ (Quảng Trị cũ),360,True,False,False,https://kcn-kkt.com/kcn/kcn-cam-tuyen,2026-09-10
+kcn-cang-bien-hon-la,KCN Cảng biên Hòn La,quang-tri,Quảng Trị,Huyện Quảng Trạch,168,False,False,False,https://kcn-kkt.com/kcn/kcn-cang-bien-hon-la,2026-09-10
+kcn-co-thi-dich-vu-phia-tay,KCN có thị dịch vụ phía Tây,quang-tri,Quảng Trị,"Huyện Vĩnh Linh, Cam Lộ, Triệu Phong, Hải Lăng",400,False,False,False,https://kcn-kkt.com/kcn/kcn-co-thi-dich-vu-phia-tay,2026-09-10
+kcn-cua-ngo-phia-tay,KCN cửa ngõ phía Tây,quang-tri,Quảng Trị,Huyện Quảng Trạch,102,False,False,False,https://kcn-kkt.com/kcn/kcn-cua-ngo-phia-tay,2026-09-10
+kcn-da-nganh-trieu-phu,KCN đa ngành Triều Phú,quang-tri,Quảng Trị,Huyện Triều Phong,529,False,False,False,https://kcn-kkt.com/kcn/kcn-da-nganh-trieu-phu,2026-09-10
+kcn-da-nganh-da-linh-vuc-thuoc-khu-kinh-te-dong-nam-theo-giai-doan-2,"KCN đa ngành, đa lĩnh vực thuộc Khu kinh tế Đông Nam (theo giai đoạn 2)",quang-tri,Quảng Trị,Huyện Triều Phong,1020,False,False,False,https://kcn-kkt.com/kcn/kcn-da-nganh-da-linh-vuc-thuoc-khu-kinh-te-dong-nam-theo-giai-doan-2,2026-09-10
+kcn-do-thi-dich-vu-dien-sanh,KCN độ thị dịch vụ Diễn Sanh,quang-tri,Quảng Trị,Huyện Hải Lăng,150,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-dien-sanh,2026-09-10
+kcn-hon-la-ii,KCN Hòn La II,quang-tri,Quảng Trị,Huyện Quảng Trạch,250,False,False,False,https://kcn-kkt.com/kcn/kcn-hon-la-ii,2026-09-10
+kcn-ho-tro-phat-trien-khu-phuc-hop-nang-luong,KCN hỗ trợ phát triển khu phức hợp năng lượng,quang-tri,Quảng Trị,Huyện Hải Lăng (Khu kinh tế Đông Nam),147,False,False,False,https://kcn-kkt.com/kcn/kcn-ho-tro-phat-trien-khu-phuc-hop-nang-luong,2026-09-10
+kcn-ho-tro-phat-trien-nha-may-nhiet-dien,KCN hỗ trợ phát triển nhà máy nhiệt điện,quang-tri,Quảng Trị,Huyện Hải Lăng (Khu kinh tế Đông Nam),60,False,False,False,https://kcn-kkt.com/kcn/kcn-ho-tro-phat-trien-nha-may-nhiet-dien,2026-09-10
+kcn-hon-hop-chuc-nang,KCN hỗn hợp chức năng,quang-tri,Quảng Trị,Huyện Hải Lăng (Khu kinh tế Đông Nam),93,False,False,False,https://kcn-kkt.com/kcn/kcn-hon-hop-chuc-nang,2026-09-10
+kcn-nam-dong-ha,KCN Nam Đông Hà,quang-tri,Quảng Trị,Thành phố Đông Hà,99,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-dong-ha,2026-09-10
+kcn-quan-ngang,KCN Quán Ngang,quang-tri,Quảng Trị,Huyện Gio Linh,318,False,False,False,https://kcn-kkt.com/kcn/kcn-quan-ngang,2026-09-10
+kcn-quang-trach,KCN Quảng Trạch,quang-tri,Quảng Trị,Huyện Quảng Trạch,200,False,False,False,https://kcn-kkt.com/kcn/kcn-quang-trach,2026-09-10
+kcn-quang-tri,KCN Quảng Trị,quang-tri,Quảng Trị,Huyện Hải Lăng (Khu kinh tế Đông Nam),481,False,False,False,https://kcn-kkt.com/kcn/kcn-quang-tri,2026-09-10
+kcn-sinh-thai,KCN sinh thái,quang-tri,Quảng Trị,Huyện Triều Phong (Khu kinh tế Đông Nam),220,False,False,False,https://kcn-kkt.com/kcn/kcn-sinh-thai,2026-09-10
+kcn-tay-bac-dong-hoi,KCN Tây Bắc Đông Hối,quang-tri,Quảng Trị,TP. Đông Hối,66,False,False,False,https://kcn-kkt.com/kcn/kcn-tay-bac-dong-hoi,2026-09-10
+kcn-tay-bac-ho-xa-khu-a,KCN Tây Bắc Hộ Xá khu A,quang-tri,Quảng Trị,Huyện Vĩnh Linh,201,False,False,False,https://kcn-kkt.com/kcn/kcn-tay-bac-ho-xa-khu-a,2026-09-10
+kcn-tay-bac-ho-xa-khu-b,KCN Tây Bắc Hộ Xá khu B,quang-tri,Quảng Trị,Huyện Vĩnh Linh,138,False,False,False,https://kcn-kkt.com/kcn/kcn-tay-bac-ho-xa-khu-b,2026-09-10
+kcn-tay-bac-quan-hau,KCN Tây Bắc Quán Hàu,quang-tri,Quảng Trị,Huyện Quảng Ninh,262,False,False,False,https://kcn-kkt.com/kcn/kcn-tay-bac-quan-hau,2026-09-10
+kcn-chieng-khuong,KCN Chiềng Khương (gắn KKT cửa khẩu Chiềng Khương),son-la,Sơn La,Chiềng Khương; Sông Mã,,True,False,False,https://kcn-kkt.com/kcn/kcn-chieng-khuong,2026-09-10
+kcn-long-sap,KCN Lóng Sập (gắn KKT cửa khẩu Lóng Sập),son-la,Sơn La,Lóng Sập; Mộc Châu,,True,False,False,https://kcn-kkt.com/kcn/kcn-long-sap,2026-09-10
+kcn-mai-son,KCN Mai Sơn,son-la,Sơn La,"Xã Mường Bằng, huyện Mai Sơn",150,False,False,False,https://kcn-kkt.com/kcn/kcn-mai-son,2026-09-10
+kcn-van-ho,KCN Văn Hồ,son-la,Sơn La,"Bản Thuộng Cuông, xã Văn Hồ",217,False,False,False,https://kcn-kkt.com/kcn/kcn-van-ho,2026-09-10
+cac-kcn-trong-kktck-moc-bai,Các KCN trong KKTCK Móc Bài,tay-ninh,Tây Ninh,Khu kinh tế cửa khẩu Móc Bài,2939,False,False,False,https://kcn-kkt.com/kcn/cac-kcn-trong-kktck-moc-bai,2026-09-10
+cac-kcn-trong-kktck-xa-mat,Các KCN trong KKTCK Xa Mát,tay-ninh,Tây Ninh,Khu kinh tế cửa khẩu Xa Mát,300,False,False,False,https://kcn-kkt.com/kcn/cac-kcn-trong-kktck-xa-mat,2026-09-10
+kcn-an-nhut-tan,KCN An Nhựt Tân,tay-ninh,Tây Ninh,Huyện Tân Trụ,119.2,False,False,False,https://kcn-kkt.com/kcn/kcn-an-nhut-tan,2026-09-10
+kcn-an-ninh-dong,KCN An Ninh Đông,tay-ninh,Tây Ninh,Huyện Độc Hoà,525,False,False,False,https://kcn-kkt.com/kcn/kcn-an-ninh-dong,2026-09-10
+kcn-an-thanh,KCN An Thạnh,tay-ninh,Tây Ninh,Huyện Bến Lức,264,False,False,False,https://kcn-kkt.com/kcn/kcn-an-thanh,2026-09-10
+kcn-an-thanh-tay-ninh,KCN An Thạnh,tay-ninh,Tây Ninh,Huyện Bến Lức,286,False,False,False,https://kcn-kkt.com/kcn/kcn-an-thanh-tay-ninh,2026-09-10
+kcn-anh-hong-2,KCN Anh Hồng 2,tay-ninh,Tây Ninh,Huyện Độc Hoà,131,False,False,False,https://kcn-kkt.com/kcn/kcn-anh-hong-2,2026-09-10
+kcn-ben-cai,KCN Bến Cái,tay-ninh,Tây Ninh,Huyện Dương Minh Châu,500,False,False,False,https://kcn-kkt.com/kcn/kcn-ben-cai,2026-09-10
+kcn-ben-cui,KCN Bến Củi,tay-ninh,Tây Ninh,Xã Lộc Ninh,500,True,False,False,https://kcn-kkt.com/kcn/kcn-ben-cui,2026-09-10
+kcn-binh-hoa-hung,KCN Bình Hòa Hùng,tay-ninh,Tây Ninh,Huyện Độc Huệ,535,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-hoa-hung,2026-09-10
+kcn-binh-hoa-nam-1,KCN Bình Hòa Nam 1,tay-ninh,Tây Ninh,Huyện Độc Huệ,322,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-hoa-nam-1,2026-09-10
+kcn-binh-hoa-nam-1-tay-ninh,KCN Bình Hòa Nam 1,tay-ninh,Tây Ninh,Huyện Độc Huệ,172,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-hoa-nam-1-tay-ninh,2026-09-10
+kcn-binh-hoa-nam-2,KCN Bình Hòa Nam 2,tay-ninh,Tây Ninh,Huyện Độc Huệ,200,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-hoa-nam-2,2026-09-10
+kcn-binh-hoa-nam-2-tay-ninh,KCN Bình Hòa Nam 2,tay-ninh,Tây Ninh,Huyện Độc Huệ,215,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-hoa-nam-2-tay-ninh,2026-09-10
+kcn-binh-hoa-nam-3,KCN Bình Hòa Nam 3,tay-ninh,Tây Ninh,Huyện Độc Huệ,200,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-hoa-nam-3,2026-09-10
+kcn-binh-hoa-nam-3-tay-ninh,KCN Bình Hòa Nam 3,tay-ninh,Tây Ninh,Huyện Độc Huệ,155,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-hoa-nam-3-tay-ninh,2026-09-10
+kcn-binh-hoa-nam-4,KCN Bình Hòa Nam 4,tay-ninh,Tây Ninh,Huyện Độc Huệ,400,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-hoa-nam-4,2026-09-10
+kcn-binh-hoa-nam-5,KCN Bình Hòa Nam 5,tay-ninh,Tây Ninh,Huyện Độc Huệ,355,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-hoa-nam-5,2026-09-10
+kcn-binh-hoa-nam-6,KCN Bình Hòa Nam 6,tay-ninh,Tây Ninh,Xã Đức Huệ,370,True,False,False,https://kcn-kkt.com/kcn/kcn-binh-hoa-nam-6,2026-09-10
+kcn-binh-tri-dong,KCN Bình Trị Đông,tay-ninh,Tây Ninh,Huyện Tân Trụ,168,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-tri-dong,2026-09-10
+kcn-binh-trinh-dong,KCN Bình Trinh Đông,tay-ninh,Tây Ninh,Xã Tân Trụ,168,True,False,False,https://kcn-kkt.com/kcn/kcn-binh-trinh-dong,2026-09-10
+kcn-cac-kcn-khac-trong-kktck-moc-bai,KCN Các KCN khác trong KKTCK Mộc Bài,tay-ninh,Tây Ninh,Xã Bến Cầu,631,True,False,False,https://kcn-kkt.com/kcn/kcn-cac-kcn-khac-trong-kktck-moc-bai,2026-09-10
+kcn-cac-kcn-trong-kkt-cua-khau-moc-bai,KCN Các KCN trong KKT cửa khẩu Mộc Bài,tay-ninh,Tây Ninh,Xã Bến Cầu,908,True,False,False,https://kcn-kkt.com/kcn/kcn-cac-kcn-trong-kkt-cua-khau-moc-bai,2026-09-10
+kcn-cau-cang-phuoc-dong,KCN Cầu cẳng Phước Đông,tay-ninh,Tây Ninh,Huyện Cần Dước,129,False,False,False,https://kcn-kkt.com/kcn/kcn-cau-cang-phuoc-dong,2026-09-10
+kcn-cau-khoi-giai-doan-1,KCN Cầu Khởi giai đoạn 1,tay-ninh,Tây Ninh,Xã Cầu Khởi,500,True,False,False,https://kcn-kkt.com/kcn/kcn-cau-khoi-giai-doan-1,2026-09-10
+kcn-cau-khoi-giai-doan-2,KCN Cầu Khởi giai đoạn 2,tay-ninh,Tây Ninh,Xã Cầu Khởi,400,True,False,False,https://kcn-kkt.com/kcn/kcn-cau-khoi-giai-doan-2,2026-09-10
+kcn-cau-tram,KCN Cầu Trăm,tay-ninh,Tây Ninh,Huyện Cần Dước,61,False,False,False,https://kcn-kkt.com/kcn/kcn-cau-tram,2026-09-10
+kcn-cha-la,KCN Chà Là,tay-ninh,Tây Ninh,Phường Ninh Thạnh,42.19,True,False,False,https://kcn-kkt.com/kcn/kcn-cha-la,2026-09-10
+kcn-cha-lo,KCN Chà Lò,tay-ninh,Tây Ninh,Huyện Dương Minh Châu,4219,False,False,False,https://kcn-kkt.com/kcn/kcn-cha-lo,2026-09-10
+kcn-cong-nghe-cao-tay-ninh,KCN công nghệ cao,tay-ninh,Tây Ninh,Xã Hưng Thuận,200,True,False,False,https://kcn-kkt.com/kcn/kcn-cong-nghe-cao-tay-ninh,2026-09-10
+kcn-cong-nghe-cao-tay-ninh-2,KCN công nghệ cao (Khánh Hậu),tay-ninh,Tây Ninh,Phường Khánh Hậu,200,True,False,False,https://kcn-kkt.com/kcn/kcn-cong-nghe-cao-tay-ninh-2,2026-09-10
+kcn-cua-khau-binh-hiep-2,KCN Cửa khẩu Bình Hiệp 2,tay-ninh,Tây Ninh,Thị xã Kiến Tường,637,False,False,False,https://kcn-kkt.com/kcn/kcn-cua-khau-binh-hiep-2,2026-09-10
+kcn-cua-khau-binh-hiep-giai-doan-1,KCN Cửa khẩu Bình Hiệp giai đoạn 1,tay-ninh,Tây Ninh,Thị xã Kiến Tường,168,False,False,False,https://kcn-kkt.com/kcn/kcn-cua-khau-binh-hiep-giai-doan-1,2026-09-10
+kcn-dai-an-sai-gon,KCN Đại An Sài Gòn,tay-ninh,Tây Ninh,Khu kinh tế cửa khẩu Móc Bài,300,False,False,False,https://kcn-kkt.com/kcn/kcn-dai-an-sai-gon,2026-09-10
+kcn-doc-hoa-1,KCN Độc Hòa 1,tay-ninh,Tây Ninh,Huyện Độc Hòa,257.5,False,False,False,https://kcn-kkt.com/kcn/kcn-doc-hoa-1,2026-09-10
+kcn-doc-hoa-iii,KCN Độc Hòa III,tay-ninh,Tây Ninh,Huyện Độc Hòa,1291.9,False,False,False,https://kcn-kkt.com/kcn/kcn-doc-hoa-iii,2026-09-10
+kcn-dong-nam-a,KCN Đông Nam Á,tay-ninh,Tây Ninh,Huyện Cần Giuộc,396,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-nam-a,2026-09-10
+kcn-dong-nam-a-giai-doan-2,KCN Đông Nam Á giai đoạn 2,tay-ninh,Tây Ninh,Huyện Cần Giuộc,209,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-nam-a-giai-doan-2,2026-09-10
+kcn-dong-song-ro,KCN Đông Sông Rô,tay-ninh,Tây Ninh,Thị xã Kiến Tường,172,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-song-ro,2026-09-10
+kcn-dong-thanh,KCN Đông Thạnh,tay-ninh,Tây Ninh,Huyện Cần Giuộc,600,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-thanh,2026-09-10
+kcn-duc-hoa-1,KCN Đức Hòa 1,tay-ninh,Tây Ninh,Xã Mỹ Hạnh,257.5,True,False,False,https://kcn-kkt.com/kcn/kcn-duc-hoa-1,2026-09-10
+kcn-duc-hoa-iii,KCN Đức Hòa III,tay-ninh,Tây Ninh,Xã Đức Lập,1302.3,True,False,False,https://kcn-kkt.com/kcn/kcn-duc-hoa-iii,2026-09-10
+kcn-duc-hue-1,KCN Đức Huệ 1,tay-ninh,Tây Ninh,Xã Đức Huệ,440,True,False,False,https://kcn-kkt.com/kcn/kcn-duc-hue-1,2026-09-10
+kcn-duc-hue-2,KCN Đức Huệ 2,tay-ninh,Tây Ninh,Xã Đức Huệ,450,True,False,False,https://kcn-kkt.com/kcn/kcn-duc-hue-2,2026-09-10
+kcn-hai-son,KCN Hải Sơn,tay-ninh,Tây Ninh,Huyện Độc Hòa,443.3,False,False,False,https://kcn-kkt.com/kcn/kcn-hai-son,2026-09-10
+kcn-hai-son-doc-hoa-dong,KCN Hải Sơn Độc Hòa Đông,tay-ninh,Tây Ninh,Huyện Độc Hoà,261,False,False,False,https://kcn-kkt.com/kcn/kcn-hai-son-doc-hoa-dong,2026-09-10
+kcn-hau-nghia,KCN Hậu Nghĩa,tay-ninh,Tây Ninh,Xã Hậu Nghĩa,113,True,False,False,https://kcn-kkt.com/kcn/kcn-hau-nghia,2026-09-10
+kcn-hiep-hoa,KCN Hiệp Hòa,tay-ninh,Tây Ninh,Xã Hiệp Hòa,131.2,True,False,False,https://kcn-kkt.com/kcn/kcn-hiep-hoa,2026-09-10
+kcn-hiep-thanh,KCN Hiệp Thạnh,tay-ninh,Tây Ninh,Huyện Gò Dầu,574,False,False,False,https://kcn-kkt.com/kcn/kcn-hiep-thanh,2026-09-10
+kcn-hoa-binh-tay-ninh,KCN Hòa Bình,tay-ninh,Tây Ninh,Huyện Thủ Thừa,117.7,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-binh-tay-ninh,2026-09-10
+kcn-hoa-binh-mo-rong,KCN Hòa Bình mở rộng,tay-ninh,Tây Ninh,Huyện Thủ Thừa,49,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-binh-mo-rong,2026-09-10
+kcn-hoang-loc,KCN Hoàng Lộc,tay-ninh,Tây Ninh,Huyện Độc Hoà,152,False,False,False,https://kcn-kkt.com/kcn/kcn-hoang-loc,2026-09-10
+kcn-hung-thuan,KCN Hưng Thuận,tay-ninh,Tây Ninh,"Xã Hưng Thuận, thị xã Trảng Bàng",700,False,False,False,https://kcn-kkt.com/kcn/kcn-hung-thuan,2026-09-10
+kcn-huu-thanh,KCN Hưu Thanh,tay-ninh,Tây Ninh,Huyện Độc Hòa,524.1,False,False,False,https://kcn-kkt.com/kcn/kcn-huu-thanh,2026-09-10
+kcn-long-hau,KCN Long Hậu,tay-ninh,Tây Ninh,Huyện Cần Giuộc,245.5,False,False,False,https://kcn-kkt.com/kcn/kcn-long-hau,2026-09-10
+kcn-long-hau-tan-tap,KCN Long Hậu - Tân Tập,tay-ninh,Tây Ninh,Huyện Cần Giuộc,150,False,False,False,https://kcn-kkt.com/kcn/kcn-long-hau-tan-tap,2026-09-10
+kcn-long-hau-tan-tap-tay-ninh,KCN Long Hậu - Tân Tập,tay-ninh,Tây Ninh,Huyện Cần Giuộc,200,False,False,False,https://kcn-kkt.com/kcn/kcn-long-hau-tan-tap-tay-ninh,2026-09-10
+kcn-long-hau-3-giai-doan-1,KCN Long Hậu 3 giai đoạn 1,tay-ninh,Tây Ninh,Huyện Cần Giuộc,124,False,False,False,https://kcn-kkt.com/kcn/kcn-long-hau-3-giai-doan-1,2026-09-10
+kcn-long-hau-giai-doan-2-mo-rong,KCN Long Hậu giai đoạn 2 mở rộng,tay-ninh,Tây Ninh,Huyện Cần Giuộc,90,False,True,True,https://kcn-kkt.com/kcn/kcn-long-hau-giai-doan-2-mo-rong,2026-09-10
+kcn-loc-giang,KCN Lộc Giang,tay-ninh,Tây Ninh,Huyện Độc Hòa,466,False,False,False,https://kcn-kkt.com/kcn/kcn-loc-giang,2026-09-10
+kcn-luong-binh,KCN Lương Bình,tay-ninh,Tây Ninh,Huyện Bến Lức,325,False,False,False,https://kcn-kkt.com/kcn/kcn-luong-binh,2026-09-10
+kcn-luong-hoa-tan-hoa-tan-buu,KCN Lương Hòa - Tân Hòa - Tân Bưu,tay-ninh,Tây Ninh,Huyện Bến Lức,994,False,False,False,https://kcn-kkt.com/kcn/kcn-luong-hoa-tan-hoa-tan-buu,2026-09-10
+kcn-my-an,KCN Mỹ An,tay-ninh,Tây Ninh,Huyện Thủ Thừa,124,False,False,False,https://kcn-kkt.com/kcn/kcn-my-an,2026-09-10
+kcn-my-an-giai-doan-2,KCN Mỹ An giai đoạn 2,tay-ninh,Tây Ninh,Huyện Thủ Thừa,720,False,False,False,https://kcn-kkt.com/kcn/kcn-my-an-giai-doan-2,2026-09-10
+kcn-my-quy-dong-my-thanh-bac,KCN Mỹ Quý Đông - Mỹ Thạnh Bắc,tay-ninh,Tây Ninh,Huyện Độc Huệ,916,False,False,False,https://kcn-kkt.com/kcn/kcn-my-quy-dong-my-thanh-bac,2026-09-10
+kcn-my-quy-tay,KCN Mỹ Quý Tây,tay-ninh,Tây Ninh,Huyện Độc Huệ,200,False,False,False,https://kcn-kkt.com/kcn/kcn-my-quy-tay,2026-09-10
+kcn-nam-tan-tap,KCN Nam Tân Tập,tay-ninh,Tây Ninh,Huyện Cần Giuộc,244.7,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-tan-tap,2026-09-10
+kcn-nam-thuan,KCN Nam Thuận,tay-ninh,Tây Ninh,Huyện Độc Hòa,308.4,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-thuan,2026-09-10
+kcn-nhat-ninh,KCN Nhật Ninh,tay-ninh,Tây Ninh,Huyện Tân Trụ,200,False,False,False,https://kcn-kkt.com/kcn/kcn-nhat-ninh,2026-09-10
+kcn-nhut-chanh,KCN Nhựt Chánh,tay-ninh,Tây Ninh,Huyện Bến Lức,123,False,False,False,https://kcn-kkt.com/kcn/kcn-nhut-chanh,2026-09-10
+kcn-nhut-ninh,KCN Nhựt Ninh,tay-ninh,Tây Ninh,Xã Vàm Cỏ,200,True,False,False,https://kcn-kkt.com/kcn/kcn-nhut-ninh,2026-09-10
+kcn-phu-an-thanh,KCN Phú An Thạnh,tay-ninh,Tây Ninh,Huyện Bến Lức,352.8,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-an-thanh,2026-09-10
+kcn-phu-an-thanh-giai-doan-2,KCN Phú An Thạnh giai đoạn 2,tay-ninh,Tây Ninh,Huyện Bến Lức,339,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-an-thanh-giai-doan-2,2026-09-10
+kcn-phu-ngai-tri,KCN Phủ Ngái Trị,tay-ninh,Tây Ninh,Huyện Châu Thành,240,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-ngai-tri,2026-09-10
+kcn-phuc-long,KCN Phúc Long,tay-ninh,Tây Ninh,Huyện Bến Lức,79,False,False,False,https://kcn-kkt.com/kcn/kcn-phuc-long,2026-09-10
+kcn-phuc-long-mo-rong,KCN Phúc Long mở rộng,tay-ninh,Tây Ninh,"Huyện Bến Lức, Huyện Cần Dước",335,False,True,True,https://kcn-kkt.com/kcn/kcn-phuc-long-mo-rong,2026-09-10
+kcn-phuoc-dong,KCN Phước Đông,tay-ninh,Tây Ninh,Huyện Gò Dầu và thị xã Trảng Bàng,2190,False,False,False,https://kcn-kkt.com/kcn/kcn-phuoc-dong,2026-09-10
+kcn-phuoc-tan-hung,KCN Phước Tân Hưng,tay-ninh,Tây Ninh,Huyện Châu Thành,392,False,False,False,https://kcn-kkt.com/kcn/kcn-phuoc-tan-hung,2026-09-10
+kcn-phuoc-vinh-dong,KCN Phước Vĩnh Đông,tay-ninh,Tây Ninh,Huyện Cần Giuộc,196,False,False,False,https://kcn-kkt.com/kcn/kcn-phuoc-vinh-dong,2026-09-10
+kcn-prodezi,KCN Prodezi,tay-ninh,Tây Ninh,Huyện Bến Lức,400,False,True,True,https://kcn-kkt.com/kcn/kcn-prodezi,2026-09-10
+kcn-quoc-te-truong-hai,KCN Quốc tế Trường Hải,tay-ninh,Tây Ninh,Huyện Độc Huệ,162.2,False,False,False,https://kcn-kkt.com/kcn/kcn-quoc-te-truong-hai,2026-09-10
+kcn-sai-gon-huu-thanh,KCN Sài Gòn - Hưu Thạnh,tay-ninh,Tây Ninh,Huyện Độc Hoà,790,False,False,False,https://kcn-kkt.com/kcn/kcn-sai-gon-huu-thanh,2026-09-10
+kcn-suntec-giai-doan-1,KCN Suntec giai đoạn 1,tay-ninh,Tây Ninh,Huyện Thủ Thừa,296.3,False,False,False,https://kcn-kkt.com/kcn/kcn-suntec-giai-doan-1,2026-09-10
+kcn-suntec-giai-doan-2,KCN Suntec giai đoạn 2,tay-ninh,Tây Ninh,Huyện Thủ Thừa,918,False,False,False,https://kcn-kkt.com/kcn/kcn-suntec-giai-doan-2,2026-09-10
+kcn-tandoland,KCN Tandoland,tay-ninh,Tây Ninh,Huyện Bến Lức,250,False,False,False,https://kcn-kkt.com/kcn/kcn-tandoland,2026-09-10
+kcn-tan-do,KCN Tân Đó,tay-ninh,Tây Ninh,Huyện Độc Hòa,209.1,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-do,2026-09-10
+kcn-tan-doc,KCN Tân Độc,tay-ninh,Tây Ninh,Huyện Độc Hòa,545.7,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-doc,2026-09-10
+kcn-tan-duc,KCN Tân Đức,tay-ninh,Tây Ninh,Xã Đức Hòa,545.7,True,False,False,https://kcn-kkt.com/kcn/kcn-tan-duc,2026-09-10
+kcn-tan-hoa-2,KCN Tân Hòa 2,tay-ninh,Tây Ninh,Xã Lương Hòa,485,True,False,False,https://kcn-kkt.com/kcn/kcn-tan-hoa-2,2026-09-10
+kcn-tan-kim,KCN Tân Kim,tay-ninh,Tây Ninh,Huyện Cần Giuộc,104,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-kim,2026-09-10
+kcn-tan-kim-mo-rong,KCN Tân Kim mở rộng,tay-ninh,Tây Ninh,Huyện Cần Giuộc,52,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-kim-mo-rong,2026-09-10
+kcn-tan-lan-1,KCN Tân Lân 1,tay-ninh,Tây Ninh,Huyện Cần Dước,450,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-lan-1,2026-09-10
+kcn-tan-lan-2,KCN Tân Lân 2,tay-ninh,Tây Ninh,Huyện Cần Dước,640,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-lan-2,2026-09-10
+kcn-tan-lan-3,KCN Tân Lân 3,tay-ninh,Tây Ninh,Huyện Cần Dước,336,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-lan-3,2026-09-10
+kcn-tan-long-tay-ninh,KCN Tân Long,tay-ninh,Tây Ninh,Huyện Thủ Thừa,1500,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-long-tay-ninh,2026-09-10
+kcn-tan-phuoc-tay,KCN Tân Phước Tây,tay-ninh,Tây Ninh,Huyện Tân Trụ,179,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phuoc-tay,2026-09-10
+kcn-tan-tap,KCN Tân Tập,tay-ninh,Tây Ninh,Huyện Cần Giuộc,654,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-tap,2026-09-10
+kcn-tan-tap-2,KCN Tân Tập 2,tay-ninh,Tây Ninh,Huyện Cần Giuộc,800,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-tap-2,2026-09-10
+kcn-thanh-duc,KCN Thạnh Đức,tay-ninh,Tây Ninh,Huyện Gò Dầu và Dương Minh Châu,2765,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-duc,2026-09-10
+kcn-thanh-loi-thanh-hoa,KCN Thạnh Lợi - Thạnh Hóa,tay-ninh,Tây Ninh,Huyện Bến Lức,2000,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-loi-thanh-hoa,2026-09-10
+kcn-thanh-loi-1,KCN Thạnh Lợi 1,tay-ninh,Tây Ninh,Xã Thạnh Lợi,500,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-loi-1,2026-09-10
+kcn-thanh-loi-2,KCN Thạnh Lợi 2,tay-ninh,Tây Ninh,Xã Thạnh Lợi,201,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-loi-2,2026-09-10
+kcn-thanh-loi-3-giai-doan-1,KCN Thạnh Lợi 3 giai đoạn 1,tay-ninh,Tây Ninh,Xã Thạnh Lợi,248,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-loi-3-giai-doan-1,2026-09-10
+kcn-thanh-loi-3-giai-doan-2,KCN Thạnh Lợi 3 giai đoạn 2,tay-ninh,Tây Ninh,Xã Thạnh Lợi,243,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-loi-3-giai-doan-2,2026-09-10
+kcn-thanh-loi-4-giai-doan-1,KCN Thạnh Lợi 4 giai đoạn 1,tay-ninh,Tây Ninh,Xã Thạnh Lợi,200,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-loi-4-giai-doan-1,2026-09-10
+kcn-thanh-loi-4-giai-doan-2,KCN Thạnh Lợi 4 giai đoạn 2,tay-ninh,Tây Ninh,Xã Thạnh Lợi,291,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-loi-4-giai-doan-2,2026-09-10
+kcn-thanh-loi-5,KCN Thạnh Lợi 5,tay-ninh,Tây Ninh,Xã Thạnh Lợi,266,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-loi-5,2026-09-10
+kcn-thanh-loi-6,KCN Thạnh Lợi 6,tay-ninh,Tây Ninh,Xã Thạnh Lợi,450,True,False,False,https://kcn-kkt.com/kcn/kcn-thanh-loi-6,2026-09-10
+kcn-thanh-thanh-cong,KCN Thạnh Thành Công,tay-ninh,Tây Ninh,Thị xã Trảng Bàng,760,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-thanh-cong,2026-09-10
+kcn-thanh-thanh-cong-mo-rong,KCN Thạnh Thành Công mở rộng,tay-ninh,Tây Ninh,Thị xã Trảng Bàng,479,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-thanh-cong-mo-rong,2026-09-10
+kcn-the-ky,KCN Thế Kỷ,tay-ninh,Tây Ninh,Huyện Độc Hòa,119.2,False,False,False,https://kcn-kkt.com/kcn/kcn-the-ky,2026-09-10
+kcn-thinh-phat,KCN Thịnh Phát,tay-ninh,Tây Ninh,Huyện Bến Lức,73.5,False,False,False,https://kcn-kkt.com/kcn/kcn-thinh-phat,2026-09-10
+kcn-thinh-phat-mo-rong,KCN Thịnh Phát mở rộng,tay-ninh,Tây Ninh,Huyện Bến Lức,113,False,False,False,https://kcn-kkt.com/kcn/kcn-thinh-phat-mo-rong,2026-09-10
+kcn-thu-thua,KCN Thủ Thừa,tay-ninh,Tây Ninh,Huyện Thủ Thừa,170.7,False,False,False,https://kcn-kkt.com/kcn/kcn-thu-thua,2026-09-10
+kcn-thu-thua-1,KCN Thủ Thừa 1,tay-ninh,Tây Ninh,Huyện Thủ Thừa,448,False,False,False,https://kcn-kkt.com/kcn/kcn-thu-thua-1,2026-09-10
+kcn-thu-thua-2,KCN Thủ Thừa 2,tay-ninh,Tây Ninh,Huyện Thủ Thừa,272,False,False,False,https://kcn-kkt.com/kcn/kcn-thu-thua-2,2026-09-10
+kcn-thuan-binh,KCN Thuận Bình,tay-ninh,Tây Ninh,Huyện Thạnh Hoá,158,False,False,False,https://kcn-kkt.com/kcn/kcn-thuan-binh,2026-09-10
+kcn-thuan-dao,KCN Thuận Đạo,tay-ninh,Tây Ninh,Huyện Bến Lức,111,False,False,False,https://kcn-kkt.com/kcn/kcn-thuan-dao,2026-09-10
+kcn-thuan-dao-2,KCN Thuận Đạo 2,tay-ninh,Tây Ninh,Huyện Cần Dước,461,False,False,False,https://kcn-kkt.com/kcn/kcn-thuan-dao-2,2026-09-10
+kcn-thuan-dao-mo-rong,KCN Thuận Đạo mở rộng,tay-ninh,Tây Ninh,Huyện Cần Dước,190,False,False,False,https://kcn-kkt.com/kcn/kcn-thuan-dao-mo-rong,2026-09-10
+kcn-thuan-my,KCN Thuận Mỹ,tay-ninh,Tây Ninh,Huyện Châu Thành,1470,False,False,False,https://kcn-kkt.com/kcn/kcn-thuan-my,2026-09-10
+kcn-tmtc,KCN TMTC,tay-ninh,Tây Ninh,Khu kinh tế cửa khẩu Mộc Bài,108,False,False,False,https://kcn-kkt.com/kcn/kcn-tmtc,2026-09-10
+kcn-trang-bang,KCN Trảng Bàng,tay-ninh,Tây Ninh,Thị xã Trảng Bàng,190,False,False,False,https://kcn-kkt.com/kcn/kcn-trang-bang,2026-09-10
+kcn-tran-anh-tan-phu-giai-doan-1,KCN Trần Anh - Tân Phú giai đoạn 1,tay-ninh,Tây Ninh,Huyện Độc Hoà,105,False,False,False,https://kcn-kkt.com/kcn/kcn-tran-anh-tan-phu-giai-doan-1,2026-09-10
+kcn-tran-anh-tan-phu-giai-doan-2,KCN Trần Anh - Tân Phú giai đoạn 2,tay-ninh,Tây Ninh,Huyện Độc Hoà,157,False,False,False,https://kcn-kkt.com/kcn/kcn-tran-anh-tan-phu-giai-doan-2,2026-09-10
+kcn-vam-co,KCN Vàm Cỏ,tay-ninh,Tây Ninh,Xã Vàm Cỏ và xã Tân Trụ,420,True,False,False,https://kcn-kkt.com/kcn/kcn-vam-co,2026-09-10
+kcn-vinh-loc-2,KCN Vĩnh Lộc 2,tay-ninh,Tây Ninh,Huyện Bến Lức,223,False,False,False,https://kcn-kkt.com/kcn/kcn-vinh-loc-2,2026-09-10
+kcn-xuyen-a-giai-doan-1-va-2,KCN Xuyên Á giai đoạn 1 và 2,tay-ninh,Tây Ninh,Huyện Độc Hoà,302.5,False,False,False,https://kcn-kkt.com/kcn/kcn-xuyen-a-giai-doan-1-va-2,2026-09-10
+kcn-xuyen-a-giai-doan-3,KCN Xuyên Á giai đoạn 3,tay-ninh,Tây Ninh,Huyện Độc Hoà,177,False,False,False,https://kcn-kkt.com/kcn/kcn-xuyen-a-giai-doan-3,2026-09-10
+kcx-cn-linh-trung-iii,KCX & CN Lình Trung III,tay-ninh,Tây Ninh,Thị xã Trảng Bàng,203,False,False,False,https://kcn-kkt.com/kcn/kcx-cn-linh-trung-iii,2026-09-10
+khu-cong-nghiep-hoa-binh-long-an,KHU CÔNG NGHIỆP HÒA BÌNH - LONG AN,tay-ninh,Tây Ninh,"Ap 7, xã Nhị Thành, huyện Thủ Thừa, tỉnh Long An",125,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-hoa-binh-long-an,2026-09-10
+khu-cong-nghiep-phuoc-dong,Khu Công nghiệp Phước Đông,tay-ninh,Tây Ninh,"Đường tỉnh 782, huyện Gò Dầu, tỉnh Tây Ninh",2838,False,False,False,https://kcn-kkt.com/kcn/khu-cong-nghiep-phuoc-dong,2026-09-10
+kcn-do-thi-dich-vu-phu-binh-tong-dien-tich-900ha-trong-do-dat-kcn-la-675ha,"KCN - độ thi - dịch vụ Phú Bình (tổng diện tích 900ha, trong đó đất KCN là 675ha)",thai-nguyen,Thái Nguyên,Huyện Phú Bình,675,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-phu-binh-tong-dien-tich-900ha-trong-do-dat-kcn-la-675ha,2026-09-10
+kcn-do-thi-dich-vu-tay-pho-yen-quy-hoach-toan-khu-la-1-128ha-trong-do-co-868-ha-dat-kcn-260ha-dat-do-thi-dich-vu,"KCN - đô thị - dịch vụ Tây Phổ Yên (Quy hoạch toàn khu là 1.128ha, trong đó có 868 ha đất KCN, 260ha đất đô thị - dịch vụ)",thai-nguyen,Thái Nguyên,Thành phố Phổ Yên,868,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu-tay-pho-yen-quy-hoach-toan-khu-la-1-128ha-trong-do-co-868-ha-dat-kcn-260ha-dat-do-thi-dich-vu,2026-09-10
+kcn-bach-thong,KCN Bạch Thông,thai-nguyen,Thái Nguyên,Huyện Bạch Thông,400,False,False,False,https://kcn-kkt.com/kcn/kcn-bach-thong,2026-09-10
+kcn-cho-moi-1,KCN Chợ Mới 1,thai-nguyen,Thái Nguyên,Huyện Chợ Mới,257,False,False,False,https://kcn-kkt.com/kcn/kcn-cho-moi-1,2026-09-10
+kcn-cho-moi-2,KCN Chợ Mới 2,thai-nguyen,Thái Nguyên,Huyện Chợ Mới,200,False,False,False,https://kcn-kkt.com/kcn/kcn-cho-moi-2,2026-09-10
+kcn-cho-moi-3,KCN Chợ Mới 3,thai-nguyen,Thái Nguyên,Huyện Chợ Mới,300,False,False,False,https://kcn-kkt.com/kcn/kcn-cho-moi-3,2026-09-10
+kcn-cho-moi-4,KCN Chợ Mới 4,thai-nguyen,Thái Nguyên,Huyện Chợ Mới,500,False,False,False,https://kcn-kkt.com/kcn/kcn-cho-moi-4,2026-09-10
+kcn-cho-moi-5,KCN Chợ Mới 5,thai-nguyen,Thái Nguyên,Huyện Chợ Mới,500,False,False,False,https://kcn-kkt.com/kcn/kcn-cho-moi-5,2026-09-10
+kcn-diem-thuy,KCN Diêm Thụy,thai-nguyen,Thái Nguyên,Huyện Phú Bình và Thành phố Phổ Yên,361,False,False,False,https://kcn-kkt.com/kcn/kcn-diem-thuy,2026-09-10
+kcn-nam-pho-yen,KCN Nam Phổ Yên,thai-nguyen,Thái Nguyên,Thành phố Phổ Yên,263,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-pho-yen,2026-09-10
+kcn-quyet-thang,KCN Quyết Thắng,thai-nguyen,Thái Nguyên,TP Thái Nguyên,105,True,False,False,https://kcn-kkt.com/kcn/kcn-quyet-thang,2026-09-10
+kcn-song-cong-i,KCN Sông Công I,thai-nguyen,Thái Nguyên,Thành phố Sông Công,197,False,False,False,https://kcn-kkt.com/kcn/kcn-song-cong-i,2026-09-10
+kcn-song-cong-ii,KCN Sông Công II,thai-nguyen,Thái Nguyên,Thành phố Sông Công,250,False,False,False,https://kcn-kkt.com/kcn/kcn-song-cong-ii,2026-09-10
+kcn-song-cong-ii-giai-doan-2,KCN Sông Công II giai đoạn 2,thai-nguyen,Thái Nguyên,Thành phố Sông Công,300,False,True,True,https://kcn-kkt.com/kcn/kcn-song-cong-ii-giai-doan-2,2026-09-10
+kcn-thanh-binh-giai-doan-i,KCN Thanh Bình - Giai đoạn I,thai-nguyen,Thái Nguyên,Huyện Chợ Mới,81,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-binh-giai-doan-i,2026-09-10
+kcn-thanh-binh-giai-doan-ii,KCN Thanh Bình - Giai đoạn II,thai-nguyen,Thái Nguyên,Huyện Chợ Mới,80.3,False,False,False,https://kcn-kkt.com/kcn/kcn-thanh-binh-giai-doan-ii,2026-09-10
+kcn-thuong-dinh,KCN Thương Định,thai-nguyen,Thái Nguyên,Huyện Phú Bình,130,False,False,False,https://kcn-kkt.com/kcn/kcn-thuong-dinh,2026-09-10
+kcn-yen-binh-thai-nguyen,KCN Yên Bình,thai-nguyen,Thái Nguyên,Thành phố Phổ Yên,400,False,False,False,https://kcn-kkt.com/kcn/kcn-yen-binh-thai-nguyen,2026-09-10
+kcn-yen-binh-2,KCN Yên Bình 2,thai-nguyen,Thái Nguyên,Thành phố Phổ Yên và Phú Bình,301,False,False,False,https://kcn-kkt.com/kcn/kcn-yen-binh-2,2026-09-10
+kcn-yen-binh-3,KCN Yên Bình 3,thai-nguyen,Thái Nguyên,Huyện Phú Bình,300,False,False,False,https://kcn-kkt.com/kcn/kcn-yen-binh-3,2026-09-10
+ben-cang-chuyen-dung-nha-may-nhiet-dien-nghi-son-2,Bến cảng chuyên dùng Nhà máy Nhiệt điện Nghi Sơn 2,thanh-hoa,Thanh Hóa,"Xã Hải Hà, khu Kinh tế Nghi Sơn, thị xã Nghi Sơn, tỉnh Thanh Hóa",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-chuyen-dung-nha-may-nhiet-dien-nghi-son-2,2026-09-10
+ben-cang-chuyen-dung-nha-may-xi-mang-nghi-son,Bến cảng chuyên dùng Nhà máy xi măng Nghi Sơn,thanh-hoa,Thanh Hóa,"Xã Hải Thương, huyện Tịnh Gia, Thanh Hóa",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-chuyen-dung-nha-may-xi-mang-nghi-son,2026-09-10
+ben-cang-lo-mon,Bến cảng Lộ Môn,thanh-hoa,Thanh Hóa,"Phương Quảng Hưng, TP Thanh Hóa, Thanh Hóa",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-lo-mon,2026-09-10
+ben-cang-nha-may-loc-hoa-dau-nghi-son,Bến cảng Nhà máy Lọc hóa dầu Nghi Sơn,thanh-hoa,Thanh Hóa,"Xã Hải Yên, huyện Tịnh Gia, Thanh Hóa",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-nha-may-loc-hoa-dau-nghi-son,2026-09-10
+ben-cang-nhiet-dien-nghi-son-1,Bến cảng Nhiệt điện Nghi Sơn 1,thanh-hoa,Thanh Hóa,"Xã Hải Hà, huyện Tịnh Gia, Thanh Hóa",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-nhiet-dien-nghi-son-1,2026-09-10
+ben-cang-quoc-te-nghi-son,Bến cảng quốc tế Nghi Sơn,thanh-hoa,Thanh Hóa,"Xã Hải Hà, huyện Tịnh Gia, Thanh Hóa",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-quoc-te-nghi-son,2026-09-10
+ben-cang-thuoc-du-an-khu-phat-trien-gaslng-va-cac-loai-hinh-phu-tro-loc-hoa-dau-nghi-son,Bến cảng thuộc Dự án Khu phát triển GasLNG và các loại hình phụ trợ lọc hoá dầu Nghi Sơn,thanh-hoa,Thanh Hóa,"Khu Kinh tế Nghi Sơn, tỉnh Thanh Hóa",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-thuoc-du-an-khu-phat-trien-gaslng-va-cac-loai-hinh-phu-tro-loc-hoa-dau-nghi-son,2026-09-10
+ben-cang-tong-hop-long-son,Bến cảng tổng hợp Long Sơn,thanh-hoa,Thanh Hóa,"Tịnh Gia, Thanh Hoá",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-tong-hop-long-son,2026-09-10
+ben-cang-tong-hop-nghi-son,Bến cảng tổng hợp Nghi Sơn,thanh-hoa,Thanh Hóa,"Xã Nghi Sơn, huyện Tịnh Gia, Thanh Hóa",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-tong-hop-nghi-son,2026-09-10
+ben-cang-xang-dau-quang-hung,Bến cảng xăng dầu Quảng Hưng,thanh-hoa,Thanh Hóa,"Phương Quảng Hưng, TP Thanh Hóa, Thanh Hóa",,False,False,False,https://kcn-kkt.com/kcn/ben-cang-xang-dau-quang-hung,2026-09-10
+kcn-bai-tranh,KCN Bái Trạnh,thanh-hoa,Thanh Hóa,"xã Xuân Bình, huyện Như Xuân",116,False,False,False,https://kcn-kkt.com/kcn/kcn-bai-tranh,2026-09-10
+kcn-bac-hoang-hoa,KCN Bắc Hoàng Hóa,thanh-hoa,Thanh Hóa,huyện Hoàng Hóa,157,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-hoang-hoa,2026-09-10
+kcn-bim-son,KCN Bìm Sơn,thanh-hoa,Thanh Hóa,Thị xã Bìm Sơn,566,False,False,False,https://kcn-kkt.com/kcn/kcn-bim-son,2026-09-10
+kcn-da-loc,KCN Đa Lộc,thanh-hoa,Thanh Hóa,huyện Hầu Lộc,100,False,False,False,https://kcn-kkt.com/kcn/kcn-da-loc,2026-09-10
+kcn-dinh-huong-tay-bac-ga,KCN Định Hương - Tây Bắc Ga,thanh-hoa,Thanh Hóa,"xã Đông Cương, phường Đông Tho, thành phố Thanh Hóa",180,False,False,False,https://kcn-kkt.com/kcn/kcn-dinh-huong-tay-bac-ga,2026-09-10
+kcn-giang-quang-thinh,KCN Giang Quang Thịnh,thanh-hoa,Thanh Hóa,huyện Thiệu Hóa,300,False,False,False,https://kcn-kkt.com/kcn/kcn-giang-quang-thinh,2026-09-10
+kcn-ha-linh,KCN Hà Lĩnh,thanh-hoa,Thanh Hóa,huyện Hà Trung,422,False,False,False,https://kcn-kkt.com/kcn/kcn-ha-linh,2026-09-10
+kcn-ha-long,KCN Hà Long,thanh-hoa,Thanh Hóa,huyện Hà Trung,93,False,False,False,https://kcn-kkt.com/kcn/kcn-ha-long,2026-09-10
+kcn-lam-son-sao-vang,KCN Lam Sơn - Sao Vàng,thanh-hoa,Thanh Hóa,"Thị trấn Sao vàng, Thọ Xuân",550,False,False,False,https://kcn-kkt.com/kcn/kcn-lam-son-sao-vang,2026-09-10
+kcn-le-mon,KCN Lệ Môn,thanh-hoa,Thanh Hóa,TP. Thanh Hóa,87.61,False,False,False,https://kcn-kkt.com/kcn/kcn-le-mon,2026-09-10
+kcn-luu-binh,KCN Lưu Bình,thanh-hoa,Thanh Hóa,huyện Quảng Xương,200,False,False,False,https://kcn-kkt.com/kcn/kcn-luu-binh,2026-09-10
+kcn-nga-tan,KCN Nga Tân,thanh-hoa,Thanh Hóa,huyện Nga Sơn,150,False,False,False,https://kcn-kkt.com/kcn/kcn-nga-tan,2026-09-10
+kcn-ngoc-lac,KCN Ngọc Lặc,thanh-hoa,Thanh Hóa,huyện Ngọc Lặc,150,False,False,False,https://kcn-kkt.com/kcn/kcn-ngoc-lac,2026-09-10
+kcn-phia-tay,KCN phía Tây,thanh-hoa,Thanh Hóa,TP.Thanh Hóa,535,False,False,False,https://kcn-kkt.com/kcn/kcn-phia-tay,2026-09-10
+kcn-phong-ninh,KCN Phong Ninh,thanh-hoa,Thanh Hóa,huyện Yên Định,450,False,False,False,https://kcn-kkt.com/kcn/kcn-phong-ninh,2026-09-10
+kcn-phu-quy,KCN Phủ Quý,thanh-hoa,Thanh Hóa,huyện Hoàng Hóa,545,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-quy,2026-09-10
+kcn-thach-quang,KCN Thạch Quảng,thanh-hoa,Thanh Hóa,"xã Thạch Quảng, huyện Thạch Thành",100,False,False,False,https://kcn-kkt.com/kcn/kcn-thach-quang,2026-09-10
+kcn-tuong-linh,KCN Tương Linh,thanh-hoa,Thanh Hóa,huyện Nông Công,200,False,False,False,https://kcn-kkt.com/kcn/kcn-tuong-linh,2026-09-10
+kcn-va-do-thi-hoang-long,KCN và đô thị Hoàng Long,thanh-hoa,Thanh Hóa,TP. Thanh Hóa,286,False,False,False,https://kcn-kkt.com/kcn/kcn-va-do-thi-hoang-long,2026-09-10
+kcn-an-ha,KCN An Hạ,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bình Chánh,124,False,False,False,https://kcn-kkt.com/kcn/kcn-an-ha,2026-09-10
+kcn-an-phu-ho-chi-minh,KCN An Phú,ho-chi-minh,TP. Hồ Chí Minh,Huyện Củ Chi,328,False,False,False,https://kcn-kkt.com/kcn/kcn-an-phu-ho-chi-minh,2026-09-10
+kcn-bau-bang-3,KCN Bàu Bàng 3,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bàu Bàng,1146,False,False,False,https://kcn-kkt.com/kcn/kcn-bau-bang-3,2026-09-10
+kcn-bau-bang-4,KCN Bàu Bàng 4,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bàu Bàng,500,False,False,False,https://kcn-kkt.com/kcn/kcn-bau-bang-4,2026-09-10
+kcn-bau-bang-5,KCN Bàu Bàng 5,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bàu Bàng,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-bau-bang-5,2026-09-10
+kcn-bau-bang-va-mo-rong,KCN Bàu Bàng và mở rộng,ho-chi-minh,TP. Hồ Chí Minh,"Bàu Bàng, Dầu Tiếng",1995.93,True,False,False,https://kcn-kkt.com/kcn/kcn-bau-bang-va-mo-rong,2026-09-10
+kcn-bac-chau-doc-1,KCN Bắc Châu Độc 1,ho-chi-minh,TP. Hồ Chí Minh,Huyện Châu Độc,1200,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-chau-doc-1,2026-09-10
+kcn-bac-chau-doc-2,KCN Bắc Châu Độc 2,ho-chi-minh,TP. Hồ Chí Minh,Huyện Châu Độc,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-chau-doc-2,2026-09-10
+kcn-bac-chau-doc-3,KCN Bắc Châu Độc 3,ho-chi-minh,TP. Hồ Chí Minh,Huyện Châu Độc,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-chau-doc-3,2026-09-10
+kcn-bac-tan-uyen-1,KCN Bắc Tân Uyên 1,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bắc Tân Uyên,786,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-tan-uyen-1,2026-09-10
+kcn-bac-tan-uyen-2,KCN Bắc Tân Uyên 2,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bắc Tân Uyên,425,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-tan-uyen-2,2026-09-10
+kcn-bac-tan-uyen-3,KCN Bắc Tân Uyên 3,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bắc Tân Uyên,288,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-tan-uyen-3,2026-09-10
+kcn-bac-tan-uyen-4,KCN Bắc Tân Uyên 4,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bắc Tân Uyên,770,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-tan-uyen-4,2026-09-10
+kcn-bac-tan-uyen-5,KCN Bắc Tân Uyên 5,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bắc Tân Uyên,500,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-tan-uyen-5,2026-09-10
+kcn-binh-an,KCN Bình An,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Dĩ An,2478,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-an,2026-09-10
+kcn-binh-chieu,KCN Bình Chiểu,ho-chi-minh,TP. Hồ Chí Minh,Quận Thủ Đức,27,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-chieu,2026-09-10
+kcn-binh-duong,KCN Bình Dương,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Dĩ An.,1650,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-duong,2026-09-10
+kcn-binh-duong-riverside-isc,KCN Bình Dương Riverside ISC,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Bến Cát,600,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-duong-riverside-isc,2026-09-10
+kcn-binh-khanh-1,KCN Bình Khánh 1,ho-chi-minh,TP. Hồ Chí Minh,Huyện Cần Giờ,300,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-khanh-1,2026-09-10
+kcn-binh-khanh-2,KCN Bình Khánh 2,ho-chi-minh,TP. Hồ Chí Minh,Huyện Cần Giờ,300,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-khanh-2,2026-09-10
+kcn-bo-sung-1-3-kcn-du-kien,KCN Bổ sung 1+3 KCN dự kiến,ho-chi-minh,TP. Hồ Chí Minh,"Huyện Bắc Tân Uyên, Dầu Tiếng và Phú Giáo",1424,False,False,False,https://kcn-kkt.com/kcn/kcn-bo-sung-1-3-kcn-du-kien,2026-09-10
+kcn-bw-supply-chain-city-mapletree,KCN BW Supply Chain City (Mapletree),ho-chi-minh,TP. Hồ Chí Minh,Thành phố Thủ Dầu Một,74.88,False,False,False,https://kcn-kkt.com/kcn/kcn-bw-supply-chain-city-mapletree,2026-09-10
+kcn-cai-mep,KCN Cái Mép,ho-chi-minh,TP. Hồ Chí Minh,Thị xã Phú Mỹ,670.09,False,False,False,https://kcn-kkt.com/kcn/kcn-cai-mep,2026-09-10
+kcn-cat-lai-cum-2,KCN Cát Lái - Cụm 2,ho-chi-minh,TP. Hồ Chí Minh,Phường Thanh Mỹ Lợi - Quận 2.,124,False,False,False,https://kcn-kkt.com/kcn/kcn-cat-lai-cum-2,2026-09-10
+kcn-cay-truong,KCN Cây Trường,ho-chi-minh,TP. Hồ Chí Minh,"Xã Cây Trường 2, huyện Bàu Bàng",700,False,False,False,https://kcn-kkt.com/kcn/kcn-cay-truong,2026-09-10
+kcn-chau-duc,KCN Châu Đức,ho-chi-minh,TP. Hồ Chí Minh,Huyện Châu Đức,1556.14,False,False,False,https://kcn-kkt.com/kcn/kcn-chau-duc,2026-09-10
+kcn-co-khi-o-to,KCN Cơ khí Ô tô,ho-chi-minh,TP. Hồ Chí Minh,Huyện Củ Chi,100,False,False,False,https://kcn-kkt.com/kcn/kcn-co-khi-o-to,2026-09-10
+kcn-da-bac,KCN Dá Bạc,ho-chi-minh,TP. Hồ Chí Minh,Huyện Châu Đức,295,False,False,False,https://kcn-kkt.com/kcn/kcn-da-bac,2026-09-10
+kcn-da-dang,KCN Dạ Đằng,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Thủ Dầu Một,219.53,False,False,False,https://kcn-kkt.com/kcn/kcn-da-dang,2026-09-10
+kcn-dau-khi-long-son,KCN dầu khí Long Sơn,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Vũng Tàu,850,False,False,False,https://kcn-kkt.com/kcn/kcn-dau-khi-long-son,2026-09-10
+kcn-dau-tieng-1a,KCN Dầu Tiếng 1A,ho-chi-minh,TP. Hồ Chí Minh,Huyện Dầu Tiếng,800,False,False,False,https://kcn-kkt.com/kcn/kcn-dau-tieng-1a,2026-09-10
+kcn-dau-tieng-4-trong-kcn-do-thi-dich-vu-co-dien-tich-1-041-51-ha,"KCN Dầu Tiếng 4 (trong KCN-đó thị-dịch vụ có diện tích 1.041,51 ha)",ho-chi-minh,TP. Hồ Chí Minh,Thành phố Bàu Bàng và Huyện Bàu Bàng,782,False,False,False,https://kcn-kkt.com/kcn/kcn-dau-tieng-4-trong-kcn-do-thi-dich-vu-co-dien-tich-1-041-51-ha,2026-09-10
+kcn-dau-tieng-5,KCN Dầu Tiếng 5,ho-chi-minh,TP. Hồ Chí Minh,Huyện Dầu Tiếng,500,False,False,False,https://kcn-kkt.com/kcn/kcn-dau-tieng-5,2026-09-10
+kcn-dai-dang,KCN Đại Đăng,ho-chi-minh,TP. Hồ Chí Minh,Thủ Dầu Một,219.53,True,False,False,https://kcn-kkt.com/kcn/kcn-dai-dang,2026-09-10
+kcn-dat-do-1,KCN Đất Đỏ 1,ho-chi-minh,TP. Hồ Chí Minh,Huyện Đất Đỏ,496,False,False,False,https://kcn-kkt.com/kcn/kcn-dat-do-1,2026-09-10
+kcn-dong-an-ho-chi-minh,KCN Đông An,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Thuận An,139.58,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-an-ho-chi-minh,2026-09-10
+kcn-dong-an-2,KCN Đông An 2,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Thủ Dầu Một,158.51,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-an-2,2026-09-10
+kcn-dong-nam,KCN Đông Nam,ho-chi-minh,TP. Hồ Chí Minh,Xã Hòa Phú & xã Bình Mỹ - huyện Củ Chi.,287,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-nam,2026-09-10
+kcn-dong-xuyen,KCN Đông Xuyên,ho-chi-minh,TP. Hồ Chí Minh,TP Vũng Tàu,167.73,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-xuyen,2026-09-10
+kcn-hd,KCN HD,ho-chi-minh,TP. Hồ Chí Minh,Thị xã Phú Mỹ,450,False,False,False,https://kcn-kkt.com/kcn/kcn-hd,2026-09-10
+kcn-hiep-phuoc,KCN Hiệp Phước,ho-chi-minh,TP. Hồ Chí Minh,"Khu B, Đường số 1, KCN Hiệp Phước, Huyện Nhà Bè.",597,False,False,False,https://kcn-kkt.com/kcn/kcn-hiep-phuoc,2026-09-10
+kcn-hiep-phuoc-gd1,KCN Hiệp Phước (gđ1),ho-chi-minh,TP. Hồ Chí Minh,"Khu B, Đường số 1, KCN Hiệp Phước, Huyện Nhà Bè",311,False,False,False,https://kcn-kkt.com/kcn/kcn-hiep-phuoc-gd1,2026-09-10
+kcn-hiep-phuoc-giai-doan-3,KCN Hiệp Phước (Giai đoạn 3),ho-chi-minh,TP. Hồ Chí Minh,"Khu B, Đường số 1, KCN Hiệp Phước, Huyện Nhà Bè",500,False,False,False,https://kcn-kkt.com/kcn/kcn-hiep-phuoc-giai-doan-3,2026-09-10
+kcn-kcx-linh-trung-i,KCN KCX Linh Trung I,ho-chi-minh,TP. Hồ Chí Minh,TP Thủ Đức,62,True,False,False,https://kcn-kkt.com/kcn/kcn-kcx-linh-trung-i,2026-09-10
+kcn-kcx-linh-trung-ii,KCN KCX Linh Trung II,ho-chi-minh,TP. Hồ Chí Minh,TP Thủ Đức,62,True,False,False,https://kcn-kkt.com/kcn/kcn-kcx-linh-trung-ii,2026-09-10
+kcn-kcx-tan-thuan,KCN KCX Tân Thuận,ho-chi-minh,TP. Hồ Chí Minh,Quận 7,300,True,False,False,https://kcn-kkt.com/kcn/kcn-kcx-tan-thuan,2026-09-10
+kcn-kim-huy,KCN Kim Huy,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Thủ Dầu Một,171.63,False,False,False,https://kcn-kkt.com/kcn/kcn-kim-huy,2026-09-10
+kcn-ksb-dat-quoc,KCN KSB (Đất Quốc),ho-chi-minh,TP. Hồ Chí Minh,Thành phố Tân Uyên,523.22,False,False,False,https://kcn-kkt.com/kcn/kcn-ksb-dat-quoc,2026-09-10
+kcn-lai-hung,KCN Lai Hưng,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bàu Bàng,600,False,False,False,https://kcn-kkt.com/kcn/kcn-lai-hung,2026-09-10
+kcn-le-minh-xuan,KCN Lê Minh Xuân,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bình Chánh.,100,False,False,False,https://kcn-kkt.com/kcn/kcn-le-minh-xuan,2026-09-10
+kcn-le-minh-xuan-mo-rong,KCN Lê Minh Xuân (mở rộng),ho-chi-minh,TP. Hồ Chí Minh,"Xã Tân Nhựt, xã Lê Minh Xuân, huyện Bình Chánh",110,False,False,False,https://kcn-kkt.com/kcn/kcn-le-minh-xuan-mo-rong,2026-09-10
+kcn-le-minh-xuan-2,KCN Lê Minh Xuân 2,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bình Chánh,338,False,False,False,https://kcn-kkt.com/kcn/kcn-le-minh-xuan-2,2026-09-10
+kcn-le-minh-xuan-3,KCN Lê Minh Xuân 3,ho-chi-minh,TP. Hồ Chí Minh,"Xã Lê Minh Xuân, huyện Bình Chánh.",242,False,False,False,https://kcn-kkt.com/kcn/kcn-le-minh-xuan-3,2026-09-10
+kcn-le-minh-xuan-4,KCN Lê Minh Xuân 4,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bình Chánh,200,False,False,False,https://kcn-kkt.com/kcn/kcn-le-minh-xuan-4,2026-09-10
+kcn-my-phuoc,KCN Mỹ Phước,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Bến Cát,377.55,False,False,False,https://kcn-kkt.com/kcn/kcn-my-phuoc,2026-09-10
+kcn-my-phuoc-2,KCN Mỹ Phước 2,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Bến Cát,478.48,False,False,False,https://kcn-kkt.com/kcn/kcn-my-phuoc-2,2026-09-10
+kcn-my-phuoc-3,KCN Mỹ Phước 3,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Bến Cát,984.64,False,False,False,https://kcn-kkt.com/kcn/kcn-my-phuoc-3,2026-09-10
+kcn-my-xuan-a,KCN Mỹ Xuân A,ho-chi-minh,TP. Hồ Chí Minh,Thị xã Phú Mỹ,302.4,False,False,False,https://kcn-kkt.com/kcn/kcn-my-xuan-a,2026-09-10
+kcn-my-xuan-a2,KCN Mỹ Xuân A2,ho-chi-minh,TP. Hồ Chí Minh,Thị xã Phú Mỹ,422.22,False,False,False,https://kcn-kkt.com/kcn/kcn-my-xuan-a2,2026-09-10
+kcn-my-xuan-b-1-conac-mo-rong,KCN Mỹ Xuân B 1- Conac Mở Rộng,ho-chi-minh,TP. Hồ Chí Minh,Thị xã Phú Mỹ,110,False,False,False,https://kcn-kkt.com/kcn/kcn-my-xuan-b-1-conac-mo-rong,2026-09-10
+kcn-my-xuan-b1-conac,KCN Mỹ Xuân B1-Conac,ho-chi-minh,TP. Hồ Chí Minh,Thị xã Phú Mỹ,211.92,False,False,False,https://kcn-kkt.com/kcn/kcn-my-xuan-b1-conac,2026-09-10
+kcn-my-xuan-b1-dai-duong,KCN Mỹ Xuân B1-Đại Dương,ho-chi-minh,TP. Hồ Chí Minh,Thị xã Phú Mỹ,145.7,False,False,False,https://kcn-kkt.com/kcn/kcn-my-xuan-b1-dai-duong,2026-09-10
+kcn-my-xuan-b1-tien-hung,KCN Mỹ Xuân B1-Tiên Hùng,ho-chi-minh,TP. Hồ Chí Minh,Thị xã Phú Mỹ,200,False,False,False,https://kcn-kkt.com/kcn/kcn-my-xuan-b1-tien-hung,2026-09-10
+kcn-nam-tan-uyen-va-mo-rong,KCN Nam Tân Uyên và mở rộng,ho-chi-minh,TP. Hồ Chí Minh,Huyện Tân Uyên,983.72,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-tan-uyen-va-mo-rong,2026-09-10
+kcn-nhi-xuan,KCN Nhi Xuân,ho-chi-minh,TP. Hồ Chí Minh,Huyện Hóc Môn,199,False,False,False,https://kcn-kkt.com/kcn/kcn-nhi-xuan,2026-09-10
+kcn-pham-van-hai-i,KCN Phạm Văn Hai I,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bình Chánh,379,False,False,False,https://kcn-kkt.com/kcn/kcn-pham-van-hai-i,2026-09-10
+kcn-pham-van-hai-ii,KCN Phạm Văn Hai II,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bình Chánh,289,False,False,False,https://kcn-kkt.com/kcn/kcn-pham-van-hai-ii,2026-09-10
+kcn-pham-van-hai-iii,KCN Phạm Văn Hai III,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bình Chánh,238,False,False,False,https://kcn-kkt.com/kcn/kcn-pham-van-hai-iii,2026-09-10
+kcn-phong-phu,KCN Phong Phú,ho-chi-minh,TP. Hồ Chí Minh,Xã Phong Phú - Huyện Bình Chánh.,67,False,False,False,https://kcn-kkt.com/kcn/kcn-phong-phu,2026-09-10
+kcn-phu-giao-1,KCN Phú Giáo 1,ho-chi-minh,TP. Hồ Chí Minh,Huyện Phú Giáo,550,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-giao-1,2026-09-10
+kcn-phu-giao-3,KCN Phú Giáo 3,ho-chi-minh,TP. Hồ Chí Minh,Huyện Phú Giáo,500,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-giao-3,2026-09-10
+kcn-phu-giao-4,KCN Phú Giáo 4,ho-chi-minh,TP. Hồ Chí Minh,Huyện Phú Giáo,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-giao-4,2026-09-10
+kcn-phu-my,KCN Phú Mỹ,ho-chi-minh,TP. Hồ Chí Minh,Thị xã Phú Mỹ,650,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-my,2026-09-10
+kcn-phu-my-i,KCN Phú Mỹ I,ho-chi-minh,TP. Hồ Chí Minh,Thị xã Phú Mỹ,951.25,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-my-i,2026-09-10
+kcn-phu-my-ii-va-mo-rong,KCN Phú Mỹ II và mở rộng,ho-chi-minh,TP. Hồ Chí Minh,Thị xã Phú Mỹ,1021.47,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-my-ii-va-mo-rong,2026-09-10
+kcn-phu-my-iii,KCN Phú Mỹ III,ho-chi-minh,TP. Hồ Chí Minh,Thị xã Phú Mỹ,802.52,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-my-iii,2026-09-10
+kcn-phu-tan-ho-chi-minh,KCN Phú Tân,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Thủ Dầu Một,106.54,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-tan-ho-chi-minh,2026-09-10
+kcn-quoc-te-protrade,KCN Quốc tế Protrade,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Bến Cát,494.94,False,False,False,https://kcn-kkt.com/kcn/kcn-quoc-te-protrade,2026-09-10
+kcn-rach-bap,KCN Rạch Bắp,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Bến Cát và Huyện Dầu Tiếng,638.6,False,False,False,https://kcn-kkt.com/kcn/kcn-rach-bap,2026-09-10
+kcn-song-than-1,KCN Sông Thần 1,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Dĩ An.,178.01,False,False,False,https://kcn-kkt.com/kcn/kcn-song-than-1,2026-09-10
+kcn-song-than-2,KCN Sông Thần 2,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Dĩ An.,279.09,False,False,False,https://kcn-kkt.com/kcn/kcn-song-than-2,2026-09-10
+kcn-song-than-3,KCN Sông Thần 3,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Thủ Dầu Một,428.03,False,False,False,https://kcn-kkt.com/kcn/kcn-song-than-3,2026-09-10
+kcn-tan-binh,KCN Tân Bình,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bắc Tân Uyên,352.5,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-binh,2026-09-10
+kcn-tan-binh-giai-doan-1,KCN Tân Bình (Giai đoạn 1),ho-chi-minh,TP. Hồ Chí Minh,"Phường Tây Thạnh, quận Tân Phú và phường Bình Hưng Hoà, quận Bình Tân.",106,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-binh-giai-doan-1,2026-09-10
+kcn-tan-binh-mo-rong,KCN Tân Bình (mở rộng),ho-chi-minh,TP. Hồ Chí Minh,"Phường Tây Thạnh, quận Tân Phú và phường Bình Hưng Hoà, quận Bình Tân.",24,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-binh-mo-rong,2026-09-10
+kcn-tan-dong-hiep-a,KCN Tân Đông Hiệp A,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Dĩ An.,50.44,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-dong-hiep-a,2026-09-10
+kcn-tan-dong-hiep-b,KCN Tân Đông Hiệp B,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Dĩ An.,142.3,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-dong-hiep-b,2026-09-10
+kcn-tan-lap-i,KCN Tân Lập I,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bắc Tân Uyên,200,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-lap-i,2026-09-10
+kcn-tan-phu-trung,KCN Tân Phú Trung,ho-chi-minh,TP. Hồ Chí Minh,Xã Tân Phú Trung-Huyện Củ Chi.,543,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phu-trung,2026-09-10
+kcn-tan-phu-trung-2,KCN Tân Phú Trung 2,ho-chi-minh,TP. Hồ Chí Minh,Huyện Củ Chi,,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phu-trung-2,2026-09-10
+kcn-tan-phu-trung-3,KCN Tân Phú Trung 3,ho-chi-minh,TP. Hồ Chí Minh,Huyện Củ Chi,600,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phu-trung-3,2026-09-10
+kcn-tan-phu-trung-4,KCN Tân Phú Trung 4,ho-chi-minh,TP. Hồ Chí Minh,Huyện Củ Chi,,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-phu-trung-4,2026-09-10
+kcn-tan-tao-hien-huu,KCN Tân Tạo hiện hữu,ho-chi-minh,TP. Hồ Chí Minh,Phường Tân Tạo - Quận Bình Tân.,161,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-tao-hien-huu,2026-09-10
+kcn-tan-tao-mo-rong,KCN Tân Tạo mở rộng,ho-chi-minh,TP. Hồ Chí Minh,Phường Tân Tạo - Quận Bình Tân.,183,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-tao-mo-rong,2026-09-10
+kcn-tan-thoi-hiep,KCN Tân Thới Hiệp,ho-chi-minh,TP. Hồ Chí Minh,Phường Tân Chánh Hiệp - Quận 12.,28,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-thoi-hiep,2026-09-10
+kcn-tay-bac-cu-chi,KCN Tây Bắc Củ Chi,ho-chi-minh,TP. Hồ Chí Minh,"Xã Tân An Hội, huyện Củ Chi.",208,False,False,False,https://kcn-kkt.com/kcn/kcn-tay-bac-cu-chi,2026-09-10
+kcn-tay-bac-cu-chi-mo-rong,KCN Tây Bắc Củ Chi (mở rộng),ho-chi-minh,TP. Hồ Chí Minh,"Xã Tân An Hội, huyện Củ Chi.",173,False,False,False,https://kcn-kkt.com/kcn/kcn-tay-bac-cu-chi-mo-rong,2026-09-10
+kcn-thoi-hoa,KCN Thới Hòa,ho-chi-minh,TP. Hồ Chí Minh,"xã Thới Hòa, huyện Bến Cát, tỉnh Bình Dương",202.4,False,False,False,https://kcn-kkt.com/kcn/kcn-thoi-hoa,2026-09-10
+kcn-trung-an,KCN Trung An,ho-chi-minh,TP. Hồ Chí Minh,Huyện Củ Chi,300,False,False,False,https://kcn-kkt.com/kcn/kcn-trung-an,2026-09-10
+kcn-trung-tam-cong-nghe-sinh-hoc-quoc-gia-thanh-pho-ho-chi-minh,KCN Trung tâm công nghệ sinh học Quốc gia Thành phố Hồ Chí Minh,ho-chi-minh,TP. Hồ Chí Minh,Quận 12,23,True,False,False,https://kcn-kkt.com/kcn/kcn-trung-tam-cong-nghe-sinh-hoc-quoc-gia-thanh-pho-ho-chi-minh,2026-09-10
+kcn-van-thuong,KCN Vạn Thương,ho-chi-minh,TP. Hồ Chí Minh,Thị xã Phú Mỹ,400,False,False,False,https://kcn-kkt.com/kcn/kcn-van-thuong,2026-09-10
+kcn-viet-huong-1,KCN Việt Hương 1,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Thuận An,3606,False,False,False,https://kcn-kkt.com/kcn/kcn-viet-huong-1,2026-09-10
+kcn-viet-huong-2,KCN Việt Hương 2,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Bến Cát,198.75,False,False,False,https://kcn-kkt.com/kcn/kcn-viet-huong-2,2026-09-10
+kcn-viet-nam-singapore-vsip-i,KCN Việt Nam - Singapore (VSIP) I,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Thuận An,465.27,False,False,False,https://kcn-kkt.com/kcn/kcn-viet-nam-singapore-vsip-i,2026-09-10
+kcn-viet-nam-singapore-vsip-ii,KCN Việt Nam - Singapore (VSIP) II,ho-chi-minh,TP. Hồ Chí Minh,"Thành phố Thủ Dầu Một, Thành phố Tân Uyên, và Huyện Bắc Tân Uyên",1323.74,False,False,False,https://kcn-kkt.com/kcn/kcn-viet-nam-singapore-vsip-ii,2026-09-10
+kcn-viet-nam-singapore-vsip-iii,KCN Việt Nam - Singapore (VSIP) III,ho-chi-minh,TP. Hồ Chí Minh,Thành phố Tân Uyên và Huyện Bắc Tân Uyên,1000,False,False,False,https://kcn-kkt.com/kcn/kcn-viet-nam-singapore-vsip-iii,2026-09-10
+kcn-vinh-lap,KCN Vĩnh Lập,ho-chi-minh,TP. Hồ Chí Minh,Huyện Phú Giáo,750,False,False,False,https://kcn-kkt.com/kcn/kcn-vinh-lap,2026-09-10
+kcn-vinh-loc,KCN Vĩnh Lộc,ho-chi-minh,TP. Hồ Chí Minh,"Quận Bình Tân, Bình Chánh, Hóc Môn",203,False,False,False,https://kcn-kkt.com/kcn/kcn-vinh-loc,2026-09-10
+kcn-vinh-loc-mo-rong,KCN Vĩnh Lộc (mở rộng),ho-chi-minh,TP. Hồ Chí Minh,"Ấp 5 và Ấp 6, xã Vĩnh Lộc A, huyện Bình Chánh.",56,False,False,False,https://kcn-kkt.com/kcn/kcn-vinh-loc-mo-rong,2026-09-10
+kcn-vinh-loc-3,KCN Vĩnh Lộc 3,ho-chi-minh,TP. Hồ Chí Minh,Huyện Bình Chánh,200,False,False,False,https://kcn-kkt.com/kcn/kcn-vinh-loc-3,2026-09-10
+kcn-vsip-i,KCN VSIP I,ho-chi-minh,TP. Hồ Chí Minh,Thuận An,465.27,True,False,False,https://kcn-kkt.com/kcn/kcn-vsip-i,2026-09-10
+kcn-vsip-ii,KCN VSIP II,ho-chi-minh,TP. Hồ Chí Minh,"Thủ Dầu Một, Tân Uyên, Bắc Tân Uyên",1323.74,True,False,False,https://kcn-kkt.com/kcn/kcn-vsip-ii,2026-09-10
+kcn-vsip-iii,KCN VSIP III,ho-chi-minh,TP. Hồ Chí Minh,"Tân Uyên, Bắc Tân Uyên",1000,True,False,False,https://kcn-kkt.com/kcn/kcn-vsip-iii,2026-09-10
+kcn-bac-quang,KCN Bắc Quang,tuyen-quang,Tuyên Quang,Huyện Bắc Quang,200,False,False,False,https://kcn-kkt.com/kcn/kcn-bac-quang,2026-09-10
+kcn-binh-vang,KCN Bình Vàng,tuyen-quang,Tuyên Quang,Huyện Vị Xuyên,255,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-vang,2026-09-10
+kcn-long-binh-an,KCN Long Bình An,tuyen-quang,Tuyên Quang,Thành phố Tuyên Quang,170,False,False,False,https://kcn-kkt.com/kcn/kcn-long-binh-an,2026-09-10
+kcn-nam-son-duong,KCN Nam Sơn Dương,tuyen-quang,Tuyên Quang,Huyện Sơn Dương,,False,False,False,https://kcn-kkt.com/kcn/kcn-nam-son-duong,2026-09-10
+kcn-nhu-khe,KCN Nhữ Khê,tuyen-quang,Tuyên Quang,Huyện Yên Sơn,,False,False,False,https://kcn-kkt.com/kcn/kcn-nhu-khe,2026-09-10
+kcn-nhu-khe-doi-can-kcn-bam-doc-duong-cao-toc-tq-pt,KCN Nhữ Khê - Đội Cấn (KCN bằm độc đường cao tốc TQ-PT),tuyen-quang,Tuyên Quang,"Thành phố Tuyên Quang, huyện Yên Sơn",75,False,False,False,https://kcn-kkt.com/kcn/kcn-nhu-khe-doi-can-kcn-bam-doc-duong-cao-toc-tq-pt,2026-09-10
+kcn-tam-da-tuyen-quang,KCN Tam Đa,tuyen-quang,Tuyên Quang,Huyện Sơn Dương,75,False,False,False,https://kcn-kkt.com/kcn/kcn-tam-da-tuyen-quang,2026-09-10
+kcn-tan-long,KCN Tân Long,tuyen-quang,Tuyên Quang,Thành phố Tuyên Quang,,False,False,False,https://kcn-kkt.com/kcn/kcn-tan-long,2026-09-10
+kcn-thai-son-thanh-long,KCN Thái Sơn - Thành Long,tuyen-quang,Tuyên Quang,Huyện Hàm Yên,,False,False,False,https://kcn-kkt.com/kcn/kcn-thai-son-thanh-long,2026-09-10
+kcn-trong-ikt-cua-khau-thanh-thuy,KCN trong IKT cửa khẩu Thanh Thủy,tuyen-quang,Tuyên Quang,Huyện Vị Xuyên,177,False,False,False,https://kcn-kkt.com/kcn/kcn-trong-ikt-cua-khau-thanh-thuy,2026-09-10
+kcn-do-thi-dich-vu,KCN - đô thị - dịch vụ,vinh-long,Vĩnh Long,Trong phạm vi KKT Định An,1241,False,False,False,https://kcn-kkt.com/kcn/kcn-do-thi-dich-vu,2026-09-10
+kcn-an-dinh,KCN An Định,vinh-long,Vĩnh Long,Huyện Mang Thít,200,False,False,False,https://kcn-kkt.com/kcn/kcn-an-dinh,2026-09-10
+kcn-an-hiep,KCN An Hiệp,vinh-long,Vĩnh Long,Huyện Châu Thành,72,False,False,False,https://kcn-kkt.com/kcn/kcn-an-hiep,2026-09-10
+kcn-an-nhon,KCN An Nhơn,vinh-long,Vĩnh Long,Huyện Thạnh Phú,269,False,False,False,https://kcn-kkt.com/kcn/kcn-an-nhon,2026-09-10
+kcn-bao-thanh,KCN Bảo Thành,vinh-long,Vĩnh Long,Huyện Ba Tri,153,False,False,False,https://kcn-kkt.com/kcn/kcn-bao-thanh,2026-09-10
+kcn-binh-minh,KCN Bình Minh,vinh-long,Vĩnh Long,Thị xã Bình Minh,133,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-minh,2026-09-10
+kcn-binh-tan,KCN Bình Tân,vinh-long,Vĩnh Long,Huyện Bình Tân,400,False,False,False,https://kcn-kkt.com/kcn/kcn-binh-tan,2026-09-10
+kcn-cau-quan,KCN Cầu Quan,vinh-long,Vĩnh Long,"Huyện Tiểu Cần, Huyện Cầu Kè",120,False,False,False,https://kcn-kkt.com/kcn/kcn-cau-quan,2026-09-10
+kcn-co-chien,KCN Cổ Chiên,vinh-long,Vĩnh Long,Huyện Cảng Long,200,False,False,False,https://kcn-kkt.com/kcn/kcn-co-chien,2026-09-10
+kcn-dinh-an,KCN Định An,vinh-long,Vĩnh Long,Trong phạm vi KKT Định An,591,False,False,False,https://kcn-kkt.com/kcn/kcn-dinh-an,2026-09-10
+kcn-don-xuan-don-chau,KCN Đốn Xuân - Đốn Châu,vinh-long,Vĩnh Long,Trong phạm vi KKT Định An,934,False,False,False,https://kcn-kkt.com/kcn/kcn-don-xuan-don-chau,2026-09-10
+kcn-dong-binh,KCN Đông Bình,vinh-long,Vĩnh Long,Thị xã Bình Minh,350,False,False,False,https://kcn-kkt.com/kcn/kcn-dong-binh,2026-09-10
+kcn-giao-hoa,KCN Giao Hòa,vinh-long,Vĩnh Long,Huyện Châu Thành,249,False,False,False,https://kcn-kkt.com/kcn/kcn-giao-hoa,2026-09-10
+kcn-giao-long-i-ii,"KCN Giao Long (I, II)",vinh-long,Vĩnh Long,Huyện Châu Thành,164,False,False,False,https://kcn-kkt.com/kcn/kcn-giao-long-i-ii,2026-09-10
+kcn-giao-long-iii,KCN Giao Long (III),vinh-long,Vĩnh Long,Huyện Châu Thành,51,False,False,False,https://kcn-kkt.com/kcn/kcn-giao-long-iii,2026-09-10
+kcn-hoa-phu-giai-doan-1-2,KCN Hòa Phú (giai đoạn 1 + 2),vinh-long,Vĩnh Long,Huyện Long Hồ,250,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-phu-giai-doan-1-2,2026-09-10
+kcn-hoa-phu-giai-doan-3,KCN Hòa Phú (giai đoạn 3),vinh-long,Vĩnh Long,Huyện Long Hồ,157,False,False,False,https://kcn-kkt.com/kcn/kcn-hoa-phu-giai-doan-3,2026-09-10
+kcn-long-doc,KCN Long Độc,vinh-long,Vĩnh Long,Thành phố Trà Vinh,98,False,False,False,https://kcn-kkt.com/kcn/kcn-long-doc,2026-09-10
+kcn-phu-thuan,KCN Phú Thuận,vinh-long,Vĩnh Long,Huyện Bình Đại,232,False,False,False,https://kcn-kkt.com/kcn/kcn-phu-thuan,2026-09-10
+kcn-phuoc-long,KCN Phước Long,vinh-long,Vĩnh Long,Huyện Giồng Trôm,182,False,False,False,https://kcn-kkt.com/kcn/kcn-phuoc-long,2026-09-10
+kcn-thuoc-cang-tra-cu,KCN thuộc Cảng Trà Cú,vinh-long,Vĩnh Long,Trong phạm vi KKT Định An,150,False,False,False,https://kcn-kkt.com/kcn/kcn-thuoc-cang-tra-cu,2026-09-10
+kcn-trong-kkt-dinh-an,KCN trong KKT Định An,vinh-long,Vĩnh Long,Trong phạm vi KKT Định An,392,False,False,False,https://kcn-kkt.com/kcn/kcn-trong-kkt-dinh-an,2026-09-10
+khu-du-tru-phat-trien-kcn-long-khanh,Khu dự trữ phát triển KCN Long Khánh,vinh-long,Vĩnh Long,Trong phạm vi KKT Định An,993,False,False,False,https://kcn-kkt.com/kcn/khu-du-tru-phat-trien-kcn-long-khanh,2026-09-10
+khu-du-tru-phat-trien-kcn-long-vinh,Khu dự trữ phát triển KCN Long Vĩnh,vinh-long,Vĩnh Long,Trong phạm vi KKT Định An,1173,False,False,False,https://kcn-kkt.com/kcn/khu-du-tru-phat-trien-kcn-long-vinh,2026-09-10

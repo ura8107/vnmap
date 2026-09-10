@@ -38,3 +38,17 @@ Comment: Document identifiers, dates and zone names are factual metadata. The
     package links rather than redistributes legal texts. Representative points
     are derived from vnmap's bundled pre-2025 province geometry and are not
     legal boundary drawings, cadastral locations, or copied web-map features.
+
+Sources:
+    Invest Vietnam public industrial-zone map and KCN-KKT discovery list
+Copyright: Respective source publishers; factual metadata selected by vnmap authors
+License: Source text and website presentation are not relicensed by vnmap
+Files: extdata/industrial_park_sources.rds
+URL: https://investvietnam.gov.vn/vi/khu-cong-nghiep.pl.html
+    https://kcn-kkt.com/kcn
+Comment: Retrieved 10 September 2026. Selected names, locality facts and source
+    links are preserved, including unresolved records. The independent KCN-KKT
+    list is discovery evidence, not an official establishment register. Linked
+    coordinates are derived from OpenStreetMap and remain subject to ODbL 1.0;
+    OpenStreetMap contributor attribution must be preserved. Complete website
+    articles, pricing estimates and presentation assets are not redistributed.

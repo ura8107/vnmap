@@ -4,12 +4,15 @@
 #' processing zones, hi-tech parks and industrial clusters. Records are
 #' included only when a redistributable mapped location can be identified, so
 #' the layer is a mapped subset of the national register rather than the
-#' register itself: `data-raw/industrial-parks-audit.csv` reports mapped
-#' coverage against the official count of established parks, and unmapped
-#' parks are left out rather than being placed at a province centroid.
+#' register itself. [industrial_park_sources()] retains the full source lists,
+#' including unresolved locations, and [industrial_park_source_coverage()]
+#' reports exact source-row coverage. A difference from a historical national
+#' count is not a verified number of missing parks. Unmapped source rows are
+#' never placed at province centroids. OSM industrial land-use tags do not
+#' establish operational status; those records have status `"unknown"`.
 #'
-#' Sites mapped in several pieces - phases, expansions, a site split by a road
-#' - are merged into one record; `part_count` and `osm_ids` record how many
+#' Sites mapped in several pieces (phases, expansions, or a road-split site)
+#' are merged into one record; `part_count` and `osm_ids` record how many
 #' OpenStreetMap features contributed and which ones. Boundaries and points are
 #' linked to both the current 34-unit and former 63-unit provincial
 #' geographies.
@@ -25,7 +28,7 @@
 #' `category`, `province_code`, `province_en`, `former_province_code`,
 #' `status`, `area_ha`, `developer`, `website`, `geometry_type`,
 #' `location_accuracy`, `part_count`, `osm_ids`, `source`, `source_url`,
-#' `verified_on`, `attribute_source`, and `geometry`.
+#' `verified_on`, `geometry_observed_on`, `attribute_source`, and `geometry`.
 #' @source OpenStreetMap contributors, ODbL 1.0,
 #' \url{https://www.openstreetmap.org/copyright}. The official baseline used
 #' for the coverage audit is the Foreign Investment Agency (Ministry of

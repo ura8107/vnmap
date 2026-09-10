@@ -1,37 +1,31 @@
 "province_code","province_en","status","mapped_records"
-"01","Ha Noi","operational",13
-"04","Cao Bang","operational",1
-"08","Tuyen Quang","operational",1
-"19","Thai Nguyen","operational",6
-"22","Quang Ninh","operational",8
-"24","Bac Ninh","operational",24
-"25","Phu Tho","operational",13
-"31","Hai Phong","operational",17
-"33","Hung Yen","operational",18
-"37","Ninh Binh","operational",19
-"38","Thanh Hoa","operational",5
-"40","Nghe An","operational",3
-"44","Quang Tri","operational",5
-"46","Hue","operational",2
-"48","Da Nang","operational",9
-"51","Quang Ngai","operational",1
-"52","Gia Lai","operational",4
-"56","Khanh Hoa","operational",2
-"66","Dak Lak","operational",4
-"68","Lam Dong","operational",5
-"75","Dong Nai","operational",26
-"79","Ho Chi Minh City","operational",52
-"80","Tay Ninh","operational",28
-"82","Dong Thap","operational",4
-"86","Vinh Long","operational",5
-"91","An Giang","operational",2
-"92","Can Tho","operational",5
-"96","Ca Mau","operational",1
 "24","Bac Ninh","under_construction",2
-"01","Ha Noi","unknown",3
-"24","Bac Ninh","unknown",1
-"31","Hai Phong","unknown",2
-"75","Dong Nai","unknown",1
-"79","Ho Chi Minh City","unknown",6
-"80","Tay Ninh","unknown",1
-"82","Dong Thap","unknown",1
+"33","Hung Yen","under_construction",1
+"91","An Giang","unknown",2
+"24","Bac Ninh","unknown",25
+"96","Ca Mau","unknown",1
+"92","Can Tho","unknown",5
+"04","Cao Bang","unknown",1
+"48","Da Nang","unknown",9
+"66","Dak Lak","unknown",4
+"75","Dong Nai","unknown",29
+"82","Dong Thap","unknown",6
+"52","Gia Lai","unknown",5
+"01","Ha Noi","unknown",16
+"31","Hai Phong","unknown",19
+"79","Ho Chi Minh City","unknown",58
+"46","Hue","unknown",2
+"33","Hung Yen","unknown",17
+"56","Khanh Hoa","unknown",3
+"68","Lam Dong","unknown",6
+"40","Nghe An","unknown",3
+"37","Ninh Binh","unknown",19
+"25","Phu Tho","unknown",13
+"51","Quang Ngai","unknown",1
+"22","Quang Ninh","unknown",8
+"44","Quang Tri","unknown",5
+"80","Tay Ninh","unknown",29
+"19","Thai Nguyen","unknown",6
+"38","Thanh Hoa","unknown",5
+"08","Tuyen Quang","unknown",1
+"86","Vinh Long","unknown",5

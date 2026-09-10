@@ -231,3 +231,48 @@ The current audit contains 154 retained facility entities, eight duplicate
 source representations/components, 85 unnamed exclusions and two obvious
 non-port exclusions. These are community-mapped features, not an official
 register, and no completeness claim is made.
+
+## Complete industrial-park source records (September 2026)
+
+The mapped OSM subset and a full source-row catalogue are separate outputs.
+`industrial_park_sources()` includes both linked and unresolved records;
+`industrial_park_source_coverage()` counts rows by source, not unique legal parks.
+The discovery list includes planned projects. Its records are never added as
+established parks merely to make a national count balance.
+
+Reproduce the bundled snapshot offline from the repository root:
+
+```sh
+Rscript data-raw/build_industrial_parks.R
+Rscript data-raw/reconcile_industrial_parks.R
+Rscript tools/build-industrial-park-map.R
+```
+
+The reconciliation pins the 10 September 2026 source files under
+`source/industrial-park-evidence/`; `manifest.csv` records their SHA-256 hashes.
+The old working-tree registry and the independent branch's 309-row CSV are
+retained there as evidence. The branch snapshot's geometry dates remain in
+`geometry_observed_on`; its older polygons do not replace main's newer geometry.
+
+To acquire a **new** dated snapshot, run
+`python3 data-raw/acquire_industrial_park_sources.py`. It retrieves the complete
+public feed, every linked official detail page (four simultaneous requests),
+and the entire embedded discovery list. An error aborts acquisition instead
+of silently dropping a page. Raw HTTP responses are cached under `tmp/` and
+only location facts, names and source metadata are retained for distribution.
+Before promoting a new snapshot, change the dated paths in the reconciliation
+script, inspect changes and update snapshot-count tests. Acquisition alone
+does not overwrite the bundled RDS files.
+
+The accepted map gains only named sites corroborated across location sources.
+Exact aliases and Roman-number equivalents can match; phases are not removed.
+The country/province context is required, and a same-name highway destination
+is not treated as the park address. Discovery-derived province assignments
+retain `province_source_url` and `province_match_method`. Legal status remains
+unverified. Reported coordinates are preserved separately; inconsistent ones
+never silently overwrite OSM geometry. Every unresolved row remains in
+`industrial-park-unresolved.csv`, with exact-name map candidates where present.
+
+`output/industrial-parks/` contains the map PNG, mapped-site CSV, GeoJSON and
+full source catalogue. See `INDUSTRIAL_PARK_SOURCE_AUDIT.md` for counts,
+limitations, Git provenance and the unfinished nationwide verification work.

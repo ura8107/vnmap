@@ -8,7 +8,7 @@ An internal \code{sf} object with \code{id}, \code{name_vi}, \code{name_en}, \co
 \code{category}, \code{province_code}, \code{province_en}, \code{former_province_code},
 \code{status}, \code{area_ha}, \code{developer}, \code{website}, \code{geometry_type},
 \code{location_accuracy}, \code{part_count}, \code{osm_ids}, \code{source}, \code{source_url},
-\code{verified_on}, \code{attribute_source}, and \code{geometry}.
+\code{verified_on}, \code{geometry_observed_on}, \code{attribute_source}, and \code{geometry}.
 }
 \source{
 OpenStreetMap contributors, ODbL 1.0,
@@ -22,18 +22,19 @@ A conservative spatial snapshot of Vietnamese industrial parks, export
 processing zones, hi-tech parks and industrial clusters. Records are
 included only when a redistributable mapped location can be identified, so
 the layer is a mapped subset of the national register rather than the
-register itself: \code{data-raw/industrial-parks-audit.csv} reports mapped
-coverage against the official count of established parks, and unmapped
-parks are left out rather than being placed at a province centroid.
+register itself. \code{\link[=industrial_park_sources]{industrial_park_sources()}} retains the full source lists,
+including unresolved locations, and \code{\link[=industrial_park_source_coverage]{industrial_park_source_coverage()}}
+reports exact source-row coverage. A difference from a historical national
+count is not a verified number of missing parks. Unmapped source rows are
+never placed at province centroids. OSM industrial land-use tags do not
+establish operational status; those records have status \code{"unknown"}.
 }
 \details{
-Sites mapped in several pieces - phases, expansions, a site split by a road
-\itemize{
-\item are merged into one record; \code{part_count} and \code{osm_ids} record how many
+Sites mapped in several pieces (phases, expansions, or a road-split site)
+are merged into one record; \code{part_count} and \code{osm_ids} record how many
 OpenStreetMap features contributed and which ones. Boundaries and points are
 linked to both the current 34-unit and former 63-unit provincial
 geographies.
-}
 
 \code{category} separates the legal designations, which are not interchangeable:
 \code{"industrial_park"} (khu cong nghiep) and \code{"export_processing_zone"}

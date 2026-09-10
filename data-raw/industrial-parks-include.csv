@@ -1,4 +1,6 @@
-id,category,name_note,reviewed_on,reason
-osm_way_366658228,industrial_park,VSIP II,2026-08-31,Vietnam Singapore Industrial Park II; mapped under its brand name with no legal designation in the name tag
-osm_way_787861298,industrial_park,VSIP II Mo Rong,2026-08-31,Expansion area of Vietnam Singapore Industrial Park II; merges into the VSIP II record
-osm_way_1548524683,industrial_park,VSIP III,2026-08-31,Vietnam Singapore Industrial Park III; mapped under its brand name with no legal designation in the name tag
+id,category,name_note,reviewed_on,reason,source_url
+osm_way_366658228,industrial_park,VSIP II,2026-08-31,Vietnam Singapore Industrial Park II; mapped under its brand name with no legal designation in the name tag,
+osm_way_787861298,industrial_park,VSIP II Mo Rong,2026-08-31,Expansion area of Vietnam Singapore Industrial Park II; merges into the VSIP II record,
+osm_way_1548524683,industrial_park,VSIP III,2026-08-31,Vietnam Singapore Industrial Park III; mapped under its brand name with no legal designation in the name tag,
+osm_way_1489376670,industrial_park,KNIC Dong Long Thanh (Xuan Que - Song Nhan),2026-09-10,Developer identifies the mapped brand as Xuan Que - Song Nhan industrial park; infrastructure construction launched 2026-08-04.,https://knic.com.vn/vi/knic-dong-long-thanh-ra-quan-tong-thau-ha-tang-mo-rong-khong-gian-san-xuat-tren-hanh-lang-kinh-te-phia-dong/
+osm_way_755708794,industrial_cluster,Cum cong nghiep My Hiep,2026-09-10,Official Dong Thap industry department identifies My Hiep industrial cluster in Cao Lanh; OSM name has a typographic error.,https://dongthap.gov.vn/web/sctdt/tin-tuc/chi-tiet?id=2695008
