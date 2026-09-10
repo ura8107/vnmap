@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it as below."
+type: software
+title: "vnmap: Map the Provinces and Municipalities of Viet Nam"
+abstract: >-
+  Convenient ggplot2 choropleth maps of Viet Nam using either the 34
+  provincial-level administrative units effective from July 2025 or the
+  preceding 63-unit geography. Includes name normalization, official
+  administrative codes, socio-economic region grouping, simple-feature
+  boundary data, commune-level geography, and 2024 provincial population
+  and regional-economic indicators.
+authors:
+  - family-names: "Matsuura"
+    given-names: "Yuki"
+    email: "matsuura.yuki.200095@gmail.com"
+repository-code: "https://github.com/ura8107/vnmap"
+url: "https://ura8107.github.io/vnmap/"
+license: MIT
+keywords:
+  - Viet Nam
+  - R
+  - ggplot2
+  - choropleth
+  - administrative boundaries
+  - official statistics
+  - sf
+references:
+  - type: data
+    title: "geoBoundaries"
+    notes: "Pre-July-2025 provincial geometry, boundary VNM-ADM1-63759600."
+    authors:
+      - name: "geoBoundaries contributors"
+    url: "https://www.geoboundaries.org/"
+    license: CC0-1.0
+  - type: data
+    title: "Vietnamese Provinces Database"
+    notes: >-
+      Current provincial and commune geometry, derived upstream from the
+      Viet Nam Administrative Units Reference Map.
+    authors:
+      - family-names: "Le Quoc"
+        given-names: "Thang"
+    repository-code: "https://github.com/thanglequoc/vietnamese-provinces-database"
+    license: MIT
+  - type: data
+    title: "OpenStreetMap"
+    notes: "Transport facilities, trunk network and industrial park geometry."
+    authors:
+      - name: "OpenStreetMap contributors"
+    url: "https://www.openstreetmap.org/copyright"
+    license: ODbL-1.0
+  - type: data
+    title: "Area, population, population density and GRDP per capita by province"
+    notes: "2024 provincial statistics, PX-Web tables."
+    authors:
+      - name: "General Statistics Office of Viet Nam"
+    url: "https://pxweb.nso.gov.vn/"

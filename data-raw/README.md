@@ -52,6 +52,16 @@ its 2024 population among the former units it absorbed. Several 2025 mergers
 crossed regional lines, so this rule is applied deterministically from the
 `province_stats_2024_63` population totals.
 
+## Data manifest
+
+`inst/extdata/manifest.json` records, for every bundled dataset, its source,
+licence, upstream reference, geometry vintage, generalization, administrative
+basis and build script. The descriptive fields are written by hand and are
+authoritative; run `make manifest` (or `Rscript data-raw/build_manifest.R`)
+after rebuilding a layer to refresh the checksum and row count. The test suite
+compares both against the shipped data, so a manifest left stale fails rather
+than describing the previous build. `vn_provenance()` returns the record.
+
 ## Lower-level (ADM2 / ADM3) geographies
 
 ### Current commune geography and the 2025 crosswalk

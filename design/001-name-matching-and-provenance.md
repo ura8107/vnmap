@@ -1,6 +1,6 @@
 # Design note 001: name matching and machine-readable provenance
 
-Status: accepted; workstream A implemented, workstream B outstanding
+Status: accepted; workstreams A and B implemented
 Date: 2026-09-10
 Scope: `R/codes.R`, `R/vn-map.R`, `inst/extdata/manifest.json`, `tests/testthat/`
 
@@ -366,6 +366,15 @@ reports the normalisation step only, and a `matched_on` column gives the
 alias text that produced the hit, which is strictly more than the
 original design carried.
 
+**The manifest needed a `storage` field.** The design assumed every
+bundled dataset could be checksummed after installation. Two cannot:
+`LazyData: true` folds the datasets under `data/` into the lazy-load
+database, so they no longer exist as files once installed. Each entry now
+carries `storage`, `"extdata"` or `"lazydata"`, borrowed from the same
+field in `india-geodata`; checksums are verified for the former and row
+counts for both. This was found by the tests, which is the argument for
+writing them.
+
 One asymmetry is worth recording. The geography-confusion check in 5.5
 is written symmetrically but fires in practice in one direction only:
 the 2025 reform kept the surviving unit names, so 29 of the 63 former
@@ -402,7 +411,9 @@ Steps 1 to 3 are independently valuable and can ship without 4 onwards.
 
 **B - provenance**
 
-7. Hand-write `manifest.json` for the nine bundled layers
+7. Hand-write `manifest.json` for the bundled datasets (eleven, not nine:
+   the two published statistical tables under `data/` carry provenance
+   worth recording too)
 8. `data-raw/build_manifest.R` and a `manifest` target in `Makefile`
 9. Export `vn_provenance()`
 10. `test-manifest.R`

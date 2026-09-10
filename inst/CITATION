@@ -1,8 +1,12 @@
+# `meta` is the package DESCRIPTION, so the version tracks the build rather
+# than being restated here and drifting.
+year <- if (!is.null(meta$Date)) sub("-.*", "", meta$Date) else format(Sys.Date(), "%Y")
+
 bibentry(
   bibtype = "Manual",
   title = "vnmap: Map the Provinces and Municipalities of Viet Nam",
   author = person("Yuki", "Matsuura"),
-  year = "2026",
-  note = "R package version 0.1.0"
+  year = year,
+  note = paste("R package version", meta$Version),
+  url = "https://github.com/ura8107/vnmap"
 )
-

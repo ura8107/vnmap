@@ -39,6 +39,34 @@
   applies the same rule, after any `province` filter, so a name that is unique
   within the requested province still resolves.
 
+## Provenance
+
+* Added `inst/extdata/manifest.json`, a machine-readable record of every
+  bundled dataset: its source, licence and upstream reference, the vintage of
+  the geometry, how far it has been generalized, the administrative decision
+  its units follow, and the script that builds it. Provenance was previously
+  spread across prose in `data-raw/README.md`, `inst/COPYRIGHTS`, checksum CSVs
+  and the Rd documentation, and none of it was checked against the data.
+
+* Added `vn_provenance()`, which returns that record as a data frame. Geometry
+  in this package comes from more than one upstream source, so the vintage
+  belongs to the layer rather than to the package: the current provincial and
+  commune layers share a 2026 observed snapshot, while the pre-reform
+  provincial layer is derived from geoBoundaries geometry whose represented
+  year is 2008.
+
+* The test suite now checks the manifest against the data it describes: every
+  described file exists, checksums and row counts match, and no bundled dataset
+  is left undescribed. A layer rebuilt without running `make manifest`
+  therefore fails rather than quietly describing the previous build.
+
+* `inst/CITATION` reported version 0.1.0 regardless of the installed version.
+  It now reads the version from `DESCRIPTION`.
+
+* Added `CITATION.cff`, listing the upstream data sources alongside the
+  package itself.
+
+
 ## Industrial parks
 
 * `industrial_parks()` gains a `category` argument separating khu cong nghiep,

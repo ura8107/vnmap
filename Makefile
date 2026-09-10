@@ -11,3 +11,8 @@ calendar-assets: calendar-library
 
 verify-calendar-assets: calendar-library
 	R_LIBS=$(CALENDAR_LIBRARY) Rscript tools/verify-vietnam-calendar-assets.R app-assets/vietnam-calendar
+
+.PHONY: manifest
+
+manifest:
+	Rscript data-raw/build_manifest.R
