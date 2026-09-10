@@ -17,6 +17,8 @@ reference:
   desc: Normalize names and codes and describe administrative units.
   contents:
   - province_code
+  - commune_code
+  - vn_match
   - province_info
   - province_region
 - title: Industry and infrastructure

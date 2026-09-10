@@ -105,9 +105,13 @@ vn_map <- function(geography = c("provinces", "communes", "provinces_63", "distr
     if (!is.null(region)) {
       stop("`region` is not available for lower-level geography.", call. = FALSE)
     }
-    if (!is.null(province)) map <- map[.filter_province(map, province,
-      if (geography == "communes") "provinces" else "provinces_63"), , drop = FALSE]
-    if (!is.null(include)) map <- map[.match_units(map, include), , drop = FALSE]
+    parent_geography <- if (geography == "communes") "provinces" else "provinces_63"
+    if (!is.null(province)) {
+      map <- map[.filter_province(map, province, parent_geography), , drop = FALSE]
+    }
+    if (!is.null(include)) {
+      map <- map[.match_units(map, include, geography, parent_geography), , drop = FALSE]
+    }
   } else {
     if (!is.null(province)) {
       stop("`province` is only available for lower-level geography.", call. = FALSE)
@@ -134,15 +138,23 @@ vn_map <- function(geography = c("provinces", "communes", "provinces_63", "distr
   hit
 }
 
-# Match arbitrary lower-level identifiers against a layer's own code and name
-# columns, using the same normalization as province lookups. Commune names are
-# not unique nationwide, so pair `include` with `province` to disambiguate.
-.match_units <- function(map, include) {
-  want <- .vn_key(include)
-  cols <- intersect(c("code", "name_vi", "name_en"), names(map))
-  hit <- Reduce(`|`, lapply(cols, function(cn) .vn_key(map[[cn]]) %in% want))
-  if (!any(hit)) stop("No lower-level units matched `include`.", call. = FALSE)
-  hit
+# Match lower-level identifiers against a layer's own code and name columns.
+# The index is built from the layer as given rather than from the bundled
+# lookup, so a `province` filter applied first also narrows the names: within
+# one province "Tan Phu" is unique even though six communes carry that name.
+# Names that resolve to several of the remaining units are an error, not an
+# arbitrary pick.
+.match_units <- function(map, include, geography, parent_geography) {
+  tab <- .vn_unit_table(.vn_drop_geometry(map))
+  lk <- .vn_index(tab, Map(function(vi, en) unique(c(vi, en)), tab$name_vi, tab$name_en))
+  split <- .vn_split_parent(as.character(include), parent_geography)
+  got <- .vn_match_index(split$name, lk, parent_codes = NULL, max_distance = 1L,
+                         parent_geography = parent_geography, hint = split$hint)
+  got$input <- as.character(include)
+  if (anyNA(got$code)) {
+    stop(.vn_unmatched_message(got, geography, lk), call. = FALSE)
+  }
+  map$code %in% got$code
 }
 
 #' Coordinate reference system used by vnmap

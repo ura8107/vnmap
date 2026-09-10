@@ -22,11 +22,17 @@ test_that("the tone-preserving key keeps units that ASCII folds together", {
   expect_equal(vnmap:::.vn_key("Mỹ Tho"), vnmap:::.vn_key("Mỹ Thọ"))
 })
 
-test_that("word order and undiacriticked prefixes are handled by later stages", {
-  expect_equal(vnmap:::.vn_tokens("Ha Noi"), vnmap:::.vn_tokens("Noi Ha"))
+test_that("an undiacriticked prefix is handled by the last stage only", {
   expect_equal(vnmap:::.vn_key_loose("Tinh Cao Bang"), "caobang")
   # The loose key is destructive, which is why it is consulted last.
   expect_equal(vnmap:::.vn_key_loose("Tịnh Biên"), "bien")
+})
+
+test_that("word order is not treated as a naming variant", {
+  # Borrowed matching rules do not all transfer: sorting words apart resolves
+  # "24 Parganas North" against "North 24 Parganas" in India, but Vietnamese
+  # place names have a fixed order, so it would only invent matches.
+  expect_true(is.na(vn_match("Noi Ha")$code))
 })
 
 test_that("no two communes in one province share a tone-preserving key", {
@@ -69,7 +75,7 @@ test_that("ambiguity is reported instead of resolved", {
 })
 
 test_that("a trailing parent is only split off when it names a province", {
-  split <- vnmap:::.vn_split_parent(c("Tan Phu, Dong Nai", "Xuan Loc, khu 3"), "communes")
+  split <- vnmap:::.vn_split_parent(c("Tan Phu, Dong Nai", "Xuan Loc, khu 3"), "provinces")
   expect_equal(split$name, c("Tan Phu", "Xuan Loc, khu 3"))
   expect_equal(split$hint, c("Dong Nai", NA_character_))
 })
@@ -94,4 +100,76 @@ test_that("vn_match returns one row per input, in order", {
   expect_equal(nrow(got), 4L)
   expect_equal(got$input, x)
   expect_equal(got$code, c("01", NA, "48", NA))
+})
+
+test_that("province_code resolves exactly what it always did", {
+  expect_equal(province_code(c("Đà Nẵng", "Da Nang", "Danang")), rep("48", 3))
+  expect_equal(province_code(c("HCMC", "Sài Gòn")), rep("79", 2))
+  expect_equal(province_code("Tinh Cao Bang"), "04")
+  expect_equal(province_code("Bac Giang", geography = "provinces_63"), "24")
+  expect_error(province_code("Atlantis"), "Unknown")
+})
+
+test_that("an unmatched name is offered the closest unit", {
+  expect_error(province_code("Hanoii"), 'did you mean "Hà Nội" \\(01\\)')
+  expect_error(province_code("Atlantis"), "Unknown province or municipality")
+  # A name with no near neighbour is reported without inventing one.
+  expect_false(grepl("did you mean", tryCatch(province_code("Atlantis"),
+                                              error = conditionMessage)))
+})
+
+test_that("a table prepared for the other geography says so", {
+  msg <- tryCatch(province_code(c("Bac Giang", "Vinh Phuc", "Binh Duong")),
+                  error = conditionMessage)
+  expect_match(msg, "match the pre-July-2025 geography")
+  expect_match(msg, 'geography = "provinces_63"')
+
+  # The check is symmetric but fires in practice only in this direction: the
+  # 2025 reform kept the surviving unit names, so 29 of the 63 former names are
+  # gone from the current geography while only one current name ("Hue") is
+  # absent from the former one -- below the two-name threshold.
+  expect_equal(
+    sum(is.na(vn_match(province_info()$name_en, "provinces_63", max_distance = 0)$code)),
+    1L
+  )
+
+  # One stray name is a typo, not a geography mix-up.
+  one <- tryCatch(province_code(c("Ha Noi", "Hai Phong", "Bac Giang")),
+                  error = conditionMessage)
+  expect_false(grepl("Did you mean geography", one))
+})
+
+test_that("commune_code resolves and refuses to guess", {
+  expect_equal(commune_code("Tan Phu, Dong Nai"), "26116")
+  expect_equal(commune_code("Tan Phu", province = "Dong Nai"), "26116")
+  expect_equal(commune_code("Tinh Bien"), "30520")
+  expect_error(commune_code("Tan Phu"), "matches several units")
+  expect_error(commune_code("Tan Phu"), "Supply `province`")
+})
+
+test_that("the two Thanh Phong communes are distinguishable again", {
+  # Both normalized to "ng" before the prefix fix, so they collided with each
+  # other and with anything else the rule truncated to two letters.
+  expect_equal(commune_code("Thạnh Phong"), "29227")
+  expect_equal(commune_code("Thanh Phong", province = "Thanh Hoa"), "16213")
+  # Written without tone marks they are genuinely two units, and saying so is
+  # the correct answer rather than returning both.
+  expect_error(commune_code("Thanh Phong"), "matches several units")
+})
+
+test_that("an ambiguity a province cannot settle says so instead", {
+  msg <- tryCatch(commune_code("My Tho", province = "Dong Thap"),
+                  error = conditionMessage)
+  expect_match(msg, "differ only by")
+  expect_false(grepl("Supply `province`", msg))
+  expect_equal(commune_code(c("Mỹ Tho", "Mỹ Thọ")), c("28261", "30076"))
+})
+
+test_that("include is narrowed by province before it is matched", {
+  skip_if_not_installed("sf")
+  # Six communes are called Tan Phu, but only one of them is in Dong Nai.
+  expect_equal(nrow(vn_map("communes", province = "Dong Nai", include = "Tan Phu")), 1L)
+  expect_error(vn_map("communes", include = "Tan Phu"), "matches several units")
+  expect_equal(nrow(vn_map("communes", include = "Tan Phu, Dong Nai")), 1L)
+  expect_error(vn_map("communes", include = "Atlantis"), "Unknown commune")
 })

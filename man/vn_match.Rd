@@ -33,9 +33,8 @@ A data frame with one row per element of \code{x}:
 \item{name_vi, name_en, parent_code}{Populated on resolution only.}
 \item{match_type}{How the value resolved: \code{"code"}, \code{"exact"} (with
 diacritics intact), \code{"ascii"} (only after dropping diacritics),
-\code{"token"} (only after sorting words), \code{"loose"} (only after removing
-an administrative prefix written without diacritics), \code{"ambiguous"},
-\code{"fuzzy"}, or \code{"none"}.}
+\code{"loose"} (only after removing an administrative prefix written
+without diacritics), \code{"ambiguous"}, \code{"fuzzy"}, or \code{"none"}.}
 \item{matched_on}{The name or alias that produced the match.}
 \item{distance}{Edit distance, for \code{"fuzzy"} rows.}
 \item{n_candidates, candidates, candidate_names}{The units considered,
@@ -51,8 +50,8 @@ step found it, and which units were considered.
 \details{
 Normalization is attempted in order, stopping at the first step
 that finds anything: administrative codes, then names compared with their
-tone marks intact, then with diacritics removed, then with words sorted,
-then with an undiacriticked administrative prefix removed. Recording the
+tone marks intact, then with diacritics removed, then with an
+undiacriticked administrative prefix removed. Recording the
 step matters because dropping tone marks loses real distinctions: ten
 pairs of communes inside a single province differ only by their
 diacritics, so a \code{"exact"} match is stronger evidence than an \code{"ascii"}

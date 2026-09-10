@@ -10,7 +10,7 @@ TP. Hồ Chí Minh,provinces,,79,exact,abbreviated prefix
 VN-HN,provinces_63,,01,code,ISO 3166-2 code
 Tỉnh Cao Bằng,provinces,,04,exact,tone-marked administrative prefix
 Tinh Cao Bang,provinces,,04,loose,prefix written without diacritics
-Noi Ha,provinces,,01,token,words in the wrong order
+Noi Ha,provinces,,NA,none,word order is not a Vietnamese naming variant
 Bac Giang,provinces_63,,24,exact,unit that the 2025 reform merged away
 Hanoii,provinces,,NA,fuzzy,typo is offered a suggestion and not applied
 Atlantis,provinces,,NA,none,no such unit

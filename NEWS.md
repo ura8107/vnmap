@@ -1,5 +1,44 @@
 # vnmap (development version)
 
+## Name matching
+
+* Administrative prefixes are now removed on tone-marked word boundaries.
+  Previously punctuation was stripped first, so a name whose first syllable
+  resembled a prefix lost it: `Tinh Bien`, `Tinh Khe`, `Tinh Gia` and
+  `Tinh Tuc` were reduced to their second syllable, and both `Thanh Phong` in
+  Thanh Hoa and `Thanh Phong` in Vinh Long normalized to `"ng"`, colliding with
+  each other. The word for province carries a hook above where those names
+  carry a dot below or a tilde, so requiring the tone to agree separates them.
+  Of the 10,807 bundled names and aliases, only the alias
+  `"Thanh pho Ho Chi Minh"` changes, which is the intended case.
+
+  `vn_map("communes", include = )` may therefore return different units than
+  before for the six affected names. The previous result was wrong.
+
+* Names are now compared with their diacritics intact before being folded to
+  ASCII. Ten pairs of communes inside a single province differ only by their
+  tone marks, `My Tho` and `My Tho` in Dong Thap among them, so folding first
+  destroyed a distinction no province could recover.
+
+* Added `vn_match()`, which reports how every name resolves instead of stopping
+  at the first failure: the code found, which normalization step found it,
+  which units were considered, and a suggestion for names that found nothing.
+  Suggestions are never applied, so a typo produces a message rather than a
+  silent substitution.
+
+* `province_code()` resolves exactly what it did before. Its error now names
+  the closest unit for each unmatched value, and, when most of the failures
+  belong to the other geography, says which one to use. That is the usual
+  cause: 29 of the 63 former provincial names no longer exist after the 2025
+  reform, so a table prepared under the old geography fails wholesale.
+
+* Added `commune_code()`. Commune names are not unique -- 314 of them are used
+  by more than one province -- so a shared name is now an error listing every
+  candidate rather than an arbitrary choice. Resolve it with `province`, or by
+  writing the value as `"Tan Phu, Dong Nai"`. `vn_map("communes", include = )`
+  applies the same rule, after any `province` filter, so a name that is unique
+  within the requested province still resolves.
+
 ## Industrial parks
 
 * `industrial_parks()` gains a `category` argument separating khu cong nghiep,

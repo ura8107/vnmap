@@ -1,6 +1,6 @@
 # Design note 001: name matching and machine-readable provenance
 
-Status: accepted, not yet implemented
+Status: accepted; workstream A implemented, workstream B outstanding
 Date: 2026-09-10
 Scope: `R/codes.R`, `R/vn-map.R`, `inst/extdata/manifest.json`, `tests/testthat/`
 
@@ -100,9 +100,20 @@ unit whose name *begins* with those syllables is truncated:
 | Thanh Phong (Ben Tre) | `ng` | `thanhphong` |
 | Tinh Khe (Quang Ngai) | `khe` | `tinhkhe` |
 
-No provincial-level unit is affected, so this has never surfaced. It
-becomes a collision hazard once the 3,321-unit commune layer is matched
-through the same function, which `.match_units()` in `R/vn-map.R` does.
+Measured against the bundled layer, six communes are affected: the four
+above plus `Tinh Tuc` in Cao Bang, and `Thanh Phong` in Thanh Hoa
+together with `Thanh Phong` in Vinh Long, which both reduce to `ng` and
+so collide with each other. No provincial-level unit is affected, which
+is why this never surfaced before the commune layer was bundled and
+matched through the same function by `.match_units()`.
+
+Tokenising before stripping is not sufficient: the first syllable really
+is a separate word. What separates the two uses is the tone. The word
+for province carries a hook above; these names carry a dot below or a
+tilde. The same holds for the word for city against `Thanh Phong`. So
+prefix removal must compare tone-marked forms. Checked across all 10,807
+bundled names and aliases, exactly one is affected by that rule --- the
+alias `"Thanh pho Ho Chi Minh"` --- which is the intended case.
 
 Prefix stripping must run on token boundaries, before punctuation is
 removed. Fixing it changes normalisation output for affected inputs and
@@ -118,11 +129,18 @@ diagnostic.
 ### 5.1 Three-stage normalisation
 
 ```r
-.vn_norm(x)    # NFC, token-wise prefix removal, lowercase, punctuation removal.
-               # Tone marks preserved.  "Tinh Bien" -> "tinhbien"
-.vn_key(x)     # .vn_norm() then Latin-ASCII.  Existing name and role, prefix bug fixed.
-.vn_tokens(x)  # ASCII, split into words, sorted, rejoined.  Absorbs word-order variation.
+.vn_norm(x)       # NFC, tone-exact prefix removal, lowercase, punctuation removed.
+                  # Tone marks preserved.  "Tinh Bien" -> "tinhbien"
+.vn_key(x)        # .vn_norm() folded to ASCII. Existing name and role, defect fixed.
+.vn_key_loose(x)  # ASCII, leading prefix removed tone-blind. Destructive; last resort.
 ```
+
+A caller who writes `"Tinh Cao Bang"` without diacritics gives the
+matcher nothing to compare the tone against. Stripped of tones that
+prefix is indistinguishable from the first syllable of `Tinh Bien`, so
+the loose key cannot be used as a general normaliser. It is consulted
+only after the tone-preserving and ASCII keys have both failed, by which
+point `Tinh Bien` has already resolved and never reaches it.
 
 Prefixes removed as whole tokens: `tinh`, `thanh pho`, `tp`, `xa`,
 `phuong`, `thi tran`, `thi xa`, `quan`, `huyen`.
@@ -150,7 +168,8 @@ Returns a data frame with one row per element of `x`:
 | `input` | the string supplied |
 | `code` | resolved code, `NA` when unresolved |
 | `name_vi`, `name_en`, `parent_code` | populated on resolution only |
-| `match_type` | `code`, `exact`, `alias`, `ascii`, `token`, `fuzzy`, `ambiguous`, `none` |
+| `match_type` | `code`, `exact`, `ascii`, `loose`, `fuzzy`, `ambiguous`, `none` |
+| `matched_on` | the name or alias that produced the match |
 | `distance` | edit distance, for `fuzzy` only |
 | `n_candidates` | number of candidates considered |
 | `candidates` | `\|`-separated codes |
@@ -165,21 +184,22 @@ Cascade, stopping at the first step that resolves:
 ```
 1. direct code or ISO match              -> "code"
 2. .vn_norm() exact match (tones kept)   -> "exact"
-3. alias table                           -> "alias"
-4. .vn_key() match (tones dropped)       -> "ascii"
-5. .vn_tokens() match (word order)       -> "token"
-6. Levenshtein <= max_distance           -> "fuzzy"
+3. .vn_key() match (tones dropped)       -> "ascii"
+4. .vn_key_loose() match (prefix)        -> "loose"
+5. Levenshtein <= max_distance           -> "fuzzy"
 ```
 
-- Steps 2-5 yielding several candidates give `match_type = "ambiguous"`
+- Steps 2-4 yielding several candidates give `match_type = "ambiguous"`
   and `code = NA`, with every candidate listed.
-- When `parent` is supplied, candidates from steps 2-5 are filtered by
+- When `parent` is supplied, candidates from steps 2-4 are filtered by
   parent code; resolution to exactly one keeps that step's `match_type`.
+  A name that exists but not under the requested parent reports `"none"`
+  with the units it does name, so the message can say where it is.
 - `"Tan Phu, Dong Nai"` and `"Tan Phu (Dong Nai)"` are split **only
   when the trailing part is an existing province name**, mirroring the
   `isParentName()` guard in `maps.js`. Without that guard, strings such
   as `"Xuan Loc, khu 3"` are mis-split.
-- **Step 6 never resolves.** `code` stays `NA` and candidates are
+- **Step 5 never resolves.** `code` stays `NA` and candidates are
   reported. This is what "strict is preserved" means in code.
 
 ### 5.3 `province_code()`
@@ -326,6 +346,33 @@ hand-maintained, with only `md5` and `n_features` filled in by
   OpenStreetMap and the General Statistics Office under `references`,
   following the pattern in `india-geodata`.
 - Add `vn_match`, `commune_code` and `vn_provenance` to `_pkgdown.yml`.
+
+## 6a. Changed during implementation
+
+Two parts of the design above did not survive contact with the data.
+
+**The word-order stage was dropped.** `maps.js` sorts words apart so
+that `24 Parganas North` matches `North 24 Parganas`. That is a real
+Indian naming pattern; Vietnamese place names have a fixed word order,
+and the stage only manufactured matches. It resolved `"Noi Ha"` to Ha
+Noi, which is wrong. Removing it also keeps `province_code()`'s
+success/failure boundary where it was, which the accepted design
+required. Not every borrowed rule transfers, and this one did not.
+
+**`alias` is not a `match_type`.** Whether a value matched the canonical
+name or some other alias is orthogonal to how it was normalised, and
+collapsing the two into one enum loses information. `match_type` now
+reports the normalisation step only, and a `matched_on` column gives the
+alias text that produced the hit, which is strictly more than the
+original design carried.
+
+One asymmetry is worth recording. The geography-confusion check in 5.5
+is written symmetrically but fires in practice in one direction only:
+the 2025 reform kept the surviving unit names, so 29 of the 63 former
+names are gone from the current geography while just one current name,
+`Hue`, is absent from the former one --- below the two-name threshold.
+The reverse branch is retained because it is cheap and a later reform
+could change the picture, but it is effectively unreachable today.
 
 ## 7. Decisions
 

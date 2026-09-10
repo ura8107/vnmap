@@ -75,14 +75,3 @@
   ascii <- tolower(stringi::stri_trans_general(.vn_words(x), "Latin-ASCII"))
   gsub("[^a-z0-9]", "", .vn_cut_prefix(ascii, .vn_prefix_ascii))
 }
-
-# ASCII key with the words sorted, so word order does not matter. Built on the
-# prefix-cut form so that "Tinh Cao Bang" and "Cao Bang" agree here too.
-.vn_tokens <- function(x) {
-  w <- .vn_cut_prefix(.vn_words(x), .vn_prefix_words)
-  ascii <- tolower(stringi::stri_trans_general(w, "Latin-ASCII"))
-  ascii <- gsub("[^a-z0-9 ]", "", ascii)
-  vapply(strsplit(ascii, " +"), function(w) {
-    paste(sort(w[nzchar(w)]), collapse = "")
-  }, character(1), USE.NAMES = FALSE)
-}
