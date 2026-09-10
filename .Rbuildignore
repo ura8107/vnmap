@@ -14,3 +14,5 @@
 ^inst/extdata/communes_63\.rds$
 ^app-assets$
 ^Makefile$
+^design$
+^CITATION\.cff$

@@ -1,0 +1,28 @@
+input,geography,parent,expect_code,expect_type,note
+Ha Noi,provinces,,01,exact,English name
+Hà Nội,provinces,,01,exact,Vietnamese name with diacritics
+Hanoi,provinces,,01,exact,alias without a space
+HCMC,provinces,,79,exact,abbreviation alias
+Sài Gòn,provinces,,79,exact,historical alias
+Thành phố Hồ Chí Minh,provinces,,79,exact,canonical name carrying its own prefix
+TP. Hồ Chí Minh,provinces,,79,exact,abbreviated prefix
+48,provinces,,48,code,administrative code
+VN-HN,provinces_63,,01,code,ISO 3166-2 code
+Tỉnh Cao Bằng,provinces,,04,exact,tone-marked administrative prefix
+Tinh Cao Bang,provinces,,04,loose,prefix written without diacritics
+Noi Ha,provinces,,NA,none,word order is not a Vietnamese naming variant
+Bac Giang,provinces_63,,24,exact,unit that the 2025 reform merged away
+Hanoii,provinces,,NA,fuzzy,typo is offered a suggestion and not applied
+Atlantis,provinces,,NA,none,no such unit
+Tịnh Biên,communes,,30520,exact,first syllable is not the word for province
+Tĩnh Túc,communes,,01729,exact,first syllable is not the word for province
+Tịnh Khê,communes,,21211,exact,first syllable is not the word for province
+Thạnh Phong,communes,,29227,exact,first syllable is not the word for city
+Mỹ Tho,communes,,28261,exact,tone marks separate this from My Tho
+Mỹ Thọ,communes,,30076,exact,tone marks separate this from My Tho
+My Tho,communes,,NA,ambiguous,without tones the two are indistinguishable
+Tân Phú,communes,,NA,ambiguous,name is used by six communes
+"Tân Phú, Đồng Nai",communes,,26116,exact,parent given in the name
+Tân Phú (Đồng Nai),communes,,26116,exact,parent given in parentheses
+Tân Phú,communes,Đồng Nai,26116,exact,parent given as an argument
+Tân Phú (Ha Noi),communes,,NA,none,name exists but not in that province

@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "package_version": "0.2.0",
+  "layers": [
+    {
+      "layer": "provinces",
+      "file": "extdata/provinces.rds",
+      "storage": "extdata",
+      "title": "Current provincial-level units",
+      "description": "The 34 provincial-level administrative units effective from 1 July 2025, dissolved from the bundled commune layer so that parent and child boundaries share one source.",
+      "md5": "bbaa3a818f0a4c14b025475c1c5b7c35",
+      "n_features": 34,
+      "crs": "EPSG:4326",
+      "geometry_vintage": "2026-07-25",
+      "geometry_accuracy": "generalized to 100 m",
+      "administrative_basis": "Decision 19/2025/QD-TTg, effective 2025-07-01",
+      "source": {
+        "name": "Vietnamese Provinces Database",
+        "url": "https://github.com/thanglequoc/vietnamese-provinces-database",
+        "ref": "cd58063299585146ded3981f2272946ef19ced54",
+        "license": "MIT",
+        "upstream": "Viet Nam Administrative Units Reference Map"
+      },
+      "build_script": "data-raw/build_communes.R"
+    },
+    {
+      "layer": "communes",
+      "file": "extdata/communes.rds",
+      "storage": "extdata",
+      "title": "Current commune-level units",
+      "description": "The 3,321 commune-level units in the 25 July 2026 catalogue snapshot, carrying validity, vintage, source and geometry-accuracy columns.",
+      "md5": "996e4994ff6e7bbc952531203c0a10d2",
+      "n_features": 3321,
+      "crs": "EPSG:4326",
+      "geometry_vintage": "2026-07-25",
+      "geometry_accuracy": "generalized to 100 m",
+      "administrative_basis": "Decision 19/2025/QD-TTg, effective 2025-07-01",
+      "source": {
+        "name": "Vietnamese Provinces Database",
+        "url": "https://github.com/thanglequoc/vietnamese-provinces-database",
+        "ref": "cd58063299585146ded3981f2272946ef19ced54",
+        "license": "MIT",
+        "upstream": "Viet Nam Administrative Units Reference Map"
+      },
+      "build_script": "data-raw/build_communes.R"
+    },
+    {
+      "layer": "provinces_63",
+      "file": "extdata/provinces_63.rds",
+      "storage": "extdata",
+      "title": "Pre-reform provincial-level units",
+      "description": "The 63 provincial-level units as they stood before the July 2025 reform, retained for data collected under that geography.",
+      "md5": "0ce0cd91035957175c17400238ef0e5a",
+      "n_features": 63,
+      "crs": "EPSG:3405",
+      "geometry_vintage": "2008 (represented year); upstream build 2023-12-12",
+      "geometry_accuracy": "simplified upstream; statistical graphics only",
+      "administrative_basis": "Provincial geography in force before 2025-07-01",
+      "source": {
+        "name": "geoBoundaries",
+        "url": "https://www.geoboundaries.org/",
+        "ref": "VNM-ADM1-63759600",
+        "license": "Public Domain",
+        "upstream": null
+      },
+      "build_script": "data-raw/build_data.R"
+    },
+    {
+      "layer": "provinces_info",
+      "file": "extdata/provinces_info.rds",
+      "storage": "extdata",
+      "title": "Current provincial lookup table",
+      "description": "Codes, ISO codes, Vietnamese and English names, unit type and matching aliases for the current 34 units. Carries no geometry, so name lookups work without 'sf'.",
+      "md5": "cbe2a8215c15c32e3529e4e1e21792a7",
+      "n_features": 34,
+      "crs": null,
+      "geometry_vintage": null,
+      "geometry_accuracy": null,
+      "administrative_basis": "Decision 19/2025/QD-TTg, effective 2025-07-01",
+      "source": {
+        "name": "Decision 19/2025/QD-TTg names and codes, compiled by vnmap",
+        "url": "https://vanban.chinhphu.vn/",
+        "ref": "data-raw/provinces_34.csv",
+        "license": "Factual metadata; legal texts are linked, not redistributed",
+        "upstream": null
+      },
+      "build_script": "data-raw/build_data.R"
+    },
+    {
+      "layer": "provinces_63_info",
+      "file": "extdata/provinces_63_info.rds",
+      "storage": "extdata",
+      "title": "Pre-reform provincial lookup table",
+      "description": "Codes, ISO 3166-2 codes, names, unit type and matching aliases for the 63 pre-reform units.",
+      "md5": "32cf7847706df99f22252684926af3bc",
+      "n_features": 63,
+      "crs": null,
+      "geometry_vintage": null,
+      "geometry_accuracy": null,
+      "administrative_basis": "Provincial geography in force before 2025-07-01",
+      "source": {
+        "name": "Pre-2025 official names and codes, compiled by vnmap",
+        "url": "https://vanban.chinhphu.vn/",
+        "ref": "data-raw/provinces_63.csv",
+        "license": "Factual metadata; legal texts are linked, not redistributed",
+        "upstream": null
+      },
+      "build_script": "data-raw/build_data.R"
+    },
+    {
+      "layer": "regions",
+      "file": "extdata/regions.rds",
+      "storage": "extdata",
+      "title": "Socio-economic region assignments",
+      "description": "The six-region scheme for both geographies. Assignments for the 63 units are official; those for the 34 current units are derived by placing each 2025 unit in the region holding the largest share of its 2024 population.",
+      "md5": "d81c5fa5627d485a60c1bac3252551a5",
+      "n_features": 97,
+      "crs": null,
+      "geometry_vintage": null,
+      "geometry_accuracy": null,
+      "administrative_basis": "Six-region scheme of the General Statistics Office of Viet Nam",
+      "source": {
+        "name": "General Statistics Office of Viet Nam",
+        "url": "https://www.nso.gov.vn/",
+        "ref": "data-raw/regions_63.csv",
+        "license": "Factual metadata compiled by vnmap",
+        "upstream": null
+      },
+      "build_script": "data-raw/build_regions.R"
+    },
+    {
+      "layer": "infrastructure",
+      "file": "extdata/infrastructure.rds",
+      "storage": "extdata",
+      "title": "Transport facilities and trunk network",
+      "description": "Aerodrome, port and border-control entities together with nationwide trunk-network segments. Community mapping, not an official transport register.",
+      "md5": "6706f33aacbd965da49c2155cd9084ce",
+      "n_features": 34191,
+      "crs": "EPSG:4326",
+      "geometry_vintage": "OSM base 2026-07-09; retrieved 2026-08-11",
+      "geometry_accuracy": "network lines generalized to 100 m",
+      "administrative_basis": null,
+      "source": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/copyright",
+        "ref": "Overpass snapshot 2026-08-11; Geofabrik vietnam-260810.osm.pbf",
+        "license": "ODbL-1.0",
+        "upstream": null
+      },
+      "build_script": "data-raw/build_infrastructure.R"
+    },
+    {
+      "layer": "industrial_parks",
+      "file": "extdata/industrial_parks.rds",
+      "storage": "extdata",
+      "title": "Industrial parks and zones",
+      "description": "Industrial parks, export processing zones, high-tech parks and industrial clusters read from OpenStreetMap and audited against the Foreign Investment Agency baseline of 16 November 2025.",
+      "md5": "4cf68fda9619b6e05e0c4209132831f7",
+      "n_features": 422,
+      "crs": "EPSG:4326",
+      "geometry_vintage": "OSM snapshot 2026-08-31",
+      "geometry_accuracy": "community mapping; coverage gaps are explicit",
+      "administrative_basis": null,
+      "source": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/copyright",
+        "ref": "source/osm-industrial-parks-2026-08-31.json.gz",
+        "license": "ODbL-1.0",
+        "upstream": "Baseline counts: Foreign Investment Agency, Ministry of Finance, 2025-11-16"
+      },
+      "build_script": "data-raw/build_industrial_parks.R"
+    },
+    {
+      "layer": "economic_zones",
+      "file": "extdata/economic_zones.rds",
+      "storage": "extdata",
+      "title": "Economic and policy zones",
+      "description": "An evidence-graded catalogue of coastal economic zones, border-gate economic zones, export processing zones and high-tech parks. Only rows joining the instrument table to a verified official establishment URL are labelled established.",
+      "md5": "3f6adb718612d5d03f1ae511f5f4b398",
+      "n_features": 52,
+      "crs": "EPSG:4326",
+      "geometry_vintage": "Representative points derived from the bundled pre-2025 province geometry",
+      "geometry_accuracy": "representative points only; not boundaries or site locations",
+      "administrative_basis": "Establishment decisions recorded in data-raw/economic-zone-legal-instruments.csv",
+      "source": {
+        "name": "Government legal-document portal of Viet Nam",
+        "url": "https://vanban.chinhphu.vn/",
+        "ref": "data-raw/economic-zone-legal-instruments.csv",
+        "license": "Factual metadata; legal texts are linked, not redistributed",
+        "upstream": null
+      },
+      "build_script": "data-raw/build_economic_zones.R"
+    },
+    {
+      "layer": "province_stats_2024",
+      "file": "data/province_stats_2024.rda",
+      "storage": "lazydata",
+      "title": "Provincial statistics 2024, current geography",
+      "description": "Area, average population, density and GRDP per capita for the 34 current units, aggregated from the 63-unit geography in which the statistics were published.",
+      "md5": "3a85606d6eb4a37acd01b930a36f1b70",
+      "n_features": 34,
+      "crs": null,
+      "geometry_vintage": null,
+      "geometry_accuracy": null,
+      "administrative_basis": "Decision 19/2025/QD-TTg, effective 2025-07-01",
+      "source": {
+        "name": "General Statistics Office of Viet Nam, PX-Web",
+        "url": "https://pxweb.nso.gov.vn/",
+        "ref": "Accessed 2026-07-13",
+        "license": "Unspecified",
+        "upstream": null
+      },
+      "build_script": "data-raw/fetch_nso_stats.R"
+    },
+    {
+      "layer": "province_stats_2024_63",
+      "file": "data/province_stats_2024_63.rda",
+      "storage": "lazydata",
+      "title": "Provincial statistics 2024, pre-reform geography",
+      "description": "The same indicators as published, on the 63-unit geography, before any aggregation.",
+      "md5": "b7278bcae89171de103d19d74247c588",
+      "n_features": 63,
+      "crs": null,
+      "geometry_vintage": null,
+      "geometry_accuracy": null,
+      "administrative_basis": "Provincial geography in force before 2025-07-01",
+      "source": {
+        "name": "General Statistics Office of Viet Nam, PX-Web",
+        "url": "https://pxweb.nso.gov.vn/",
+        "ref": "Accessed 2026-07-13",
+        "license": "Unspecified",
+        "upstream": null
+      },
+      "build_script": "data-raw/fetch_nso_stats.R"
+    }
+  ]
+}

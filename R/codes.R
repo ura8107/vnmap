@@ -1,9 +1,3 @@
-.vn_key <- function(x) {
-  x <- stringi::stri_trans_general(as.character(x), "Latin-ASCII")
-  x <- tolower(gsub("[^a-zA-Z0-9]", "", x))
-  sub("^(tinh|thanhpho)", "", x)
-}
-
 .vn_info <- function(geography) {
   file <- system.file("extdata", paste0(geography, "_info.rds"), package = "vnmap")
   if (!nzchar(file)) stop("Bundled province metadata could not be found.", call. = FALSE)
@@ -33,12 +27,17 @@
 #' @details Input is matched case-insensitively after punctuation, whitespace,
 #'   administrative prefixes, and Vietnamese diacritics are normalized.
 #'   Common aliases such as `"Hanoi"`, `"Danang"`, `"HCMC"`, and `"Saigon"`
-#'   are supported. An error lists any values that cannot be matched.
+#'   are supported.
+#'
+#'   Values that cannot be matched raise an error naming each one, together
+#'   with the closest units when there are any and, when most of the failures
+#'   belong to the other geography, a note saying so. Suggestions are never
+#'   applied; use [vn_match()] to inspect matches without raising an error.
 #'
 #'   Codes are geography-specific. For example, a former province that was
 #'   merged in 2025 can be found only with `geography = "provinces_63"`.
 #'
-#' @seealso [province_info()], [vn_map()]
+#' @seealso [vn_match()], [province_info()], [vn_map()]
 #'
 #' @examples
 #' province_code(c("Da Nang", "Danang", "48"))
@@ -47,18 +46,9 @@
 #' @export
 province_code <- function(x, geography = c("provinces", "provinces_63")) {
   geography <- match.arg(geography)
-  info <- .vn_info(geography)
-  aliases <- unlist(strsplit(info$aliases, "\\|", fixed = FALSE))
-  rows <- rep(seq_len(nrow(info)), lengths(strsplit(info$aliases, "\\|", fixed = FALSE)))
-  iso_ok <- !is.na(info$iso) & nzchar(info$iso)
-  keys <- c(.vn_key(aliases), .vn_key(info$code), .vn_key(info$iso[iso_ok]))
-  vals <- c(info$code[rows], info$code, info$code[iso_ok])
-  answer <- unname(vals[match(.vn_key(x), keys)])
-  if (anyNA(answer)) {
-    bad <- unique(as.character(x)[is.na(answer)])
-    stop("Unknown province or municipality: ", paste(bad, collapse = ", "), call. = FALSE)
-  }
-  answer
+  got <- vn_match(x, geography)
+  if (anyNA(got$code)) stop(.vn_unmatched_message(got, geography), call. = FALSE)
+  got$code
 }
 
 #' Retrieve metadata for Vietnamese provincial units

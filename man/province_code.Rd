@@ -23,7 +23,12 @@ English names, two-digit codes, and ISO 3166-2 codes are accepted.
 Input is matched case-insensitively after punctuation, whitespace,
 administrative prefixes, and Vietnamese diacritics are normalized.
 Common aliases such as \code{"Hanoi"}, \code{"Danang"}, \code{"HCMC"}, and \code{"Saigon"}
-are supported. An error lists any values that cannot be matched.
+are supported.
+
+Values that cannot be matched raise an error naming each one, together
+with the closest units when there are any and, when most of the failures
+belong to the other geography, a note saying so. Suggestions are never
+applied; use \code{\link[=vn_match]{vn_match()}} to inspect matches without raising an error.
 
 Codes are geography-specific. For example, a former province that was
 merged in 2025 can be found only with \code{geography = "provinces_63"}.
@@ -34,5 +39,5 @@ province_code(c("HCMC", "Saigon"))
 province_code("Bac Giang", geography = "provinces_63")
 }
 \seealso{
-\code{\link[=province_info]{province_info()}}, \code{\link[=vn_map]{vn_map()}}
+\code{\link[=vn_match]{vn_match()}}, \code{\link[=province_info]{province_info()}}, \code{\link[=vn_map]{vn_map()}}
 }

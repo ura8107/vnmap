@@ -1,5 +1,72 @@
 # vnmap (development version)
 
+## Name matching
+
+* Administrative prefixes are now removed on tone-marked word boundaries.
+  Previously punctuation was stripped first, so a name whose first syllable
+  resembled a prefix lost it: `Tinh Bien`, `Tinh Khe`, `Tinh Gia` and
+  `Tinh Tuc` were reduced to their second syllable, and both `Thanh Phong` in
+  Thanh Hoa and `Thanh Phong` in Vinh Long normalized to `"ng"`, colliding with
+  each other. The word for province carries a hook above where those names
+  carry a dot below or a tilde, so requiring the tone to agree separates them.
+  Of the 10,807 bundled names and aliases, only the alias
+  `"Thanh pho Ho Chi Minh"` changes, which is the intended case.
+
+  `vn_map("communes", include = )` may therefore return different units than
+  before for the six affected names. The previous result was wrong.
+
+* Names are now compared with their diacritics intact before being folded to
+  ASCII. Ten pairs of communes inside a single province differ only by their
+  tone marks, `My Tho` and `My Tho` in Dong Thap among them, so folding first
+  destroyed a distinction no province could recover.
+
+* Added `vn_match()`, which reports how every name resolves instead of stopping
+  at the first failure: the code found, which normalization step found it,
+  which units were considered, and a suggestion for names that found nothing.
+  Suggestions are never applied, so a typo produces a message rather than a
+  silent substitution.
+
+* `province_code()` resolves exactly what it did before. Its error now names
+  the closest unit for each unmatched value, and, when most of the failures
+  belong to the other geography, says which one to use. That is the usual
+  cause: 29 of the 63 former provincial names no longer exist after the 2025
+  reform, so a table prepared under the old geography fails wholesale.
+
+* Added `commune_code()`. Commune names are not unique -- 314 of them are used
+  by more than one province -- so a shared name is now an error listing every
+  candidate rather than an arbitrary choice. Resolve it with `province`, or by
+  writing the value as `"Tan Phu, Dong Nai"`. `vn_map("communes", include = )`
+  applies the same rule, after any `province` filter, so a name that is unique
+  within the requested province still resolves.
+
+## Provenance
+
+* Added `inst/extdata/manifest.json`, a machine-readable record of every
+  bundled dataset: its source, licence and upstream reference, the vintage of
+  the geometry, how far it has been generalized, the administrative decision
+  its units follow, and the script that builds it. Provenance was previously
+  spread across prose in `data-raw/README.md`, `inst/COPYRIGHTS`, checksum CSVs
+  and the Rd documentation, and none of it was checked against the data.
+
+* Added `vn_provenance()`, which returns that record as a data frame. Geometry
+  in this package comes from more than one upstream source, so the vintage
+  belongs to the layer rather than to the package: the current provincial and
+  commune layers share a 2026 observed snapshot, while the pre-reform
+  provincial layer is derived from geoBoundaries geometry whose represented
+  year is 2008.
+
+* The test suite now checks the manifest against the data it describes: every
+  described file exists, checksums and row counts match, and no bundled dataset
+  is left undescribed. A layer rebuilt without running `make manifest`
+  therefore fails rather than quietly describing the previous build.
+
+* `inst/CITATION` reported version 0.1.0 regardless of the installed version.
+  It now reads the version from `DESCRIPTION`.
+
+* Added `CITATION.cff`, listing the upstream data sources alongside the
+  package itself.
+
+
 ## Industrial parks
 
 * `industrial_parks()` gains a `category` argument separating khu cong nghiep,
