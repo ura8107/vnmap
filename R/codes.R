@@ -1,9 +1,3 @@
-.vn_key <- function(x) {
-  x <- stringi::stri_trans_general(as.character(x), "Latin-ASCII")
-  x <- tolower(gsub("[^a-zA-Z0-9]", "", x))
-  sub("^(tinh|thanhpho)", "", x)
-}
-
 .vn_info <- function(geography) {
   file <- system.file("extdata", paste0(geography, "_info.rds"), package = "vnmap")
   if (!nzchar(file)) stop("Bundled province metadata could not be found.", call. = FALSE)
