@@ -81,6 +81,21 @@ official$key <- park_key(official$name_vi)
 official$key <- park_key(sub("^.*?((KCN|Khu công nghiệp|CCN|Cụm công nghiệp) )", "\\1", official$name_vi))
 official$province_source_url <- ifelse(is.na(official$province_code), NA_character_, official$source_url)
 official$province_match_method <- ifelse(is.na(official$province_code), "unknown", "official_location_or_url_prefix")
+# The environment agency's dedicated province column is stronger evidence than
+# transport narratives. Only a globally unique exact park name supplies a province.
+# Parenthetical phases may be ignored for province evidence, never for identity.
+vea <- read_chars(file.path(root, "vea-registry-2023.csv"))
+vea$key <- park_key(vea$name_vi)
+vea$province_code <- vapply(vea$province_vi, province_from_text, "")
+vea$province_key <- park_key(gsub("\\([^)]*\\)", "", vea$name_vi))
+for (i in seq_len(nrow(official))) {
+  h <- which(vea$province_key == official$key[i])
+  if (length(h) == 1L && !is.na(vea$province_code[h])) {
+    official$province_code[i] <- vea$province_code[h]
+    official$province_source_url[i] <- vea$source_url[h]
+    official$province_match_method[i] <- "environment_agency_unique_name_province_column"
+  }
+}
 discovery <- read_chars(file.path(root, "kcn-kkt-2026-09-10.csv"))
 discovery_keys <- park_key(discovery$ten)
 discovery_provinces <- vapply(discovery$tinhTen, province_from_text, "")
@@ -175,7 +190,30 @@ for (i in seq_len(nrow(discovery_rows))) {
     discovery_rows$match_method[i] <- "discovery_exact_alias_and_province_not_legal_verification"
   } else if (length(h)) discovery_rows$match_method[i] <- "review_ambiguous"
 }
-sources <- rbind(official, discovery_rows[names(official)])
+vea_rows <- official[rep(1L, nrow(vea)), ]
+vea_rows$source_record_id <- paste0("vea-2023-", vea$source_id)
+vea_rows$name_vi <- vea$name_vi
+vea_rows$category <- category(vea$name_vi)
+vea_rows$category[vea_rows$category == "unclassified"] <- "industrial_park"
+vea_rows$province_code <- vea$province_code
+vea_rows$source <- "Vietnam Environment Agency (2023)"
+vea_rows$source_url <- vea$source_url
+vea_rows$retrieved_on <- vea$retrieved_on
+vea_rows$location_text <- vea$address
+vea_rows$reported_longitude <- vea_rows$reported_latitude <- NA_real_
+vea_rows$key <- vea$key
+vea_rows$province_source_url <- vea$source_url
+vea_rows$province_match_method <- "environment_agency_province_column"
+vea_rows$map_id <- NA_character_
+vea_rows$match_method <- "unresolved"
+for (i in seq_len(nrow(vea_rows))) {
+  h <- lookup(vea_rows$key[i], vea_rows$province_code[i], vea_rows$category[i])
+  if (length(h) == 1L && !is.na(vea_rows$province_code[i])) {
+    vea_rows$map_id[i] <- parks$id[h]
+    vea_rows$match_method[i] <- "environment_agency_exact_alias_and_province"
+  }
+}
+sources <- rbind(official, discovery_rows[names(official)], vea_rows)
 sources$coordinate_available <- !is.na(sources$map_id)
 sources$legal_status <- "not_verified"
 sources$review_status <- ifelse(sources$coordinate_available, "linked_to_mapped_site", "needs_identity_or_location_review")
@@ -201,7 +239,7 @@ for (i in has_reported) {
   h <- st_intersects(point, boundaries)[[1]]
   sources$reported_coordinate_check[i] <- if (sources$province_code[i] %in% boundaries$code[h]) "province_consistent_unverified" else "province_conflict_not_used"
 }
-stopifnot(nrow(sources) == nrow(feed) + nrow(discovery), !anyDuplicated(sources$source_record_id),
+stopifnot(nrow(sources) == nrow(feed) + nrow(discovery) + nrow(vea), !anyDuplicated(sources$source_record_id),
           !anyDuplicated(parks$id), all(st_is_valid(parks)),
           all(is.na(sources$longitude[!sources$coordinate_available])))
 saveRDS(parks, "inst/extdata/industrial_parks.rds", compress = "xz")
