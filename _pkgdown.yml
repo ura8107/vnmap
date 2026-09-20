@@ -36,6 +36,7 @@ reference:
   - province_stats_2024
   - province_stats_2024_63
   - industrial_parks_data
+  - industrial_park_sources
 - title: Administrative crosswalk
   desc: Relate the 2025 units to their predecessors.
   contents:
