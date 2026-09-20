@@ -32,8 +32,16 @@ jobs:
           http-user-agent: ${{ matrix.config.http-user-agent }}
           use-public-rspm: true
       - uses: r-lib/actions/setup-r-dependencies@v2
+        if: runner.os != 'macOS'
         with:
-          # Avoid the unreadable knitr 1.52 macOS binary archive.
-          extra-packages: any::rcmdcheck, knitr=?source
+          extra-packages: any::rcmdcheck
           needs: check
+      - name: Install macOS dependencies
+        if: runner.os == 'macOS'
+        shell: Rscript {0}
+        run: |
+          # R's native installer supports CRAN's zstd binaries; pak does not yet.
+          fields <- read.dcf("DESCRIPTION")[1, c("Imports", "Suggests")]
+          deps <- trimws(sub("\\s*\\(.*", "", unlist(strsplit(paste(fields, collapse = ","), ","))))
+          install.packages(c("rcmdcheck", deps), type = "binary")
       - uses: r-lib/actions/check-r-package@v2
