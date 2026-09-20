@@ -60,6 +60,9 @@ Bundled provincial statistics and layer documentation.
   geography
 - [`industrial_parks_data`](https://ura8107.github.io/vnmap/reference/industrial_parks_data.md)
   : Vietnamese industrial parks with mapped locations
+- [`industrial_park_sources()`](https://ura8107.github.io/vnmap/reference/industrial_park_sources.md)
+  [`industrial_park_source_coverage()`](https://ura8107.github.io/vnmap/reference/industrial_park_sources.md)
+  : Inspect complete industrial-park source lists and unresolved records
 
 ## Administrative crosswalk
 

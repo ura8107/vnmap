@@ -220,7 +220,7 @@ either the best available geometry, polygons only, or representative
 points.</p>
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="../reference/industrial_parks.html">industrial_parks</a></span><span class="op">(</span>province <span class="op">=</span> <span class="st">"Dong Nai"</span>, geometry <span class="op">=</span> <span class="st">"point"</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="co">#&gt; Simple feature collection with 6 features and 20 fields</span></span>
+<span><span class="co">#&gt; Simple feature collection with 6 features and 21 fields</span></span>
 <span><span class="co">#&gt; Geometry type: POINT</span></span>
 <span><span class="co">#&gt; Dimension:     XY</span></span>
 <span><span class="co">#&gt; Bounding box:  xmin: 674824.8 ymin: 1192445 xmax: 721647.4 ymax: 1269430</span></span>
@@ -239,20 +239,13 @@ points.</p>
 <span><span class="co">#&gt; 274                    &lt;NA&gt;                            &lt;NA&gt; industrial_park</span></span>
 <span><span class="co">#&gt; 275                    &lt;NA&gt;                            &lt;NA&gt; industrial_park</span></span>
 <span><span class="co">#&gt; 276 Bau Xeo Industrial Park         Bau Xeo Industrial Park industrial_park</span></span>
-<span><span class="co">#&gt;     province_code province_en former_province_code      status  area_ha</span></span>
-<span><span class="co">#&gt; 271            75    Dong Nai                   75     unknown       NA</span></span>
-<span><span class="co">#&gt; 272            75    Dong Nai                   70 operational 246.3112</span></span>
-<span><span class="co">#&gt; 273            75    Dong Nai                   75 operational 600.1156</span></span>
-<span><span class="co">#&gt; 274            75    Dong Nai                   70 operational 167.1046</span></span>
-<span><span class="co">#&gt; 275            75    Dong Nai                   70 operational 408.1200</span></span>
-<span><span class="co">#&gt; 276            75    Dong Nai                   75 operational 524.0327</span></span>
-<span><span class="co">#&gt;     developer</span></span>
-<span><span class="co">#&gt; 271      &lt;NA&gt;</span></span>
-<span><span class="co">#&gt; 272      &lt;NA&gt;</span></span>
-<span><span class="co">#&gt; 273      &lt;NA&gt;</span></span>
-<span><span class="co">#&gt; 274      &lt;NA&gt;</span></span>
-<span><span class="co">#&gt; 275      &lt;NA&gt;</span></span>
-<span><span class="co">#&gt; 276      &lt;NA&gt;</span></span>
+<span><span class="co">#&gt;     province_code province_en former_province_code  status  area_ha developer</span></span>
+<span><span class="co">#&gt; 271            75    Dong Nai                   75 unknown       NA      &lt;NA&gt;</span></span>
+<span><span class="co">#&gt; 272            75    Dong Nai                   70 unknown 246.3112      &lt;NA&gt;</span></span>
+<span><span class="co">#&gt; 273            75    Dong Nai                   75 unknown 600.1156      &lt;NA&gt;</span></span>
+<span><span class="co">#&gt; 274            75    Dong Nai                   70 unknown 167.1046      &lt;NA&gt;</span></span>
+<span><span class="co">#&gt; 275            75    Dong Nai                   70 unknown 408.1200      &lt;NA&gt;</span></span>
+<span><span class="co">#&gt; 276            75    Dong Nai                   75 unknown 524.0327      &lt;NA&gt;</span></span>
 <span><span class="co">#&gt;                                                                   website</span></span>
 <span><span class="co">#&gt; 271 https://directorsdirectory.com/amata-city-long-thanh-industrial-park/</span></span>
 <span><span class="co">#&gt; 272                                                                  &lt;NA&gt;</span></span>
@@ -281,13 +274,13 @@ points.</p>
 <span><span class="co">#&gt; 274   https://www.openstreetmap.org/way/1462512216  2026-08-31              osm</span></span>
 <span><span class="co">#&gt; 275   https://www.openstreetmap.org/way/1462513965  2026-08-31              osm</span></span>
 <span><span class="co">#&gt; 276    https://www.openstreetmap.org/way/321136900  2026-08-31              osm</span></span>
-<span><span class="co">#&gt;                     geometry</span></span>
-<span><span class="co">#&gt; 271   POINT (710236 1192445)</span></span>
-<span><span class="co">#&gt; 272 POINT (674824.8 1259902)</span></span>
-<span><span class="co">#&gt; 273 POINT (709933.1 1212153)</span></span>
-<span><span class="co">#&gt; 274 POINT (704675.8 1269430)</span></span>
-<span><span class="co">#&gt; 275 POINT (706396.6 1267975)</span></span>
-<span><span class="co">#&gt; 276 POINT (721647.4 1211356)</span></span>
+<span><span class="co">#&gt;     geometry_observed_on                 geometry</span></span>
+<span><span class="co">#&gt; 271           2026-08-31   POINT (710236 1192445)</span></span>
+<span><span class="co">#&gt; 272           2026-08-31 POINT (674824.8 1259902)</span></span>
+<span><span class="co">#&gt; 273           2026-08-31 POINT (709933.1 1212153)</span></span>
+<span><span class="co">#&gt; 274           2026-08-31 POINT (704675.8 1269430)</span></span>
+<span><span class="co">#&gt; 275           2026-08-31 POINT (706396.6 1267975)</span></span>
+<span><span class="co">#&gt; 276           2026-08-31 POINT (721647.4 1211356)</span></span>
 <span></span>
 <span><span class="fu"><a href="../reference/plot_vnmap.html">plot_vnmap</a></span><span class="op">(</span>include <span class="op">=</span> <span class="st">"Dong Nai"</span>, color <span class="op">=</span> <span class="st">"white"</span>, fill <span class="op">=</span> <span class="st">"grey95"</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="../reference/geom_industrial_parks.html">geom_industrial_parks</a></span><span class="op">(</span>province <span class="op">=</span> <span class="st">"Dong Nai"</span><span class="op">)</span></span>
@@ -303,9 +296,9 @@ for.</p>
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/table.html" class="external-link">table</a></span><span class="op">(</span><span class="fu"><a href="../reference/industrial_parks.html">industrial_parks</a></span><span class="op">(</span>category <span class="op">=</span> <span class="cn">NULL</span><span class="op">)</span><span class="op">$</span><span class="va">category</span><span class="op">)</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; export_processing_zone           hi_tech_park     industrial_cluster </span></span>
-<span><span class="co">#&gt;                      5                      5                    117 </span></span>
+<span><span class="co">#&gt;                      5                      5                    118 </span></span>
 <span><span class="co">#&gt;        industrial_park </span></span>
-<span><span class="co">#&gt;                    295</span></span></code></pre></div>
+<span><span class="co">#&gt;                    302</span></span></code></pre></div>
 <p>The bundled snapshot includes only parks with a redistributable
 mapped location. Inspect <code>location_accuracy</code>,
 <code>geometry_type</code>, and <code>source_url</code> before using it

@@ -46,18 +46,11 @@ nothing.
 ``` r
 template <- industrial_parks_template(province = "Dong Nai")
 head(template[c("id", "name_vi", "status", "area_ha")])
-#>                     id                               name_vi      status
-#> 1 osm_node_12535607272 Amata City Long Thanh Industrial Park     unknown
-#> 2    osm_way_597919509          Chon Thanh I Industrial Zone operational
-#> 3    osm_way_583464295                 Khu công nghiệp Amata operational
-#> 4   osm_way_1462512216          Khu công nghiệp Bắc Đồng Phú operational
-#> 5   osm_way_1462513965    Khu công nghiệp Bắc Đồng Phú Khu B operational
-#> 6    osm_way_321136900               Khu công nghiệp Bàu Xéo operational
-#>    area_ha
-#> 1       NA
-#> 2 246.3112
-#> 3 600.1156
-#> 4 167.1046
-#> 5 408.1200
-#> 6 524.0327
+#>                     id                               name_vi  status  area_ha
+#> 1 osm_node_12535607272 Amata City Long Thanh Industrial Park unknown       NA
+#> 2    osm_way_597919509          Chon Thanh I Industrial Zone unknown 246.3112
+#> 3    osm_way_583464295                 Khu công nghiệp Amata unknown 600.1156
+#> 4   osm_way_1462512216          Khu công nghiệp Bắc Đồng Phú unknown 167.1046
+#> 5   osm_way_1462513965    Khu công nghiệp Bắc Đồng Phú Khu B unknown 408.1200
+#> 6    osm_way_321136900               Khu công nghiệp Bàu Xéo unknown 524.0327
 ```

@@ -192,7 +192,7 @@ available geometry, polygons only, or representative points.
 ``` r
 
 head(industrial_parks(province = "Dong Nai", geometry = "point"))
-#> Simple feature collection with 6 features and 20 fields
+#> Simple feature collection with 6 features and 21 fields
 #> Geometry type: POINT
 #> Dimension:     XY
 #> Bounding box:  xmin: 674824.8 ymin: 1192445 xmax: 721647.4 ymax: 1269430
@@ -211,20 +211,13 @@ head(industrial_parks(province = "Dong Nai", geometry = "point"))
 #> 274                    <NA>                            <NA> industrial_park
 #> 275                    <NA>                            <NA> industrial_park
 #> 276 Bau Xeo Industrial Park         Bau Xeo Industrial Park industrial_park
-#>     province_code province_en former_province_code      status  area_ha
-#> 271            75    Dong Nai                   75     unknown       NA
-#> 272            75    Dong Nai                   70 operational 246.3112
-#> 273            75    Dong Nai                   75 operational 600.1156
-#> 274            75    Dong Nai                   70 operational 167.1046
-#> 275            75    Dong Nai                   70 operational 408.1200
-#> 276            75    Dong Nai                   75 operational 524.0327
-#>     developer
-#> 271      <NA>
-#> 272      <NA>
-#> 273      <NA>
-#> 274      <NA>
-#> 275      <NA>
-#> 276      <NA>
+#>     province_code province_en former_province_code  status  area_ha developer
+#> 271            75    Dong Nai                   75 unknown       NA      <NA>
+#> 272            75    Dong Nai                   70 unknown 246.3112      <NA>
+#> 273            75    Dong Nai                   75 unknown 600.1156      <NA>
+#> 274            75    Dong Nai                   70 unknown 167.1046      <NA>
+#> 275            75    Dong Nai                   70 unknown 408.1200      <NA>
+#> 276            75    Dong Nai                   75 unknown 524.0327      <NA>
 #>                                                                   website
 #> 271 https://directorsdirectory.com/amata-city-long-thanh-industrial-park/
 #> 272                                                                  <NA>
@@ -253,13 +246,13 @@ head(industrial_parks(province = "Dong Nai", geometry = "point"))
 #> 274   https://www.openstreetmap.org/way/1462512216  2026-08-31              osm
 #> 275   https://www.openstreetmap.org/way/1462513965  2026-08-31              osm
 #> 276    https://www.openstreetmap.org/way/321136900  2026-08-31              osm
-#>                     geometry
-#> 271   POINT (710236 1192445)
-#> 272 POINT (674824.8 1259902)
-#> 273 POINT (709933.1 1212153)
-#> 274 POINT (704675.8 1269430)
-#> 275 POINT (706396.6 1267975)
-#> 276 POINT (721647.4 1211356)
+#>     geometry_observed_on                 geometry
+#> 271           2026-08-31   POINT (710236 1192445)
+#> 272           2026-08-31 POINT (674824.8 1259902)
+#> 273           2026-08-31 POINT (709933.1 1212153)
+#> 274           2026-08-31 POINT (704675.8 1269430)
+#> 275           2026-08-31 POINT (706396.6 1267975)
+#> 276           2026-08-31 POINT (721647.4 1211356)
 
 plot_vnmap(include = "Dong Nai", color = "white", fill = "grey95") +
   geom_industrial_parks(province = "Dong Nai")
@@ -279,9 +272,9 @@ hi-tech parks are returned only when asked for.
 table(industrial_parks(category = NULL)$category)
 #> 
 #> export_processing_zone           hi_tech_park     industrial_cluster 
-#>                      5                      5                    117 
+#>                      5                      5                    118 
 #>        industrial_park 
-#>                    295
+#>                    302
 ```
 
 The bundled snapshot includes only parks with a redistributable mapped
