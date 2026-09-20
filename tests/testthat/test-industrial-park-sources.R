@@ -6,9 +6,11 @@ test_that("source records are conserved and unresolved locations are not invente
   expect_equal(sum(x$source == "KCN-KKT discovery (unverified)"), 1260L)
   expect_equal(sum(x$source == "Vietnam Environment Agency (2023)"), 303L)
   # Explicit province fields take precedence over travel descriptions.
-  quang_chau <- x[x$source == "Invest Vietnam" & x$name_vi == "Khu công nghiệp Quang Châu", ]
+  quang_chau <- x[x$source_record_id == "investvietnam-23", ]
   expect_equal(nrow(quang_chau), 1L)
   expect_equal(quang_chau$province_code, "24")
+  expect_equal(quang_chau$province_match_method,
+    "environment_agency_unique_name_province_column")
   unresolved <- industrial_park_sources(mapped = FALSE)
   expect_true(all(is.na(unresolved$longitude) & is.na(unresolved$latitude)))
   expect_true(all(is.na(unresolved$map_id)))
