@@ -33,7 +33,7 @@ jobs:
           use-public-rspm: true
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::rcmdcheck
+          # Avoid the unreadable knitr 1.52 macOS binary archive.
+          extra-packages: any::rcmdcheck, knitr=?source
           needs: check
       - uses: r-lib/actions/check-r-package@v2
-
